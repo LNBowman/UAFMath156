@@ -97,7 +97,9 @@ b      <title>Outcome Videos</title>
         </section>
         <section xml:id="el_videos">
           <title>Exponential and Logarithmic Functions</title>
-          <!--<xi:include href="./videos/el_videos/el1vid.ptx"/>-->
+          <xi:include href="./videos/el_videos/el1vid.ptx"/>
+          <xi:include href="./videos/el_videos/el2vid.ptx"/>
+          <xi:include href="./videos/el_videos/el3vid.ptx"/>
         </section>
         <section xml:id="tf_videos">
           <title>Trigonometric Functions</title>
@@ -133,11 +135,14 @@ b      <title>Outcome Videos</title>
           <xi:include href="./sample_outcomes/gr_outcomes/gr1_sample.ptx"/>
           <xi:include href="./sample_outcomes/gr_outcomes/gr2_sample.ptx"/>
           <xi:include href="./sample_outcomes/gr_outcomes/gr3_sample.ptx"/>
+          <xi:include href="./sample_outcomes/gr_outcomes/gr4_sample.ptx"/>
+          <xi:include href="./sample_outcomes/gr_outcomes/gr5_sample.ptx"/>
       </section>
       <section xml:id="el_outcomes">
         <title>Exponential and Logarithmic Functions</title>
-          <!--<xi:include href="./sample_outcomes/el_outcomes/el1_sample.ptx"/>-->
-          <!--<xi:include href="./sample_outcomes/el_outcomes/el2_sample.ptx"/>-->
+          <xi:include href="./sample_outcomes/el_outcomes/el1_sample.ptx"/>
+          <xi:include href="./sample_outcomes/el_outcomes/el2_sample.ptx"/>
+          <xi:include href="./sample_outcomes/el_outcomes/el3_sample.ptx"/>
       </section>
       <section xml:id="tf_outcomes">
         <title>Trigonometric Functions</title>

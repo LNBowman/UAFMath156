@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>EL-3 Modeling with Exponential Functions</title>
+
+    <page>
+        <p><alert>Compound Interest</alert></p>
+        <video vimeo=""/>
+        <p><alert>Continuous Compound Interest</alert></p>
+        <video vimeo=""/>
+        <p><alert>Growth and Decay Models</alert></p>
+        <video vimeo=""/>
+    </page>
+  </worksheet>  

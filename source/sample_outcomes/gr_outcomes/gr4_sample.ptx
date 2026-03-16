@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>GR-4 Systems of Linear Equations</title>
+  <introduction>
+    <p>
+      This outcome covers systems of linear equations. You should be able to solve systems of linear 
+      equations using various methods such as substitution and elimination. You should also be able 
+      to determine the number of solutions to a system of linear equations and interpret the solutions 
+      in context.
+    </p>
+    <p>For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples 
+      of the types of problems you will encounter:</p>
+  </introduction>
+  <objectives>
+    <ul>
+      <li><p>Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the 
+        distributive property. Answers should be completely simplified.</p></li>
+        <li><p>Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the 
+          correct intercepts and general behavior.</p></li>
+      <li><p>Problem structure: Solution should be organized and easy to follow, with clear, complete steps 
+        that follow progressively from one to the next.</p></li>
+      <li><p>Mathematical Communication: Solutions should be presented in a clear and logical manner, with 
+        appropriate use of mathematical notation and terminology. Equations should have at most one equal 
+        sign and expressions on both sides.</p></li>
+      <li><p>Solve a two-variable system of linear equations using substitution.</p></li>
+      <li><p>Solve a two-variable system of linear equations using elimination.</p></li>
+      <li><p>Solve a three-variable system of linear equations using elimination.</p></li>
+      <li><p>Determine if a system of linear equations has no solution, one solution, or infinitely many 
+        solutions.</p></li>
+      <li><p>Solve a nonlinear system of equations using substitution or elimination.</p></li>
+    </ul>
+  </objectives>
+
+  <page>
+    <exercise workspace="3cm">
+        <statement><p>Solve the system using substitution: 
+        <m>\begin{cases} 2x + y = 5 \\ 3x - 2y = 8 \end{cases}</m>.</p></statement>
+        <hint><p>Rewrite the first equation to express y in terms of x. Then 
+          substitute this expression into the second equation.</p></hint>
+        <answer><p><m>\left(\frac{18}{7}, -\frac{1}{7}\right)</m></p></answer>
+        <solution><p>First, solve the first equation for y: <m>y = 5 - 2x</m>. 
+          Then substitute this into the second equation: <m>3x - 2(5 - 2x) = 8</m>. 
+          Simplify: <m>3x - 10 + 4x = 8</m>. Combine like terms: <m>7x = 18</m>. 
+          Solve for x: <m>x = \frac{18}{7}</m>. Finally, substitute back to find 
+          y: <m>\begin{aligned}y \amp = 5 - 2 \cdot \frac{18}{7}\\ 
+            \amp= 5 - \frac{36}{7}\\ \amp = \frac{35 - 36}{7}\\ 
+            \amp = -\frac{1}{7}\end{aligned}</m></p></solution>
+      </exercise>
+      <exercise workspace="3cm">
+          <statement><p>Solve the system using elimination: 
+            <m>\begin{cases} 4x-3y=12\\ 3x+2y=13 \end{cases}</m>.</p></statement>
+          <hint><p>Multiply the first equation by 2 and the second equation 
+            by 3 to eliminate y.</p></hint>
+          <answer><p><m>\left(\frac{63}{17}, \frac{4}{17}\right)</m></p></answer>
+          <solution><p>Multiply the first equation by 2: <m>8x - 6y = 24</m>. 
+            Multiply the second equation by 3: <m>9x + 6y = 39</m>. Add the 
+            two equations: <m>17x = 63</m>. Solve for x: <m>x = \frac{63}{17}</m>. 
+            Substitute back into the first equation: 
+            <m>4\left(\frac{63}{17}\right) - 3y = 12</m>. Simplify: 
+            <m>\frac{252}{17} - 3y = 12</m>. Solve for y: <m>y = \frac{4}{17}</m>.</p></solution>
+      </exercise>
+      <exercise workspace="3cm">
+          <statement><p>Solve the system using elimination:
+            <m>\begin{cases} 2x+y-z=4\\ x-2y+3z=-6\\ 3x+y+2z=7 \end{cases}</m>.</p></statement>
+          <hint><p>Pick a base equation to use for eliminating the same variable in the 
+            other two equations. Solve the resulting two-variable system.</p></hint>
+          <answer><p><m>\left(\frac{3}{14}, \frac{9}{2}, \frac{13}{14}\right)</m></p></answer>
+          <solution><p>Let the second equation be the base equation. Multiply it by 2 and 
+            subtract it from the first equation to eliminate x: <m>5y - 7z = 16</m>. 
+            Multiply the second equation by 3 and subtract it from the third equation to 
+            eliminate x: <m>7y - 7z = 25</m>. Solve the resulting two-variable system for y 
+            and z. We can use elimination to find y, by subtracting the first equation 
+            from the second: <m>y = \frac{9}{2}</m>. Substitute this to find the value of z.
+            <m>z=\frac{13}{14}</m>. Substitute these values back into the base equation 
+            to find x: <m>x-2\left(\frac{9}{2}\right)+3\left(\frac{13}{14}\right)=-6</m>.
+           Solving for x we get <m>x = \frac{3}{14}</m>.</p></solution>
+      </exercise>
+      <exercise workspace="3cm">
+          <statement><p>Find all solutions to the system:
+            <m>\begin{cases} \frac{4}{x^2}+\frac{6}{y^4}=\frac{7}{2}\\\frac{1}{x^2}-\frac{2}{y^4}=0\end{cases}</m>.</p></statement>
+          <hint><p>Use substitution to solve for one variable in terms of the other.</p></hint>
+          <answer><p><m>\left(-\sqrt{2}, -\sqrt{2}\right), \left(\sqrt{2}, \sqrt{2}\right), 
+            \left(-\sqrt{2}, \sqrt{2}\right), \left(\sqrt{2}, -\sqrt{2}\right)</m></p></answer>
+          <solution><p>Here we can use substitution. From the second equation, we have 
+            <m>\frac{1}{x^2} = \frac{2}{y^4}</m>. Substituting this into the first equation 
+            gives us <m>4 \cdot \frac{2}{y^4} + \frac{6}{y^4} = \frac{7}{2}</m>. Simplifying, 
+            we get <m>\frac{14}{y^4} = \frac{7}{2}</m>. Solving for <m>y^4</m>, we find 
+            <m>y^4 = 4</m>, so <m>y = \pm \sqrt{2}</m>. Substituting back into the 
+            second equation, we can find the corresponding values of <m>x</m>. So 
+            <m>x = \pm \sqrt{2}</m>.</p></solution>
+      </exercise>
+  </page>
+</worksheet> 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>EL-1 Exponential and Logarithmic Functions</title>
+
+    <page>
+        <p><alert>Exponential Functions</alert></p>
+        <video vimeo=""/>
+        <p><alert>Graphs of Exponential Functions</alert></p>
+        <video vimeo=""/>
+        <p><alert>Logarithmic Functions</alert></p>
+        <video vimeo=""/>
+        <p><alert>Graphs of Logarithmic Functions</alert></p>
+        <video vimeo=""/>
+    </page>
+  </worksheet>  

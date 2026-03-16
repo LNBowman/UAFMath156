@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>EL-1 Exponential and Logarithmic Functions</title>
+  <introduction>
+    <p>
+      This outcome covers exponential and logarithmic functions and models. You should be able to rewrite exponential functions
+      in various forms. Be able to find the domain, range, and intercepts of the function.  You should also be 
+      able to graph exponential and logarithmic functions. Here you will also be asked to setup and solve real-world problems 
+      using exponential and logarithmic models. You should be able to write out complete steps to solve these 
+      types of problems by hand, without the use of a calculator.
+    </p>
+    <p>For the quiz on this outcome you would be given 30 minutes to complete 3 problems. Here are samples 
+      of the types of problems you will encounter:</p>
+  </introduction>
+  <objectives>
+    <ul>
+      <li><p>Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the 
+        distributive property. Answers should be completely simplified.</p></li>
+        <li><p>Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the 
+          correct intercepts and general behavior.</p></li>
+      <li><p>Problem structure: Solution should be organized and easy to follow, with clear, complete steps 
+        that follow progressively from one to the next.</p></li>
+      <li><p>Mathematical Communication: Solutions should be presented in a clear and logical manner, with 
+        appropriate use of mathematical notation and terminology. Equations should have at most one equal 
+        sign and expressions on both sides.</p></li>
+      <li><p>Find attributes: Identify and state the domain, range, intercepts, and asymptotes of exponential 
+        and logarithmic functions.</p></li>
+      <li><p>Graph exponential and logarithmic functions.</p></li>
+      <li><p>Given an exponential or logarithmic graph, write an equation for the function.</p></li>
+    </ul>
+    </objectives>
+
+  
+  <page>
+    <exercise workspace="3cm">
+      <introduction><p>
+           Given <m>f(x)=\left(\frac{3}{4}\right)^{x+2}-3</m>.
+        </p></introduction>
+        <task>
+            <statement><p>State the domain and range.</p></statement>
+            <hint><p></p></hint>
+            <answer><p></p></answer>
+            <solution><p></p></solution>
+        </task>
+        <task>
+            <statement><p>State the intercepts.</p></statement>
+            <hint><p></p></hint>
+            <answer><p></p></answer>
+            <solution><p></p></solution>
+        </task>
+        <task>
+            <statement><p>State the asymptote(s).</p></statement>
+            <hint><p></p></hint>
+            <answer><p></p></answer>
+            <solution><p></p></solution>
+        </task>
+    </exercise>
+    <exercise workspace="3cm">
+      <introduction><p>
+           Given <m>y=4-\log_2(x+3)</m>.
+        </p></introduction>
+        <task>
+            <statement><p>Rewrite the function in exponential form.</p></statement>
+            <hint><p></p></hint>
+            <answer><p></p></answer>
+            <solution><p></p></solution>
+        </task>
+        <task>
+            <statement><p>State the domain and range.</p></statement>
+            <hint><p></p></hint>
+            <answer><p></p></answer>
+            <solution><p></p></solution>
+        </task>
+        <task>
+            <statement><p>State the intercepts.</p></statement>
+            <hint><p></p></hint>
+            <answer><p></p></answer>
+            <solution><p></p></solution>
+        </task>
+        <task>
+            <statement><p>State the asymptote(s).</p></statement>
+            <hint><p></p></hint>
+            <answer><p></p></answer>
+            <solution><p></p></solution>
+        </task>
+    </exercise>
+    <exercise workspace="3cm">
+      <task>
+        <statement><p>
+           An exponential function has a horizontal asymptote at <m>y=-3</m>. 
+           The graph of the function passes through the points <m>(1,1)</m> 
+           and <m>(2,5)</m>.  If the function has the form <m>g(x)=a^{x+b}+ c</m> 
+           for real numbers <m>a, b</m>, and <m>c</m>, find <m>g(x)</m>.
+        </p></statement>
+        <hint><p></p></hint>
+        <answer><p></p></answer>
+        <solution><p></p></solution>
+      </task>
+    </exercise>
+  </page>
+</worksheet>

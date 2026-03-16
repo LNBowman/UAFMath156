@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>GR-5 Graphing Linear Inequalities</title>
+  <introduction>
+    <p>
+      This outcome covers graphing linear inequalities. You should be able to graph 
+      linear inequalities on a coordinate plane and identify the solution region.
+    </p>
+    <p>For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples 
+      of the types of problems you will encounter:</p>
+  </introduction>
+  <objectives>
+    <ul>
+      <li><p>Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the 
+        distributive property. Answers should be completely simplified.</p></li>
+        <li><p>Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the 
+          correct intercepts and general behavior.</p></li>
+      <li><p>Problem structure: Solution should be organized and easy to follow, with clear, complete steps 
+        that follow progressively from one to the next.</p></li>
+      <li><p>Mathematical Communication: Solutions should be presented in a clear and logical manner, with 
+        appropriate use of mathematical notation and terminology. Equations should have at most one equal 
+        sign and expressions on both sides.</p></li>
+      <li><p>Graph a linear inequality on a coordinate plane.</p></li>
+      <li><p>Identify the solution region for a linear inequality.</p></li>
+      <li><p>Graph a system of linear inequalities, identify the solution region and label the corner points.</p></li>
+    </ul>
+  </objectives>
+
+  <page>
+    <exercise workspace="3cm">
+        <statement><p>Solve the inequality:: 
+        <m>4x-2y-3\le 5</m>.</p></statement>
+        <hint><p>Determine if the boundary line is inclusive or non-exclusive. Then graph 
+          the line and shade the appropriate region.</p></hint>
+        <answer><p></p></answer>
+      </exercise>
+      <exercise workspace="3cm">
+          <statement><p>Solve the system of inequalities: 
+            <m>\begin{cases} 2x+y\le8\\y\le4\\x,y\ge0 \end{cases}</m>.</p></statement>
+          <hint><p>For each inequality, determine the boundary line and the region that 
+            satisfies the inequality. Once you have graphed all inequalities, the solution 
+            region will be the intersection of all shaded areas. Find the corner points 
+            of the solution region.</p></hint>
+          <answer><p></p></answer>
+      </exercise>
+  </page>
+</worksheet> 
