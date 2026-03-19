@@ -95,8 +95,31 @@
         <task>
             <statement><p>Graph f(x).</p></statement>
             <hint><p>Plot the vertex and the intercepts, then sketch the parabola.</p></hint>
-            <answer><image source="./assets/gr1sample_graph_a.png">
-              <description><p>Graph of f(x)</p></description></image></answer>
+            <answer>
+              <image width="60%">
+              <prefigure xmlns="https://prefigure.org"
+                          label="prefigure-gr1-sample">
+                <diagram dimensions="(300,300)" margins="5">
+                  <definition>f(x)=0.5*x^2+5*x+8</definition>
+                  <coordinates bbox="(-16,-8,6,18)">
+                    <grid spacings="((-16,2,6),(-8,2,18))"/>
+                    <grid-axes xlabel="x" ylabel="y"/>
+                    <graph function="f"/>
+                    <point p="(-5,-4.5)" alignment="s">vertex</point>
+                    <point p="(0,8)" alignment="ne">y-intercept</point>
+                    <point p="(-2,0)" alignment="ne">x-intercept</point>
+                    <point p="(-8,0)" alignment="nw">x-intercept</point>
+                  </coordinates>
+                  <annotations>
+                    <annotation ref="figure"
+                                text="The graph is a parabola opening upwards with vertex at (-5, -4.5), y-intercept at (0, 8), and x-intercepts at (-2, 0) and (-8, 0).">
+                        <annotation ref="tangent" text="The tangent line to the graph of f at the point"/>
+                      </annotation>
+                  </annotations>
+                </diagram>
+              </prefigure>
+            </image>
+          </answer>
             <solution><p>To graph the function, we start by plotting the vertex, which is at 
               <m>(-5,-\frac{9}{2})</m>. Next, we plot the y-intercept at <m>(0,8)</m> 
               and the x-intercepts at <m>(-2,0)</m> and <m>(-8,0)</m>. Finally, we sketch 

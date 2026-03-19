@@ -8,7 +8,14 @@
     <author>
       <personname>Dr. Latrice Bowman</personname>
       <department>Department of Mathematics and Statistics</department>
-      <institution>University of Alaska Fairbanks</institution>
+      <institution>
+        <line>University of Alaska Fairbanks</line>
+        <line></line>
+      </institution>
+      <support>
+          <q>Mastery comes to those who persist, not to those who never fail.</q>
+          -- Robert Greene
+      </support>
     </author>
 
     <date>
@@ -20,6 +27,7 @@
   <titlepage>
     <titlepage-items/>
   </titlepage>
+
 
 </frontmatter>
 

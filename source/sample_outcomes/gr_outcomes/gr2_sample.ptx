@@ -66,7 +66,7 @@
     </exercise>
     <exercise workspace="3cm">
       <introduction><p>
-           Given the function <m>g(x)=2x^4-3x^3+5x^2-7\</m>.
+           Given the function <m>g(x)=2x^4+8x^3+4x^2-8x-6</m>.
       </p></introduction>
           <task>
             <statement><p>State the degree and leading coefficient of <m>g(x)</m>.</p></statement>
@@ -86,17 +86,44 @@
             <statement><p>State the x-intercepts and y-intercept of <m>g(x)</m>.</p></statement>
             <hint><p>To find the x-intercepts, set the function equal to zero and solve for x. To find the y-intercept, 
               evaluate the function at x=0.</p></hint>
-            <answer><p>x-intercepts: (0,0), (1,0), (-1,0); y-intercept: (0, -7)</p></answer>
-            <solution><p>To find the x-intercepts, we set the function equal to zero and solve for x. 
-              Setting <m>2x^4-3x^3+5x^2-7=0</m> gives us the x-intercepts (0,0), (1,0), and (-1,0). 
-              To find the y-intercept, we evaluate the function at x=0: <m>g(0)=2(0)^4-3(0)^3+5(0)^2-7=-7</m>. 
-              Therefore, the y-intercept is (0, -7).</p></solution>
+            <answer><p>x-intercepts: (1,0), (-1,0), (-3,0); y-intercept: (0, -6)</p></answer>
+            <solution><p>To find the x-intercepts, we set the function equal to zero and solve for x.We can use the 
+              Rational Root Theorem to find possible rational roots, which are factors of the constant term (-6) 
+              divided by factors of the leading coefficient (2). Then use synthetic division to test these possible 
+              roots until we find one that works (gives a remainder of zero).
+              Setting <m>2x^4+8x^3+4x^2-8x-6=0</m> gives us the x-intercepts (1,0), (-1,0), and (-3,0). 
+              To find the y-intercept, we evaluate the function at x=0: <m>g(0)=2(0)^4+8(0)^3+4(0)^2-8(0)-6=-6</m>. 
+              Therefore, the y-intercept is (0, -6).</p></solution>
           </task>
           <task>
             <statement><p>Sketch the graph of <m>g(x)</m>, showing the correct intercepts and general behavior.</p></statement>
             <hint><p>Use the end behavior, intercepts, behavior at the roots and general shape of the graph to sketch it.</p></hint>
-            <answer><image source="./assets/gr2sample_graph_a.png">
-              <description><p>Graph of g(x)</p></description></image></answer>
+            <answer>
+              <image width="60%">
+              <prefigure xmlns="https://prefigure.org"
+                          label="prefigure-gr2a-sample">
+                <diagram dimensions="(300,300)" margins="5">
+                  <definition>g(x)=2*x^4+8*x^3+4*x^2-8*x-6</definition>
+                  <coordinates bbox="(-5,-10,5,15)">
+                    <grid spacings="((-5,1,5),(-10,5,15))"/>
+                    <grid-axes xlabel="x" ylabel="y"/>
+                    <graph function="g"/>
+                    <point p="(0,-6)" alignment="s">y-intercept</point>
+                    <point p="(-1,0)" alignment="n">x-intercept</point>
+                    <point p="(-3,0)" alignment="nw">x-intercept</point>
+                    <point p="(1,0)" alignment="ne">x-intercept</point>
+                  </coordinates>
+                  <annotations>
+                    <annotation ref="figure"
+                                text="The graph is a quartic function (with a W-shape) opening 
+                                upwards with y-intercept at (0, -6), and x-intercepts at 
+                                (-3, 0), (-1, 0), and (1, 0).">
+                      </annotation>
+                  </annotations>
+                </diagram>
+              </prefigure>
+            </image>
+          </answer>
           </task>
         </exercise>
     <exercise workspace="3cm">
@@ -125,8 +152,30 @@
           <statement><p>Sketch the graph of <m>p(x)</m>, showing the correct intercepts 
             and general behavior.</p></statement>
           <hint><p>Use the end behavior, intercepts, behavior at the roots and general shape of the graph to sketch it.</p></hint>
-          <answer><image source="./assets/gr2sample_graph_b.png">
-            <description><p>Graph of p(x)</p></description></image>
+          <answer>
+              <image width="60%">
+              <prefigure xmlns="https://prefigure.org"
+                          label="prefigure-gr2b-sample">
+                <diagram dimensions="(300,300)" margins="5">
+                  <definition>p(x)=-x^4-2*x^3+3*x^2+4*x-4</definition>
+                  <coordinates bbox="(-5,-20,5,5)">
+                    <grid spacings="((-5,1,5),(-20,5,5))"/>
+                    <grid-axes xlabel="x" ylabel="y"/>
+                    <graph function="p"/>
+                    <point p="(0,-4)" alignment="ne">y-intercept</point>
+                    <point p="(-2,0)" alignment="nw">x-intercept</point>
+                    <point p="(1,0)" alignment="ne">x-intercept</point>
+                  </coordinates>
+                  <annotations>
+                    <annotation ref="figure"
+                                text="The graph is a quartic function (with a W-shape) opening 
+                                downwards with y-intercept at (0, -4), and x-intercepts at 
+                                (-2, 0), and (1, 0).">
+                      </annotation>
+                  </annotations>
+                </diagram>
+              </prefigure>
+            </image>
           </answer>
         </task>
     </exercise>

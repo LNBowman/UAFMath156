@@ -33,7 +33,32 @@
         <m>4x-2y-3\le 5</m>.</p></statement>
         <hint><p>Determine if the boundary line is inclusive or non-exclusive. Then graph 
           the line and shade the appropriate region.</p></hint>
-        <answer><p></p></answer>
+        <answer>
+              <image width="60%">
+              <prefigure xmlns="https://prefigure.org"
+                          label="prefigure-gr5a-sample">
+                <diagram dimensions="(300,300)" margins="5">
+                  <definition>f(x)=2x-4</definition>
+                  <coordinates bbox="(-10,-10,10,10)">
+                    <grid spacings="((-10,2,10),(-10,2,10))"/>
+                    <grid-axes xlabel="x" ylabel="y"/>
+                    <polygon points="((-10,-10),(-3,-10),(7,10),(-10,10))" fill="lightgray" opacity="0.5"/>
+                    <line endpoints="((-3,-10),(7,10))" stroke="blue" label-location="0.8"><m>y=2x-4</m></line>
+                    <point p="(0,-4)" alignment="e">(0,-4)</point>
+                    <point p="(2,0)" alignment="se">(2,0)</point>
+                  </coordinates>
+                  <annotations>
+                    <annotation ref="figure"
+                      text="The graph is a linear function with a slope of 2 and a y-intercept of (0,-4). The 
+                      line is solid to indicate that the boundary is inclusive. The region above the line is 
+                      shaded to indicate that the region is greater than or equal to the line. The graph passes 
+                      through the points (0,-4) and (2,0).">
+                          </annotation>
+                  </annotations>
+                </diagram>
+              </prefigure>
+            </image>
+          </answer>
       </exercise>
       <exercise workspace="3cm">
           <statement><p>Solve the system of inequalities: 
@@ -42,7 +67,39 @@
             satisfies the inequality. Once you have graphed all inequalities, the solution 
             region will be the intersection of all shaded areas. Find the corner points 
             of the solution region.</p></hint>
-          <answer><p></p></answer>
+          <answer>
+              <image width="60%">
+              <prefigure xmlns="https://prefigure.org"
+                          label="prefigure-gr5b-sample">
+                <diagram dimensions="(300,300)" margins="5">
+                  <definition>f(x)=-2x+8</definition>
+                  <definition>g(x)=4</definition>
+                  <definition>h(x)=0</definition>
+                  <coordinates bbox="(-10,-10,10,10)">
+                    <polygon points="((0,0),(4,0),(2,4),(0,4))" fill="lightgray" opacity="0.5"/>
+                    <grid spacings="((-10,2,10),(-10,2,10))"/>
+                    <grid-axes xlabel="x" ylabel="y"/>
+                    <line endpoints="((-10,0),(10,0))" stroke="blue" label-location="0.2"><m>y=0</m></line>
+                    <line endpoints="((-10,4),(10,4))" stroke="blue" label-location="0.2"><m>y=4</m></line>
+                    <line endpoints="((0,10),(0,-10))" stroke="blue" label-location="0.8"><m>x=0</m></line>
+                    <line endpoints="((-1,10),(9,-10))" stroke="blue" label-location="0.8"><m>2x+y=8</m></line>
+                    <point p="(0,4)" alignment="sw">(0,4)</point>
+                    <point p="(2,4)" alignment="ne">(2,4)</point>
+                    <point p="(0,0)" alignment="sw">(0,0)</point>
+                    <point p="(4,0)" alignment="sw">(4,0)</point>
+                  </coordinates>
+                  <annotations>
+                    <annotation ref="figure"
+                      text="The graph is a linear function with a slope of 2 and a y-intercept of (0,-4). The 
+                      line is solid to indicate that the boundary is inclusive. The region above the line is 
+                      shaded to indicate that the region is greater than or equal to the line. The graph passes 
+                      through the points (0,-4) and (2,0).">
+                          </annotation>
+                  </annotations>
+                </diagram>
+              </prefigure>
+            </image>
+          </answer>
       </exercise>
   </page>
 </worksheet> 

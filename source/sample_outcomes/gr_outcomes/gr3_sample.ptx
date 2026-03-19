@@ -74,6 +74,38 @@
       <task>
           <statement><p>Provide a sketch of the graph.</p></statement>
           <hint><p>Use the intercepts, asymptotes, and general shape of the graph to sketch it.</p></hint>
+          <answer>
+              <image width="60%">
+              <prefigure xmlns="https://prefigure.org"
+                          label="prefigure-gr3a-sample">
+                <diagram dimensions="(300,300)" margins="5">
+                  <definition>r(x)=(4*x^2)/(x^2-2*x-3)</definition>
+                  <coordinates bbox="(-10,-10,10,10)">
+                    <grid spacings="((-10,2,10),(-10,2,10))"/>
+                    <grid-axes xlabel="x" ylabel="y"/>
+                    <graph function="r"/>
+                    <point p="(0,0)" alignment="se">(0,0)</point>
+                    <line endpoints="((-1,-10),(-1,10))" stroke="red" dash="4 4" label-location="0.3"><m>x=-1</m></line>
+                    <line endpoints="((3,10),(3,-10))" stroke="red" dash="4 4" label-location="0.2"><m>x=3</m></line>
+                    <line endpoints="((-10,1),(10,1))" stroke="red" dash="4 4" label-location="0.8"><m>y=1</m></line>
+                  </coordinates>
+                  <annotations>
+                    <annotation ref="figure"
+                      text="The graph is a rational function separated into three branches by the vertical 
+                      asymptotes at x=-1 and x=3. The graph has a horizontal asymptote at y=4. The graph 
+                      passes through the origin (0,0) which is both the x-intercept and y-intercept. For x less than -1, 
+                      the graph is below the x-axis and approaches the vertical asymptote at x=-1 from below and 
+                      approaches the horizontal asymptote at y=4 from below. For -1 less than x less than 3, the graph is 
+                      above the x-axis and approaches the vertical asymptote at x=-1 from above and approaches 
+                      the vertical asymptote at x=3 from above. For x greater than 3, the graph is above the x-axis and 
+                      approaches the vertical asymptote at x=3 from above and approaches the horizontal 
+                      asymptote at y=4 from above.">
+                          </annotation>
+                  </annotations>
+                </diagram>
+              </prefigure>
+            </image>
+          </answer>
       </task>
     </exercise>
     <exercise workspace="3cm">
@@ -93,10 +125,10 @@
             <statement><p>State any intercepts and/or asymptotes.</p></statement>
             <hint><p>To find the vertical asymptotes, we look at the values that are not in the domain. 
               To find the horizontal or oblique asymptote, we compare the degrees of the numerator and denominator.</p></hint>
-            <answer><p>Vertical asymptote: x=1. Oblique asymptote: y=-\frac{1}{2}x+\frac{1}{2}. 
+            <answer><p>Vertical asymptote: x=1. Oblique asymptote: y=-\frac{1}{2}x+1. 
               x-intercept: (0,0). y-intercept: (0,0).</p></answer>
             <solution><p>We have a vertical asymptote at <m>x=1</m>. To find the oblique asymptote, we perform 
-              polynomial long division. The result is <m>y=-\frac{1}{2}x+\frac{1}{2}</m>. For the intercepts, we 
+              polynomial long division. The result is <m>y=-\frac{1}{2}x+1</m>. For the intercepts, we 
               set the numerator equal to zero to find the x-intercept and evaluate the function at x=0 to find the 
               y-intercept.</p></solution>
           </task>
@@ -109,12 +141,41 @@
           <task>
             <statement><p>Provide a sketch of the graph.</p></statement>
             <hint><p>Use the intercepts, asymptotes, and general shape of the graph to sketch it.</p></hint>
-            <solution><p></p></solution>
+            <answer>
+              <image width="60%">
+              <prefigure xmlns="https://prefigure.org"
+                          label="prefigure-gr3b-sample">
+                <diagram dimensions="(300,300)" margins="5">
+                  <definition>r(x)=(3*x-x^2)/(2*x-2)</definition>
+                  <definition>y=-\frac{1}{2}*x+1</definition>
+                  <coordinates bbox="(-10,-10,10,10)">
+                    <grid spacings="((-10,2,10),(-10,2,10))"/>
+                    <grid-axes xlabel="x" ylabel="y"/>
+                    <graph function="r"/>
+                    <point p="(0,0)" alignment="sw">(0,0)</point>
+                    <line endpoints="((1,10),(1,-10))" stroke="red" dash="4 4" label-location="0.8"><m>x=1</m></line>
+                    <line endpoints="((-10,6),(10,-4))" stroke="red" dash="4 4" label-location="0.2"><m>y=-\frac{1}{2}x+1</m></line>
+                  </coordinates>
+                  <annotations>
+                    <annotation ref="figure"
+                      text="The graph is a rational function separated into two branches by the vertical 
+                      asymptote at x=1. The graph has an oblique asymptote at y=-\frac{1}{2}x+1. The graph 
+                      passes through the origin (0,0) which is both the x-intercept and y-intercept. For x less than 1, 
+                      the graph is below the oblique asymptote and approaches the vertical asymptote at x=1 toward 
+                      negative infinity. For 1 greater than x, the graph is above the oblique asymptote and approaches 
+                      the vertical asymptote at x=1 toward positive infinity. As x approaches positive or negative 
+                      infinity, the graph approaches the oblique asymptote y=-\frac{1}{2}x+1.">
+                          </annotation>
+                  </annotations>
+                </diagram>
+              </prefigure>
+            </image>
+          </answer>
           </task>
     </exercise>
     <exercise workspace="3cm">
       <introduction><p>
-        Given the function <m>r(x)=\frac{6x-12}{-2x^2+3x-1}</m>.
+        Given the function <m>r(x)=\frac{x-2}{-4x^2+6x-2}</m>.
       </p></introduction>
       <task>
         <statement><p>State the domain. </p></statement>
@@ -122,7 +183,7 @@
           are not in the domain.</p></hint>
         <answer><p><m>(-\infty,\frac{1}{2})\cup(\frac{1}{2},1)\cup(1,\infty)</m></p></answer>
         <solution><p>To find the domain, we set the denominator equal to zero and 
-          solve for x. We have: <m>-2x^2+3x-1=0</m>. Factoring, we get <m>(-2x+1)(x-1)=0</m>. 
+          solve for x. We have: <m>-4x^2+6x-2=0</m>. Factoring, we get <m>(-2x+1)(2x-2)=0</m>. 
           Therefore, <m>x=\frac{1}{2}</m> and <m>x=1</m> are not in the domain. The domain is 
           <m>(-\infty,\frac{1}{2})\cup(\frac{1}{2},1)\cup(1,\infty)</m>.</p></solution>
       </task>
@@ -130,10 +191,11 @@
         <statement><p>State any intercepts and/or asymptotes.</p></statement>
         <hint><p>To find the vertical asymptotes, we look at the values that are not in the domain. 
           To find the horizontal or oblique asymptote, we compare the degrees of the numerator and denominator.</p></hint>
-        <answer><p>Vertical asymptotes: x=\frac{1}{2} and x=1. Oblique asymptote: y=\frac{3}{2}x-3. 
-          x-intercept: (2,0). y-intercept: (0,12).</p></answer>
+        <answer><p>Vertical asymptotes: x=\frac{1}{2} and x=1. Horizontal asymptote: y=0. 
+          x-intercept: (2,0). y-intercept: (0,1).</p></answer>
         <solution><p>We have vertical asymptotes at <m>x=\frac{1}{2}</m> and <m>x=1</m>. To find the 
-          oblique asymptote, we perform polynomial long division. The result is <m>y=\frac{3}{2}x-3</m>. 
+          horizontal asymptote, we can see that the degree of the numerator is less than the degree of 
+          the denominator. The result is <m>y=0</m>. 
           For the intercepts, we set the numerator equal to zero to find the x-intercept and evaluate the 
           function at x=0 to find the y-intercept.</p></solution>
       </task>
@@ -146,12 +208,43 @@
       <task>
         <statement><p>Provide a sketch of the graph.</p></statement>
         <hint><p>Use the intercepts, asymptotes, and general shape of the graph to sketch it.</p></hint>
-        <solution><p></p></solution>
+        <answer>
+              <image width="60%">
+              <prefigure xmlns="https://prefigure.org"
+                          label="prefigure-gr3c-sample">
+                <diagram dimensions="(300,300)" margins="5">
+                  <definition>f(x)=(x-2)/(-4*x^2+6*x-2)</definition>
+                  <coordinates bbox="(-6,-6,6,6)">
+                    <grid spacings="((-6,2,6),(-6,2,6))"/>
+                    <grid-axes xlabel="x" ylabel="y"/>
+                    <graph function="f"/>
+                    <point p="(0,0)" alignment="sw">(0,0)</point>
+                    <line endpoints="((1,-10),(1,10))" stroke="red" dash="4 4" label-location="0.6"><m>x=1</m></line>
+                    <line endpoints="((0.5,-10),(0.5,10))" stroke="red" dash="4 4" label-location="0.3"><m>x=0.5</m></line>
+                    <line endpoints="((-10,0),(10,0))" stroke="red" dash="4 4" label-location="0.3"><m>y=0</m></line>
+                  </coordinates>
+                  <annotations>
+                    <annotation ref="figure"
+                      text="The graph is a rational function separated into three branches by the vertical 
+                      asymptotes at x=0.5 and x=1. The graph has an oblique asymptote at y=-\frac{1}{2}x+1. The graph 
+                      passes through the y-intercept (0,1)and the x-intercept (2,0). For x less than 0.5, 
+                      the graph is above the horizontal asymptote and approaches the vertical asymptote at x=0.5 
+                      toward positive infinity. For 0.5 less than x less than 1, the graph is below the horizontal asymptote 
+                      and approaches both of the vertical asymptotes at x=0.5 and x=1 toward negative infinity. 
+                      For x greater than 1, the graph is above the horizontal asymptote and approaches the vertical asymptote 
+                      at x=1 toward positive infinity. As x approaches positive or negative infinity, the graph 
+                      approaches the horizontal asymptote y=0.">
+                          </annotation>
+                  </annotations>
+                </diagram>
+              </prefigure>
+            </image>
+          </answer>
       </task>
     </exercise>
     <exercise workspace="3cm">
       <introduction><p>
-        Given the function <m>r(x)=\frac{-3x^2-5x+1}{x+1}</m>.
+        Given the function <m>r(x)=\frac{-3x^2-4x+1}{x+1}</m>.
       </p></introduction>
       <task>
         <statement><p>State the domain. </p></statement>
@@ -166,23 +259,53 @@
         <statement><p>State any intercepts and/or asymptotes.</p></statement>
         <hint><p>To find the vertical asymptotes, we look at the values that are not in the domain. 
           To find the horizontal or oblique asymptote, we compare the degrees of the numerator and denominator.</p></hint>
-        <answer><p>Vertical asymptote: x=-1. Oblique asymptote: y=-3x-2. 
-          x-intercept: (\frac{1}{3},0). y-intercept: (0,1).</p></answer>
-        <solution><p>We have a vertical asymptote at <m>x=-1</m>. To find the oblique asymptote, we perform 
-          polynomial long division. The result is <m>y=-3x-2</m>. For the intercepts, we 
-          set the numerator equal to zero to find the x-intercept and evaluate the function at x=0 to find the 
-          y-intercept.</p></solution>
+        <answer><p>No vertical asymptotes. No horizontal or oblique asymptote. 
+          x-intercept: (\frac{1}{3},0). y-intercept: (0,-1).</p></answer>
+        <solution><p>There are no vertical asymptotes since the only factor in the denominator cancels 
+          out with a factor in the numerator. There are also no horizontal or oblique asymptotes because 
+          the degree of the numerator is greater than the degree of the denominator.</p></solution>
       </task>
       <task>
         <statement><p>State any deleted points.</p></statement>
         <hint><p>Deleted points occur when there is a common factor in the numerator and 
           denominator that can be canceled.</p></hint>
-        <answer><p>No deleted points.</p></answer>
+        <answer><p>The function has a hole at x=-1, which corresponds to the deleted point 
+          (-1,2).</p></answer>
       </task>
       <task>
         <statement><p>Provide a sketch of the graph.</p></statement>
         <hint><p>Use the intercepts, asymptotes, and general shape of the graph to sketch it.</p></hint>
-        <solution><p></p></solution>
+        <answer>
+              <image width="60%">
+              <prefigure xmlns="https://prefigure.org"
+                          label="prefigure-gr3d-sample">
+                <diagram dimensions="(300,300)" margins="5">
+                  <definition>g(x)=(-3*x-1)</definition>
+                  <coordinates bbox="(-10,-10,10,10)">
+                    <grid spacings="((-10,2,10),(-10,2,10))"/>
+                    <grid-axes xlabel="x" ylabel="y"/>
+                    <graph function="g"/>
+                    <point p="(0,-1)" alignment="w">(0,-1)</point>
+                    <point p="(-1/3,0)" alignment="e">(-1/3,0)</point>
+                    <circle center="(-1,2)" radius="0.3" fill="white" stroke="blue" alignment="nw"><m>(-1,2)</m></circle>
+                  </coordinates>
+                  <annotations>
+                    <annotation ref="figure"
+                      text="The graph is a rational function separated into three branches by the vertical 
+                      asymptotes at x=0.5 and x=1. The graph has an oblique asymptote at y=-\frac{1}{2}x+1. The graph 
+                      passes through the y-intercept (0,1)and the x-intercept (2,0). For x less than 0.5, 
+                      the graph is above the horizontal asymptote and approaches the vertical asymptote at x=0.5 
+                      toward positive infinity. For 0.5 less than x less than 1, the graph is below the horizontal asymptote 
+                      and approaches both of the vertical asymptotes at x=0.5 and x=1 toward negative infinity. 
+                      For x greater than 1, the graph is above the horizontal asymptote and approaches the vertical asymptote 
+                      at x=1 toward positive infinity. As x approaches positive or negative infinity, the graph 
+                      approaches the horizontal asymptote y=0.">
+                          </annotation>
+                  </annotations>
+                </diagram>
+              </prefigure>
+            </image>
+          </answer>
       </task>
     </exercise>
     <exercise workspace="3cm">
@@ -210,7 +333,8 @@
         <answer><p>Vertical asymptote: x=3. Oblique asymptote: y=x+4. 
           x-intercept: none. y-intercept: (0,-\frac{4}{3}).</p></answer>
         <solution><p>We have a vertical asymptote at <m>x=3</m>. To find the 
-          oblique asymptote, we perform polynomial long division. The result is <m>y=x+4</m>. 
+          oblique asymptote, we perform polynomial long division on the factored form of the function. 
+          The result is <m>y=x+4</m>. 
           For the intercepts, we set the numerator equal to zero to find the x-intercept and 
           evaluate the function at x=0 to find the y-intercept.</p></solution>
       </task>
@@ -229,7 +353,37 @@
       <task>
         <statement><p>Provide a sketch of the graph.</p></statement>
         <hint><p>Use the intercepts, asymptotes, and general shape of the graph to sketch it.</p></hint>
-        <solution><p></p></solution>
+        <answer>
+              <image width="60%">
+              <prefigure xmlns="https://prefigure.org"
+                          label="prefigure-gr3e-sample">
+                <diagram dimensions="(300,300)" margins="5">
+                  <definition>f(x)=(x^2+x+4)/(x-3)</definition>
+                  <coordinates bbox="(-20,-15,25,30)">
+                    <grid spacings="((-20,5,25),(-15,5,30))"/>
+                    <grid-axes xlabel="x" ylabel="y"/>
+                    <graph function="f"/>
+                    <point p="(0,-4/3)" alignment="n"><m>(0,-\frac{4}{3})</m></point>
+                    <circle center="(-2,-6/5)" radius="0.3" fill="white" stroke="blue" alignment="ne"><m>(-2,-\frac{6}{5})</m></circle>
+                    <line endpoints="((3,-15),(3,30))" stroke="red" dash="4 4" label-location="0.8"><m>x=3</m></line>
+                    <line endpoints="((25,29),(-20,-16))" stroke="red" dash="4 4" label-location="0.2"><m>y=x+4</m></line>
+                  </coordinates>
+                  <annotations>
+                    <annotation ref="figure"
+                      text="The graph is a rational function separated into two branches by the vertical 
+                      asymptotes at x=3. The graph has an oblique asymptote at y=x+4. The graph 
+                      passes through the y-intercept (0,-\frac{4}{3}). For x is less than 3, 
+                      the graph is below the oblique asymptote and approaches the vertical asymptote at x=3 
+                      toward negative infinity. At x=-2, there is a hole in the graph. For x is greater than 3, the graph 
+                      is above the oblique asymptote and approaches the vertical asymptote at x=3 toward
+                       positive infinity. As x approaches positive or negative infinity, the graph 
+                      approaches the oblique asymptote y=x+4.">
+                          </annotation>
+                  </annotations>
+                </diagram>
+              </prefigure>
+            </image>
+          </answer>
       </task>
     </exercise>
   </page>
