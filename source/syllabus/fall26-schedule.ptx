@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <section xml:id="schedule" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Math 156 Summer 2026 Online Schedule</title>
+<title>Course Schedule/Checklist</title>
 <p>Use this schedule/checklist to make sure that you have completed all of the
     graded components of the course.</p>
-    
-
+<worksheet> 
+	<title>Math 156 Fall 2026 Online Schedule</title>   
+<page>
 <table>
-    <title>Math 156 Precalculus Summer Checklist</title>
+    <title>Math 156 Precalculus Fall 2026 Checklist (weeks 1-2)</title>
 	<tabular halign="center" left="medium" top="medium">
 		<row bottom="medium">
 			<cell colspan="2" right="medium">
@@ -372,6 +373,48 @@
 			<cell right="medium">
 			</cell>
 		</row>
+	</tabular>
+</table>
+</page>
+<page>
+<table>
+	<title>Math 156 Precalculus Summer Checklist (weeks 3-4)</title>
+		<tabular halign="center" left="medium" top="medium">
+		<row bottom="medium">
+			<cell colspan="2" right="medium">
+				 Date
+			</cell>
+			<cell right="medium">
+				<p>Reading and</p><p>Video Lessons</p><p>Due</p>
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				<p>Flatworld</p><p>Homework Due</p>
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				<p>Learning</p><p>Outcome</p><p>Quiz Due</p>
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				<p>Revisions and</p><p>Retakes Due</p>
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				Assessments
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				<p>Tutoring and</p><p>Reflections</p>
+			</cell>
+			<cell right="medium">
+			</cell>
+		</row>
 		<row>
 			<cell  right="medium">
 				Week 3
@@ -703,6 +746,48 @@
 			</cell>
 			<cell right="medium">
         Tutoring 2 Due
+			</cell>
+			<cell right="medium">
+			</cell>
+		</row>
+	</tabular>
+</table>
+</page>
+<page>
+<table>
+    <title>Math 156 Precalculus Summer Checklist (weeks 5-6)</title>
+	<tabular halign="center" left="medium" top="medium">
+		<row bottom="medium">
+			<cell colspan="2" right="medium">
+				 Date
+			</cell>
+			<cell right="medium">
+				<p>Reading and</p><p>Video Lessons</p><p>Due</p>
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				<p>Flatworld</p><p>Homework Due</p>
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				<p>Learning</p><p>Outcome</p><p>Quiz Due</p>
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				<p>Revisions and</p><p>Retakes Due</p>
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				Assessments
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				<p>Tutoring and</p><p>Reflections</p>
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -1040,6 +1125,48 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 		</row>
+	</tabular>
+</table>
+</page>
+<page>
+<table>
+    <title>Math 156 Precalculus Summer Checklist (weeks 7-8)</title>
+	<tabular halign="center" left="medium" top="medium">
+		<row bottom="medium">
+			<cell colspan="2" right="medium">
+				 Date
+			</cell>
+			<cell right="medium">
+				<p>Reading and</p><p>Video Lessons</p><p>Due</p>
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				<p>Flatworld</p><p>Homework Due</p>
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				<p>Learning</p><p>Outcome</p><p>Quiz Due</p>
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				<p>Revisions and</p><p>Retakes Due</p>
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				Assessments
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				<p>Tutoring and</p><p>Reflections</p>
+			</cell>
+			<cell right="medium">
+			</cell>
+		</row>
 		<row>
 			<cell right="medium">
 				Week 7
@@ -1373,6 +1500,48 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 		</row>
+</tabular>
+</table>
+</page>
+<page>
+<table>
+    <title>Math 156 Precalculus Summer Checklist (weeks 9-10)</title>
+	<tabular halign="center" left="medium" top="medium">
+		<row bottom="medium">
+			<cell colspan="2" right="medium">
+				 Date
+			</cell>
+			<cell right="medium">
+				<p>Reading and</p><p>Video Lessons</p><p>Due</p>
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				<p>Flatworld</p><p>Homework Due</p>
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				<p>Learning</p><p>Outcome</p><p>Quiz Due</p>
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				<p>Revisions and</p><p>Retakes Due</p>
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				Assessments
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				<p>Tutoring and</p><p>Reflections</p>
+			</cell>
+			<cell right="medium">
+			</cell>
+		</row>
 		<row>
 			<cell right="medium">
 				Week 9
@@ -1433,7 +1602,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Schedule</p><p>Assessment 3</p>
+				<p>Schedule</p><p>Assessment 4</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1713,6 +1882,48 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 		</row>
+</tabular>
+</table>
+</page>
+<page>
+<table>
+    <title>Math 156 Precalculus Summer Checklist (weeks 11-12)</title>
+	<tabular halign="center" left="medium" top="medium">
+		<row bottom="medium">
+			<cell colspan="2" right="medium">
+				 Date
+			</cell>
+			<cell right="medium">
+				<p>Reading and</p><p>Video Lessons</p><p>Due</p>
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				<p>Flatworld</p><p>Homework Due</p>
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				<p>Learning</p><p>Outcome</p><p>Quiz Due</p>
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				<p>Revisions and</p><p>Retakes Due</p>
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				Assessments
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				<p>Tutoring and</p><p>Reflections</p>
+			</cell>
+			<cell right="medium">
+			</cell>
+		</row>
 		<row>
 			<cell right="medium">
 				Week 11
@@ -1873,9 +2084,10 @@
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
-		</row><row>
+		</row>
+		<row>
 			<cell right="medium">
-				Week 11
+				Week 12
 			</cell>
 			<cell right="medium" bottom="medium">
 				M Aug 3
@@ -2014,4 +2226,6 @@
 		</row>
 	</tabular>
 </table>
+</page>
+</worksheet>
 </section>

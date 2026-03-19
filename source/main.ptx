@@ -22,7 +22,7 @@
       <xi:include href="./syllabus/rubrics.ptx" />
       <xi:include href="./syllabus/policies.ptx" />
       <xi:include href="./syllabus/support.ptx" />
-      <xi:include href="./syllabus/schedule.ptx" />
+      <xi:include href="./syllabus/sum26-schedule.ptx" />
       <!-- Other documents could go here, like a schedule, project description, etc. -->
     </chapter>
 
