@@ -103,7 +103,10 @@ b      <title>Outcome Videos</title>
         </section>
         <section xml:id="tf_videos">
           <title>Trigonometric Functions</title>
-          <!--<xi:include href="./videos/tf_videos/tf1vid.ptx"/>-->
+          <xi:include href="./videos/tf_videos/tf1vid.ptx"/>
+          <xi:include href="./videos/tf_videos/tf2vid.ptx"/>
+          <xi:include href="./videos/tf_videos/tf3vid.ptx"/>
+          <xi:include href="./videos/tf_videos/tf4vid.ptx"/>
         </section>
          <!-- etc. -->
       </chapter>
