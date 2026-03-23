@@ -64,8 +64,8 @@
         <xi:include href="./sample_outcomes/bf_outcomes/bf4_sample.ptx"/>
       </section>  
     </chapter>
-    <chapter xml:id="graphing-functions">
-      <title>Graphing Functions</title>
+    <chapter xml:id="graphs-of-functions">
+      <title>Graphs of Functions</title>
       <introduction>
         <p>
           There are five learning outcomes for this unit:
@@ -107,6 +107,75 @@
         <xi:include href="./notes/graphs_of_functions/gr5information.ptx"/>
         <xi:include href="./videos/gr_videos/gr5vid.ptx"/>
         <xi:include href="./sample_outcomes/gr_outcomes/gr5_sample.ptx"/>
+      </section>
+    </chapter>
+    <chapter xml:id="exponential-and-logarithmic-functions">
+      <title>Exponential and Logarithmic Functions</title>
+      <introduction>
+        <p>
+          There are three learning outcomes for this unit:
+          <ul>
+            <li><p>Exponential and Logarithmic Functions</p></li>
+            <li><p>Exponential and Logarithmic Equations</p></li>
+            <li><p>Growth and Decay Models</p></li>
+          </ul> 
+        </p>
+      </introduction>
+      <section xml:id="el1">
+        <title>EL-1 Exponential and Logarithmic Functions</title>
+        <xi:include href="./notes/exponential_and_logarithmic_functions/el1information.ptx"/>
+        <xi:include href="./videos/el_videos/el1vid.ptx"/>
+        <xi:include href="./sample_outcomes/el_outcomes/el1_sample.ptx"/>
+      </section>
+      <section xml:id="el2">
+        <title>EL-2 Exponential and Logarithmic Equations</title>
+        <xi:include href="./notes/exponential_and_logarithmic_functions/el2information.ptx"/>
+        <xi:include href="./videos/el_videos/el2vid.ptx"/>
+        <xi:include href="./sample_outcomes/el_outcomes/el2_sample.ptx"/>
+      </section>
+      <section xml:id="el3">
+        <title>EL-3 Growth and Decay Models</title>
+        <xi:include href="./notes/exponential_and_logarithmic_functions/el3information.ptx"/>
+        <xi:include href="./videos/el_videos/el3vid.ptx"/>
+        <xi:include href="./sample_outcomes/el_outcomes/el3_sample.ptx"/>
+      </section>
+    </chapter>
+    <chapter xml:id="trigonometric-functions">
+      <title>Trigonometric Functions</title>
+      <introduction>
+        <p>
+          There are four learning outcomes for this unit:
+          <ul>
+            <li><p>Right Triangle Trigonometry</p></li>
+            <li><p>Graphs of Trigonometric Functions</p></li>
+            <li><p>Trigonometric Equations</p></li>
+            <li><p>Law of Sines and Cosines</p></li>
+          </ul> 
+        </p>
+      </introduction>
+      <section xml:id="tf1">
+        <title>TF-1 Right Triangle Trigonometry</title>
+        <xi:include href="./notes/trigonometric_functions/tf1information.ptx"/>
+        <xi:include href="./videos/tf_videos/tf1vid.ptx"/>
+        <xi:include href="./sample_outcomes/tf_outcomes/tf1_sample.ptx"/>
+      </section>
+      <section xml:id="tf2">
+        <title>TF-2 Graphs of Trigonometric Functions</title>
+        <xi:include href="./notes/trigonometric_functions/tf2information.ptx"/>
+        <xi:include href="./videos/tf_videos/tf2vid.ptx"/>
+        <xi:include href="./sample_outcomes/tf_outcomes/tf2_sample.ptx"/>
+      </section>
+      <section xml:id="tf3">
+        <title>TF-3 Trigonometric Equations</title>
+        <xi:include href="./notes/trigonometric_functions/tf3information.ptx"/>
+        <xi:include href="./videos/tf_videos/tf3vid.ptx"/>
+        <xi:include href="./sample_outcomes/tf_outcomes/tf3_sample.ptx"/>
+      </section>
+      <section xml:id="tf4">
+        <title>TF-4 Law of Sines and Cosines</title>
+        <xi:include href="./notes/trigonometric_functions/tf4information.ptx"/>
+        <xi:include href="./videos/tf_videos/tf4vid.ptx"/>
+        <xi:include href="./sample_outcomes/tf_outcomes/tf4_sample.ptx"/>
       </section>
     </chapter>
     </book>
