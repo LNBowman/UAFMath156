@@ -7,7 +7,7 @@
   <xi:include href="../docinfo.ptx"/>
 
   <slideshow>
-    <title>Slides for MATH 156</title>
+    <title>Basics of Functions Slides</title>
 
     <introduction>
       <bibinfo>
@@ -22,7 +22,7 @@
 
     <!-- This assumes you want to structure your entire slide deck by sections -->
     <!-- RevealJS will use 2-d navigation: move left-right to switch between sections, up-down to switch between slides in a section -->
-    <section xml:id="sec-1-1">
+    <section xml:id="BF-1 Slides">
       <title>Linear and Quadratic Equations</title>
       
       <slide>
