@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>TF-1 Right Triangle Trigonometry</title>
+
+    <page>
+        <p><alert>Trigonometry Fundamentals</alert></p>
+        <video vimeo="1068275135"/>
+        <p><alert>Right Triangle Trigonometry</alert></p>
+        <video vimeo="1068275218"/>
+        <p><alert>Triangle and Unit Circle Definitions</alert></p>
+        <video vimeo="1068275174"/>
+    </page>
+  </worksheet>  

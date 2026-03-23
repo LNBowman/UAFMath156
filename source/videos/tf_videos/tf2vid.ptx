@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>TF-2 Trigonometric Graphs</title>
+
+    <page>
+        <p><alert>Periods, Domains, and Symmetry</alert></p>
+        <video vimeo="1068275255"/>
+        <p><alert>Basic Trigonometric Graphs-part 1</alert></p>
+        <video vimeo="1068290351"/>
+        <p><alert>Basic Trigonometric Graphs-part 2</alert></p>
+        <video vimeo="1068290426"/>
+        <p><alert>Basic Trigonometric Graphs-part 3</alert></p>
+        <video vimeo="1068290526"/>
+        <p><alert>Transformed Sine and Cosine Graphs</alert></p>
+        <video vimeo="1068290686"/>
+        <p><alert>Transformed Secant and Cosecant Graphs</alert></p>
+        <video vimeo="1068290805"/>
+        <p><alert>Transformed Tangent and Cotangent Graphs</alert></p>
+        <video vimeo="1068290930"/>
+    </page>
+  </worksheet>  

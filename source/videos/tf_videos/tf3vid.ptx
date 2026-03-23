@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>TF-3 Trigonometric Equations</title>
+
+    <page>
+        <p><alert>Inverse Trigonometric Functions</alert></p>
+        <video vimeo="1068303687"/>
+        <p><alert>Fundamental Trigonometric Identities</alert></p>
+        <video vimeo="1068314045"/>
+        <p><alert>Basic Trigonometric Equations</alert></p>
+        <video vimeo="1068313965"/>
+        <p><alert>Sum and Difference Formulas</alert></p>
+        <video vimeo="1068313801"/>
+        <p><alert>Double Angle Formulas</alert></p>
+        <video vimeo="1070150398"/>
+        <p><alert>Half Angle Formulas</alert></p>
+        <video vimeo="1070150384"/>
+        <p><alert>More Trigonometric Equations</alert></p>
+        <video vimeo="1070150359"/>
+    </page>
+  </worksheet>  

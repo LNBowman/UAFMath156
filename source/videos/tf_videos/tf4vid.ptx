@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>TF-4 Law of Sines and Cosines</title>
+
+    <page>
+        <p><alert>Law of Sines</alert></p>
+        <video vimeo="1068311693"/>
+        <p><alert>Law of Cosines</alert></p>
+        <video vimeo="1068311556"/>
+    </page>
+  </worksheet>  
