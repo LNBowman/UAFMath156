@@ -254,12 +254,11 @@
           <answer><p>Width of the border: 4 inches</p></answer>
           <solution><p>To find the width of the border, we solve the equation 
             <m>A(x)=224</m> for <m>x</m>. Substituting the quadratic model, we get:
-            <m>\begin{align*}
-            4x^2+36x \amp= 224 \\
-            4x^2+36x-224 \amp= 0 \\
-            x^2+9x-56 \amp= 0
-            \end{align*}</m>
-            Using the quadratic formula, we find that $x=4$ or $x=-14$. Since $x$ 
+            <md><mrow>4x^2+36x &amp;= 224 </mrow>
+            <mrow>4x^2+36x-224 &amp;= 0</mrow>
+            <mrow>x^2+9x-56 &amp;= 0</mrow>
+          <mrow>(x-4)(x+14) &amp;= 0</mrow></md>
+            Solving, we find that <m>x=4</m> or <m>x=-14</m>. Since <m>x</m> 
             represents a width, it must be positive. Therefore, the width of the 
             border is 4 inches.</p></solution>
           </task>
