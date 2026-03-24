@@ -11,7 +11,7 @@
     <subtitle>MATH F156X Summer 2026</subtitle>
     
     <!-- Optional: include frontmatter with author info and date -->
-    <xi:include href="./frontmatter.ptx" />
+    <xi:include href="./m156-frontmatter.ptx" />
 
     <chapter xml:id="course-syllabus">
       <title>Course Documents</title>

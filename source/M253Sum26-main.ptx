@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This is the main course file for ... . It is used to generate all the public facing course materials so those can be hosted online.  -->
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- Include common macros etc: -->
+  <xi:include href="./docinfo.ptx" />
+  <!-- By creating a PreTeXt "book" for the course, we can split components into "chapters" -->
+  <book>
+    <title>Multivariable Calculus</title>
+
+    <subtitle>MATH F253X Summer 2026</subtitle>
+    
+    <!-- Optional: include frontmatter with author info and date -->
+    <xi:include href="./m253-frontmatter.ptx" />
+
+     <chapter xml:id="course-syllabus">
+      <title>Course Documents</title>
+
+      <!-- Course syllabus -->
+      <xi:include href="./syllabus/syllabus.ptx" />
+      <xi:include href="./syllabus/components.ptx" />
+      <xi:include href="./syllabus/rubrics.ptx" />
+      <xi:include href="./syllabus/policies.ptx" />
+      <xi:include href="./syllabus/support.ptx" />
+      <xi:include href="./syllabus/sum26-schedule.ptx" />
+      <!-- Other documents could go here, like a schedule, project description, etc. -->
+    </chapter>
+    </book>
+  </pretext>
