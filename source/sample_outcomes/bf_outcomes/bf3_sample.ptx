@@ -44,10 +44,10 @@
       <solution><p>To begin we will start by evaluating each function: 
         <m>f(x+h)=\frac{x+h}{x+h-3}</m> and <m>f(x)=\frac{x}{x-3}</m>. Putting 
         these together and simplify the expression. 
-        <m>\begin{aligned}\frac{f(x+h)-f(x)}{h} \amp =\frac{\frac{x+h}{x+h-3}-\frac{x}{x-3}}{h}\\
-          \amp =\frac{\frac{(x+h)(x-3)-x(x+h-3)}{(x+h-3)(x-3)}}{h}\\
-          \amp =\frac{\frac{3h}{(x+h-3)(x-3)}}{h}\\
-          \amp =\frac{3}{(x+h-3)(x-3)}\end{aligned}</m></p></solution>
+        <m>\begin{aligned}\frac{f(x+h)-f(x)}{h} amp =\frac{\frac{x+h}{x+h-3}-\frac{x}{x-3}}{h}\\
+          amp =\frac{\frac{(x+h)(x-3)-x(x+h-3)}{(x+h-3)(x-3)}}{h}\\
+          amp =\frac{\frac{3h}{(x+h-3)(x-3)}}{h}\\
+          amp =\frac{3}{(x+h-3)(x-3)}\end{aligned}</m></p></solution>
     </exercise>
     <exercise workspace="3cm">
       <statement><p>
@@ -73,7 +73,36 @@
       </p></statement>
       <hint><p>Start by finding the boundary points and the domain, then graph and find the intercepts.</p></hint>
       <answer><p>Domain: <m>(-\infty, \infty)</m>, Boundary points: <m>(-1, 8), (-1,2), (2,5)</m> and <m>(2, 8)</m>, 
-        Intercepts: <m>(0, 1)</m></p></answer>
+        Intercepts: <m>(0, 1)</m></p>
+      <image width="60%">
+              <prefigure xmlns="https://prefigure.org"
+                          label="prefigure-bf3-sample">
+                <diagram dimensions="(300,300)" margins="5">
+                  <coordinates bbox="(-20,-20,20,20)">
+                    <definition>f(x)=x^2+1</definition>
+                    <grid spacings="((-20,2,20),(-20,2,20))"/>
+                    <grid-axes xlabel="x" ylabel="y"/>
+                    <graph function="f" domain="(-1,2)"/>
+                    <line endpoints="((-1,8),(-5,-10))" stroke="blue" arrows="1"></line>
+                    <line endpoints="((2,8),(5,17))" stroke="blue" arrows="1"></line>
+                    <point p="(-1,8)" alignment="sw">bp</point>
+                    <point p="(-1,2)" alignment="s">bp</point>
+                    <point p="(2,5)" alignment="e">bp</point>
+                    <point p="(2,8)" alignment="e">bp</point>
+                    <point p="(0,1)" alignment="se">int</point>
+                  </coordinates>
+                  <annotations>
+                    <annotation ref="figure"
+                                text="The graph of the piecewise function has three distinct pieces, two linear 
+                                pieces on the ends and a quadratic piece in the middle. As x increases from negative infinity, 
+                                the function follows the linear piece y=5-3x on the left up to the boundary point at (-1, 8), then transitions 
+                                to the quadratic piece y=x^2+1 in the middle starting at (-1, 2) and ending at (2, 5), and finally from the point 
+                                (2, 8) follows the linear piece y=3x+2 on the right.">
+                      </annotation>
+                  </annotations>
+                </diagram>
+              </prefigure>
+            </image></answer>
       <solution><p>To graph the function, we will consider each piece separately:
         <ul>
           <li>For <m>x \le -1</m>, the function is <m>f(x) = 5 - 3x</m>. This is a linear function 
@@ -83,7 +112,8 @@
           <li>For <m>x \ge 2</m>, the function is <m>f(x) = 3x + 2</m>. This is a linear 
             function with a slope of <m>3</m> and a point at <m>(2, 8)</m>.</li>
         </ul>
-        </p></solution>
+        </p>
+      </solution>
     </exercise>
   </page>
 </worksheet> 
