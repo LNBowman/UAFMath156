@@ -44,8 +44,9 @@
           Simplify: <m>3x - 10 + 4x = 8</m>. Combine like terms: <m>7x = 18</m>. 
           Solve for x: <m>x = \frac{18}{7}</m>. Finally, substitute back to find 
           y: 
-          <md><mrow>y &amp; = 5 - 2 \cdot \frac{18}{7}</mrow>> 
-            <mrow> &amp;= 5 - \frac{36}{7}\\ \amp = \frac{35 - 36}{7}</mrow> 
+          <md><mrow>y &amp; = 5 - 2 \cdot \frac{18}{7}</mrow> 
+            <mrow> &amp;= 5 - \frac{36}{7}</mrow>
+            <mrow> &amp; = \frac{35 - 36}{7}</mrow> 
             <mrow> &amp; = -\frac{1}{7}</mrow></md></p></solution>
       </exercise>
       <exercise workspace="3cm">
