@@ -35,7 +35,7 @@
   <page>
     <exercise workspace="3cm">
         <statement><p>Solve the system using substitution: 
-        <m>\begin{cases} 2x + y = 5 \\ 3x - 2y = 8 \end{cases}</m>.</p></statement>
+        <m>\begin{cases} 2x + y = 5 \\ 3x - 2y = 8 \end{cases}</m></p></statement>
         <hint><p>Rewrite the first equation to express y in terms of x. Then 
           substitute this expression into the second equation.</p></hint>
         <answer><p><m>\left(\frac{18}{7}, -\frac{1}{7}\right)</m></p></answer>
@@ -51,7 +51,7 @@
       <exercise workspace="3cm">
           <statement><p>Solve the system using elimination: 
             <md><mrow>\begin{cases} 4x-3y=12</mrow>
-              <mrow>3x+2y=13 </mrow>\end{cases}</md>.</p></statement>
+              <mrow>3x+2y=13 \end{cases}</mrow></md></p></statement>
           <hint><p>Multiply the first equation by 2 and the second equation 
             by 3 to eliminate y.</p></hint>
           <answer><p><m>\left(\frac{63}{17}, \frac{4}{17}\right)</m></p></answer>
@@ -64,7 +64,7 @@
       </exercise>
       <exercise workspace="3cm">
           <statement><p>Solve the system using elimination:
-            <m>\begin{cases} 2x+y-z=4\\ x-2y+3z=-6\\ 3x+y+2z=7 \end{cases}</m>.</p></statement>
+            <m>\begin{cases} 2x+y-z=4\\ x-2y+3z=-6\\ 3x+y+2z=7 \end{cases}</m></p></statement>
           <hint><p>Pick a base equation to use for eliminating the same variable in the 
             other two equations. Solve the resulting two-variable system.</p></hint>
           <answer><p><m>\left(\frac{3}{14}, \frac{9}{2}, \frac{13}{14}\right)</m></p></answer>
@@ -80,7 +80,7 @@
       </exercise>
       <exercise workspace="3cm">
           <statement><p>Find all solutions to the system:
-            <m>\begin{cases} \frac{4}{x^2}+\frac{6}{y^4}=\frac{7}{2}\\\frac{1}{x^2}-\frac{2}{y^4}=0\end{cases}</m>.</p></statement>
+            <m>\begin{cases} \frac{4}{x^2}+\frac{6}{y^4}=\frac{7}{2}\\\frac{1}{x^2}-\frac{2}{y^4}=0\end{cases}</m></p></statement>
           <hint><p>Use substitution to solve for one variable in terms of the other.</p></hint>
           <answer><p><m>\left(-\sqrt{2}, -\sqrt{2}\right), \left(\sqrt{2}, \sqrt{2}\right), 
             \left(-\sqrt{2}, \sqrt{2}\right), \left(\sqrt{2}, -\sqrt{2}\right)</m></p></answer>
