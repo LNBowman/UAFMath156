@@ -43,13 +43,15 @@
           Then substitute this into the second equation: <m>3x - 2(5 - 2x) = 8</m>. 
           Simplify: <m>3x - 10 + 4x = 8</m>. Combine like terms: <m>7x = 18</m>. 
           Solve for x: <m>x = \frac{18}{7}</m>. Finally, substitute back to find 
-          y: <m>\begin{aligned}y \amp = 5 - 2 \cdot \frac{18}{7}\\ 
-            \amp= 5 - \frac{36}{7}\\ \amp = \frac{35 - 36}{7}\\ 
-            \amp = -\frac{1}{7}\end{aligned}</m></p></solution>
+          y: 
+          <md><mrow>y &amp; = 5 - 2 \cdot \frac{18}{7}</mrow>> 
+            <mrow> &amp;= 5 - \frac{36}{7}\\ \amp = \frac{35 - 36}{7}</mrow> 
+            <mrow> &amp; = -\frac{1}{7}</mrow></md></p></solution>
       </exercise>
       <exercise workspace="3cm">
           <statement><p>Solve the system using elimination: 
-            <m>\begin{cases} 4x-3y=12\\ 3x+2y=13 \end{cases}</m>.</p></statement>
+            <md><mrow>\begin{cases} 4x-3y=12</mrow>
+              <mrow>3x+2y=13 </mrow>\end{cases}</md>.</p></statement>
           <hint><p>Multiply the first equation by 2 and the second equation 
             by 3 to eliminate y.</p></hint>
           <answer><p><m>\left(\frac{63}{17}, \frac{4}{17}\right)</m></p></answer>
