@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="gr3rubric">
+  <title>GR-3 Rubric</title>
+  <worksheet>
+    
+  <introduction>
+    <p>Before attempting the GR-3 outcome, you should review the following 
+      rubric. This shows the criteria you will be graded on and the expectations 
+      to earn each mastery level. </p>
+  </introduction>
+  <table>
+  <title>GR3 Rubric</title>
+  <tabular halign="center" left="medium" top="medium">
+    <row bottom="medium">
+      <cell right="medium">
+        Criteria
+      </cell>
+      <cell right="medium">
+        M
+      </cell>
+      <cell right="medium">
+        P
+      </cell>
+      <cell right="medium">
+        R
+      </cell>
+      <cell right="medium">
+        N
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Simplifying Algebraic Expressions
+      </cell>
+      <cell right="medium">
+        All answers are fully simplified. Exact answers are given, not approximations. Radical and exponential expressions are used appropriately and are simplified in the correct manner
+      </cell>
+      <cell right="medium">
+        No algebraic errors OR some expressions are not simplified.
+      </cell>
+      <cell right="medium">
+        There are some algebraic errors and some expressions were not simplified.
+      </cell>
+      <cell right="medium">
+        There are some algebraic errors and some expressions were not simplified.
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Basics of Graphing
+      </cell>
+      <cell right="medium">
+        Graph is labeled with units for each axis. The graph includes all of the important features (intercepts, asymptotes, deleted points, etc). <nbsp />The graph is appropriately drawn to accommodate all features.
+      </cell>
+      <cell right="medium">
+        Graph is labeled with units for each axis and includes most of the important features or the graph has all of the important features but is not labeled.
+      </cell>
+      <cell right="medium">
+        Graph is not labeled and has some of the important features.
+      </cell>
+      <cell right="medium">
+        No graph was given or the given graph is not labeled and does not have the correct features of the function.
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Problem Structure and Mathematical Communication
+      </cell>
+      <cell right="medium">
+        Problems have a clear beginning, middle, and end. Work progresses clearly from one step to the next. The work provided uses appropriate methods and notation and provides a clear solution.
+      </cell>
+      <cell right="medium">
+        Problems have clear beginnings and ends. Work progresses from one step to the next. The work provided uses algebraic methods, correct notation, and provides a solution.
+      </cell>
+      <cell right="medium">
+        Parts of the mathematical structure are missing, or steps in the progress of the solution are missing. There are errors in the mathematical notation. The work provided uses algebraic methods and provides a solution.
+      </cell>
+      <cell right="medium">
+        There is not a clear structure to the solution, notation is used incorrectly, and it is unclear what methods are being used.
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        State the domain
+      </cell>
+      <cell right="medium">
+        Provided a correct, simplified domain using correct interval notation.
+      </cell>
+      <cell right="medium">
+        Provided the correct domain using interval notation.
+      </cell>
+      <cell right="medium">
+        Provided a domain.
+      </cell>
+      <cell right="medium">
+        No evidence of finding the domain.
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Find the asymptotes
+      </cell>
+      <cell right="medium">
+        Used appropriate factoring or division methods to find and label the vertical, horizontal and oblique asymptotes, and wrote them using correct notation.
+      </cell>
+      <cell right="medium">
+        Used factoring or division methods to find and label the vertical and horizontal asymptotes with minor errors.
+      </cell>
+      <cell right="medium">
+        Found some of the asymptotes.
+      </cell>
+      <cell right="medium">
+        No evidence of finding the asymptotes
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Find x and y intercept
+      </cell>
+      <cell right="medium">
+        The correct x and y-intercepts were given using correct notation.
+      </cell>
+      <cell right="medium">
+        The correct x and y-intercepts were given.
+      </cell>
+      <cell right="medium">
+        Points were given that are not the intercepts.
+      </cell>
+      <cell right="medium">
+        No intercepts were given.
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Find deleted points
+      </cell>
+      <cell right="medium">
+        Used appropriate factoring methods to find any holes; wrote the correct deleted point using correct notation.
+      </cell>
+      <cell right="medium">
+        Used factoring methods to find any holes; wrote the deleted point.
+      </cell>
+      <cell right="medium">
+        Gave an x-value of the hole.
+      </cell>
+      <cell right="medium">
+        No evidence of finding the deleted points were given.
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Rational Graph
+      </cell>
+      <cell right="medium">
+        Graph contains all relevant information; has correct end-behavior, asymptotes, intercepts, deleted points, behavior at intercepts, and slopes.
+      </cell>
+      <cell right="medium">
+        Graph contains most of the relevant information; has partially correct end-behavior, slopes, asymptotes, intercepts, deleted points or behavior at intercepts.
+      </cell>
+      <cell right="medium">
+        Relevant parts of the graph are missing. errors in the end-behavior, slopes, asymptotes, intercepts, deleted points, or behavior at intercepts.
+      </cell>
+      <cell right="medium">
+        No attempt at graphing the function was given.
+      </cell>
+    </row>
+  </tabular>
+</table>
+
+</worksheet>
+</section>

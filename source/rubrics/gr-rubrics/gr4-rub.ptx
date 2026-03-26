@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="gr4rubric">
+  <title>GR-4 Rubric</title>
+  <worksheet>
+    
+  <introduction>
+    <p>Before attempting the GR-4 outcome, you should review the following 
+      rubric. This shows the criteria you will be graded on and the expectations 
+      to earn each mastery level. </p>
+  </introduction>
+  <table>
+  <title>GR4 Rubric</title>
+  <tabular halign="center" left="medium" top="medium">
+    <row bottom="medium">
+      <cell right="medium">
+        Criteria
+      </cell>
+      <cell right="medium">
+        M
+      </cell>
+      <cell right="medium">
+        P
+      </cell>
+      <cell right="medium">
+        R
+      </cell>
+      <cell right="medium">
+        N
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Simplifying Algebraic Expressions
+      </cell>
+      <cell right="medium">
+        All answers are fully simplified. Exact answers are given, not approximations. Radical and exponential expressions are used appropriately and are simplified in the correct manner
+      </cell>
+      <cell right="medium">
+        No algebraic errors OR some expressions are not simplified.
+      </cell>
+      <cell right="medium">
+        There are some algebraic errors and some expressions were not simplified.
+      </cell>
+      <cell right="medium">
+        There are some algebraic errors and some expressions were not simplified.
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Problem Structure and Mathematical Communication
+      </cell>
+      <cell right="medium">
+        Problems have a clear beginning, middle, and end. Work progresses clearly from one step to the next. The work provided uses appropriate methods and notation and provides a clear solution.
+      </cell>
+      <cell right="medium">
+        Problems have clear beginnings and ends. Work progresses from one step to the next. The work provided uses algebraic methods, correct notation, and provides a solution.
+      </cell>
+      <cell right="medium">
+        Parts of the mathematical structure are missing, or steps in the progress of the solution are missing. There are errors in the mathematical notation. The work provided uses algebraic methods and provides a solution.
+      </cell>
+      <cell right="medium">
+        There is not a clear structure to the solution, notation is used incorrectly, and it is unclear what methods are being used.
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Solve a 2-Variable System Using Substitution
+      </cell>
+      <cell right="medium">
+        Correctly used properties of equality to rewrite one of the equations. Correctly substituted into the other equation. Found the correct values and gave them as an ordered pair.
+      </cell>
+      <cell right="medium">
+        Used properties of equality to rewrite one of the equations with minor errors OR substituted into the other equation with minor errors Or found the and gave them as an ordered pair.
+      </cell>
+      <cell right="medium">
+        Did not use substitution to solve the system; errors in the values found; did not give solution as an ordered pair.
+      </cell>
+      <cell right="medium">
+        No evidence of solving the 2-variable system.
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Solve a 3-Variable System
+      </cell>
+      <cell right="medium">
+        Picked a base equation to eliminate a variable in the system or used correct row-reduction; Reduced the system to two variables and solved; used back substitution to find the correct ordered triple; gave the answer using correct notation.
+      </cell>
+      <cell right="medium">
+        Picked a base equation to eliminate a variable in the system OR correctly used substitution to remove a variable; Reduced the system to two variables and solved; used back substitution to find an ordered triple; minor errors in at most one step.
+      </cell>
+      <cell right="medium">
+        Used algebraic methods to find the values; errors in multiple steps; OR incorrectly substituted to try to solve the system.
+      </cell>
+      <cell right="medium">
+        No evidence of solving the 3-variable system.
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Solve a Non-linear System
+      </cell>
+      <cell right="medium">
+        Used substitution or elimination as appropriate to isolate one variable; found the correct values for the variable and substituted to get the other variable; gave correct ordered pairs.
+      </cell>
+      <cell right="medium">
+        Used substitution or elimination as appropriate to isolate one variable; found the correct values for the variable and substituted to get the other variable; found some ordered pairs; minor errors in at most one step.
+      </cell>
+      <cell right="medium">
+        Incorrectly used substitution or elimination when the other method is more appropriate; errors in finding the values of the variables, or errors in giving the solution.
+      </cell>
+      <cell right="medium">
+        No evidence of solving the nonlinear system.
+      </cell>
+    </row>
+  </tabular>
+</table>
+
+</worksheet>
+</section>

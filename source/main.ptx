@@ -86,30 +86,35 @@
         <title>GR-1 Quadratic Functions and Models</title>
         <xi:include href="./notes/graphs_of_functions/gr1information.ptx"/>
         <xi:include href="./videos/gr_videos/gr1vid.ptx"/>
+        <xi:include href="./rubrics/gr-rubrics/gr1-rub.ptx"/>
         <xi:include href="./sample_outcomes/gr_outcomes/gr1_sample.ptx"/>
       </section> 
       <section xml:id="gr2">
         <title>GR-2 Polynomial Functions</title>
         <xi:include href="./notes/graphs_of_functions/gr2information.ptx"/>
         <xi:include href="./videos/gr_videos/gr2vid.ptx"/>
+        <xi:include href="./rubrics/gr-rubrics/gr2-rub.ptx"/>
         <xi:include href="./sample_outcomes/gr_outcomes/gr2_sample.ptx"/>
       </section>
       <section xml:id="gr3">
         <title>GR-3 Rational Functions</title>
         <xi:include href="./notes/graphs_of_functions/gr3information.ptx"/>
         <xi:include href="./videos/gr_videos/gr3vid.ptx"/>
+        <xi:include href="./rubrics/gr-rubrics/gr3-rub.ptx"/>
         <xi:include href="./sample_outcomes/gr_outcomes/gr3_sample.ptx"/>
       </section>
       <section xml:id="gr4">
         <title>GR-4 Systems of Equations</title>
         <xi:include href="./notes/graphs_of_functions/gr4information.ptx"/>
         <xi:include href="./videos/gr_videos/gr4vid.ptx"/>
+        <xi:include href="./rubrics/gr-rubrics/gr4-rub.ptx"/>
         <xi:include href="./sample_outcomes/gr_outcomes/gr4_sample.ptx"/>
       </section>
       <section xml:id="gr5">
         <title>GR-5 Linear Inequalities</title>
         <xi:include href="./notes/graphs_of_functions/gr5information.ptx"/>
         <xi:include href="./videos/gr_videos/gr5vid.ptx"/>
+        <xi:include href="./rubrics/gr-rubrics/gr5-rub.ptx"/>
         <xi:include href="./sample_outcomes/gr_outcomes/gr5_sample.ptx"/>
       </section>
     </chapter>

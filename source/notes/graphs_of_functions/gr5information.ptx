@@ -19,8 +19,8 @@
     <page>
       <p><alert>Linear Inequalities</alert></p>
       <p>A linear inequality in one variable is an inequality that can 
-        be written in the form $ax + b \lt c$, where $a$, $b$, and $c$ are 
-        real numbers and $a \neq 0$. The solution to a linear inequality is 
+        be written in the form <m>ax + b \lt c</m>, where <m>a</m>, <m>b</m>, and <m>c</m> are 
+        real numbers and <m>a \neq 0</m>. The solution to a linear inequality is 
         a set of values that satisfy the inequality. To solve a linear inequality, 
         isolate the variable on one side of the inequality sign. When multiplying 
         or dividing both sides of an inequality by a negative number, reverse the 
