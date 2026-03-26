@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet>
-  <title>BF-2 Forms of Linear Equations</title>
+  <title>BF-1 Linear and Quadratic Equations</title>
   <introduction>
     <p>
       <alert>Instructions:</alert> Once you open the quiz, your timer begins.  
@@ -15,20 +15,18 @@
     <exercise workspace="3cm">
       <statement>
         <p>
-          Find the equation of the line, in slope-intercept form, that 
-          passes through the points <m>(-4,-1)</m> and <m>(2,2)</m>.  Sketch 
-          the line with appropriate intercepts.
+          Solve the following equation: <m>|3x-4|=x+5</m> 
         </p>
       </statement>
     </exercise>
     <exercise workspace="3cm">
       <statement>
-        <p>Solve <m>49x^2-14x=24</m> by factoring</p>
+        <p>Solve <m>6x^2-x=1</m> by factoring.</p>
       </statement>
     </exercise>
-    <exercise>
+    <exercise workspace="3cm">
       <statement>
-        <p>Solve <m>-y^2+6y-29=-4y^2</m> using the quadratic formula.</p>
+        <p>Solve <m>9x^2-12x-1=0</m> using the quadratic formula.</p>
       </statement>
     </exercise>
   </page>
