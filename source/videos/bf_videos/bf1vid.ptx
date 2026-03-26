@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<worksheet>
+<section xml:id="bf1videos">
   <title>BF-1 Videos</title>
 
-    <page>
         <p><alert>Linear Equations in One-Variable</alert></p>
         <video vimeo="1167541795"/>
         <p><alert>Absolute Value Equations</alert></p>
@@ -12,8 +11,7 @@
         <video vimeo="1173073691"/>
         <p><alert>Rational Equations</alert></p>
         <video vimeo="1173076505"/>
-    </page>
-    <page>
+
         <p><alert>Solving Quadratic Equations by Factoring</alert></p>
         <video vimeo="1167549558"/>
          <p><alert>Solving Quadratic Equations by Extraction of Roots</alert></p>
@@ -22,5 +20,5 @@
         <video vimeo="1167549584"/>
          <p><alert>Solving Quadratic Equations by Completing the Square</alert></p>
         <video vimeo="1167549603"/>
-    </page>
-  </worksheet>  
+
+  </section>  

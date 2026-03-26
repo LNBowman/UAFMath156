@@ -43,24 +43,28 @@
         <title>BF-1 Linear and Quadratic Equations</title>
       <xi:include href="./notes/basics_of_functions/bf1information.ptx"/>
         <xi:include href="./videos/bf_videos/bf1vid.ptx"/>
+        <xi:include href="./rubrics/bf-rubrics/bf1-rub.ptx"/>
         <xi:include href="./sample_outcomes/bf_outcomes/bf1_sample.ptx"/>
       </section>
       <section xml:id="bf2">
         <title>BF-2 Forms of Linear Equations</title>
         <xi:include href="./notes/basics_of_functions/bf2information.ptx"/>
         <xi:include href="./videos/bf_videos/bf2vid.ptx"/>
+        <xi:include href="./rubrics/bf-rubrics/bf2-rub.ptx"/>
         <xi:include href="./sample_outcomes/bf_outcomes/bf2_sample.ptx"/>
       </section>
       <section xml:id="bf3">
         <title>BF-3 Difference Quotients and Piecewise Functions</title>
         <xi:include href="./notes/basics_of_functions/bf3information.ptx"/>
         <xi:include href="./videos/bf_videos/bf3vid.ptx"/>
+        <xi:include href="./rubrics/bf-rubrics/bf3-rub.ptx"/>
         <xi:include href="./sample_outcomes/bf_outcomes/bf3_sample.ptx"/>
       </section>
       <section xml:id="bf4">
         <title>BF-4 Transformations and Combinations of Functions</title>
         <xi:include href="./notes/basics_of_functions/bf4information.ptx"/>
         <xi:include href="./videos/bf_videos/bf4vid.ptx"/>
+        <xi:include href="./rubrics/bf-rubrics/bf4-rub.ptx"/>
         <xi:include href="./sample_outcomes/bf_outcomes/bf4_sample.ptx"/>
       </section>  
     </chapter>

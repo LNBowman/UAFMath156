@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<worksheet>
+<section xml:id="bf4videos">
   <title>BF-4 Videos</title>
 
-    <page>
         <p><alert>Transformations</alert></p>
         <video vimeo="1173385648"/>
         <p><alert>Combinations of Functions</alert></p>
         <video vimeo="1173435836"/>
         <p><alert>Compositions of Functions</alert></p>
         <video vimeo="1173435617"/>
-    </page>
-  </worksheet>  
+
+</section>  

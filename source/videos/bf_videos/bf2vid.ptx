@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<worksheet>
+<section xml:id="bf2videos">
   <title>BF-2 Videos</title>
 
-    <page>
         <p><alert>Slopes and Forms</alert></p>
         <video vimeo="1173085885"/>
         <p><alert>Point-Slope Form</alert></p>
@@ -18,5 +17,4 @@
         <video vimeo="1173078236"/>
         <p><alert>Perpendicular Lines</alert></p>
         <video vimeo="1173078037"/>
-    </page>
-  </worksheet>  
+  </section>  
