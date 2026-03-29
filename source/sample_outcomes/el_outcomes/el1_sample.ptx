@@ -25,7 +25,8 @@
         appropriate use of mathematical notation and terminology. Equations should have at most one equal 
         sign and expressions on both sides.</p></li>
       <li><p>Find attributes: Identify and state the domain, range, intercepts, and asymptotes of exponential 
-        and logarithmic functions.</p></li>
+        and logarithmic functions. Note: Domains and ranges should be expressed in interval notation. All values 
+      should be simplified and expressed in terms of natural logarithms where applicable.</p></li>
       <li><p>Graph exponential and logarithmic functions.</p></li>
       <li><p>Given an exponential or logarithmic graph, write an equation for the function.</p></li>
     </ul>
@@ -39,22 +40,61 @@
         </p></introduction>
         <task>
             <statement><p>State the domain and range.</p></statement>
-            <hint><p></p></hint>
-            <answer><p></p></answer>
-            <solution><p></p></solution>
+            <hint><p>Recall that the domain of an exponential function is all real numbers, and the range 
+              depends on the vertical shift.</p></hint>
+            <answer><p>Domain: <m>(-\infty, \infty)</m>; Range: <m>(-3, \infty)</m></p></answer>
+            <solution><p>The domain of an exponential function is always all real numbers. The range 
+              depends on the vertical shift. Since the function is shifted down by 3 units, the range 
+              is <m>(-3, \infty)</m>.</p></solution>
         </task>
         <task>
             <statement><p>State the intercepts.</p></statement>
-            <hint><p></p></hint>
-            <answer><p></p></answer>
-            <solution><p></p></solution>
+            <hint><p>To find the y-intercept, set <m>x=0</m>. To find the x-intercept, set <m>y=0</m>.</p></hint>
+            <answer><p>y-intercept: <m>(0, -\frac{39}{16})</m>; x-intercept: <m>(\frac{\ln3}{\ln\frac{3}{4}}+2,0)</m>
+            </p></answer>
+            <solution><p>To find the y-intercept, set <m>x=0</m>: <m>f(0)=\left(\frac{3}{4}\right)^{0+2}-3
+              =\left(\frac{3}{4}\right)^{2}-3=\frac{9}{16}-3=-\frac{39}{16}</m>. So the y-intercept is 
+              <m>(0, -\frac{39}{16})</m>. To find the x-intercept, set <m>y=0</m>: <m>0=\left(\frac{3}{4}\right)^{x+2}-3</m>. 
+              <m>\left(\frac{3}{4}\right)^{x+2}=3</m>. Taking the natural logarithm of both sides and dividing gives 
+              <m>x+2=\frac{\ln3}{\ln\frac{3}{4}}</m>. Therefore, the x-intercept is 
+              <m>\left(\frac{\ln3}{\ln\frac{3}{4}}+2,0\right)</m>.</p></solution>
         </task>
         <task>
             <statement><p>State the asymptote(s).</p></statement>
-            <hint><p></p></hint>
-            <answer><p></p></answer>
-            <solution><p></p></solution>
+            <hint><p>Exponential functions have horizontal asymptotes, while logarithmic functions 
+              have vertical asymptotes.</p></hint>
+            <answer><p>Horizontal asymptote: <m>y=-3</m></p></answer>
+            <solution><p>Exponential functions have horizontal asymptotes determined by the vertical shift. 
+              Since the function is shifted down by 3 units, the horizontal asymptote is <m>y=-3</m>.</p></solution>
         </task>
+        <task>
+          <statement><p>Graph the function.</p></statement>
+          <hint><p>Plot the intercepts and use the asymptote to guide the shape of the graph.</p></hint>
+          <answer><p><image width="60%">
+              <prefigure xmlns="https://prefigure.org"
+                          label="prefigure-el1a-sample">
+                <diagram dimensions="(300,300)" margins="5">
+                  <definition>f(x)=(3/4)^(x-2)-3</definition>
+                  <coordinates bbox="(-10,-10,10,10)">
+                    <grid spacings="((-10,2,10),(-10,2,10))"/>
+                    <grid-axes xlabel="x" ylabel="y"/>
+                    <graph function="f"/>
+                    <line endpoints="((-10,-3),(10,-3))" stroke="blue" dash="4 4" label-location="0.1"><m>y=-3</m></line>
+                  </coordinates>
+              <annotations>
+                <annotation ref="figure"
+                  text="The graph of the function shows the y-intercept at (0, -\frac{39}{16})
+                  and the x-intercept at (\frac{\ln3}{\ln\frac{3}{4}}+2,0). The 
+                  horizontal asymptote is shown as a dashed blue line at y=-3. The exponential 
+                  curve approaches the asymptote from above as x goes to infinity. The exponential curve
+                  approaches infinity as x approaches negative infinity.">
+                  </annotation>
+              </annotations>
+            </diagram>
+          </prefigure>
+        </image>
+      </p></answer>
+    </task>
     </exercise>
     <exercise workspace="3cm">
       <introduction><p>
@@ -62,28 +102,64 @@
         </p></introduction>
         <task>
             <statement><p>Rewrite the function in exponential form.</p></statement>
-            <hint><p></p></hint>
-            <answer><p></p></answer>
-            <solution><p></p></solution>
+            <hint><p>Use the exponential-logarithmic equivalence to rewrite the function.</p></hint>
+            <answer><p><m>x=2^{4-y}-3</m></p></answer>
+            <solution><p>To rewrite the function in exponential form, we start with the given logarithmic 
+              function and begin by isolating the logarithmic term <m>4-y=\log_2(x+3)</m>. Then, we apply 
+              the exponential-logarithmic equivalence and solve for <m>x</m>:</p><p><m>x+3=2^{4-y}</m></p>
+              <p><m>x=2^{4-y}-3</m></p></solution>
         </task>
         <task>
             <statement><p>State the domain and range.</p></statement>
-            <hint><p></p></hint>
-            <answer><p></p></answer>
-            <solution><p></p></solution>
+            <hint><p>Consider the restrictions on the input and output values.</p></hint>
+            <answer><p>Domain: <m>(-3, \infty)</m>; Range: <m>(-\infty, \infty)</m></p></answer>
+            <solution><p>The domain of the logarithmic function is determined by the requirement 
+              that the argument of the logarithm be positive. Thus, <m>x+3>0</m>, which implies <m>x>-3</m>. 
+              The range of the logarithmic function is all real numbers, so <m>(-\infty, \infty)</m>.</p></solution>
         </task>
         <task>
             <statement><p>State the intercepts.</p></statement>
-            <hint><p></p></hint>
-            <answer><p></p></answer>
-            <solution><p></p></solution>
+            <hint><p>To find the y-intercept, set <m>x=0</m> and solve for <m>y</m>. 
+              To find the x-intercept, set <m>y=0</m> and solve for <m>x</m>.</p></hint>
+            <answer><p>y-intercept: <m>(0, 4-\frac{\ln 3}{\ln 2})</m>; x-intercept: <m>(13, 0)</m></p></answer>
+            <solution><p>To find the y-intercept, set <m>x=0</m> and solve for <m>y</m> and give answer in terms 
+              of natural logarithms:</p><p><m>y=4-\frac{\ln 3}{\ln 2}</m></p><p>To find the x-intercept, set 
+                <m>y=0</m> and solve for <m>x</m>:</p><p><m>0=4-\log_2(x+3)</m></p><p><m>\log_2(x+3)=4</m></p>
+                <p><m>x+3=2^4</m></p><p><m>x=2^4-3</m></p><p><m>x=13</m></p></solution>
         </task>
         <task>
             <statement><p>State the asymptote(s).</p></statement>
-            <hint><p></p></hint>
-            <answer><p></p></answer>
-            <solution><p></p></solution>
+            <hint><p>To find the vertical asymptote of the logarithmic function, consider the values of 
+              <m>x</m> for which the argument of the logarithm is zero.</p></hint>
+            <answer><p>Vertical asymptote: <m>x=-3</m></p></answer>
+            <solution><p>The vertical asymptote occurs where the argument of the logarithm is zero. 
+              Thus, <m>x+3=0</m>, which implies <m>x=-3</m>.</p></solution>
         </task>
+          <task>
+            <statement><p>Graph the function.</p></statement>
+            <hint><p>Plot the intercepts and use the asymptote to guide the shape of the graph.</p></hint>
+            <answer><p><image width="60%">
+                <prefigure xmlns="https://prefigure.org"
+                            label="prefigure-el1b-sample">
+                  <diagram dimensions="(300,300)" margins="5">
+                    <definition>y=4-log_2(x+3)</definition>
+                    <coordinates bbox="(-10,-10,10,10)">
+                      <grid spacings="((-10,2,10),(-10,2,10))"/>
+                      <grid-axes xlabel="x" ylabel="y"/>
+                      <graph function="y=4-log_2(x+3)"/>
+                      <line endpoints="((-3,-10),(-3,10))" stroke="blue" dash="4 4" label-location="0.1"><m>x=-3</m></line>
+                    </coordinates>
+                <annotations>
+                  <annotation ref="figure"
+                    text="The graph of the function shows the y-intercept at (0, 4-\frac{\ln 3}{\ln 2})
+                    and the x-intercept at (13, 0). The vertical asymptote is shown as a dashed blue line at x=-3. The logarithmic 
+                    curve approaches the asymptote from the right as x approaches -3. The logarithmic curve
+                    approaches negative infinity as x approaches -3 from the right and approaches infinity as x goes to infinity.">
+                        </annotation>
+                </annotations>
+              </diagram>
+            </prefigure></image></p></answer>
+          </task>
     </exercise>
     <exercise workspace="3cm">
       <task>
@@ -93,9 +169,16 @@
            and <m>(2,5)</m>.  If the function has the form <m>g(x)=a^{x+b}+ c</m> 
            for real numbers <m>a, b</m>, and <m>c</m>, find <m>g(x)</m>.
         </p></statement>
-        <hint><p></p></hint>
-        <answer><p></p></answer>
-        <solution><p></p></solution>
+        <hint><p>Use the horizontal asymptote to find <m>c</m>, then use the two given 
+          points to find <m>a</m> and <m>b</m>.</p></hint>
+        <answer><p>g(x)=2^{x+1}-3</p></answer>
+        <solution><p>The horizontal asymptote at <m>y=-3</m> indicates that <m>c=-3</m>. 
+          Using the points <m>(1,1)</m> and <m>(2,5)</m>, we can solve for <m>a</m> and <m>b</m>.</p>
+        <p><m>1=a^{1+b}-3</m> and <m>5=a^{2+b}-3</m></p><p>Adding 3 to both sides of each equation gives:
+          <m>4=a^{1+b}</m> and <m>8=a^{2+b}</m></p><p>Dividing the second equation by the first gives:</p>
+          <p><m>\frac{8}{4}=a^{(2+b)-(1+b)}=a</m></p><p><m>a=2</m></p><p>Substituting back into the first equation gives:</p>
+          <p><m>4=2^{1+b}</m></p><p><m>2^2=2^{1+b}</m></p><p><m>2=1+b</m></p><p><m>b=1</m></p>
+          <p>Thus, the function is <m>g(x)=2^{x+1}-3</m>.</p></solution>
       </task>
     </exercise>
   </page>

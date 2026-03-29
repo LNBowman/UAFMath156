@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="el3rubric">
+  <title>EL-3 Rubric</title>
+  <worksheet>
+    
+  <introduction>
+    <p>Before attempting the EL-3 outcome, you should review the following 
+      rubric. This shows the criteria you will be graded on and the expectations 
+      to earn each mastery level. </p>
+  </introduction>
+  <table>
+  <title>EL3 Rubric</title>
+  <tabular halign="center" left="medium" top="medium">
+    <row bottom="medium">
+      <cell right="medium">
+        Criteria
+      </cell>
+      <cell right="medium">
+        M
+      </cell>
+      <cell right="medium">
+        P
+      </cell>
+      <cell right="medium">
+        R
+      </cell>
+      <cell right="medium">
+        N
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Simplifying Algebraic Expressions
+      </cell>
+      <cell right="medium">
+        All answers are fully simplified. Exact answers are given, not approximations. Radical and exponential expressions are used appropriately and are simplified in the correct manner
+      </cell>
+      <cell right="medium">
+        No algebraic errors OR some expressions are not simplified.
+      </cell>
+      <cell right="medium">
+        There are some algebraic errors and some expressions were not simplified.
+      </cell>
+      <cell right="medium">
+        There are some algebraic errors and some expressions were not simplified.
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Problem Structure and Mathematical Communication
+      </cell>
+      <cell right="medium">
+        Problems have a clear beginning, middle, and end. Work progresses clearly from one step to the next. The work provided uses appropriate methods and notation and provides a clear solution.
+      </cell>
+      <cell right="medium">
+        Problems have clear beginnings and ends. Work progresses from one step to the next. The work provided uses algebraic methods, correct notation, and provides a solution.
+      </cell>
+      <cell right="medium">
+        Parts of the mathematical structure are missing, or steps in the progress of the solution are missing. There are errors in the mathematical notation. The work provided uses algebraic methods and provides a solution.
+      </cell>
+      <cell right="medium">
+        There is not a clear structure to the solution, notation is used incorrectly, and it is unclear what methods are being used.
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Setting up and simplifying solutions to interest problems.
+      </cell>
+      <cell right="medium">
+        Given information about interest should be able to correctly determine between compound interest and continuous compound interest.  Should be able to set up the function with correct principal, rate, time and/or compounding factor.  Should be able to simplify the expression.
+      </cell>
+      <cell right="medium">
+        Given information about interest should be able to determine between compound interest and continuous compound interest.  Should be able to set up the function with the principal, rate, time and/or compounding factor.
+      </cell>
+      <cell right="medium">
+        Errors in setting up the interest function, and/or not able to fully simplify the expression.
+      </cell>
+      <cell right="medium">
+        No evidence of underrstanding the interest type or the formula needed to solve
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Setting up exponential growth and decay problems.
+      </cell>
+      <cell right="medium">
+        Given information about an exponential model, determine if the function is exponential growth or decay; correctly find the growth rate, and initial value; and give the function in the requested form.
+      </cell>
+      <cell right="medium">
+        Given information about an exponential model, determine if the function is exponential growth or decay; find a growth rate, and an initial value; and give the function in the requested form.
+      </cell>
+      <cell right="medium">
+        Set up an exponential model but not in requested form.  May have errors in the growth rate and/or the initial value.
+      </cell>
+      <cell right="medium">
+        No evidence of understanding what an exponential growth or decay model is or how to find the initial information for the model.
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Solving exponential growth and decay problems.
+      </cell>
+      <cell right="medium">
+        Given a specific time, find the amount of the model at that time (answers should be simplified expressions).  Given an amount, find the time needed to reach that amount (answers should be simplified expressions in terms of natural logarithms).
+      </cell>
+      <cell right="medium">
+        Given a specific time, find the amount of the model at that time with minor errors.  Given an amount, find the time needed to reach that amount with minor errors.
+      </cell>
+      <cell right="medium">
+        Incorrect methods used to solve for the time or the amount OR decimal answers were given with little algebraic work leading to a solution.
+      </cell>
+      <cell right="medium">
+        No evidence shown of finding the amount or the time needed in the exponential model.
+      </cell>
+    </row>
+  </tabular>
+</table>
+
+</worksheet>
+</section>

@@ -24,10 +24,12 @@
         appropriate use of mathematical notation and terminology. Equations should have at most one equal 
         sign and expressions on both sides.</p></li>
       <li><p>Find solutions to exponential equations with the same base.</p></li>
-      <li><p>Find solutions to exponential equations with different bases.</p></li>
+      <li><p>Find solutions to exponential equations with different bases. Leave answers as simplified fractions, 
+        integers, or in terms of natural logarithms.</p></li>
       <li><p>Find solutions to logarithmic equations where all terms are logarithms.</p></li>
       <li><p>Find solutions to logarithmic equations where not all terms are logarithms.</p></li>
-      <li><p>Find solutions to other exponential and logarithmic equations.</p></li>
+      <li><p>Find solutions to other exponential and logarithmic equations. Leave answers as simplified fractions, 
+        integers, or in terms of natural logarithms.</p></li>
     </ul>
     </objectives>
 
@@ -36,21 +38,30 @@
     <exercise workspace="3cm">
       <task>
         <statement><p>Solve <m>2^{3x}=36</m>.</p></statement>
-        <hint><p></p></hint>
-        <answer><p></p></answer>
-        <solution><p></p></solution>
+        <hint><p>Rewrite the equation using the exponential-logarithmic equivalence.</p></hint>
+        <answer><p><m>x=\frac{2\ln6}{3\ln2}</m></p></answer>
+        <solution><p>Taking the natural logarithm of both sides gives:</p><p><m>\ln(2^{3x})=\ln(36)</m></p>
+          <p><m>3x\ln2=2\ln6</m></p><p><m>x=\frac{2\ln6}{3\ln2}</m></p></solution>
       </task>
       <task>
         <statement><p>Solve <m>\log_2(2-x)+\log_2(x)=\log_2(5)+\log_2(x-2)</m>.</p></statement>
-        <hint><p></p></hint>
-        <answer><p></p></answer>
-        <solution><p></p></solution>
+        <hint><p>Use the properties of logarithms to combine the terms on either side of the equation.</p></hint>
+        <answer><p>There is no solution.</p></answer>
+        <solution><p>First, we combine the logarithms on each side:</p><p><m>\log_2((2-x)x)=\log_2(5(x-2))</m></p>
+          <p>This implies:</p><p><m>(2-x)x=5(x-2)</m></p><p><m>2x-x^2=5x-10</m></p><p><m>x^2+3x-10=0</m></p>
+          <p>Factoring gives:</p><p><m>(x+5)(x-2)=0</m></p><p>So <m>x=-5</m> or <m>x=2</m>. However, both values are 
+            outside the domain of the original equation, so there is no solution.</p></solution>
       </task>
       <task>
         <statement><p>Solve <m>8^{2x}-2(8^x)-8=0</m>.</p></statement>
-        <hint><p></p></hint>
-        <answer><p></p></answer>
-        <solution><p></p></solution>
+        <hint><p>Let <m>u=8^x</m> and rewrite the equation in terms of <m>u</m>.</p></hint>
+        <answer><p><m>x=\frac{2}{3}</m></p></answer>
+        <solution><p>Let <m>u=8^x</m>. Then the equation becomes:</p><p><m>u^2-2u-8=0</m></p>
+          <p>Factoring gives:</p><p><m>(u-4)(u+2)=0</m></p><p>So <m>u=4</m> or <m>u=-2</m>. 
+            Since <m>u=8^x</m>, we have:</p><p><m>8^x=4</m> or <m>8^x=-2</m></p>
+            <p>The second equation has no real solution, so we consider the first:</p><p><m>8^x=4</m></p>
+            <p>Rewriting both sides in terms of base 2:</p><p><m>(2^3)^x=2^2</m></p><p><m>2^{3x}=2^2</m></p>
+            <p><m>3x=2</m></p><p><m>x=\frac{2}{3}</m></p></solution>
       </task>
     </exercise>
   </page>

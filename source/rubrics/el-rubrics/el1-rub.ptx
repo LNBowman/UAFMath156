@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="el1rubric">
+  <title>EL-1 Rubric</title>
+  <worksheet>
+    
+  <introduction>
+    <p>Before attempting the EL-1 outcome, you should review the following 
+      rubric. This shows the criteria you will be graded on and the expectations 
+      to earn each mastery level. </p>
+  </introduction>
+  <table>
+  <title>EL1 Rubric</title>
+  <tabular halign="center" left="medium" top="medium">
+    <row bottom="medium">
+      <cell right="medium">
+        Criteria
+      </cell>
+      <cell right="medium">
+        M
+      </cell>
+      <cell right="medium">
+        P
+      </cell>
+      <cell right="medium">
+        R
+      </cell>
+      <cell right="medium">
+        N
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Simplifying Algebraic Expressions
+      </cell>
+      <cell right="medium">
+        All answers are fully simplified. Exact answers are given, not approximations. Radical and exponential expressions are used appropriately and are simplified in the correct manner
+      </cell>
+      <cell right="medium">
+        No algebraic errors OR some expressions are not simplified.
+      </cell>
+      <cell right="medium">
+        There are some algebraic errors and some expressions were not simplified.
+      </cell>
+      <cell right="medium">
+        There are some algebraic errors and some expressions were not simplified.
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Basics of Graphing
+      </cell>
+      <cell right="medium">
+        Graph is labeled with units for each axis. The graph includes all of the important features (intercepts, asymptotes, deleted points, etc). <nbsp />The graph is appropriately drawn to accommodate all features.
+      </cell>
+      <cell right="medium">
+        Graph is labeled with units for each axis and includes most of the important features or the graph has all of the important features but is not labeled.
+      </cell>
+      <cell right="medium">
+        Graph is not labeled and has some of the important features.
+      </cell>
+      <cell right="medium">
+        No graph was given or the given graph is not labeled and does not have the correct features of the function.
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Problem Structure and Mathematical Communication
+      </cell>
+      <cell right="medium">
+        Problems have a clear beginning, middle, and end. Work progresses clearly from one step to the next. The work provided uses appropriate methods and notation and provides a clear solution.
+      </cell>
+      <cell right="medium">
+        Problems have clear beginnings and ends. Work progresses from one step to the next. The work provided uses algebraic methods, correct notation, and provides a solution.
+      </cell>
+      <cell right="medium">
+        Parts of the mathematical structure are missing, or steps in the progress of the solution are missing. There are errors in the mathematical notation. The work provided uses algebraic methods and provides a solution.
+      </cell>
+      <cell right="medium">
+        There is not a clear structure to the solution, notation is used incorrectly, and it is unclear what methods are being used.
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Find exponential and logarithmic attributes.
+      </cell>
+      <cell right="medium">
+        Provided the correct, simplified domain/range using correct interval notation; both x and y intercepts were given in correct notation; Used appropriate methods to find and label the vertical or horizontal asymptote with correct notation.
+      </cell>
+      <cell right="medium">
+        Provided the a domain/range using correct interval notation; both x and y intercepts; Used appropriate methods to find and label the vertical or horizontal asymptote.
+      </cell>
+      <cell right="medium">
+        Provided a domain and range; provided points.
+      </cell>
+      <cell right="medium">
+        Not enough evidence to show knowledge of domain, range, intercepts, and asymptotes.
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Graph an exponential and logarithmic function.
+      </cell>
+      <cell right="medium">
+        Graph contains all relevant information; has correct end-behavior, asymptotes and intercepts.
+      </cell>
+      <cell right="medium">
+        Graph contains most of the relevant information; has partially correct end-behavior, asymptotes and intercepts.
+      </cell>
+      <cell right="medium">
+        A graph was given but it does not represent an exponential or logarithmic function.
+      </cell>
+      <cell right="medium">
+        No graph was given.
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Find formula for exponential/logarithmic function.
+      </cell>
+      <cell right="medium">
+        Based on graph, set up the correct function type; found the vertical shift, horizontal shift, any reflections; found the correct base; gave the correct equation. Use the asymptotes and given points to find the function.
+      </cell>
+      <cell right="medium">
+        Based on graph, set up the correct function type; Use the asymptotes and given points to find a function.
+      </cell>
+      <cell right="medium">
+        Used the given information to find an exponential/logarithmic function.
+      </cell>
+      <cell right="medium">
+        No exponential/logarithmic function given.
+      </cell>
+    </row>
+  </tabular>
+</table>
+
+</worksheet>
+</section>
