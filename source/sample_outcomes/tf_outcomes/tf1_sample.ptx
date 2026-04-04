@@ -4,11 +4,11 @@
   <title>TF-1 Right Triangle Trigonometry</title>
   <introduction>
     <p>
-      This outcome covers 
-      You should also be 
-      able to graph quadratic functions. Here you will also be asked to setup and solve real-world problems 
-      using quadratic models. You should be able to write out complete steps to solve these 
-      types of problems by hand, without the use of a calculator.
+      This outcome covers using right triangles to solve problems involving trigonometric 
+      ratios. You should be able to use the definitions of the six trigonometric functions to 
+      find missing sides and angles in right triangles. You should also be able to apply these 
+      skills to solve trigonometric functions of any point in the coordinate plane.
+      
     </p>
     <p>For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples 
       of the types of problems you will encounter:</p>
@@ -24,7 +24,12 @@
       <li><p>Mathematical Communication: Solutions should be presented in a clear and logical manner, with 
         appropriate use of mathematical notation and terminology. Equations should have at most one equal 
         sign and expressions on both sides.</p></li>
-      
+      <li><p>Solve a right triange: Given two sides of a right triangle, find the missing side and use the 
+        trigonometric definitions to find the values of the six trigonometric functions.</p></li>
+      <li><p>Find the trigonometric functions of a point: Given a point in the coordinate plane, draw the 
+        angle in standard position; draw and label the reference triangle. Find the values of the 
+        six trigonometric functions using the definitions of the trigonometric functions and the signs 
+        based on the quadrants in the coordinate plane.</p></li>
     </ul>
     </objectives>
 

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="tf2rubric">
+  <title>TF-2 Rubric</title>
+  <worksheet>
+    
+  <introduction>
+    <p>Before attempting the TF-2 outcome, you should review the following 
+      rubric. This shows the criteria you will be graded on and the expectations 
+      to earn each mastery level. </p>
+  </introduction>
+  <table>
+  <title>TF-2 Rubric</title>
+  <tabular halign="center" left="medium" top="medium">
+	<row bottom="medium">
+		<cell halign="center" right="medium">
+			Criteria
+		</cell>
+		<cell halign="center" right="medium">
+			M
+		</cell>
+		<cell halign="center" right="medium">
+			P
+		</cell>
+		<cell halign="center" right="medium">
+			R
+		</cell>
+		<cell halign="center" right="medium">
+			N
+		</cell>
+	</row>
+	<row bottom="medium">
+		<cell right="medium">
+			Simplifying Algebraic Expressions
+		</cell>
+		<cell right="medium">
+			All answers are fully simplified. Exact answers are given, not approximations. Radical and exponential expressions are used appropriately and are simplified in the correct manner.
+		</cell>
+		<cell right="medium">
+			No algebraic errors but some expressions are not simplified.
+		</cell>
+		<cell right="medium">
+			There are some algebraic errors and some expressions were not simplified.
+		</cell>
+		<cell right="medium">
+			There are some algebraic errors and some expressions were not simplified.
+		</cell>
+	</row>
+	<row bottom="medium">
+		<cell right="medium">
+			Basics of Graphing
+		</cell>
+		<cell right="medium">
+			Graph is labeled with units for each axis. <nbsp />The graph includes all of the important features (intercepts, asymptotes, deleted points, etc). <nbsp />The graph is appropriately drawn to accommodate all features.
+		</cell>
+		<cell right="medium">
+			Graph is labeled and has most of the required features.
+		</cell>
+		<cell right="medium">
+			Graph has most of the required features.
+		</cell>
+		<cell right="medium">
+			No graph was given.
+		</cell>
+	</row>
+	<row bottom="medium">
+		<cell right="medium">
+			Problem Structure and Mathematical Communication
+		</cell>
+		<cell right="medium">
+			Problems have a clear beginning, middle and end. Work progresses clearly from one step to the next. The work provided uses appropriate methods and provides a clear solution.
+		</cell>
+		<cell right="medium">
+			Problems have a clear beginning, middle and end. Work progresses clearly from one step to the next. The work provided uses algebraic methods and provides a solution.
+		</cell>
+		<cell right="medium">
+			Parts of the mathematical structure are missing or steps in the progress of the solution are missing. The work provided uses algebraic methods and provides a solution.
+		</cell>
+		<cell right="medium">
+			There is not a clear structure to the solution and it is unclear what methods are being used.
+		</cell>
+	</row>
+	<row bottom="medium">
+		<cell right="medium">
+			Trigonometric attributes
+		</cell>
+		<cell right="medium">
+			Correctly identify the domain, range, period, amplitude, phase shift, vertical shift and reflections of a trigonometric function.
+		</cell>
+		<cell right="medium">
+			Correctly identify the domain, range, period, phase shift, and reflections of a trigonometric function.
+		</cell>
+		<cell right="medium">
+			Correctly identify the domain and range of a trigonometric function.
+		</cell>
+		<cell right="medium">
+			No evidence shown of understanding trigonometric attributes.
+		</cell>
+	</row>
+	<row bottom="medium">
+		<cell right="medium">
+			Key features and the principle period
+		</cell>
+		<cell right="medium">
+			Given a transformed trigonometric function be able to find the principle period of the function and identify the 5 key features using correct notation.
+		</cell>
+		<cell right="medium">
+			Given a transformed trigonometric function be able to find the principle period of the function and identify the 5 key features using correct notation.
+		</cell>
+		<cell right="medium">
+			Given a transformed trigonometric function can identify either the principle period of the function or at least 2 of the key features.
+		</cell>
+		<cell right="medium">
+			No evidence shown of understanding the principle period or the key features of that period.
+		</cell>
+	</row>
+	<row bottom="medium">
+		<cell right="medium">
+			Trigonometric Graph
+		</cell>
+		<cell right="medium">
+			Correctly graphed two periods of the function or the function on the designated interval.
+		</cell>
+		<cell right="medium">
+			Correctly graphed one period of the function on part of the designated interval.
+		</cell>
+		<cell right="medium">
+			Graphed one period of the function but not on the correct interval or period.
+		</cell>
+		<cell right="medium">
+			No evidence shown of understanding the graph of the trigonometric function.
+		</cell>
+	</row>
+</tabular>
+</table>
+
+</worksheet>
+</section>
