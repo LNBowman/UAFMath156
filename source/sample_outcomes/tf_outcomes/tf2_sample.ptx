@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet>
-  <title>TF-1 Right Triangle Trigonometry</title>
+  <title>TF-2 Graphs of Trigonometric Functions</title>
   <introduction>
     <p>
-      This outcome covers 
-      You should also be 
-      able to graph quadratic functions. Here you will also be asked to setup and solve real-world problems 
-      using quadratic models. You should be able to write out complete steps to solve these 
-      types of problems by hand, without the use of a calculator.
+      This outcome covers graphing the six trigonometric functions and transformation of them. 
+      You should be able to graph the sine, cosine, tangent, cosecant, secant and cotangent 
+      functions by hand. You should be able to identify the period, amplitude, reflections, phase 
+      shift and vertical shift of a trigonometric function from its equation and use this information to graph the function.
+      You should also be able to find the range, intercepts, and asymptotes of the trigonometric functions.
     </p>
-    <p>For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples 
+    <p>For the quiz on this outcome you would be given 30 minutes to complete 1 problem. Here are samples 
       of the types of problems you will encounter:</p>
   </introduction>
   <objectives>
@@ -24,70 +24,197 @@
       <li><p>Mathematical Communication: Solutions should be presented in a clear and logical manner, with 
         appropriate use of mathematical notation and terminology. Equations should have at most one equal 
         sign and expressions on both sides.</p></li>
-      
+      <li><p>Given a trigonometric function, identify the period, amplitude, reflections, phase 
+        shift and vertical shift of the function.</p></li>
+      <li><p> Use the equation to find the range, intercepts, and asymptotes of the function.</p></li>
+      <li><p> Use the given information to find the five key features (points or asymptotes) on the principal 
+        shifted period of the function.</p></li>
+      <li><p>Graph the function on a given interval.</p></li>
     </ul>
     </objectives>
 
   
   <page>
-    <exercise workspace="3cm">
-      <introduction><p>
-           Given the function <m>f(x)=\frac{1}{2}x^2+5x+8</m>.
-        </p></introduction>
+    <exercise>
+      <introduction><p>Given the function: <m>y=-3\cos\left(\frac{3\pi x}{4}+\frac{\pi}{2}\right)+2</m></p></introduction>
         <task>
-            <statement><p>Write the function in vertex form.</p></statement>
-            <hint><p>Use the method of completing the square to rewrite the 
-              function in vertex form.</p></hint>
-            <answer><p><m>f(x)=\frac{1}{2}(x+5)^2-\frac{9}{2}</m></p></answer>
-            <solution><p>Starting with <m>f(x)=\frac{1}{2}x^2+5x+8</m>, we factor 
-              out the coefficient of <m>x^2</m> from the first two terms:</p>
-            <p><m>f(x)=\frac{1}{2}(x^2+10x)+8</m></p>
-            <p>To complete the square, we take half of the coefficient of <m>x</m> 
-              and square it: <m>\left(\frac{10}{2}\right)^2 = 5^2 = 25</m>.</p>
-            <p>We add this value inside the parentheses and subtract this value 
-              multiplied by the coefficient to the outside of the parentheses:</p>
-            <p><m>f(x)=\frac{1}{2}(x^2+10x+25)-\frac{1}{2}(25)+8</m></p>
-            <p>We can now simplify the perfect square trinomial and the constant term:</p>
-            <p><m>f(x)=\frac{1}{2}[(x+5)^2]-\frac{25}{2}+\frac{16}{2}</m></p>
-            <p>Simplifying:</p>
-            <p><m>f(x)=\frac{1}{2}(x+5)^2-\frac{9}{2}</m></p>
-        </solution>
+            <statement><p>State the five points that give the main features of the shifted principal period.</p></statement>
+            <hint><p>Use the principal period and the transformations to find the key points.</p></hint>
+            <answer><p><m>(-\frac{2}{3}, -1), (0, 2), (\frac{2}{3}, 5), (\frac{4}{3}, 2), (2, -1)</m></p></answer>
         </task>
         <task>
-            <statement><p>State the intercepts.</p></statement>
-            <hint><p>To find the y-intercept, evaluate the function at <m>x=0</m>. To 
-              find the x-intercepts, set the function equal to zero and solve for <m>x</m>.</p></hint>
-            <answer><p>y-intercept: <m>(0,8)</m>, x-intercepts: <m>(-2,0)</m> and <m>(-8,0)</m></p></answer>
-            <solution><p>To find the y-intercept, we evaluate the function at <m>x=0</m>:</p>
-            <p><m>f(0)=\frac{1}{2}(0)^2+5(0)+8=8</m></p>
-            <p>Thus, the y-intercept is <m>(0,8)</m>.</p>
-            <p>To find the x-intercepts, we set the function equal to zero and solve for 
-              <m>x</m>:</p>
-            <p><m>0=\frac{1}{2}x^2+5x+8</m></p>
-            <p>Multiplying both sides by 2 to clear the fraction:</p>
-            <p><m>0=x^2+10x+16</m></p>
-            <p>We can now factor the quadratic:</p>
-            <p><m>0=(x+5)^2-25+16</m></p>
-            <p><m>0=(x+5)^2-9</m></p>
-            <p><m>(x+5)^2=9</m></p>
-            <p><m>x+5=\pm 3</m></p>
-            <p><m>x=-5\pm 3</m></p>
-            <p>Thus, the x-intercepts are <m>(-5+3,0)</m> and <m>(-5-3,0)</m>, which 
-              can be written as <m>(-2,0)</m> and <m>(-8,0)</m>.</p>
-        </solution>
+            <statement><p>State the range of the function</p></statement>
+            <hint><p>To find the range, consider the maximum and minimum values 
+              of the cosine function along with the amplitude and any vertical 
+              shift.</p></hint>
+            <answer><p>The range is <m>[-1, 5]</m>.</p></answer>
+            <solution><p>The cosine function oscillates between -1 and 1. 
+              With an amplitude of 3, it oscillates between -3 and 3. 
+              Adding the vertical shift of 2, the range becomes <m>[-1, 5]</m>.</p></solution>
         </task>
         <task>
-            <statement><p>State the range.</p></statement>
-            <hint><p>Look at the leading coefficient and the k-value of the vertex form.</p></hint>
-            <answer><p><m>\left[-\frac{9}{2},\infty\right)</m></p></answer>
-            <solution><p>Since the coefficient of <m>x^2</m> is positive, the parabola opens 
-              upwards. The vertex represents the minimum point of the function, so the 
-              range starts at the y-coordinate of the vertex and extends to infinity. This gives
-            us the range <m>\left[-\frac{9}{2},\infty\right)</m>.</p>
-        </solution>
+            <statement><p>State the amplitude of the function</p></statement>
+            <hint><p>The amplitude is the absolute value of the coefficient 
+              of the cosine function.</p></hint>
+            <answer><p><m>Amp=3</m></p></answer>
         </task>
-        
-    </exercise>
-   
+        <task>
+            <statement><p>State the period of the function</p></statement>
+            <hint><p>The period is given by <m>\frac{2\pi}{|b|}</m> where 
+              <m>b</m> is the coefficient of <m>x</m> in the argument of the 
+              cosine function.</p></hint>
+            <answer><p><m>Period = \frac{8}{3}</m></p></answer>
+            <solution><p><m>p=\frac{2\pi}{|\frac{3\pi}{4}|}=\frac{8}{3}</m>
+            </p></solution>
+        </task>
+        <task>
+            <statement><p>State the phase shift of the function</p></statement>
+            <hint><p>The phase shift is given by <m>-\frac{c}{b}</m> where 
+              <m>c</m> is the constant term in the argument of the cosine 
+              function and <m>b</m> is the coefficient of <m>x</m>.</p></hint>
+            <answer><p><m>Phase Shift = left \frac{2}{3}</m></p></answer>
+            <solution><p><m>ps=-\frac{\frac{\pi}{2}}{\frac{3\pi}{4}}=-\frac{2}{3}</m></p></solution>
+        </task>
+        <task>
+            <statement><p>State the vertical shift of the function</p></statement>
+            <hint><p>The vertical shift is given by the constant term added to 
+              the cosine function.</p></hint>
+            <answer><p><m>Vertical Shift = 2</m></p></answer>
+            <solution><p><m>vs=2</m></p></solution>
+        </task>
+        <task>
+            <statement><p>State the intercepts of the function.</p></statement>
+            <hint><p>To find the intercepts, set the function equal to zero 
+              and solve for x.</p></hint>
+            <answer><p><m>(0,2),(\frac{4}{3\pi}\arccos\left(\frac{2}{3}\right)-\frac{2}{3}+\frac{8n}{3},0))</m></p></answer>
+            <solution><p><md>
+              <mrow>y &amp;=-3\cos\left(\frac{3\pi(0)}{4}+\frac{\pi}{2}\right)+2</mrow>
+              <mrow>y &amp;=-3\cos\left(\frac{\pi}{2}\right)+2</mrow>
+              <mrow>y &amp;=2</mrow>
+            </md>
+              <md>
+              <mrow>-3\cos\left(\frac{3\pi x}{4}+\frac{\pi}{2}\right)+2 &amp;=0</mrow>
+              <mrow> \cos\left(\frac{3\pi x}{4}+\frac{\pi}{2}\right) &amp;=\frac{2}{3}</mrow>
+              <mrow>\frac{3\pi x}{4}+\frac{\pi}{2} &amp;=\pm \arccos\left(\frac{2}{3}\right)+2n\pi</mrow>
+              <mrow>\frac{3\pi x}{4} &amp;=\pm\arccos\left(\frac{2}{3}\right)+2n\pi-\frac{\pi}{2}</mrow>
+              <mrow>x=\pm\frac{4}{3\pi}\arccos\left(\frac{2}{3}\right)+\frac{2}{3}+\frac{8n}{3}</mrow>
+            </md></p></solution>
+        </task>
+        <task>
+            <statement><p>Graph the function on the interval <m>[0, 2\pi]</m>.</p></statement>
+            <answer><p><image width="60%">
+                <prefigure xmlns="https://prefigure.org"
+                            label="prefigure-tf2a-sample">
+                  <diagram dimensions="(300,300)" margins="5">
+                    <coordinates bbox="(-5,-5,10,10)">
+                      <definition>f(x)="3*cos(3*pi*x/4 + pi/2) + 2"</definition>
+                      <grid spacings="((-5,1,10),(-5,1,10))"/>
+                      <grid-axes xlabel="x" ylabel="y"/>
+                      <graph function="f"/>
+                    </coordinates>
+                <annotations>
+                  <annotation ref="figure"
+                    text="The graph of the function shows the key features 
+                    such as the amplitude, period, phase shift, and vertical 
+                    shift. The graph oscillates between -1 and 5, with a period 
+                    of 8/3 and a phase shift of 2/3 to the left. The vertical 
+                    shift is 2.">
+                  </annotation>
+                </annotations>
+              </diagram>
+            </prefigure></image></p></answer>
+        </task>
+    </exercise> 
+  </page>
+  <page>
+    <exercise>
+      <introduction><p>Given the function: <m>y=\tan\frac{2\pi}{3}\left(x+\frac{1}{3}\right)+2</m></p></introduction>
+        <task>
+            <statement><p>State the five points/asymptotes that give the main features of the shifted principal period.</p></statement>
+            <hint><p>Use the principal period and the transformations to find the key points.</p></hint>
+            <answer><p><m>x=-\frac{13}{12}, \left(-\frac{17}{24},1\right), \left(-\frac{1}{3}, 2\right), 
+              \left(\frac{1}{3}, 2\right), \left(\frac{1}{24}, 3\right), x=\frac{5}{12}</m></p></answer>
+        </task>
+        <task>
+            <statement><p>State the range of the function</p></statement>
+            <hint><p>To find the range, consider the maximum and minimum values 
+              of the cosine function along with the amplitude and any vertical 
+              shift.</p></hint>
+            <answer><p>The range is <m>(-\infty, \infty)</m>.</p></answer>
+            <solution><p>The tangent function has a range of all real numbers, 
+              so the range is <m>(-\infty, \infty)</m>.</p></solution>
+        </task>
+        <task>
+            <statement><p>State the amplitude of the function</p></statement>
+            <hint><p>The amplitude is the absolute value of the coefficient 
+              of the tangent function.</p></hint>
+            <answer><p><m>Amp=1</m></p></answer>
+        </task>
+        <task>
+            <statement><p>State the period of the function</p></statement>
+            <hint><p>The period is given by <m>\frac{\pi}{|b|}</m> where 
+              <m>b</m> is the coefficient of <m>x</m> in the argument of the 
+              tangent function.</p></hint>
+            <answer><p><m>Period = \frac{3}{2}</m></p></answer>
+            <solution><p><m>p=\frac{\pi}{|\frac{2\pi}{3}|}=\frac{3}{2}</m>
+            </p></solution>
+        </task>
+        <task>
+            <statement><p>State the phase shift of the function</p></statement>
+            <hint><p>The phase shift is given by <m>c</m> where 
+              <m>c</m> is the constant term in the argument inside of the tangent 
+              function.</p></hint>
+            <answer><p><m>Phase Shift = left \frac{1}{3}</m></p></answer>
+        </task>
+        <task>
+            <statement><p>State the vertical shift of the function</p></statement>
+            <hint><p>The vertical shift is given by the constant term added to 
+              the tangent function.</p></hint>
+            <answer><p><m>Vertical Shift = 2</m></p></answer>
+            <solution><p><m>vs=2</m></p></solution>
+        </task>
+        <task>
+            <statement><p>State the intercepts of the function.</p></statement>
+            <hint><p>To find the intercepts, set the function equal to zero 
+              and solve for x.</p></hint>
+            <answer><p><m>\left(0,\tan\left(\frac{2\pi}{9}\right)+2\right),
+              \left(-\frac{1}{3}+\frac{3}{2\pi}\arctan(-2)+\frac{3n}{2},0\right)</m></p></answer>
+            <solution><p><md>
+              <mrow>y&amp;=\tan\frac{2\pi}{3}\left(0+\frac{1}{3}\right)+2</mrow>
+              <mrow>y&amp;=\tan\left(\frac{2\pi}{9}\right)+2</mrow>
+            </md>
+              <md>
+              <mrow>\tan\frac{2\pi}{3}\left(x+\frac{1}{3}\right)+2 &amp;=0</mrow>
+              <mrow> \tan\frac{2\pi}{3}\left(x+\frac{1}{3}\right) &amp;=-2</mrow>
+              <mrow>\frac{2\pi}{3}\left(x+\frac{1}{3}\right) &amp;=\arctan(-2)+n\pi</mrow>
+              <mrow>x+\frac{1}{3} &amp;=\frac{3}{2\pi}\arctan(-2)+\frac{3n}{2}</mrow>
+              <mrow>x &amp;=-\frac{1}{3}+\frac{3}{2\pi}\arctan(-2)+\frac{3n}{2}</mrow>
+            </md>
+            </p></solution>
+        </task>
+        <task>
+            <statement><p>Graph the function on the interval <m>[0, 2\pi]</m>.</p></statement>
+            <answer><p><image width="60%">
+                <prefigure xmlns="https://prefigure.org"
+                            label="prefigure-tf2b-sample">
+                  <diagram dimensions="(300,300)" margins="5">
+                    <coordinates bbox="(-5,-5,10,10)">
+                      <definition>f(x)="tan(\frac{2\pi}{3}(x+\frac{1}{3}))+2"</definition>
+                      <grid spacings="((-5,1,10),(-5,1,10))"/>
+                      <grid-axes xlabel="x" ylabel="y"/>
+                      <graph function="f"/>
+                    </coordinates>
+                <annotations>
+                  <annotation ref="figure"
+                    text="The graph of the function shows the key features 
+                    such as the amplitude, period, phase shift, and vertical 
+                    shift. The graph has vertical asymptotes at x = 5/12 + 3n/2, 
+                    where n is an integer.">
+                  </annotation>
+                </annotations>
+              </diagram>
+            </prefigure></image></p></answer>
+        </task>
+    </exercise> 
   </page>
 </worksheet>

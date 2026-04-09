@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet>
-  <title>TF-1 Right Triangle Trigonometry</title>
+  <title>TF-4 Law of Sines and Cosines</title>
   <introduction>
     <p>
-      This outcome covers 
-      You should also be 
-      able to graph quadratic functions. Here you will also be asked to setup and solve real-world problems 
-      using quadratic models. You should be able to write out complete steps to solve these 
+      This outcome covers setting up and solving problems using the Law 
+      of Sines and the Law of Cosines. You should be able to draw a 
+      diagram of the situation, label the sides and angles, and determine 
+      which law to use to solve for the unknowns. 
+      You should be able to write out complete steps to solve these 
       types of problems by hand, without the use of a calculator.
     </p>
     <p>For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples 
@@ -24,67 +25,61 @@
       <li><p>Mathematical Communication: Solutions should be presented in a clear and logical manner, with 
         appropriate use of mathematical notation and terminology. Equations should have at most one equal 
         sign and expressions on both sides.</p></li>
-      
+      <li><p>Set up and solve problems using the Law of Sines and the Law of Cosines. This includes identifying 
+        which law to use based on the given information, setting up the appropriate equations, and solving 
+        for the unknown sides or angles. You should be able to apply these laws to a variety of problems, 
+        including those involving triangles in real-world contexts.</p></li>
     </ul>
     </objectives>
 
   
   <page>
-    <exercise workspace="3cm">
+    <exercise>
       <introduction><p>
-           Given the function <m>f(x)=\frac{1}{2}x^2+5x+8</m>.
+           Two ships leave a port at the same time.  One travels 34 mph in a direction <m>N35^{\circ}E</m> and 
+           the other travels 32 mph in a direction <m>S42^{\circ}E</m>.  How far apart are the ships after 2 hours?
         </p></introduction>
         <task>
-            <statement><p>Write the function in vertex form.</p></statement>
-            <hint><p>Use the method of completing the square to rewrite the 
-              function in vertex form.</p></hint>
-            <answer><p><m>f(x)=\frac{1}{2}(x+5)^2-\frac{9}{2}</m></p></answer>
-            <solution><p>Starting with <m>f(x)=\frac{1}{2}x^2+5x+8</m>, we factor 
-              out the coefficient of <m>x^2</m> from the first two terms:</p>
-            <p><m>f(x)=\frac{1}{2}(x^2+10x)+8</m></p>
-            <p>To complete the square, we take half of the coefficient of <m>x</m> 
-              and square it: <m>\left(\frac{10}{2}\right)^2 = 5^2 = 25</m>.</p>
-            <p>We add this value inside the parentheses and subtract this value 
-              multiplied by the coefficient to the outside of the parentheses:</p>
-            <p><m>f(x)=\frac{1}{2}(x^2+10x+25)-\frac{1}{2}(25)+8</m></p>
-            <p>We can now simplify the perfect square trinomial and the constant term:</p>
-            <p><m>f(x)=\frac{1}{2}[(x+5)^2]-\frac{25}{2}+\frac{16}{2}</m></p>
-            <p>Simplifying:</p>
-            <p><m>f(x)=\frac{1}{2}(x+5)^2-\frac{9}{2}</m></p>
+            <statement><p>How far apart are the ships after 2 hours?</p></statement>
+            <hint><p>Use the Law of Cosines to set up the equation to find the distance between the ships.</p></hint>
+            <answer><p><m>d=4\sqrt{545-544\cos103^{\circ}}</m> miles</p></answer>
+            <solution><p>After drawing the diagram we find that the interior angle is <m>103^{\circ}</m>. 
+              We can use the Law of Cosines to find the distance between the ships. Let 
+              <m>d</m> be the distance between the ships, <m>a</m> be the distance traveled by the first 
+              ship, and <m>b</m> be the distance traveled by the second ship. Then:</p>
+            <p><m>d^2=a^2+b^2-2ab\cos C</m></p>
+            <p>Where <m>C</m> is the angle between the two paths. In this case, 
+              <m>C=103^{\circ}</m>, <m>a=68</m> miles (since the first ship travels 34 
+              mph for 2 hours), and <m>b=64</m> miles (since the second ship travels 32 
+              mph for 2 hours). Substituting these values:</p>
+            <p><m>d^2=68^2+64^2-2(68)(64)\cos103^{\circ}</m></p>
+            <p><m>d^2=4624+4096-2(68)(64)\cos103^{\circ}</m></p>
+            <p><m>d^2=8720-544\cos103^{\circ}</m></p>
+            <p><m>d=\sqrt{8720-544\cos103^{\circ}}</m></p>
+            <p><m>d=4\sqrt{545-544\cos103^{\circ}}</m> miles</p>
         </solution>
         </task>
         <task>
-            <statement><p>State the intercepts.</p></statement>
-            <hint><p>To find the y-intercept, evaluate the function at <m>x=0</m>. To 
-              find the x-intercepts, set the function equal to zero and solve for <m>x</m>.</p></hint>
-            <answer><p>y-intercept: <m>(0,8)</m>, x-intercepts: <m>(-2,0)</m> and <m>(-8,0)</m></p></answer>
-            <solution><p>To find the y-intercept, we evaluate the function at <m>x=0</m>:</p>
-            <p><m>f(0)=\frac{1}{2}(0)^2+5(0)+8=8</m></p>
-            <p>Thus, the y-intercept is <m>(0,8)</m>.</p>
-            <p>To find the x-intercepts, we set the function equal to zero and solve for 
-              <m>x</m>:</p>
-            <p><m>0=\frac{1}{2}x^2+5x+8</m></p>
-            <p>Multiplying both sides by 2 to clear the fraction:</p>
-            <p><m>0=x^2+10x+16</m></p>
-            <p>We can now factor the quadratic:</p>
-            <p><m>0=(x+5)^2-25+16</m></p>
-            <p><m>0=(x+5)^2-9</m></p>
-            <p><m>(x+5)^2=9</m></p>
-            <p><m>x+5=\pm 3</m></p>
-            <p><m>x=-5\pm 3</m></p>
-            <p>Thus, the x-intercepts are <m>(-5+3,0)</m> and <m>(-5-3,0)</m>, which 
-              can be written as <m>(-2,0)</m> and <m>(-8,0)</m>.</p>
-        </solution>
-        </task>
-        <task>
-            <statement><p>State the range.</p></statement>
-            <hint><p>Look at the leading coefficient and the k-value of the vertex form.</p></hint>
-            <answer><p><m>\left[-\frac{9}{2},\infty\right)</m></p></answer>
-            <solution><p>Since the coefficient of <m>x^2</m> is positive, the parabola opens 
-              upwards. The vertex represents the minimum point of the function, so the 
-              range starts at the y-coordinate of the vertex and extends to infinity. This gives
-            us the range <m>\left[-\frac{9}{2},\infty\right)</m>.</p>
-        </solution>
+            <statement><p>Two wires tether a balloon to the ground as shown in the following picture.
+              Let <m>\alpha=65^{\circ}, \beta=78^{\circ}</m> and let <m>x=95ft.</m> 
+            Use the law of sines or cosines to find the value of <m>h</m>, the height the balloon is 
+            above the ground.  Leave your answer in a simplified exact form.</p>
+          <figure>
+            <caption>Balloon tethered by two wires</caption>
+            <image source="Balloon_Problem.png"/>
+          </figure>
+          </statement> 
+              <hint><p>Use the law of sines to find the hypotenuse of the inner triangle. Then use
+                right triangle trigonometry to find the height.</p></hint>
+            <answer><p><m>h=\frac{95\sin65^{\circ}\sin78^{\circ}}{\sin13^{\circ}}</m></p></answer>
+            <solution><p>First, we use the law of sines to find the hypotenuse of the inner triangle.
+              <m>\frac{\sin65^{\circ}}{y}=\frac{\sin13^{\circ}}{95}</m>
+              Solving for <m>y</m>:
+              <m>y=\frac{95\sin65^{\circ}}{\sin13^{\circ}}</m>
+              Then, we use right triangle trigonometry to find the height of the balloon.
+            <m>\sin78^{\circ}=\frac{h}{y}</m>
+            <m>h=y\sin78^{\circ}</m>
+            <m>h=\frac{95\sin65^{\circ}\sin78^{\circ}}{\sin13^{\circ}}</m> ft</p></solution>
         </task>
         
     </exercise>

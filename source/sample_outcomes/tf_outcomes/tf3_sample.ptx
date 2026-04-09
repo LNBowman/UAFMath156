@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet>
-  <title>TF-1 Right Triangle Trigonometry</title>
+  <title>TF-3 Trigonometric Equations</title>
   <introduction>
     <p>
-      This outcome covers 
-      You should also be 
-      able to graph quadratic functions. Here you will also be asked to setup and solve real-world problems 
-      using quadratic models. You should be able to write out complete steps to solve these 
+      This outcome covers solving trigonometric equations. You should be 
+      able to solve equations involving sine, cosine, tangent, and their 
+      reciprocals. You should also be able to find all solutions to these 
+      equations and solutions on specific intervals.
+      You should be able to write out complete steps to solve these 
       types of problems by hand, without the use of a calculator.
     </p>
     <p>For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples 
@@ -17,77 +18,48 @@
     <ul>
       <li><p>Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the 
         distributive property. Answers should be completely simplified.</p></li>
-        <li><p>Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the 
-          correct intercepts and general behavior.</p></li>
       <li><p>Problem structure: Solution should be organized and easy to follow, with clear, complete steps 
         that follow progressively from one to the next.</p></li>
       <li><p>Mathematical Communication: Solutions should be presented in a clear and logical manner, with 
         appropriate use of mathematical notation and terminology. Equations should have at most one equal 
         sign and expressions on both sides.</p></li>
-      
+      <li><p>Use trigonometric identities and properties to solve equations. This includes using the 
+        Pythagorean identities, reciprocal identities, and quotient identities to simplify and solve 
+        trigonometric equations.  You should be able to use inverse trigonometric functions to find all 
+        solutions and solutions within specific intervals.</p></li>
     </ul>
     </objectives>
 
   
   <page>
-    <exercise workspace="3cm">
-      <introduction><p>
-           Given the function <m>f(x)=\frac{1}{2}x^2+5x+8</m>.
-        </p></introduction>
+    <exercise>
         <task>
-            <statement><p>Write the function in vertex form.</p></statement>
-            <hint><p>Use the method of completing the square to rewrite the 
-              function in vertex form.</p></hint>
-            <answer><p><m>f(x)=\frac{1}{2}(x+5)^2-\frac{9}{2}</m></p></answer>
-            <solution><p>Starting with <m>f(x)=\frac{1}{2}x^2+5x+8</m>, we factor 
-              out the coefficient of <m>x^2</m> from the first two terms:</p>
-            <p><m>f(x)=\frac{1}{2}(x^2+10x)+8</m></p>
-            <p>To complete the square, we take half of the coefficient of <m>x</m> 
-              and square it: <m>\left(\frac{10}{2}\right)^2 = 5^2 = 25</m>.</p>
-            <p>We add this value inside the parentheses and subtract this value 
-              multiplied by the coefficient to the outside of the parentheses:</p>
-            <p><m>f(x)=\frac{1}{2}(x^2+10x+25)-\frac{1}{2}(25)+8</m></p>
-            <p>We can now simplify the perfect square trinomial and the constant term:</p>
-            <p><m>f(x)=\frac{1}{2}[(x+5)^2]-\frac{25}{2}+\frac{16}{2}</m></p>
-            <p>Simplifying:</p>
-            <p><m>f(x)=\frac{1}{2}(x+5)^2-\frac{9}{2}</m></p>
-        </solution>
+            <statement><p>Find all solutions to the equation: <m>\csc^2\theta-4=0</m></p></statement>
+            <hint><p>Isolate the trigonometric function then use the inverse to find the angles.</p></hint>
+            <answer><p><m>\theta=\frac{\pi}{6}+n\pi</m> and <m>\theta=\frac{5\pi}{6}+n\pi</m>, where 
+              <m>n</m> is any integer.</p></answer>
+            <solution><p>Start by isolating the trigonometric function:</p><p><m>\csc^2\theta=4</m></p>
+              <p>Take the square root of both sides:</p><p><m>|\csc\theta|=2</m></p>
+              <p>This means:</p><p><m>\csc\theta=2</m> or <m>\csc\theta=-2</m></p>
+              <p>Recall that <m>\csc\theta=\frac{1}{\sin\theta}</m>, so:</p><p><m>\sin\theta=\frac{1}{2}</m> 
+                or <m>\sin\theta=-\frac{1}{2}</m></p>
+                <p>Find the angles where sine equals these values:</p>
+                <p><m>\theta=\frac{\pi}{6}+n\pi</m> and <m>\theta=\frac{5\pi}{6}+n\pi</m>, 
+                  where <m>n</m> is any integer.</p></solution>
         </task>
-        <task>
-            <statement><p>State the intercepts.</p></statement>
-            <hint><p>To find the y-intercept, evaluate the function at <m>x=0</m>. To 
-              find the x-intercepts, set the function equal to zero and solve for <m>x</m>.</p></hint>
-            <answer><p>y-intercept: <m>(0,8)</m>, x-intercepts: <m>(-2,0)</m> and <m>(-8,0)</m></p></answer>
-            <solution><p>To find the y-intercept, we evaluate the function at <m>x=0</m>:</p>
-            <p><m>f(0)=\frac{1}{2}(0)^2+5(0)+8=8</m></p>
-            <p>Thus, the y-intercept is <m>(0,8)</m>.</p>
-            <p>To find the x-intercepts, we set the function equal to zero and solve for 
-              <m>x</m>:</p>
-            <p><m>0=\frac{1}{2}x^2+5x+8</m></p>
-            <p>Multiplying both sides by 2 to clear the fraction:</p>
-            <p><m>0=x^2+10x+16</m></p>
-            <p>We can now factor the quadratic:</p>
-            <p><m>0=(x+5)^2-25+16</m></p>
-            <p><m>0=(x+5)^2-9</m></p>
-            <p><m>(x+5)^2=9</m></p>
-            <p><m>x+5=\pm 3</m></p>
-            <p><m>x=-5\pm 3</m></p>
-            <p>Thus, the x-intercepts are <m>(-5+3,0)</m> and <m>(-5-3,0)</m>, which 
-              can be written as <m>(-2,0)</m> and <m>(-8,0)</m>.</p>
-        </solution>
-        </task>
-        <task>
-            <statement><p>State the range.</p></statement>
-            <hint><p>Look at the leading coefficient and the k-value of the vertex form.</p></hint>
-            <answer><p><m>\left[-\frac{9}{2},\infty\right)</m></p></answer>
-            <solution><p>Since the coefficient of <m>x^2</m> is positive, the parabola opens 
-              upwards. The vertex represents the minimum point of the function, so the 
-              range starts at the y-coordinate of the vertex and extends to infinity. This gives
-            us the range <m>\left[-\frac{9}{2},\infty\right)</m>.</p>
-        </solution>
-        </task>
-        
     </exercise>
-   
+    <exercise>
+      <task>
+          <statement><p>Find all solutions to the equation <m>\sqrt{3}\tan3\theta+1=0</m> 
+            on the interval <m>[0,2\pi)</m></p></statement>
+          <hint><p>Start by isolating the trigonometric function. Then use the inverse tangent to find the angles.</p></hint>
+          <answer><p><m>\theta \in \left\{\frac{5\pi}{18}, \frac{11\pi}{18}, \frac{17\pi}{18}, \frac{23\pi}{18}, \frac{29\pi}{18}, \frac{35\pi}{18}\right\}</m></p></answer>
+          <solution><p>Start by isolating the trigonometric function:</p><p><m>\sqrt{3}\tan3\theta=-1</m></p>
+            <p>Divide both sides by <m>\sqrt{3}</m>:</p><p><m>\tan3\theta=-\frac{1}{\sqrt{3}}</m></p>
+            <p>Take the inverse tangent of both sides:</p><p><m>3\theta=\arctan\left(-\frac{1}{\sqrt{3}}\right)</m></p>
+            <p>This gives us:</p><p><m>3\theta=\frac{5\pi}{6}+n\pi</m>, where <m>n</m> is any integer.</p>
+            <p>Therefore:</p><p><m>\theta=\frac{5\pi}{18}+\frac{n\pi}{3}</m>, where <m>n</m> is any integer.</p></solution>
+      </task>
+    </exercise>
   </page>
 </worksheet>
