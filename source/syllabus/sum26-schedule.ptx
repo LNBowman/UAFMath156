@@ -15,7 +15,7 @@
 				 Date
 			</cell>
 			<cell right="medium">
-				<p>Reading and</p><p>Video Lessons</p><p>Due</p>
+				<p>Video Lessons</p><p>Due</p>
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -133,7 +133,7 @@
 				W May 20
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Solving Linear and</p><p>Quadratic Equations</p>
+				VL1
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -166,7 +166,6 @@
 				R May 21
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>The Cartesian</p><p>Coordinate System</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -200,7 +199,7 @@
 				F May 22
 			</cell>
 			<cell right="medium">
-				<p>Linear Forms</p><p>of Equations</p>
+				VL2
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -245,7 +244,6 @@
 				T May 26
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Relations and</p><p>Functions</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -279,7 +277,7 @@
 				W May 27
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Difference</p><p>Quotients and</p><p>Piecewise Functions</p>
+				VL3
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -311,7 +309,6 @@
 				R May 28
 			</cell>
 			<cell right="medium" bottom="medium">
-				Basic Functions
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -345,7 +342,7 @@
 				F May 29
 			</cell>
 			<cell right="medium">
-				Transformations
+				VL4
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -385,7 +382,7 @@
 				 Date
 			</cell>
 			<cell right="medium">
-				<p>Reading and</p><p>Video Lessons</p><p>Due</p>
+				<p>Video Lessons</p><p>Due</p>
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -423,7 +420,6 @@
 				M Jun 1
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Combinations and</p><p>Compositions</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -455,7 +451,7 @@
 				T Jun 2
 			</cell>
 			<cell right="medium" bottom="medium">
-				Inverses
+				VL5
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -523,7 +519,7 @@
 				R Jun 4
 			</cell>
 			<cell right="medium" bottom="medium">
-				Quadratic Functions
+				VL6
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -556,7 +552,6 @@
 				F Jun 5
 			</cell>
 			<cell right="medium">
-				<p>Polynomials and</p><p>Dividing Polynomials</p>
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -624,6 +619,7 @@
 				T Jun 9
 			</cell>
 			<cell right="medium" bottom="medium">
+				VL7
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -656,7 +652,6 @@
 				W Jun 10
 			</cell>
 			<cell right="medium" bottom="medium">
-				Real Zeros
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -689,6 +684,7 @@
 				R Jun 11
 			</cell>
 			<cell right="medium" bottom="medium">
+				VL8
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -710,7 +706,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-        Reflection 4
+        		Reflection 4
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -722,7 +718,6 @@
 				F Jun 12
 			</cell>
 			<cell right="medium">
-				Rational Functions
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -1056,7 +1051,6 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				Tutoring 3 Due
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1121,6 +1115,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				Tutoring 3 Due
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1602,7 +1597,6 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Schedule</p><p>Assessment 4</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -2080,7 +2074,6 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				Tutoring 6 Due
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -2109,7 +2102,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Schedule</p><p>Final</p>
+				<p>Schedule</p><p>Final</p><p>by Aug 1</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -2156,7 +2149,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				Tutoring 7 Due
+				Tutoring 6 Due
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
