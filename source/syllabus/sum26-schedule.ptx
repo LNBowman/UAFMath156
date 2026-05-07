@@ -166,6 +166,7 @@
 				R May 21
 			</cell>
 			<cell right="medium" bottom="medium">
+				VL2
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -199,11 +200,11 @@
 				F May 22
 			</cell>
 			<cell right="medium">
-				VL2
 			</cell>
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
+				FW2
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -248,7 +249,6 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW2
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -424,6 +424,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				FW4
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -456,7 +457,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW4
+				FW5
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -486,11 +487,11 @@
 				W Jun 3
 			</cell>
 			<cell right="medium" bottom="medium">
+				VL6
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW5
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -519,11 +520,11 @@
 				R Jun 4
 			</cell>
 			<cell right="medium" bottom="medium">
-				VL6
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				FW6
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -556,7 +557,6 @@
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-				FW6
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -718,6 +718,7 @@
 				F Jun 12
 			</cell>
 			<cell right="medium">
+				VL9
 			</cell>
 			<cell right="medium">
 			</cell>
