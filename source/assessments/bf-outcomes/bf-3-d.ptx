@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+  <title>BF-3 Difference Quotient and Piecewise Functions</title>
+  <introduction>
+    <p>Complete both problems to earn M. Complete problem 1 and parts a and d of problem 2 to earn P</p>
+  </introduction>  
+  <page>
+    <exercise>
+      <statement>
+        <p>Given the function <m>f(x)=\sqrt{2x+1}</m>.  Find and simplify <m>\frac{f(x+h)-f(x)}{h}</m></p>
+      </statement>
+    </exercise>
+</page>
+<page>
+    <paragraphs>
+        <title>BF-3 Difference Quotient and Piecewise Functions</title>
+        <introduction>
+            <p>Complete both problems to earn M. Complete problem 1 and parts a and d of problem 2 to earn P</p>
+        </introduction>
+    </paragraphs>
+    <exercise>
+      <introduction><p>Given the piecewise function below, find:</p>
+        <p><me>g(x)=\begin{cases} \frac{1}{x+3} &amp; x \leq -3 \\ x^2-4 &amp; -3 \lt x \leq 2 \\ 3x &amp; x \gt 2 \end{cases}</me></p></introduction>
+      <task workspace="3.5in"><statement><p>Graph the function.</p></statement></task>
+      <task workspace="0.5in"><statement><p>State the boundary points.</p></statement></task>
+      <task workspace="0.5in"><statement><p>State the intercepts.</p></statement></task>
+      <task workspace="0.5in"><statement><p>State the domain in interval notation.</p></statement></task>
+    </exercise>
+  </page>
+</worksheet>

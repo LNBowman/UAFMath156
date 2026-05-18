@@ -14,8 +14,39 @@
 
 
     <chapter xml:id="course-assessments">
-      <title>Assessments</title>
-      <xi:include href="./assessments/assessment1.ptx"/>
+      <title>Assessment Outcomes</title>
+      <section xml:id="sec-bf1-outcomes">
+        <title>BF-1 Outcomes</title>
+        <xi:include href="./assessments/bf-outcomes/bf-1-a.ptx"/>
+        <xi:include href="./assessments/bf-outcomes/bf-1-b.ptx"/>
+        <xi:include href="./assessments/bf-outcomes/bf-1-c.ptx"/>
+        <xi:include href="./assessments/bf-outcomes/bf-1-d.ptx"/>
+        <xi:include href="./assessments/bf-outcomes/bf-1-e.ptx"/>  
+      </section>
+      <section xml:id="sec-bf2-outcomes">
+        <title>BF-2 Outcomes</title>
+        <xi:include href="./assessments/bf-outcomes/bf-2-a.ptx"/>
+        <xi:include href="./assessments/bf-outcomes/bf-2-b.ptx"/>
+        <xi:include href="./assessments/bf-outcomes/bf-2-c.ptx"/>
+        <xi:include href="./assessments/bf-outcomes/bf-2-d.ptx"/>
+        <xi:include href="./assessments/bf-outcomes/bf-2-e.ptx"/>  
+      </section>
+      <section xml:id="sec-bf3-outcomes">
+        <title>BF-3 Outcomes</title>
+        <xi:include href="./assessments/bf-outcomes/bf-3-a.ptx"/>
+        <xi:include href="./assessments/bf-outcomes/bf-3-b.ptx"/>
+        <xi:include href="./assessments/bf-outcomes/bf-3-c.ptx"/>
+        <xi:include href="./assessments/bf-outcomes/bf-3-d.ptx"/>
+        <xi:include href="./assessments/bf-outcomes/bf-3-e.ptx"/>
+      </section>
+      <section xml:id="sec-bf4-outcomes">
+        <title>BF-4 Outcomes</title>
+        <xi:include href="./assessments/bf-outcomes/bf-4-a.ptx"/>
+        <xi:include href="./assessments/bf-outcomes/bf-4-b.ptx"/>
+        <xi:include href="./assessments/bf-outcomes/bf-4-c.ptx"/>
+        <xi:include href="./assessments/bf-outcomes/bf-4-d.ptx"/>
+        <xi:include href="./assessments/bf-outcomes/bf-4-e.ptx"/>
+      </section>
     </chapter>
 
     <chapter xml:id="course-quizzes_retakes">

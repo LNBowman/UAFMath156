@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+  <title>BF-4 Transformations and Combinations</title>
+  <introduction>
+    <p>Complete both problems to earn M. Complete problem 1 and two parts of problem 2 to earn P</p>
+  </introduction>  
+  <page>
+    <exercise workspace="2.5in">
+        <task><statement><p>Given the function <m>g(x)=-f(x-4)+6</m></p></statement></task>
+        <task><statement><p>Describe the transformations applied to the function <m>f(x)</m> 
+            to get the function <m>g(x)</m>.</p></statement></task>
+        <task><statement><p>Determine where the point <m>(2,3)</m> from the graph of 
+            <m>f(x)</m> would be shifted to,on the graph of <m>g(x)</m>.</p></statement></task>
+    </exercise>
+  </page>
+  <page>
+    <title>BF-4 Transformations and Combinations</title>
+  <introduction>
+    <p>Complete both problems to earn M. Complete problem 1 and two parts of problem 2 to earn P</p>
+  </introduction>
+    <exercise workspace="2.5in">
+        <introduction><p>Given the functions <m>f(x)=\sqrt{x+7}</m> and <m>g(x)=3x-1</m>, find 
+            and simplify:</p></introduction>
+        <task><statement><p><m>(f+g)(x)</m></p></statement></task>
+        <task><statement><p><m>(fg)(2)</m></p></statement></task>
+        <task><statement><p><m>\left(\frac{f}{g}\right)(x)</m></p></statement></task>
+        <task><statement><p><m>(f\circ g)(-3)</m></p></statement></task>
+    </exercise>
+  </page>
+  </worksheet>

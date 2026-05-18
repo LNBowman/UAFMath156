@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+  <title>BF-4 Transformations and Combinations</title>
+  <introduction>
+    <p>Complete both problems to earn M. Complete problem 1 and two parts of problem 2 to earn P</p>
+  </introduction>  
+  <page>
+    <exercise workspace="2.5in">
+        <task><statement><p>Given the function <m>g(x)=-4f(2x-3)-1</m></p></statement></task>
+        <task><statement><p>Describe the transformations applied to the function <m>f(x)</m> 
+            to get the function <m>g(x)</m>.</p></statement></task>
+        <task><statement><p>Determine where the point <m>(1,-1)</m> from the graph of 
+            <m>f(x)</m> would be shifted to,on the graph of <m>g(x)</m>.</p></statement></task>
+    </exercise>
+  </page>
+  <page>
+    <title>BF-4 Transformations and Combinations</title>
+  <introduction>
+    <p>Complete both problems to earn M. Complete problem 1 and two parts of problem 2 to earn P</p>
+  </introduction>
+    <exercise workspace="2.5in">
+        <introduction><p>Given the functions <m>f(x)=x^3</m> and <m>g(x)=x^2+1</m>, find 
+            and simplify:</p></introduction>
+        <task><statement><p><m>(f+g)(2)</m></p></statement></task>
+        <task><statement><p><m>(fg)(x)</m></p></statement></task>
+        <task><statement><p><m>\left(\frac{g}{f}\right)(-1)</m></p></statement></task>
+        <task><statement><p><m>(f\circ g)(x)</m></p></statement></task>
+    </exercise>
+  </page>
+  </worksheet>

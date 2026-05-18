@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+  <title>BF-3 Difference Quotient and Piecewise Functions</title>
+  <introduction>
+    <p>Complete both problems to earn M. Complete problem 1 and parts a and d of problem 2 to earn P</p>
+  </introduction>  
+  <page>
+    <exercise>
+      <statement>
+        <p>Given the function <m>f(x)=x^3+2x</m>.  Find and simplify <m>\frac{f(a)-f(-1)}{a+1}</m></p>
+      </statement>
+    </exercise>
+</page>
+<page>
+    <paragraphs>
+        <title>BF-3 Difference Quotient and Piecewise Functions</title>
+        <introduction>
+            <p>Complete both problems to earn M. Complete problem 1 and parts a and d of problem 2 to earn P</p>
+        </introduction>
+    </paragraphs>
+    <exercise>
+      <introduction><p>Given the piecewise function below, find:</p>
+        <p><me>g(x)=\begin{cases} 4 &amp; x \leq -1 \\ 2x+6 &amp; -1 \lt x \leq 5 \\ \sqrt{x-1} &amp; x \gt 5 \end{cases}</me></p></introduction>
+      <task workspace="3.5in"><statement><p>Graph the function.</p></statement></task>
+      <task workspace="0.5in"><statement><p>State the boundary points.</p></statement></task>
+      <task workspace="0.5in"><statement><p>State the intercepts.</p></statement></task>
+      <task workspace="0.5in"><statement><p>State the domain in interval notation.</p></statement></task>
+    </exercise>
+  </page>
+</worksheet>

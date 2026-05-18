@@ -60,7 +60,7 @@ PF-1, PF-2, PF-3, and PF-4 do not have specific problems, they are based on the 
             <p>Problem 1: Given the function <m>f(x)=\frac{4x}{x-1}</m>.  Find and simplify <m>\frac{f(a)-f(4)}{a-4}</m> 
             </p>
             <p>
-                Problem 2: a) Graph the function <me>g(x)=ds\frac{1}{2}(x+3)^2 \amp x\geq 1; 5+x \amp x \lt 1</me>.
+                Problem 2: a) Graph the function <me>g(x)=\begin{cases} \frac{1}{2}(x+3)^2 &amp; \quad x\geq 1 \\ 5+x &amp; \quad x \lt 1 \end{cases}</me>.
                 b) State the boundary points of the function.
                 c) State the intercepts.
                 d) State the domain of the function.
