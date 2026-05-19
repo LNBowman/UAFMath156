@@ -15,6 +15,27 @@
 
     <chapter xml:id="course-assessments">
       <title>Assessment Outcomes</title>
+      <introduction><p>Here are the versions used for each semester:</p>
+        <p>Summer 2026:
+          <ul>
+            <li><p>Assessment 1: BF version A</p></li>
+            <li><p>Assessment 2: BF version B</p></li>
+            <li><p>Assessment 3: </p></li>
+            <li><p>Assessment 4: </p></li> 
+            <li><p>Assessment 5: </p></li>
+            <li><p>Final Assessment: BF version C </p></li>
+          </ul></p>
+          <p>Fall 2026:
+            <ul>
+              <li><p>Assessment 1: BF version C</p></li>
+              <li><p>Assessment 2: BF version D</p></li>
+              <li><p>Assessment 3: </p></li>
+              <li><p>Assessment 4: </p></li>
+              <li><p>Assessment 5: </p></li>
+              <li><p>Final Assessment: BF version E</p></li>
+            </ul>
+          </p>
+        </introduction>
       <section xml:id="sec-bf-outcomes">
         <title>Basics of Functions</title>
         <introduction><p>Here are the assessment outcomes for Basics of Functions. There are multiple versions 
