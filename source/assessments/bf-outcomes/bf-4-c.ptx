@@ -7,7 +7,7 @@
   </introduction>  
   <page>
     <exercise workspace="2.5in">
-        <task><statement><p>Given the function <m>g(x)=\frac{1}{2}f(x+5)-3</m></p></statement></task>
+        <introduction><p>Given the function <m>g(x)=\frac{1}{2}f(x+5)-3</m></p></introduction>
         <task><statement><p>Describe the transformations applied to the function <m>f(x)</m> 
             to get the function <m>g(x)</m>.</p></statement></task>
         <task><statement><p>Determine where the point <m>(-4,8)</m> from the graph of 

@@ -7,7 +7,7 @@
   </introduction>  
   <page>
     <exercise workspace="2.5in">
-        <task><statement><p>Given the function <m>g(x)=-f(x-4)+6</m></p></statement></task>
+        <introduction><p>Given the function <m>g(x)=-f(x-4)+6</m></p></introduction>
         <task><statement><p>Describe the transformations applied to the function <m>f(x)</m> 
             to get the function <m>g(x)</m>.</p></statement></task>
         <task><statement><p>Determine where the point <m>(2,3)</m> from the graph of 
