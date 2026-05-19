@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>TF-1 Right Triangle Trigonometry</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Precalculus">
+<meta property="book:author" content="Dr. Latrice Bowman">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.0.0';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.ce7e0a2163cb330f.bundle.js"></script><script src="_static/prefix-713.de0ab26248766350.bundle.js"></script><script src="_static/prefix-runestone.f4a2ffb04bb978bb.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-713.f43ced6a6134ea74.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.87414d180ebeebd6.css">
+<script src="_static/pretext/js/diagcess/diagcess.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="root-1-2.html"><span class="title">Precalculus</span> <span class="subtitle">MATH F156X Summer 2026</span></a></h1>
+<p class="byline">Dr. Latrice Bowman</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="embed-button" class="embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><div class="embed-popup hidden" id="embed-popup">
+<p>Copy the code below to embed this page in your own website or LMS page.</p>
+<div class="embed-code-container">
+<textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div>
+</div>
+<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="trigonometric-functions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="trigonometric-functions.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="tf2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand*{\ds}{\displaystyle}
+\newcommand*{\bpt}{\begin{parts}}
+\newcommand*{\ept}{\end{parts}}
+\newcommand*{\bmc}{\begin{multicols}}
+\newcommand*{\emc}{\end{multicols}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3 focused" data-preexpanded-levels="2" data-max-levels="3"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="course-syllabus.html" class="internal"><span class="title">Course Documents</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="syllabus.html" class="internal"><span class="title">Course Information</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="components.html" class="internal"><span class="title">Course Components</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="rubrics.html" class="internal"><span class="title">Rubrics, Schedules, and Grades</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="policies.html" class="internal"><span class="title">Course and University Policies</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="support.html" class="internal"><span class="title">How to Succeed in this Course</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="course-syllabus-7.html" class="internal"><span class="title">Math 156 Summer 2026 Online Schedule</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="basics-of-functions.html" class="internal"><span class="title">Basics of Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf1.html" class="internal"><span class="title">BF-1 Linear and Quadratic Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf1.html#bf1-2" class="internal"><span class="title">BF-1 Quick Notes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bf1.html#bf1videos" class="internal"><span class="title">BF-1 Videos</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf1.html#bf1rubric" class="internal"><span class="title">BF-1 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf1.html#bf1rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf1.html#bf1-5" class="internal"><span class="title">BF-1 Sample Outcomes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf2.html" class="internal"><span class="title">BF-2 Forms of Linear Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf2.html#bf2-2" class="internal"><span class="title">BF-2 Quick Notes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bf2.html#bf2videos" class="internal"><span class="title">BF-2 Videos</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf2.html#bf2rubric" class="internal"><span class="title">BF-2 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf2.html#bf2rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf2.html#bf2-5" class="internal"><span class="title">BF-2 Sample Outcomes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf3.html" class="internal"><span class="title">BF-3 Difference Quotients and Piecewise Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf3.html#notes-bf3information" class="internal"><span class="title">BF-3 Quick Notes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bf3.html#bf3videos" class="internal"><span class="title">BF-3 Videos</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf3.html#bf3rubric" class="internal"><span class="title">BF-3 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf3.html#bf3rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf3.html#bf3-5" class="internal"><span class="title">BF-3 Sample Outcomes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf4.html" class="internal"><span class="title">BF-4 Transformations and Combinations of Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf4.html#notes-bf4information" class="internal"><span class="title">BF-4 Quick Notes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bf4.html#bf4videos" class="internal"><span class="title">BF-4 Videos</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf4.html#bf4rubric" class="internal"><span class="title">BF-4 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf4.html#bf4rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf4.html#bf4-5" class="internal"><span class="title">BF-4 Sample Outcomes</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="graphs-of-functions.html" class="internal"><span class="title">Graphs of Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr1.html" class="internal"><span class="title">GR-1 Quadratic Functions and Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr1.html#notes-gr1information" class="internal"><span class="title">Graphing Quadratics and Quadratic Models</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr1.html#gr1-3" class="internal"><span class="title">GR-1 Quadratic Functions and Models</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr1.html#gr1rubric" class="internal"><span class="title">GR-1 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr1.html#gr1rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr1.html#gr1-5" class="internal"><span class="title">GR-1 Quadratic Functions and Models</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr2.html" class="internal"><span class="title">GR-2 Polynomial Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr2.html#notes-gr2information" class="internal"><span class="title">Graphing Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr2.html#gr2-3" class="internal"><span class="title">GR-2 Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr2.html#gr2rubric" class="internal"><span class="title">GR-2 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr2.html#gr2rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr2.html#gr2-5" class="internal"><span class="title">GR-2 Polynomial Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr3.html" class="internal"><span class="title">GR-3 Rational Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr3.html#notes-gr3information" class="internal"><span class="title">Graphing Rational Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr3.html#gr3-3" class="internal"><span class="title">GR-3 Rational Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr3.html#gr3rubric" class="internal"><span class="title">GR-3 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr3.html#gr3rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr3.html#gr3-5" class="internal"><span class="title">GR-3 Rational Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr4.html" class="internal"><span class="title">GR-4 Systems of Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr4.html#notes-gr4information" class="internal"><span class="title">Systems of Equations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr4.html#gr4-3" class="internal"><span class="title">GR-4 Systems of Linear Equations</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr4.html#gr4rubric" class="internal"><span class="title">GR-4 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr4.html#gr4rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr4.html#gr4-5" class="internal"><span class="title">GR-4 Systems of Linear Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr5.html" class="internal"><span class="title">GR-5 Linear Inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr5.html#notes-gr5information" class="internal"><span class="title">Linear Inequalities and Systems</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr5.html#gr5-3" class="internal"><span class="title">GR-5 Linear Inequalities</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr5.html#gr5rubric" class="internal"><span class="title">GR-5 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr5.html#gr5rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr5.html#gr5-5" class="internal"><span class="title">GR-5 Graphing Linear Inequalities</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="exponential-and-logarithmic-functions.html" class="internal"><span class="title">Exponential and Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el1.html" class="internal"><span class="title">EL-1 Exponential and Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el1.html#notes-el1information" class="internal"><span class="title">Exponential and Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el1.html#el1-3" class="internal"><span class="title">EL-1 Exponential and Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el1.html#el1rubric" class="internal"><span class="title">EL-1 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el1.html#el1rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el1.html#el1-5" class="internal"><span class="title">EL-1 Exponential and Logarithmic Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el2.html" class="internal"><span class="title">EL-2 Exponential and Logarithmic Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el2.html#notes-el2information" class="internal"><span class="title">Exponential and Logarithmic Equations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el2.html#el2-3" class="internal"><span class="title">EL-2 Exponential and Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el2.html#el2rubric" class="internal"><span class="title">EL-2 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el2.html#el2rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el2.html#el2-5" class="internal"><span class="title">EL-2 Exponential and Logarithmic Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el3.html" class="internal"><span class="title">EL-3 Growth and Decay Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el3.html#notes-el3information" class="internal"><span class="title">Exponential Models</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el3.html#el3-3" class="internal"><span class="title">EL-3 Modeling with Exponential Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el3.html#el3rubric" class="internal"><span class="title">EL-3 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el3.html#el3rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el3.html#el3-5" class="internal"><span class="title">EL-3 Modeling Exponential Functions</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="trigonometric-functions.html" class="internal"><span class="title">Trigonometric Functions</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="tf1.html" class="internal"><span class="title">TF-1 Right Triangle Trigonometry</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf1.html#notes-tf1information" class="internal"><span class="title">Right Triangle Trigonometry</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf1.html#tf1-3" class="internal"><span class="title">TF-1 Right Triangle Trigonometry</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf1.html#tf1rubric" class="internal"><span class="title">TF-1 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf1.html#tf1rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf1.html#tf1-5" class="internal"><span class="title">TF-1 Right Triangle Trigonometry</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf2.html" class="internal"><span class="title">TF-2 Graphs of Trigonometric Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf2.html#notes-tf2information" class="internal"><span class="title">Graphing Trigonometric Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf2.html#tf2-3" class="internal"><span class="title">TF-2 Trigonometric Graphs</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf2.html#tf2rubric" class="internal"><span class="title">TF-2 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf2.html#tf2rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf2.html#tf2-5" class="internal"><span class="title">TF-2 Graphs of Trigonometric Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf3.html" class="internal"><span class="title">TF-3 Trigonometric Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf3.html#notes-tf3information" class="internal"><span class="title">Solving Trigonometric Equations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf3.html#tf3-3" class="internal"><span class="title">TF-3 Trigonometric Equations</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf3.html#tf3rubric" class="internal"><span class="title">TF-3 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf3.html#tf3rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf3.html#tf3-5" class="internal"><span class="title">TF-3 Trigonometric Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf4.html" class="internal"><span class="title">TF-4 Law of Sines and Cosines</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf4.html#notes-tf4information" class="internal"><span class="title">Law of Sines and Cosines</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf4.html#tf4-3" class="internal"><span class="title">TF-4 Law of Sines and Cosines</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf4.html#tf4rubric" class="internal"><span class="title">TF-4 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf4.html#tf4rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf4.html#tf4-5" class="internal"><span class="title">TF-4 Law of Sines and Cosines</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<div class="print-preview-header">
+<h2 class="print-preview">Print preview</h2>
+<div class="print-controls">
+<div class="print-controls-toggles">
+<form class="papersize-select" id="papersize-select">
+<span class="name">Paper size</span><label><input type="radio" name="papersize" value="a4">A4
+        </label><label><input type="radio" name="papersize" value="letter">Letter
+        </label>
+</form>
+<details class="print-options"><summary>Additional printing options</summary><div class="hide-solutions-options">
+<div class="hide-option">
+<label for="hide-hint-checkbox">Hide hints</label><input type="checkbox" id="hide-hint-checkbox">
+</div>
+<div class="hide-option">
+<label for="hide-answer-checkbox">Hide answers</label><input type="checkbox" id="hide-answer-checkbox">
+</div>
+<div class="hide-option">
+<label for="hide-solution-checkbox">Hide solutions</label><input type="checkbox" id="hide-solution-checkbox">
+</div>
+</div>
+<div class="header-footer-options">
+<div class="header-option">
+<span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
+</div>
+<div class="footer-option">
+<span class="title">Print footers</span><label>First page<input type="checkbox" id="print-first-page-footer-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-footer-checkbox" checked></label>
+</div>
+</div>
+<div class="highlight-workspace-option">
+<label for="highlight-workspace-checkbox">Highlight workspace</label><input type="checkbox" id="highlight-workspace-checkbox">
+</div></details>
+</div>
+<button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
+</div>
+</div>
+<section class="section" id="tf1"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">TF-1 Right Triangle Trigonometry</span>
+</h2>
+<section class="worksheet" id="notes-tf1information" data-margins="0.75in 0.75in 0.75in 0.75in"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Right Triangle Trigonometry</span><div class="print-links"><a href="?printpreview=notes-tf1information" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<section class="introduction" id="notes-tf1information-2"><div class="para logical" id="notes-tf1information-2-1">
+<div class="para">For this outcome  Specifically, for this outcome, students should be able to:</div>
+<ul class="disc" id="notes-tf1information-2-1-1">
+<li id="notes-tf1information-2-1-1-1">
+<div class="para" id="notes-tf1information-2-1-1-1-1">Convert between degrees and radians<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-2-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-2-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf1information-2-1-1-2">
+<div class="para" id="notes-tf1information-2-1-1-2-1">Evaluate trigonometric functions of special angles (multiples of 30° and 45°)<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-2-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-2-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf1information-2-1-1-3">
+<div class="para" id="notes-tf1information-2-1-1-3-1">Evaluate reference angles and coterminal angles.<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-2-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-2-1-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf1information-2-1-1-4">
+<div class="para" id="notes-tf1information-2-1-1-4-1">Evaluate the six trigonometric functions of an angle in a right triangle<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-2-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-2-1-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf1information-2-1-1-5">
+<div class="para" id="notes-tf1information-2-1-1-5-1">Use the triangle and unit circle definitions of the six trigonometric functions<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-2-1-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-2-1-1-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf1information-2-1-1-6">
+<div class="para" id="notes-tf1information-2-1-1-6-1">Given a point in the plane, find the six trigonometric functions of the angle in standard position.<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-2-1-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-2-1-1-6" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf1information-2-1-1-7">
+<div class="para" id="notes-tf1information-2-1-1-7-1">Given the value of a trigonometric function of an angle, find the other five trigonometric functions of that angle.<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-2-1-1-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-2-1-1-7" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf1information-2-1-1-8">
+<div class="para" id="notes-tf1information-2-1-1-8-1">Set up and solve right triangle applications.<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-2-1-1-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-2-1-1-8" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="onepage" id="notes-tf1information-3"><div class="para" id="notes-tf1information-3-1">
+<em class="alert">Angles and their Measures</em><div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="notes-tf1information-3-2">An angle is formed by rotating a ray about its endpoint. The initial side of an angle is the starting position of the ray, and the terminal side is the final position of the ray. An angle in standard position has its vertex at the origin and its initial side along the positive x-axis.<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="notes-tf1information-3-3">There are two common units for measuring angles: degrees and radians. Degrees are based on dividing a circle into 360 equal parts, while radians are based on the radius of a circle. One radian is the angle that intercepts an arc equal in length to the radius of the circle.<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="notes-tf1information-3-4">To convert between degrees and radians, we can use the following formulas:<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-3-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="notes-tf1information-3-5">Degrees to Radians: <span class="process-math">\(radians = degrees \cdot \frac{\pi}{180}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-3-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="notes-tf1information-3-6">Radians to Degrees: <span class="process-math">\(degrees = radians \cdot \frac{180}{\pi}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-3-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="onepage" id="notes-tf1information-4"><div class="para" id="notes-tf1information-4-1">
+<em class="alert">Right Triangle Trigonometry</em><div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="notes-tf1information-4-2">A right triangle is a triangle with one angle measuring 90 degrees. The side opposite the right angle is called the hypotenuse, and the other two sides are called legs. The hypotenuse is always the longest side of a right triangle. The other angles in a right triangle are acute angles (less than 90 degrees).<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="notes-tf1information-4-3">Right triangle trigonometry involves the relationships between the sides and angles of a right triangle. The six trigonometric functions are defined in terms of the sides of a right triangle:<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="notes-tf1information-4-4">
+<ul class="disc" id="notes-tf1information-4-4-1">
+<li id="notes-tf1information-4-4-1-1">
+<div class="para" id="p-derived-notes-tf1information-4-4-1-1"><span class="process-math">\(\displaystyle \sin \theta = \frac{\text{opposite}}{\text{hypotenuse}}\)</span></div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-4-4-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf1information-4-4-1-2">
+<div class="para" id="p-derived-notes-tf1information-4-4-1-2"><span class="process-math">\(\displaystyle \cos \theta = \frac{\text{adjacent}}{\text{hypotenuse}}\)</span></div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-4-4-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf1information-4-4-1-3">
+<div class="para" id="p-derived-notes-tf1information-4-4-1-3"><span class="process-math">\(\displaystyle \tan \theta = \frac{\text{opposite}}{\text{adjacent}}\)</span></div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-4-4-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf1information-4-4-1-4">
+<div class="para" id="p-derived-notes-tf1information-4-4-1-4"><span class="process-math">\(\displaystyle \csc \theta = \frac{\text{hypotenuse}}{\text{opposite}}\)</span></div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-4-4-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf1information-4-4-1-5">
+<div class="para" id="p-derived-notes-tf1information-4-4-1-5"><span class="process-math">\(\displaystyle \sec \theta = \frac{\text{hypotenuse}}{\text{adjacent}}\)</span></div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-4-4-1-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf1information-4-4-1-6">
+<div class="para" id="p-derived-notes-tf1information-4-4-1-6"><span class="process-math">\(\displaystyle \cot \theta = \frac{\text{adjacent}}{\text{opposite}}\)</span></div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-4-4-1-6" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-4-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="notes-tf1information-4-5">These functions can be used to find missing sides or angles in a right triangle, as well as to solve real-world problems involving right triangles.<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-4-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="onepage" id="notes-tf1information-5"><div class="para" id="notes-tf1information-5-1">
+<em class="alert">Trigonometric Functions of Acute Angles</em><div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="notes-tf1information-5-2">The trigonometric functions of acute angles are defined in terms of the sides of a right triangle. For an acute angle <span class="process-math">\(\theta\text{,}\)</span> the trigonometric functions are:<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="notes-tf1information-5-3">
+<ul class="disc" id="notes-tf1information-5-3-1">
+<li id="notes-tf1information-5-3-1-1">
+<div class="para" id="p-derived-notes-tf1information-5-3-1-1"><span class="process-math">\(\displaystyle \sin \theta = \frac{\text{opposite}}{\text{hypotenuse}}\)</span></div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-5-3-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf1information-5-3-1-2">
+<div class="para" id="p-derived-notes-tf1information-5-3-1-2"><span class="process-math">\(\displaystyle \cos \theta = \frac{\text{adjacent}}{\text{hypotenuse}}\)</span></div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-5-3-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf1information-5-3-1-3">
+<div class="para" id="p-derived-notes-tf1information-5-3-1-3"><span class="process-math">\(\displaystyle \tan \theta = \frac{\text{opposite}}{\text{adjacent}}\)</span></div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-5-3-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf1information-5-3-1-4">
+<div class="para" id="p-derived-notes-tf1information-5-3-1-4"><span class="process-math">\(\displaystyle \csc \theta = \frac{\text{hypotenuse}}{\text{opposite}}\)</span></div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-5-3-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf1information-5-3-1-5">
+<div class="para" id="p-derived-notes-tf1information-5-3-1-5"><span class="process-math">\(\displaystyle \sec \theta = \frac{\text{hypotenuse}}{\text{adjacent}}\)</span></div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-5-3-1-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf1information-5-3-1-6">
+<div class="para" id="p-derived-notes-tf1information-5-3-1-6"><span class="process-math">\(\displaystyle \cot \theta = \frac{\text{adjacent}}{\text{opposite}}\)</span></div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-5-3-1-6" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-5-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="notes-tf1information-5-4">For any acute angle <span class="process-math">\(\theta\text{,}\)</span> the trigonometric functions are positive. The signs of the trigonometric functions depend on the quadrant in which the angle lies. The pythagorean theorem states that for a right triangle with legs of length <span class="process-math">\(a\)</span> and <span class="process-math">\(b\text{,}\)</span> and hypotenuse of length <span class="process-math">\(c\text{,}\)</span> we have <span class="process-math">\(a^2 + b^2 = c^2\text{.}\)</span> We can use this theorem to find missing sides of right triangles. This correlates to our first trigonometric identity which is <span class="process-math">\(\sin^2 \theta + \cos^2 \theta = 1\text{.}\)</span> This will be made more clear in the next section.<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-5-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="onepage" id="notes-tf1information-6"><div class="para" id="notes-tf1information-6-1">
+<em class="alert">Trigonometric Functions of Any Angle</em><div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="notes-tf1information-6-2">
+<div class="para">For any angle in standard position, we can define the trigonometric functions using the unit circle. The unit circle is a circle with center at the origin and radius 1. The point on the unit circle corresponding to an angle <span class="process-math">\(\theta\)</span> has coordinates <span class="process-math">\((\cos \theta, \sin \theta)\text{.}\)</span> This allows us to define trigonometric functions for any angle in terms of the coordinates of the point on the unit circle. The signs of the trigonometric functions depend on the quadrant in which the angle lies. The circular functions are:</div>
+<ul class="disc" id="notes-tf1information-6-2-3">
+<li id="notes-tf1information-6-2-3-1">
+<div class="para" id="notes-tf1information-6-2-3-1-1">
+<span class="process-math">\(\displaystyle \sin \theta = y\text{-coordinate of the point on the unit circle}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-6-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-6-2-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf1information-6-2-3-2">
+<div class="para" id="notes-tf1information-6-2-3-2-1">
+<span class="process-math">\(\displaystyle \cos \theta = x\text{-coordinate of the point on the unit circle}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-6-2-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-6-2-3-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf1information-6-2-3-3">
+<div class="para" id="notes-tf1information-6-2-3-3-1">
+<span class="process-math">\(\displaystyle \tan \theta = \frac{y\text{-coordinate}}{x\text{-coordinate}}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-6-2-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-6-2-3-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf1information-6-2-3-4">
+<div class="para" id="notes-tf1information-6-2-3-4-1">
+<span class="process-math">\(\displaystyle \csc \theta = \frac{1}{y\text{-coordinate}} = \frac{1}{\sin \theta}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-6-2-3-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-6-2-3-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf1information-6-2-3-5">
+<div class="para" id="notes-tf1information-6-2-3-5-1">
+<span class="process-math">\(\displaystyle \sec \theta = \frac{1}{x\text{-coordinate}} = \frac{1}{\cos \theta}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-6-2-3-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-6-2-3-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf1information-6-2-3-6">
+<div class="para" id="notes-tf1information-6-2-3-6-1">
+<span class="process-math">\(\displaystyle \cot \theta = \frac{1}{\tan \theta} = \frac{x\text{-coordinate}}{y\text{-coordinate}}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-6-2-3-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf1information-6-2-3-6" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf1information-6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><div class="autopermalink" data-description="Worksheet: Right Triangle Trigonometry"><a href="#notes-tf1information" title="Copy heading and permalink for Worksheet: Right Triangle Trigonometry" aria-label="Copy heading and permalink for Worksheet: Right Triangle Trigonometry">🔗</a></div></section><section class="worksheet" id="tf1-3" data-margins="0.75in 0.75in 0.75in 0.75in"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">TF-1 Right Triangle Trigonometry</span><div class="print-links"><a href="?printpreview=tf1-3" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<section class="onepage" id="tf1-3-2"><div class="para" id="tf1-3-2-1">
+<em class="alert">Trigonometry Fundamentals</em><div class="autopermalink" data-description="Paragraph"><a href="#tf1-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://player.vimeo.com/video/1068275135?color=ffffff" id="tf1-3-2-2" frameborder="0" allow="fullscreen"></iframe></div>
+<div class="para" id="tf1-3-2-3">
+<em class="alert">Right Triangle Trigonometry</em><div class="autopermalink" data-description="Paragraph"><a href="#tf1-3-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://player.vimeo.com/video/1068275218?color=ffffff" id="tf1-3-2-4" frameborder="0" allow="fullscreen"></iframe></div>
+<div class="para" id="tf1-3-2-5">
+<em class="alert">Triangle and Unit Circle Definitions</em><div class="autopermalink" data-description="Paragraph"><a href="#tf1-3-2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://player.vimeo.com/video/1068275174?color=ffffff" id="tf1-3-2-6" frameborder="0" allow="fullscreen"></iframe></div></section><div class="autopermalink" data-description="Worksheet: TF-1 Right Triangle Trigonometry"><a href="#tf1-3" title="Copy heading and permalink for Worksheet: TF-1 Right Triangle Trigonometry" aria-label="Copy heading and permalink for Worksheet: TF-1 Right Triangle Trigonometry">🔗</a></div></section><section class="section" id="tf1rubric"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">TF-1 Rubric</span>
+</h3>
+<section class="worksheet" id="tf1rubric-2" data-margins="0.75in 0.75in 0.75in 0.75in"><h4 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Worksheet</span><div class="print-links"><a href="?printpreview=tf1rubric-2" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h4>
+<section class="introduction" id="tf1rubric-2-1"><div class="para" id="tf1rubric-2-1-1">Before attempting the TF-1 outcome, you should review the following rubric. This shows the criteria you will be graded on and the expectations to earn each mastery level.<div class="autopermalink" data-description="Paragraph"><a href="#tf1rubric-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><figure class="table table-like" id="tf1rubric-2-2"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">22<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>TF-1 Rubric<div class="autopermalink" data-description="Table 22: TF-1 Rubric"><a href="#tf1rubric-2-2" title="Copy heading and permalink for Table 22: TF-1 Rubric" aria-label="Copy heading and permalink for Table 22: TF-1 Rubric">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b2 r2 l2 t2 lines">Criteria</td>
+<td class="c m b2 r2 l0 t2 lines">M</td>
+<td class="c m b2 r2 l0 t2 lines">P</td>
+<td class="c m b2 r2 l0 t2 lines">R</td>
+<td class="c m b2 r2 l0 t2 lines">N</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Simplifying Algebraic Expressions</td>
+<td class="c m b2 r2 l0 t0 lines">All answers are fully simplified. Exact answers are given, not approximations. Radical and exponential expressions are used appropriately and are simplified in the correct manner.</td>
+<td class="c m b2 r2 l0 t0 lines">No algebraic errors but some expressions are not simplified.</td>
+<td class="c m b2 r2 l0 t0 lines">There are some algebraic errors and some expressions were not simplified.</td>
+<td class="c m b2 r2 l0 t0 lines">There are some algebraic errors and some expressions were not simplified.</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Basics of Graphing</td>
+<td class="c m b2 r2 l0 t0 lines">Graph is labeled with units for each axis.  The graph includes all of the important features (intercepts, asymptotes, deleted points, etc).  The graph is appropriately drawn to accommodate all features.</td>
+<td class="c m b2 r2 l0 t0 lines">Graph is labeled and has most of the required features.</td>
+<td class="c m b2 r2 l0 t0 lines">Graph has most of the required features.</td>
+<td class="c m b2 r2 l0 t0 lines">No graph was given.</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Problem Structure and Mathematical Communication</td>
+<td class="c m b2 r2 l0 t0 lines">Problems have a clear beginning, middle and end. Work progresses clearly from one step to the next. The work provided uses appropriate methods and provides a clear solution.</td>
+<td class="c m b2 r2 l0 t0 lines">Problems have a clear beginning, middle and end. Work progresses clearly from one step to the next. The work provided uses algebraic methods and provides a solution.</td>
+<td class="c m b2 r2 l0 t0 lines">Parts of the mathematical structure are missing or steps in the progress of the solution are missing. The work provided uses algebraic methods and provides a solution.</td>
+<td class="c m b2 r2 l0 t0 lines">There is not a clear structure to the solution and it is unclear what methods are being used.</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Trigonometric Ratios from a right triangle</td>
+<td class="c m b2 r2 l0 t0 lines">Given two sides of a right triangle, find the missing side and find the six trigonometric function ratios based on the stated angle. The functions have correct notation and simplified values.</td>
+<td class="c m b2 r2 l0 t0 lines">Given two sides of a right triangle, find the missing side with minor errors and find the six trigonometric function ratios based on the stated angle. The functions have correct notation and simplified values.</td>
+<td class="c m b2 r2 l0 t0 lines">Found at least two of the trigonometric ratios with correct notation and simplified values.</td>
+<td class="c m b2 r2 l0 t0 lines">Not enough evidence shown to determine the understanding of trigonometric ratios based on a right triangle.</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Sketch an angle and the reference triangle</td>
+<td class="c m b2 r2 l0 t0 lines">Given a point in the plane, graph, and label the correct angle in standard position.  Identify the reference angle and correctly create and label the reference triangle.</td>
+<td class="c m b2 r2 l0 t0 lines">Given a point in the plane, graph, an angle in standard position.  Identify the reference angle and create the reference triangle.</td>
+<td class="c m b2 r2 l0 t0 lines">Given a point in the plane, create a triangle based on the coordinates.</td>
+<td class="c m b2 r2 l0 t0 lines">Not enough evidence to determine understanding of angles in standard position or reference triangles.</td>
+</tr>
+</table></div></figure><div class="autopermalink" data-description="Worksheet"><a href="#tf1rubric-2" title="Copy heading and permalink for Worksheet" aria-label="Copy heading and permalink for Worksheet">🔗</a></div></section><div class="autopermalink" data-description="Section: TF-1 Rubric"><a href="#tf1rubric" title="Copy heading and permalink for Section: TF-1 Rubric" aria-label="Copy heading and permalink for Section: TF-1 Rubric">🔗</a></div></section><section class="worksheet" id="tf1-5" data-margins="0.75in 0.75in 0.75in 0.75in"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">TF-1 Right Triangle Trigonometry</span><div class="print-links"><a href="?printpreview=tf1-5" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<section class="introduction" id="tf1-5-2"><div class="para" id="tf1-5-2-1">This outcome covers using right triangles to solve problems involving trigonometric ratios. You should be able to use the definitions of the six trigonometric functions to find missing sides and angles in right triangles. You should also be able to apply these skills to solve trigonometric functions of any point in the coordinate plane.<div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf1-5-2-2">For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples of the types of problems you will encounter:<div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><article class="objectives goal-like" id="tf1-5-3"><h4 class="heading"><span class="type">Objectives</span></h4>
+<ul class="disc" id="tf1-5-3-1">
+<li id="tf1-5-3-1-1">
+<div class="para" id="tf1-5-3-1-1-1">Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.<div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#tf1-5-3-1-1" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="tf1-5-3-1-2">
+<div class="para" id="tf1-5-3-1-2-1">Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the correct intercepts and general behavior.<div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#tf1-5-3-1-2" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="tf1-5-3-1-3">
+<div class="para" id="tf1-5-3-1-3-1">Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.<div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#tf1-5-3-1-3" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="tf1-5-3-1-4">
+<div class="para" id="tf1-5-3-1-4-1">Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.<div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-3-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#tf1-5-3-1-4" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="tf1-5-3-1-5">
+<div class="para" id="tf1-5-3-1-5-1">Solve a right triangle: Given two sides of a right triangle, find the missing side and use the trigonometric definitions to find the values of the six trigonometric functions.<div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-3-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#tf1-5-3-1-5" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="tf1-5-3-1-6">
+<div class="para" id="tf1-5-3-1-6-1">Find the trigonometric functions of a point: Given a point in the coordinate plane, draw the angle in standard position; draw and label the reference triangle. Find the values of the six trigonometric functions using the definitions of the trigonometric functions and the signs based on the quadrants in the coordinate plane.<div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-3-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#tf1-5-3-1-6" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Objectives"><a href="#tf1-5-3" title="Copy heading and permalink for Objectives" aria-label="Copy heading and permalink for Objectives">🔗</a></div></article><section class="onepage" id="tf1-5-4"><article class="exercise exercise-like" id="tf1-5-4-1"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="tf1-5-4-1-1"><div class="para" id="tf1-5-4-1-1-1">Given a right triangle RST with legs s=9 and t=12:<div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="tf1-5-4-1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="tf1-5-4-1-2-1-1">Find the values of the six trigonometric functions of angle T.<div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="tf1-5-4-1-2-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="tf1-5-4-1-2-2-1">Find the value of r then use the definitions of the trigonometric functions to find the values.<div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 1.a.1"><a href="#tf1-5-4-1-2-2" title="Copy heading and permalink for Hint 1.a.1" aria-label="Copy heading and permalink for Hint 1.a.1">🔗</a></div>
+</div></details><details id="tf1-5-4-1-2-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="tf1-5-4-1-2-3-1">
+<span class="process-math">\(sin T = \frac{12}{15}\text{,}\)</span> <span class="process-math">\(\cos T = \frac{9}{15}\text{,}\)</span> <span class="process-math">\(\tan T = \frac{12}{9}\text{,}\)</span> <span class="process-math">\(\csc T = \frac{15}{12}\text{,}\)</span> <span class="process-math">\(\sec T = \frac{15}{9}\text{,}\)</span> <span class="process-math">\(\cot T = \frac{9}{12}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-1-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 1.a.1"><a href="#tf1-5-4-1-2-3" title="Copy heading and permalink for Answer 1.a.1" aria-label="Copy heading and permalink for Answer 1.a.1">🔗</a></div>
+</div></details><details id="tf1-5-4-1-2-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="tf1-5-4-1-2-4-1">First, we find the value of r using the Pythagorean theorem: <span class="process-math">\(r = \sqrt{s^2 + t^2}\)</span> <span class="process-math">\(r = \sqrt{9^2 + 12^2}\)</span> <span class="process-math">\(r= \sqrt{81 + 144} \)</span> <span class="process-math">\(r= \sqrt{225} = 15\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-1-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf1-5-4-1-2-4-2">Now we can use the definitions of the trigonometric functions:<div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-1-2-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf1-5-4-1-2-4-3">
+<span class="process-math">\(\sin T = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{12}{15}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-1-2-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf1-5-4-1-2-4-4">
+<span class="process-math">\(\cos T = \frac{\text{adjacent}}{\text{hypotenuse}} = \frac{9}{15}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-1-2-4-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf1-5-4-1-2-4-5">
+<span class="process-math">\(\tan T = \frac{\text{opposite}}{\text{adjacent}} = \frac{12}{9}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-1-2-4-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf1-5-4-1-2-4-6">
+<span class="process-math">\(\csc T = \frac{\text{hypotenuse}}{\text{opposite}} = \frac{15}{12}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-1-2-4-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf1-5-4-1-2-4-7">
+<span class="process-math">\(\sec T = \frac{\text{hypotenuse}}{\text{adjacent}} = \frac{15}{9}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-1-2-4-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf1-5-4-1-2-4-8">
+<span class="process-math">\(\cot T = \frac{\text{adjacent}}{\text{opposite}} = \frac{9}{12}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-1-2-4-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.a.1"><a href="#tf1-5-4-1-2-4" title="Copy heading and permalink for Solution 1.a.1" aria-label="Copy heading and permalink for Solution 1.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Task 1.a"><a href="#tf1-5-4-1-2" title="Copy heading and permalink for Task 1.a" aria-label="Copy heading and permalink for Task 1.a">🔗</a></div></article><div class="autopermalink" data-description="Worksheet Exercise 1"><a href="#tf1-5-4-1" title="Copy heading and permalink for Worksheet Exercise 1" aria-label="Copy heading and permalink for Worksheet Exercise 1">🔗</a></div></article><article class="exercise exercise-like" id="tf1-5-4-2"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="tf1-5-4-2-1"><div class="para" id="tf1-5-4-2-1-1">Given a right triangle UVW with leg u=8 and hypotenuse v=17:<div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="tf1-5-4-2-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="tf1-5-4-2-2-1-1">Find the values of the six trigonometric functions of angle U.<div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="tf1-5-4-2-2-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="tf1-5-4-2-2-2-1">Find the value of w then use the definitions of the trigonometric functions to find the values.<div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 2.a.1"><a href="#tf1-5-4-2-2-2" title="Copy heading and permalink for Hint 2.a.1" aria-label="Copy heading and permalink for Hint 2.a.1">🔗</a></div>
+</div></details><details id="tf1-5-4-2-2-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="tf1-5-4-2-2-3-1">
+<span class="process-math">\(\sin U = \frac{15}{17}\text{,}\)</span> <span class="process-math">\(\cos U = \frac{8}{17}\text{,}\)</span> <span class="process-math">\(\tan U = \frac{15}{8}\text{,}\)</span> <span class="process-math">\(\csc U = \frac{17}{15}\text{,}\)</span> <span class="process-math">\(\sec U = \frac{17}{8}\text{,}\)</span> <span class="process-math">\(\cot U = \frac{8}{15}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-2-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 2.a.1"><a href="#tf1-5-4-2-2-3" title="Copy heading and permalink for Answer 2.a.1" aria-label="Copy heading and permalink for Answer 2.a.1">🔗</a></div>
+</div></details><details id="tf1-5-4-2-2-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="tf1-5-4-2-2-4-1">First, we find the value of w using the Pythagorean theorem: <span class="process-math">\(w = \sqrt{v^2 - u^2}\)</span> <span class="process-math">\(w = \sqrt{17^2 - 8^2}\)</span> <span class="process-math">\(w= \sqrt{289 - 64} \)</span> <span class="process-math">\(w= \sqrt{225} = 15\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-2-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf1-5-4-2-2-4-2">Now we can use the definitions of the trigonometric functions:<div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-2-2-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf1-5-4-2-2-4-3">
+<span class="process-math">\(\sin U = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{15}{17}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-2-2-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf1-5-4-2-2-4-4">
+<span class="process-math">\(\cos U = \frac{\text{adjacent}}{\text{hypotenuse}} = \frac{8}{17}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-2-2-4-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf1-5-4-2-2-4-5">
+<span class="process-math">\(\tan U = \frac{\text{opposite}}{\text{adjacent}} = \frac{15}{8}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-2-2-4-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf1-5-4-2-2-4-6">
+<span class="process-math">\(\csc U = \frac{\text{hypotenuse}}{\text{opposite}} = \frac{17}{15}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-2-2-4-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf1-5-4-2-2-4-7">
+<span class="process-math">\(\sec U = \frac{\text{hypotenuse}}{\text{adjacent}} = \frac{17}{8}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-2-2-4-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf1-5-4-2-2-4-8">
+<span class="process-math">\(\cot U = \frac{\text{adjacent}}{\text{opposite}} = \frac{8}{15}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-2-2-4-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 2.a.1"><a href="#tf1-5-4-2-2-4" title="Copy heading and permalink for Solution 2.a.1" aria-label="Copy heading and permalink for Solution 2.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Task 2.a"><a href="#tf1-5-4-2-2" title="Copy heading and permalink for Task 2.a" aria-label="Copy heading and permalink for Task 2.a">🔗</a></div></article><div class="autopermalink" data-description="Worksheet Exercise 2"><a href="#tf1-5-4-2" title="Copy heading and permalink for Worksheet Exercise 2" aria-label="Copy heading and permalink for Worksheet Exercise 2">🔗</a></div></article><article class="exercise exercise-like" id="tf1-5-4-3"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="tf1-5-4-3-1"><div class="para" id="tf1-5-4-3-1-1">The point (-4,6) is on the terminal side of angle θ in standard position:<div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="tf1-5-4-3-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="tf1-5-4-3-2-1-1">Sketch the angle θ in standard position. Sketch and label the reference triangle.<div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="tf1-5-4-3-2-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="tf1-5-4-3-2-2-1">Use the given point to form a right triangle with the origin and the x-axis. Use the Pythagorean theorem to find the hypotenuse.<div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-3-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.a.1"><a href="#tf1-5-4-3-2-2" title="Copy heading and permalink for Hint 3.a.1" aria-label="Copy heading and permalink for Hint 3.a.1">🔗</a></div>
+</div></details><details id="tf1-5-4-3-2-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="tf1-5-4-3-2-3-1">
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;">
+<div class="ChemAccess-element" data-src="generated/prefigure/prefigure-tf1a-sample-diagcess.svg" data-cml="generated/prefigure/prefigure-tf1a-sample-annotations.xml"></div>
+<details><summary>Diagram Exploration Keyboard Controls</summary><div class="diagcess-navigation-controls"><table>
+<thead><tr>
+<th>Key</th>
+<th>Action</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Enter, A</td>
+<td>Activate keyboard driven exploration</td>
+</tr>
+<tr>
+<td>B</td>
+<td>Activate menu driven exploration</td>
+</tr>
+<tr>
+<td>Escape</td>
+<td>Leave exploration mode</td>
+</tr>
+<tr>
+<td>Cursor down</td>
+<td>Explore next lower level</td>
+</tr>
+<tr>
+<td>Cursor up</td>
+<td>Explore next upper level</td>
+</tr>
+<tr>
+<td>Cursor right</td>
+<td>Explore next element on level</td>
+</tr>
+<tr>
+<td>Cursor left</td>
+<td>Explore previous element on level</td>
+</tr>
+<tr>
+<td>X</td>
+<td>Toggle expert mode</td>
+</tr>
+<tr>
+<td>W</td>
+<td>Extra details if available</td>
+</tr>
+<tr>
+<td>Space</td>
+<td>Repeat speech</td>
+</tr>
+<tr>
+<td>M</td>
+<td>Activate step magnification</td>
+</tr>
+<tr>
+<td>Comma</td>
+<td>Activate direct magnification</td>
+</tr>
+<tr>
+<td>N</td>
+<td>Deactivate magnification</td>
+</tr>
+<tr>
+<td>Z</td>
+<td>Toggle subtitles</td>
+</tr>
+<tr>
+<td>C</td>
+<td>Cycle contrast settings</td>
+</tr>
+<tr>
+<td>T</td>
+<td>Monochrome colours</td>
+</tr>
+<tr>
+<td>L</td>
+<td>Toggle language (if available)</td>
+</tr>
+<tr>
+<td>K</td>
+<td>Kill current sound</td>
+</tr>
+<tr>
+<td>Y</td>
+<td>Stop sound output</td>
+</tr>
+<tr>
+<td>O</td>
+<td>Start and stop sonification</td>
+</tr>
+<tr>
+<td>P</td>
+<td>Repeat sonification output</td>
+</tr>
+</tbody>
+</table></div></details>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-3-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.a.1"><a href="#tf1-5-4-3-2-3" title="Copy heading and permalink for Answer 3.a.1" aria-label="Copy heading and permalink for Answer 3.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Task 3.a"><a href="#tf1-5-4-3-2" title="Copy heading and permalink for Task 3.a" aria-label="Copy heading and permalink for Task 3.a">🔗</a></div></article><article class="task exercise-like" id="tf1-5-4-3-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="tf1-5-4-3-3-1-1">Find the values of the six trigonometric functions of angle θ.<div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="tf1-5-4-3-3-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="tf1-5-4-3-3-2-1">Find the value of r then use the definitions of the trigonometric functions to find the values.<div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-3-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.b.1"><a href="#tf1-5-4-3-3-2" title="Copy heading and permalink for Hint 3.b.1" aria-label="Copy heading and permalink for Hint 3.b.1">🔗</a></div>
+</div></details><details id="tf1-5-4-3-3-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="tf1-5-4-3-3-3-1">
+<span class="process-math">\(\sin θ = \frac{6}{10}\text{,}\)</span> <span class="process-math">\(\cos θ = \frac{-4}{10}\text{,}\)</span> <span class="process-math">\(\tan θ = \frac{6}{-4}\text{,}\)</span> <span class="process-math">\(\csc θ = \frac{10}{6}\text{,}\)</span> <span class="process-math">\(\sec θ = \frac{10}{-4}\text{,}\)</span> <span class="process-math">\(\cot θ = \frac{-4}{6}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-3-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.b.1"><a href="#tf1-5-4-3-3-3" title="Copy heading and permalink for Answer 3.b.1" aria-label="Copy heading and permalink for Answer 3.b.1">🔗</a></div>
+</div></details><details id="tf1-5-4-3-3-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="tf1-5-4-3-3-4-1">First, we find the value of r using the distance formula: <span class="process-math">\(r = \sqrt{(-4)^2 + 6^2}\)</span> <span class="process-math">\(r = \sqrt{16 + 36}\)</span> <span class="process-math">\(r= \sqrt{52} = 2\sqrt{13}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-3-3-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf1-5-4-3-3-4-2">Now we can use the definitions of the trigonometric functions:<div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-3-3-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf1-5-4-3-3-4-3">
+<span class="process-math">\(\sin θ = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{6}{2\sqrt{13}}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-3-3-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf1-5-4-3-3-4-4">
+<span class="process-math">\(\cos θ = \frac{\text{adjacent}}{\text{hypotenuse}} = \frac{-4}{2\sqrt{13}}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-3-3-4-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf1-5-4-3-3-4-5">
+<span class="process-math">\(\tan θ = \frac{\text{opposite}}{\text{adjacent}} = \frac{6}{-4}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-3-3-4-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf1-5-4-3-3-4-6">
+<span class="process-math">\(\csc θ = \frac{\text{hypotenuse}}{\text{opposite}} = \frac{2\sqrt{13}}{6}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-3-3-4-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf1-5-4-3-3-4-7">
+<span class="process-math">\(\sec θ = \frac{\text{hypotenuse}}{\text{adjacent}} = \frac{2\sqrt{13}}{-4}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-3-3-4-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf1-5-4-3-3-4-8">
+<span class="process-math">\(\cot θ = \frac{\text{adjacent}}{\text{opposite}} = \frac{-4}{6}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf1-5-4-3-3-4-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 3.b.1"><a href="#tf1-5-4-3-3-4" title="Copy heading and permalink for Solution 3.b.1" aria-label="Copy heading and permalink for Solution 3.b.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Task 3.b"><a href="#tf1-5-4-3-3" title="Copy heading and permalink for Task 3.b" aria-label="Copy heading and permalink for Task 3.b">🔗</a></div></article><div class="autopermalink" data-description="Worksheet Exercise 3"><a href="#tf1-5-4-3" title="Copy heading and permalink for Worksheet Exercise 3" aria-label="Copy heading and permalink for Worksheet Exercise 3">🔗</a></div></article></section><div class="autopermalink" data-description="Worksheet: TF-1 Right Triangle Trigonometry"><a href="#tf1-5" title="Copy heading and permalink for Worksheet: TF-1 Right Triangle Trigonometry" aria-label="Copy heading and permalink for Worksheet: TF-1 Right Triangle Trigonometry">🔗</a></div></section><div class="autopermalink" data-description="Section: TF-1 Right Triangle Trigonometry"><a href="#tf1" title="Copy heading and permalink for Section: TF-1 Right Triangle Trigonometry" aria-label="Copy heading and permalink for Section: TF-1 Right Triangle Trigonometry">🔗</a></div></section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="trigonometric-functions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="tf2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="feedback-link" href="mailto:lnbowman@alaska.edu" target="_blank">Feedback</a><a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+<script>diagcess.Base.init()</script>
+</body>
+</html>

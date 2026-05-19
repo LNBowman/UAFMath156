@@ -1,0 +1,43 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-gr3d-sample-figure" speech2="The graph is a rational function separated into three branches by the vertical                        asymptotes at x=0.5 and x=1. The graph has an oblique asymptote at y=-\frac{1}{2}x+1. The graph                        passes through the y-intercept (0,1)and the x-intercept (2,0). For x less than 0.5,                        the graph is above the horizontal asymptote and approaches the vertical asymptote at x=0.5                        toward positive infinity. For 0.5 less than x less than 1, the graph is below the horizontal asymptote                        and approaches both of the vertical asymptotes at x=0.5 and x=1 toward negative infinity.                        For x greater than 1, the graph is above the horizontal asymptote and approaches the vertical asymptote                        at x=1 toward positive infinity. As x approaches positive or negative infinity, the graph                        approaches the horizontal asymptote y=0.">
+      <grouped>prefigure-gr3d-sample-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-gr3d-sample-grid-axes</active>
+      </children>
+      <components>
+        <active>prefigure-gr3d-sample-grid-axes</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-gr3d-sample-grid-axes" speech2="The coordinate grid and axes">
+      <grouped>prefigure-gr3d-sample-grid-axes</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-gr3d-sample-grid</active>
+        <active>prefigure-gr3d-sample-axes</active>
+      </children>
+      <components>
+        <active>prefigure-gr3d-sample-grid</active>
+        <active>prefigure-gr3d-sample-axes</active>
+      </components>
+      <parents>
+        <grouped>prefigure-gr3d-sample-figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefigure-gr3d-sample-grid" speech2="The coordinate grid">
+      <active>prefigure-gr3d-sample-grid</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-gr3d-sample-grid-axes</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefigure-gr3d-sample-axes" speech2="The coordinate axes">
+      <active>prefigure-gr3d-sample-axes</active>
+      <position>2</position>
+      <parents>
+        <grouped>prefigure-gr3d-sample-grid-axes</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>

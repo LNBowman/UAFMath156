@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>GR-4 Systems of Equations</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Precalculus">
+<meta property="book:author" content="Dr. Latrice Bowman">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.0.0';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.ce7e0a2163cb330f.bundle.js"></script><script src="_static/prefix-713.de0ab26248766350.bundle.js"></script><script src="_static/prefix-runestone.f4a2ffb04bb978bb.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-713.f43ced6a6134ea74.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.87414d180ebeebd6.css">
+<script src="_static/pretext/js/diagcess/diagcess.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="root-1-2.html"><span class="title">Precalculus</span> <span class="subtitle">MATH F156X Summer 2026</span></a></h1>
+<p class="byline">Dr. Latrice Bowman</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="embed-button" class="embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><div class="embed-popup hidden" id="embed-popup">
+<p>Copy the code below to embed this page in your own website or LMS page.</p>
+<div class="embed-code-container">
+<textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div>
+</div>
+<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="gr3.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="graphs-of-functions.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="gr5.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand*{\ds}{\displaystyle}
+\newcommand*{\bpt}{\begin{parts}}
+\newcommand*{\ept}{\end{parts}}
+\newcommand*{\bmc}{\begin{multicols}}
+\newcommand*{\emc}{\end{multicols}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3 focused" data-preexpanded-levels="2" data-max-levels="3"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="course-syllabus.html" class="internal"><span class="title">Course Documents</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="syllabus.html" class="internal"><span class="title">Course Information</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="components.html" class="internal"><span class="title">Course Components</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="rubrics.html" class="internal"><span class="title">Rubrics, Schedules, and Grades</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="policies.html" class="internal"><span class="title">Course and University Policies</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="support.html" class="internal"><span class="title">How to Succeed in this Course</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="course-syllabus-7.html" class="internal"><span class="title">Math 156 Summer 2026 Online Schedule</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="basics-of-functions.html" class="internal"><span class="title">Basics of Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf1.html" class="internal"><span class="title">BF-1 Linear and Quadratic Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf1.html#bf1-2" class="internal"><span class="title">BF-1 Quick Notes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bf1.html#bf1videos" class="internal"><span class="title">BF-1 Videos</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf1.html#bf1rubric" class="internal"><span class="title">BF-1 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf1.html#bf1rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf1.html#bf1-5" class="internal"><span class="title">BF-1 Sample Outcomes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf2.html" class="internal"><span class="title">BF-2 Forms of Linear Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf2.html#bf2-2" class="internal"><span class="title">BF-2 Quick Notes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bf2.html#bf2videos" class="internal"><span class="title">BF-2 Videos</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf2.html#bf2rubric" class="internal"><span class="title">BF-2 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf2.html#bf2rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf2.html#bf2-5" class="internal"><span class="title">BF-2 Sample Outcomes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf3.html" class="internal"><span class="title">BF-3 Difference Quotients and Piecewise Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf3.html#notes-bf3information" class="internal"><span class="title">BF-3 Quick Notes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bf3.html#bf3videos" class="internal"><span class="title">BF-3 Videos</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf3.html#bf3rubric" class="internal"><span class="title">BF-3 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf3.html#bf3rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf3.html#bf3-5" class="internal"><span class="title">BF-3 Sample Outcomes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf4.html" class="internal"><span class="title">BF-4 Transformations and Combinations of Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf4.html#notes-bf4information" class="internal"><span class="title">BF-4 Quick Notes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bf4.html#bf4videos" class="internal"><span class="title">BF-4 Videos</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf4.html#bf4rubric" class="internal"><span class="title">BF-4 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf4.html#bf4rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf4.html#bf4-5" class="internal"><span class="title">BF-4 Sample Outcomes</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="graphs-of-functions.html" class="internal"><span class="title">Graphs of Functions</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr1.html" class="internal"><span class="title">GR-1 Quadratic Functions and Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr1.html#notes-gr1information" class="internal"><span class="title">Graphing Quadratics and Quadratic Models</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr1.html#gr1-3" class="internal"><span class="title">GR-1 Quadratic Functions and Models</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr1.html#gr1rubric" class="internal"><span class="title">GR-1 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr1.html#gr1rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr1.html#gr1-5" class="internal"><span class="title">GR-1 Quadratic Functions and Models</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr2.html" class="internal"><span class="title">GR-2 Polynomial Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr2.html#notes-gr2information" class="internal"><span class="title">Graphing Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr2.html#gr2-3" class="internal"><span class="title">GR-2 Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr2.html#gr2rubric" class="internal"><span class="title">GR-2 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr2.html#gr2rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr2.html#gr2-5" class="internal"><span class="title">GR-2 Polynomial Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr3.html" class="internal"><span class="title">GR-3 Rational Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr3.html#notes-gr3information" class="internal"><span class="title">Graphing Rational Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr3.html#gr3-3" class="internal"><span class="title">GR-3 Rational Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr3.html#gr3rubric" class="internal"><span class="title">GR-3 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr3.html#gr3rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr3.html#gr3-5" class="internal"><span class="title">GR-3 Rational Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="gr4.html" class="internal"><span class="title">GR-4 Systems of Equations</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr4.html#notes-gr4information" class="internal"><span class="title">Systems of Equations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr4.html#gr4-3" class="internal"><span class="title">GR-4 Systems of Linear Equations</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr4.html#gr4rubric" class="internal"><span class="title">GR-4 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr4.html#gr4rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr4.html#gr4-5" class="internal"><span class="title">GR-4 Systems of Linear Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr5.html" class="internal"><span class="title">GR-5 Linear Inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr5.html#notes-gr5information" class="internal"><span class="title">Linear Inequalities and Systems</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr5.html#gr5-3" class="internal"><span class="title">GR-5 Linear Inequalities</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr5.html#gr5rubric" class="internal"><span class="title">GR-5 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr5.html#gr5rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr5.html#gr5-5" class="internal"><span class="title">GR-5 Graphing Linear Inequalities</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="exponential-and-logarithmic-functions.html" class="internal"><span class="title">Exponential and Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el1.html" class="internal"><span class="title">EL-1 Exponential and Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el1.html#notes-el1information" class="internal"><span class="title">Exponential and Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el1.html#el1-3" class="internal"><span class="title">EL-1 Exponential and Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el1.html#el1rubric" class="internal"><span class="title">EL-1 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el1.html#el1rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el1.html#el1-5" class="internal"><span class="title">EL-1 Exponential and Logarithmic Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el2.html" class="internal"><span class="title">EL-2 Exponential and Logarithmic Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el2.html#notes-el2information" class="internal"><span class="title">Exponential and Logarithmic Equations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el2.html#el2-3" class="internal"><span class="title">EL-2 Exponential and Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el2.html#el2rubric" class="internal"><span class="title">EL-2 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el2.html#el2rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el2.html#el2-5" class="internal"><span class="title">EL-2 Exponential and Logarithmic Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el3.html" class="internal"><span class="title">EL-3 Growth and Decay Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el3.html#notes-el3information" class="internal"><span class="title">Exponential Models</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el3.html#el3-3" class="internal"><span class="title">EL-3 Modeling with Exponential Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el3.html#el3rubric" class="internal"><span class="title">EL-3 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el3.html#el3rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el3.html#el3-5" class="internal"><span class="title">EL-3 Modeling Exponential Functions</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="trigonometric-functions.html" class="internal"><span class="title">Trigonometric Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf1.html" class="internal"><span class="title">TF-1 Right Triangle Trigonometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf1.html#notes-tf1information" class="internal"><span class="title">Right Triangle Trigonometry</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf1.html#tf1-3" class="internal"><span class="title">TF-1 Right Triangle Trigonometry</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf1.html#tf1rubric" class="internal"><span class="title">TF-1 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf1.html#tf1rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf1.html#tf1-5" class="internal"><span class="title">TF-1 Right Triangle Trigonometry</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf2.html" class="internal"><span class="title">TF-2 Graphs of Trigonometric Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf2.html#notes-tf2information" class="internal"><span class="title">Graphing Trigonometric Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf2.html#tf2-3" class="internal"><span class="title">TF-2 Trigonometric Graphs</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf2.html#tf2rubric" class="internal"><span class="title">TF-2 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf2.html#tf2rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf2.html#tf2-5" class="internal"><span class="title">TF-2 Graphs of Trigonometric Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf3.html" class="internal"><span class="title">TF-3 Trigonometric Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf3.html#notes-tf3information" class="internal"><span class="title">Solving Trigonometric Equations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf3.html#tf3-3" class="internal"><span class="title">TF-3 Trigonometric Equations</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf3.html#tf3rubric" class="internal"><span class="title">TF-3 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf3.html#tf3rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf3.html#tf3-5" class="internal"><span class="title">TF-3 Trigonometric Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf4.html" class="internal"><span class="title">TF-4 Law of Sines and Cosines</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf4.html#notes-tf4information" class="internal"><span class="title">Law of Sines and Cosines</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf4.html#tf4-3" class="internal"><span class="title">TF-4 Law of Sines and Cosines</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf4.html#tf4rubric" class="internal"><span class="title">TF-4 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf4.html#tf4rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf4.html#tf4-5" class="internal"><span class="title">TF-4 Law of Sines and Cosines</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<div class="print-preview-header">
+<h2 class="print-preview">Print preview</h2>
+<div class="print-controls">
+<div class="print-controls-toggles">
+<form class="papersize-select" id="papersize-select">
+<span class="name">Paper size</span><label><input type="radio" name="papersize" value="a4">A4
+        </label><label><input type="radio" name="papersize" value="letter">Letter
+        </label>
+</form>
+<details class="print-options"><summary>Additional printing options</summary><div class="hide-solutions-options">
+<div class="hide-option">
+<label for="hide-hint-checkbox">Hide hints</label><input type="checkbox" id="hide-hint-checkbox">
+</div>
+<div class="hide-option">
+<label for="hide-answer-checkbox">Hide answers</label><input type="checkbox" id="hide-answer-checkbox">
+</div>
+<div class="hide-option">
+<label for="hide-solution-checkbox">Hide solutions</label><input type="checkbox" id="hide-solution-checkbox">
+</div>
+</div>
+<div class="header-footer-options">
+<div class="header-option">
+<span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
+</div>
+<div class="footer-option">
+<span class="title">Print footers</span><label>First page<input type="checkbox" id="print-first-page-footer-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-footer-checkbox" checked></label>
+</div>
+</div>
+<div class="highlight-workspace-option">
+<label for="highlight-workspace-checkbox">Highlight workspace</label><input type="checkbox" id="highlight-workspace-checkbox">
+</div></details>
+</div>
+<button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
+</div>
+</div>
+<section class="section" id="gr4"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">GR-4 Systems of Equations</span>
+</h2>
+<section class="worksheet" id="notes-gr4information" data-margins="0.75in 0.75in 0.75in 0.75in"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Systems of Equations</span><div class="print-links"><a href="?printpreview=notes-gr4information" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<section class="introduction" id="notes-gr4information-2"><div class="para logical" id="notes-gr4information-2-1">
+<div class="para">For this outcome  Specifically, for this outcome, students should be able to:</div>
+<ul class="disc" id="notes-gr4information-2-1-1">
+<li id="notes-gr4information-2-1-1-1">
+<div class="para" id="notes-gr4information-2-1-1-1-1">Solve a two-variable linear system using substitution and elimination methods.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr4information-2-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-gr4information-2-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-gr4information-2-1-1-2">
+<div class="para" id="notes-gr4information-2-1-1-2-1">Solve a three-variable linear system using elimination methods.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr4information-2-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-gr4information-2-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-gr4information-2-1-1-3">
+<div class="para" id="notes-gr4information-2-1-1-3-1">Identify when a system has no solution or infinitely many solutions.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr4information-2-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-gr4information-2-1-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-gr4information-2-1-1-4">
+<div class="para" id="notes-gr4information-2-1-1-4-1">Solve a nonlinear system of equations.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr4information-2-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-gr4information-2-1-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-gr4information-2-1-1-5">
+<div class="para" id="notes-gr4information-2-1-1-5-1">Model real-world problems using systems of equations.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr4information-2-1-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-gr4information-2-1-1-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr4information-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="onepage" id="notes-gr4information-3"><div class="para" id="notes-gr4information-3-1">
+<em class="alert">Systems of Linear Equations</em><div class="autopermalink" data-description="Paragraph"><a href="#notes-gr4information-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="notes-gr4information-3-2">A system of linear equations is a set of two or more linear equations that are solved simultaneously.The solution to a system of linear equations is the set of values that satisfy all equations in the system and are denoted by an ordered pair (x, y) for a two-variable system or an ordered triple (x, y, z) for a three-variable system.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr4information-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="notes-gr4information-3-3">A system of linear equations is consistent if it has at least one solution. It is inconsistent if it has no solutions. It is dependent if it has infinitely many solutions.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr4information-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="onepage" id="notes-gr4information-4"><div class="para" id="notes-gr4information-4-1">
+<em class="alert">Substitution Method</em><div class="autopermalink" data-description="Paragraph"><a href="#notes-gr4information-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="notes-gr4information-4-2">To solve a system of linear equations using substitution, solve one equation for one variable and substitute that expression into the other equation. Solve for the remaining variable and then back-substitute to find the value of the first variable. If the system is inconsistent, no solution exists. If the system is dependent, there are infinitely many solutions. If there are infinitely many solutions, the solutions are expressed in terms of a parameter but still written as an ordered pair.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr4information-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="onepage" id="notes-gr4information-5"><div class="para" id="notes-gr4information-5-1">
+<em class="alert">Elimination Method</em><div class="autopermalink" data-description="Paragraph"><a href="#notes-gr4information-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="notes-gr4information-5-2">To solve a system of linear equations using elimination, add or subtract equations to eliminate one variable. This is done by multiplying one or both equations by constants so that the coefficients of one variable are opposites. Then add or subtract the equations to eliminate that variable. Solve for the remaining variable and back-substitute to find the value of the eliminated variable.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr4information-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="onepage" id="notes-gr4information-6"><div class="para" id="notes-gr4information-6-1">
+<em class="alert">Nonlinear Systems</em><div class="autopermalink" data-description="Paragraph"><a href="#notes-gr4information-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="notes-gr4information-6-2">A nonlinear system of equations is a system in which at least one equation is not linear. These systems can be solved using substitution or elimination methods, but may require more advanced techniques such as factoring or using the quadratic formula.In nonlinear systems, the number of solutions can vary depending on the specific equations involved.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr4information-6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><div class="autopermalink" data-description="Worksheet: Systems of Equations"><a href="#notes-gr4information" title="Copy heading and permalink for Worksheet: Systems of Equations" aria-label="Copy heading and permalink for Worksheet: Systems of Equations">🔗</a></div></section><section class="worksheet" id="gr4-3" data-margins="0.75in 0.75in 0.75in 0.75in"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">GR-4 Systems of Linear Equations</span><div class="print-links"><a href="?printpreview=gr4-3" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<section class="onepage" id="gr4-3-2"><div class="para" id="gr4-3-2-1">
+<em class="alert">Solving Systems by Substitution</em><div class="autopermalink" data-description="Paragraph"><a href="#gr4-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://player.vimeo.com/video/1173578594?color=ffffff" id="gr4-3-2-2" frameborder="0" allow="fullscreen"></iframe></div>
+<div class="para" id="gr4-3-2-3">
+<em class="alert">Solving Systems by Elimination</em><div class="autopermalink" data-description="Paragraph"><a href="#gr4-3-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://player.vimeo.com/video/1173578488?color=ffffff" id="gr4-3-2-4" frameborder="0" allow="fullscreen"></iframe></div>
+<div class="para" id="gr4-3-2-5">
+<em class="alert">Solving Three Variable Systems</em><div class="autopermalink" data-description="Paragraph"><a href="#gr4-3-2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://player.vimeo.com/video/1173578899?color=ffffff" id="gr4-3-2-6" frameborder="0" allow="fullscreen"></iframe></div>
+<div class="para" id="gr4-3-2-7">
+<em class="alert">Solving Nonlinear Systems</em><div class="autopermalink" data-description="Paragraph"><a href="#gr4-3-2-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://player.vimeo.com/video/1173578725?color=ffffff" id="gr4-3-2-8" frameborder="0" allow="fullscreen"></iframe></div></section><div class="autopermalink" data-description="Worksheet: GR-4 Systems of Linear Equations"><a href="#gr4-3" title="Copy heading and permalink for Worksheet: GR-4 Systems of Linear Equations" aria-label="Copy heading and permalink for Worksheet: GR-4 Systems of Linear Equations">🔗</a></div></section><section class="section" id="gr4rubric"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">GR-4 Rubric</span>
+</h3>
+<section class="worksheet" id="gr4rubric-2" data-margins="0.75in 0.75in 0.75in 0.75in"><h4 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Worksheet</span><div class="print-links"><a href="?printpreview=gr4rubric-2" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h4>
+<section class="introduction" id="gr4rubric-2-1"><div class="para" id="gr4rubric-2-1-1">Before attempting the GR-4 outcome, you should review the following rubric. This shows the criteria you will be graded on and the expectations to earn each mastery level.<div class="autopermalink" data-description="Paragraph"><a href="#gr4rubric-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><figure class="table table-like" id="gr4rubric-2-2"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">17<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>GR4 Rubric<div class="autopermalink" data-description="Table 17: GR4 Rubric"><a href="#gr4rubric-2-2" title="Copy heading and permalink for Table 17: GR4 Rubric" aria-label="Copy heading and permalink for Table 17: GR4 Rubric">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b2 r2 l2 t2 lines">Criteria</td>
+<td class="c m b2 r2 l0 t2 lines">M</td>
+<td class="c m b2 r2 l0 t2 lines">P</td>
+<td class="c m b2 r2 l0 t2 lines">R</td>
+<td class="c m b2 r2 l0 t2 lines">N</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Simplifying Algebraic Expressions</td>
+<td class="c m b2 r2 l0 t0 lines">All answers are fully simplified. Exact answers are given, not approximations. Radical and exponential expressions are used appropriately and are simplified in the correct manner</td>
+<td class="c m b2 r2 l0 t0 lines">No algebraic errors OR some expressions are not simplified.</td>
+<td class="c m b2 r2 l0 t0 lines">There are some algebraic errors and some expressions were not simplified.</td>
+<td class="c m b2 r2 l0 t0 lines">There are some algebraic errors and some expressions were not simplified.</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Problem Structure and Mathematical Communication</td>
+<td class="c m b2 r2 l0 t0 lines">Problems have a clear beginning, middle, and end. Work progresses clearly from one step to the next. The work provided uses appropriate methods and notation and provides a clear solution.</td>
+<td class="c m b2 r2 l0 t0 lines">Problems have clear beginnings and ends. Work progresses from one step to the next. The work provided uses algebraic methods, correct notation, and provides a solution.</td>
+<td class="c m b2 r2 l0 t0 lines">Parts of the mathematical structure are missing, or steps in the progress of the solution are missing. There are errors in the mathematical notation. The work provided uses algebraic methods and provides a solution.</td>
+<td class="c m b2 r2 l0 t0 lines">There is not a clear structure to the solution, notation is used incorrectly, and it is unclear what methods are being used.</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Solve a 2-Variable System Using Substitution</td>
+<td class="c m b2 r2 l0 t0 lines">Correctly used properties of equality to rewrite one of the equations. Correctly substituted into the other equation. Found the correct values and gave them as an ordered pair.</td>
+<td class="c m b2 r2 l0 t0 lines">Used properties of equality to rewrite one of the equations with minor errors OR substituted into the other equation with minor errors Or found the and gave them as an ordered pair.</td>
+<td class="c m b2 r2 l0 t0 lines">Did not use substitution to solve the system; errors in the values found; did not give solution as an ordered pair.</td>
+<td class="c m b2 r2 l0 t0 lines">No evidence of solving the 2-variable system.</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Solve a 3-Variable System</td>
+<td class="c m b2 r2 l0 t0 lines">Picked a base equation to eliminate a variable in the system or used correct row-reduction; Reduced the system to two variables and solved; used back substitution to find the correct ordered triple; gave the answer using correct notation.</td>
+<td class="c m b2 r2 l0 t0 lines">Picked a base equation to eliminate a variable in the system OR correctly used substitution to remove a variable; Reduced the system to two variables and solved; used back substitution to find an ordered triple; minor errors in at most one step.</td>
+<td class="c m b2 r2 l0 t0 lines">Used algebraic methods to find the values; errors in multiple steps; OR incorrectly substituted to try to solve the system.</td>
+<td class="c m b2 r2 l0 t0 lines">No evidence of solving the 3-variable system.</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Solve a Non-linear System</td>
+<td class="c m b2 r2 l0 t0 lines">Used substitution or elimination as appropriate to isolate one variable; found the correct values for the variable and substituted to get the other variable; gave correct ordered pairs.</td>
+<td class="c m b2 r2 l0 t0 lines">Used substitution or elimination as appropriate to isolate one variable; found the correct values for the variable and substituted to get the other variable; found some ordered pairs; minor errors in at most one step.</td>
+<td class="c m b2 r2 l0 t0 lines">Incorrectly used substitution or elimination when the other method is more appropriate; errors in finding the values of the variables, or errors in giving the solution.</td>
+<td class="c m b2 r2 l0 t0 lines">No evidence of solving the nonlinear system.</td>
+</tr>
+</table></div></figure><div class="autopermalink" data-description="Worksheet"><a href="#gr4rubric-2" title="Copy heading and permalink for Worksheet" aria-label="Copy heading and permalink for Worksheet">🔗</a></div></section><div class="autopermalink" data-description="Section: GR-4 Rubric"><a href="#gr4rubric" title="Copy heading and permalink for Section: GR-4 Rubric" aria-label="Copy heading and permalink for Section: GR-4 Rubric">🔗</a></div></section><section class="worksheet" id="gr4-5" data-margins="0.75in 0.75in 0.75in 0.75in"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">GR-4 Systems of Linear Equations</span><div class="print-links"><a href="?printpreview=gr4-5" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<section class="introduction" id="gr4-5-2"><div class="para" id="gr4-5-2-1">This outcome covers systems of linear equations. You should be able to solve systems of linear equations using various methods such as substitution and elimination. You should also be able to determine the number of solutions to a system of linear equations and interpret the solutions in context.<div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="gr4-5-2-2">For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples of the types of problems you will encounter:<div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><article class="objectives goal-like" id="gr4-5-3"><h4 class="heading"><span class="type">Objectives</span></h4>
+<ul class="disc" id="gr4-5-3-1">
+<li id="gr4-5-3-1-1">
+<div class="para" id="gr4-5-3-1-1-1">Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.<div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#gr4-5-3-1-1" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="gr4-5-3-1-2">
+<div class="para" id="gr4-5-3-1-2-1">Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the correct intercepts and general behavior.<div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#gr4-5-3-1-2" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="gr4-5-3-1-3">
+<div class="para" id="gr4-5-3-1-3-1">Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.<div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#gr4-5-3-1-3" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="gr4-5-3-1-4">
+<div class="para" id="gr4-5-3-1-4-1">Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.<div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-3-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#gr4-5-3-1-4" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="gr4-5-3-1-5">
+<div class="para" id="gr4-5-3-1-5-1">Solve a two-variable system of linear equations using substitution.<div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-3-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#gr4-5-3-1-5" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="gr4-5-3-1-6">
+<div class="para" id="gr4-5-3-1-6-1">Solve a two-variable system of linear equations using elimination.<div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-3-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#gr4-5-3-1-6" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="gr4-5-3-1-7">
+<div class="para" id="gr4-5-3-1-7-1">Solve a three-variable system of linear equations using elimination.<div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-3-1-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#gr4-5-3-1-7" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="gr4-5-3-1-8">
+<div class="para" id="gr4-5-3-1-8-1">Determine if a system of linear equations has no solution, one solution, or infinitely many solutions.<div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-3-1-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#gr4-5-3-1-8" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="gr4-5-3-1-9">
+<div class="para" id="gr4-5-3-1-9-1">Solve a nonlinear system of equations using substitution or elimination.<div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-3-1-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#gr4-5-3-1-9" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Objectives"><a href="#gr4-5-3" title="Copy heading and permalink for Objectives" aria-label="Copy heading and permalink for Objectives">🔗</a></div></article><section class="onepage" id="gr4-5-4"><article class="exercise exercise-like" id="gr4-5-4-1"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="gr4-5-4-1-1-1">Solve the system using substitution: <span class="process-math">\(\begin{cases} 2x + y = 5 \\ 3x - 2y = 8 \end{cases}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-4-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="gr4-5-4-1-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="gr4-5-4-1-2-1">Rewrite the first equation to express y in terms of x. Then substitute this expression into the second equation.<div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-4-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 1.1"><a href="#gr4-5-4-1-2" title="Copy heading and permalink for Hint 1.1" aria-label="Copy heading and permalink for Hint 1.1">🔗</a></div>
+</div></details><details id="gr4-5-4-1-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="gr4-5-4-1-3-1">
+<span class="process-math">\(\left(\frac{18}{7}, -\frac{1}{7}\right)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-4-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 1.1"><a href="#gr4-5-4-1-3" title="Copy heading and permalink for Answer 1.1" aria-label="Copy heading and permalink for Answer 1.1">🔗</a></div>
+</div></details><details id="gr4-5-4-1-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="gr4-5-4-1-4-1">
+<div class="para">First, solve the first equation for y: <span class="process-math">\(y = 5 - 2x\text{.}\)</span> Then substitute this into the second equation: <span class="process-math">\(3x - 2(5 - 2x) = 8\text{.}\)</span> Simplify: <span class="process-math">\(3x - 10 + 4x = 8\text{.}\)</span> Combine like terms: <span class="process-math">\(7x = 18\text{.}\)</span> Solve for x: <span class="process-math">\(x = \frac{18}{7}\text{.}\)</span> Finally, substitute back to find y:</div>
+<div class="displaymath process-math" id="gr4-5-4-1-4-1-6">
+\begin{align*}
+y &amp; = 5 - 2 \cdot \frac{18}{7}\\
+&amp;= 5 - \frac{36}{7}\\
+&amp; = \frac{35 - 36}{7}\\
+&amp; = -\frac{1}{7}
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-4-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.1"><a href="#gr4-5-4-1-4" title="Copy heading and permalink for Solution 1.1" aria-label="Copy heading and permalink for Solution 1.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 1"><a href="#gr4-5-4-1" title="Copy heading and permalink for Worksheet Exercise 1" aria-label="Copy heading and permalink for Worksheet Exercise 1">🔗</a></div></article><article class="exercise exercise-like" id="gr4-5-4-2"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para logical" id="gr4-5-4-2-1-1">
+<div class="para">Solve the system using elimination:</div>
+<div class="displaymath process-math" id="gr4-5-4-2-1-1-1">
+\begin{gather*}
+\begin{cases} 4x-3y=12\\
+3x+2y=13 \end{cases}
+\end{gather*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-4-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="gr4-5-4-2-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="gr4-5-4-2-2-1">Multiply the first equation by 2 and the second equation by 3 to eliminate y.<div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-4-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 2.1"><a href="#gr4-5-4-2-2" title="Copy heading and permalink for Hint 2.1" aria-label="Copy heading and permalink for Hint 2.1">🔗</a></div>
+</div></details><details id="gr4-5-4-2-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="gr4-5-4-2-3-1">
+<span class="process-math">\(\left(\frac{63}{17}, \frac{4}{17}\right)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-4-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 2.1"><a href="#gr4-5-4-2-3" title="Copy heading and permalink for Answer 2.1" aria-label="Copy heading and permalink for Answer 2.1">🔗</a></div>
+</div></details><details id="gr4-5-4-2-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="gr4-5-4-2-4-1">Multiply the first equation by 2: <span class="process-math">\(8x - 6y = 24\text{.}\)</span> Multiply the second equation by 3: <span class="process-math">\(9x + 6y = 39\text{.}\)</span> Add the two equations: <span class="process-math">\(17x = 63\text{.}\)</span> Solve for x: <span class="process-math">\(x = \frac{63}{17}\text{.}\)</span> Substitute back into the first equation: <span class="process-math">\(4\left(\frac{63}{17}\right) - 3y = 12\text{.}\)</span> Simplify: <span class="process-math">\(\frac{252}{17} - 3y = 12\text{.}\)</span> Solve for y: <span class="process-math">\(y = \frac{4}{17}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-4-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 2.1"><a href="#gr4-5-4-2-4" title="Copy heading and permalink for Solution 2.1" aria-label="Copy heading and permalink for Solution 2.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 2"><a href="#gr4-5-4-2" title="Copy heading and permalink for Worksheet Exercise 2" aria-label="Copy heading and permalink for Worksheet Exercise 2">🔗</a></div></article><article class="exercise exercise-like" id="gr4-5-4-3"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="gr4-5-4-3-1-1">Solve the system using elimination: <span class="process-math">\(\begin{cases} 2x+y-z=4\\ x-2y+3z=-6\\ 3x+y+2z=7 \end{cases}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-4-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="gr4-5-4-3-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="gr4-5-4-3-2-1">Pick a base equation to use for eliminating the same variable in the other two equations. Solve the resulting two-variable system.<div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-4-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.1"><a href="#gr4-5-4-3-2" title="Copy heading and permalink for Hint 3.1" aria-label="Copy heading and permalink for Hint 3.1">🔗</a></div>
+</div></details><details id="gr4-5-4-3-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="gr4-5-4-3-3-1">
+<span class="process-math">\(\left(\frac{3}{14}, \frac{9}{2}, \frac{13}{14}\right)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-4-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.1"><a href="#gr4-5-4-3-3" title="Copy heading and permalink for Answer 3.1" aria-label="Copy heading and permalink for Answer 3.1">🔗</a></div>
+</div></details><details id="gr4-5-4-3-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="gr4-5-4-3-4-1">Let the second equation be the base equation. Multiply it by 2 and subtract it from the first equation to eliminate x: <span class="process-math">\(5y - 7z = 16\text{.}\)</span> Multiply the second equation by 3 and subtract it from the third equation to eliminate x: <span class="process-math">\(7y - 7z = 25\text{.}\)</span> Solve the resulting two-variable system for y and z. We can use elimination to find y, by subtracting the first equation from the second: <span class="process-math">\(y = \frac{9}{2}\text{.}\)</span> Substitute this to find the value of z. <span class="process-math">\(z=\frac{13}{14}\text{.}\)</span> Substitute these values back into the base equation to find x: <span class="process-math">\(x-2\left(\frac{9}{2}\right)+3\left(\frac{13}{14}\right)=-6\text{.}\)</span> Solving for x we get <span class="process-math">\(x = \frac{3}{14}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-4-3-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 3.1"><a href="#gr4-5-4-3-4" title="Copy heading and permalink for Solution 3.1" aria-label="Copy heading and permalink for Solution 3.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 3"><a href="#gr4-5-4-3" title="Copy heading and permalink for Worksheet Exercise 3" aria-label="Copy heading and permalink for Worksheet Exercise 3">🔗</a></div></article><article class="exercise exercise-like" id="gr4-5-4-4"><h4 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="gr4-5-4-4-1-1">Find all solutions to the system: <span class="process-math">\(\begin{cases} \frac{4}{x^2}+\frac{6}{y^4}=\frac{7}{2}\\\frac{1}{x^2}-\frac{2}{y^4}=0\end{cases}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-4-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="gr4-5-4-4-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="gr4-5-4-4-2-1">Use substitution to solve for one variable in terms of the other.<div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-4-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 4.1"><a href="#gr4-5-4-4-2" title="Copy heading and permalink for Hint 4.1" aria-label="Copy heading and permalink for Hint 4.1">🔗</a></div>
+</div></details><details id="gr4-5-4-4-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="gr4-5-4-4-3-1">
+<span class="process-math">\(\left(-\sqrt{2}, -\sqrt{2}\right), \left(\sqrt{2}, \sqrt{2}\right), 
+\left(-\sqrt{2}, \sqrt{2}\right), \left(\sqrt{2}, -\sqrt{2}\right)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-4-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 4.1"><a href="#gr4-5-4-4-3" title="Copy heading and permalink for Answer 4.1" aria-label="Copy heading and permalink for Answer 4.1">🔗</a></div>
+</div></details><details id="gr4-5-4-4-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="gr4-5-4-4-4-1">Here we can use substitution. From the second equation, we have <span class="process-math">\(\frac{1}{x^2} = \frac{2}{y^4}\text{.}\)</span> Substituting this into the first equation gives us <span class="process-math">\(4 \cdot \frac{2}{y^4} + \frac{6}{y^4} = \frac{7}{2}\text{.}\)</span> Simplifying, we get <span class="process-math">\(\frac{14}{y^4} = \frac{7}{2}\text{.}\)</span> Solving for <span class="process-math">\(y^4\text{,}\)</span> we find <span class="process-math">\(y^4 = 4\text{,}\)</span> so <span class="process-math">\(y = \pm \sqrt{2}\text{.}\)</span> Substituting back into the second equation, we can find the corresponding values of <span class="process-math">\(x\text{.}\)</span> So <span class="process-math">\(x = \pm \sqrt{2}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr4-5-4-4-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.1"><a href="#gr4-5-4-4-4" title="Copy heading and permalink for Solution 4.1" aria-label="Copy heading and permalink for Solution 4.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4"><a href="#gr4-5-4-4" title="Copy heading and permalink for Worksheet Exercise 4" aria-label="Copy heading and permalink for Worksheet Exercise 4">🔗</a></div></article></section><div class="autopermalink" data-description="Worksheet: GR-4 Systems of Linear Equations"><a href="#gr4-5" title="Copy heading and permalink for Worksheet: GR-4 Systems of Linear Equations" aria-label="Copy heading and permalink for Worksheet: GR-4 Systems of Linear Equations">🔗</a></div></section><div class="autopermalink" data-description="Section: GR-4 Systems of Equations"><a href="#gr4" title="Copy heading and permalink for Section: GR-4 Systems of Equations" aria-label="Copy heading and permalink for Section: GR-4 Systems of Equations">🔗</a></div></section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="gr3.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="gr5.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="feedback-link" href="mailto:lnbowman@alaska.edu" target="_blank">Feedback</a><a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+<script>diagcess.Base.init()</script>
+</body>
+</html>

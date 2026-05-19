@@ -1,0 +1,43 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-tf2a-sample-figure" speech2="The graph of the function shows the key features                      such as the amplitude, period, phase shift, and vertical                      shift. The graph oscillates between -1 and 5, with a period                      of 8/3 and a phase shift of 2/3 to the left. The vertical                      shift is 2.">
+      <grouped>prefigure-tf2a-sample-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-tf2a-sample-grid-axes</active>
+      </children>
+      <components>
+        <active>prefigure-tf2a-sample-grid-axes</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-tf2a-sample-grid-axes" speech2="The coordinate grid and axes">
+      <grouped>prefigure-tf2a-sample-grid-axes</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-tf2a-sample-grid</active>
+        <active>prefigure-tf2a-sample-axes</active>
+      </children>
+      <components>
+        <active>prefigure-tf2a-sample-grid</active>
+        <active>prefigure-tf2a-sample-axes</active>
+      </components>
+      <parents>
+        <grouped>prefigure-tf2a-sample-figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefigure-tf2a-sample-grid" speech2="The coordinate grid">
+      <active>prefigure-tf2a-sample-grid</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-tf2a-sample-grid-axes</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefigure-tf2a-sample-axes" speech2="The coordinate axes">
+      <active>prefigure-tf2a-sample-axes</active>
+      <position>2</position>
+      <parents>
+        <grouped>prefigure-tf2a-sample-grid-axes</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>

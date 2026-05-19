@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>TF-4 Law of Sines and Cosines</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Precalculus">
+<meta property="book:author" content="Dr. Latrice Bowman">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.0.0';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.ce7e0a2163cb330f.bundle.js"></script><script src="_static/prefix-713.de0ab26248766350.bundle.js"></script><script src="_static/prefix-runestone.f4a2ffb04bb978bb.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-713.f43ced6a6134ea74.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.87414d180ebeebd6.css">
+<script src="_static/pretext/js/diagcess/diagcess.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="root-1-2.html"><span class="title">Precalculus</span> <span class="subtitle">MATH F156X Summer 2026</span></a></h1>
+<p class="byline">Dr. Latrice Bowman</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="embed-button" class="embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><div class="embed-popup hidden" id="embed-popup">
+<p>Copy the code below to embed this page in your own website or LMS page.</p>
+<div class="embed-code-container">
+<textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div>
+</div>
+<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="tf3.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="trigonometric-functions.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand*{\ds}{\displaystyle}
+\newcommand*{\bpt}{\begin{parts}}
+\newcommand*{\ept}{\end{parts}}
+\newcommand*{\bmc}{\begin{multicols}}
+\newcommand*{\emc}{\end{multicols}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3 focused" data-preexpanded-levels="2" data-max-levels="3"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="course-syllabus.html" class="internal"><span class="title">Course Documents</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="syllabus.html" class="internal"><span class="title">Course Information</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="components.html" class="internal"><span class="title">Course Components</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="rubrics.html" class="internal"><span class="title">Rubrics, Schedules, and Grades</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="policies.html" class="internal"><span class="title">Course and University Policies</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="support.html" class="internal"><span class="title">How to Succeed in this Course</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="course-syllabus-7.html" class="internal"><span class="title">Math 156 Summer 2026 Online Schedule</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="basics-of-functions.html" class="internal"><span class="title">Basics of Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf1.html" class="internal"><span class="title">BF-1 Linear and Quadratic Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf1.html#bf1-2" class="internal"><span class="title">BF-1 Quick Notes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bf1.html#bf1videos" class="internal"><span class="title">BF-1 Videos</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf1.html#bf1rubric" class="internal"><span class="title">BF-1 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf1.html#bf1rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf1.html#bf1-5" class="internal"><span class="title">BF-1 Sample Outcomes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf2.html" class="internal"><span class="title">BF-2 Forms of Linear Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf2.html#bf2-2" class="internal"><span class="title">BF-2 Quick Notes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bf2.html#bf2videos" class="internal"><span class="title">BF-2 Videos</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf2.html#bf2rubric" class="internal"><span class="title">BF-2 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf2.html#bf2rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf2.html#bf2-5" class="internal"><span class="title">BF-2 Sample Outcomes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf3.html" class="internal"><span class="title">BF-3 Difference Quotients and Piecewise Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf3.html#notes-bf3information" class="internal"><span class="title">BF-3 Quick Notes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bf3.html#bf3videos" class="internal"><span class="title">BF-3 Videos</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf3.html#bf3rubric" class="internal"><span class="title">BF-3 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf3.html#bf3rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf3.html#bf3-5" class="internal"><span class="title">BF-3 Sample Outcomes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf4.html" class="internal"><span class="title">BF-4 Transformations and Combinations of Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf4.html#notes-bf4information" class="internal"><span class="title">BF-4 Quick Notes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bf4.html#bf4videos" class="internal"><span class="title">BF-4 Videos</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf4.html#bf4rubric" class="internal"><span class="title">BF-4 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf4.html#bf4rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf4.html#bf4-5" class="internal"><span class="title">BF-4 Sample Outcomes</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="graphs-of-functions.html" class="internal"><span class="title">Graphs of Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr1.html" class="internal"><span class="title">GR-1 Quadratic Functions and Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr1.html#notes-gr1information" class="internal"><span class="title">Graphing Quadratics and Quadratic Models</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr1.html#gr1-3" class="internal"><span class="title">GR-1 Quadratic Functions and Models</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr1.html#gr1rubric" class="internal"><span class="title">GR-1 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr1.html#gr1rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr1.html#gr1-5" class="internal"><span class="title">GR-1 Quadratic Functions and Models</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr2.html" class="internal"><span class="title">GR-2 Polynomial Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr2.html#notes-gr2information" class="internal"><span class="title">Graphing Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr2.html#gr2-3" class="internal"><span class="title">GR-2 Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr2.html#gr2rubric" class="internal"><span class="title">GR-2 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr2.html#gr2rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr2.html#gr2-5" class="internal"><span class="title">GR-2 Polynomial Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr3.html" class="internal"><span class="title">GR-3 Rational Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr3.html#notes-gr3information" class="internal"><span class="title">Graphing Rational Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr3.html#gr3-3" class="internal"><span class="title">GR-3 Rational Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr3.html#gr3rubric" class="internal"><span class="title">GR-3 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr3.html#gr3rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr3.html#gr3-5" class="internal"><span class="title">GR-3 Rational Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr4.html" class="internal"><span class="title">GR-4 Systems of Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr4.html#notes-gr4information" class="internal"><span class="title">Systems of Equations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr4.html#gr4-3" class="internal"><span class="title">GR-4 Systems of Linear Equations</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr4.html#gr4rubric" class="internal"><span class="title">GR-4 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr4.html#gr4rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr4.html#gr4-5" class="internal"><span class="title">GR-4 Systems of Linear Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr5.html" class="internal"><span class="title">GR-5 Linear Inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr5.html#notes-gr5information" class="internal"><span class="title">Linear Inequalities and Systems</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr5.html#gr5-3" class="internal"><span class="title">GR-5 Linear Inequalities</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr5.html#gr5rubric" class="internal"><span class="title">GR-5 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr5.html#gr5rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr5.html#gr5-5" class="internal"><span class="title">GR-5 Graphing Linear Inequalities</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="exponential-and-logarithmic-functions.html" class="internal"><span class="title">Exponential and Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el1.html" class="internal"><span class="title">EL-1 Exponential and Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el1.html#notes-el1information" class="internal"><span class="title">Exponential and Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el1.html#el1-3" class="internal"><span class="title">EL-1 Exponential and Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el1.html#el1rubric" class="internal"><span class="title">EL-1 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el1.html#el1rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el1.html#el1-5" class="internal"><span class="title">EL-1 Exponential and Logarithmic Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el2.html" class="internal"><span class="title">EL-2 Exponential and Logarithmic Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el2.html#notes-el2information" class="internal"><span class="title">Exponential and Logarithmic Equations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el2.html#el2-3" class="internal"><span class="title">EL-2 Exponential and Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el2.html#el2rubric" class="internal"><span class="title">EL-2 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el2.html#el2rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el2.html#el2-5" class="internal"><span class="title">EL-2 Exponential and Logarithmic Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el3.html" class="internal"><span class="title">EL-3 Growth and Decay Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el3.html#notes-el3information" class="internal"><span class="title">Exponential Models</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el3.html#el3-3" class="internal"><span class="title">EL-3 Modeling with Exponential Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el3.html#el3rubric" class="internal"><span class="title">EL-3 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el3.html#el3rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el3.html#el3-5" class="internal"><span class="title">EL-3 Modeling Exponential Functions</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="trigonometric-functions.html" class="internal"><span class="title">Trigonometric Functions</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf1.html" class="internal"><span class="title">TF-1 Right Triangle Trigonometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf1.html#notes-tf1information" class="internal"><span class="title">Right Triangle Trigonometry</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf1.html#tf1-3" class="internal"><span class="title">TF-1 Right Triangle Trigonometry</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf1.html#tf1rubric" class="internal"><span class="title">TF-1 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf1.html#tf1rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf1.html#tf1-5" class="internal"><span class="title">TF-1 Right Triangle Trigonometry</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf2.html" class="internal"><span class="title">TF-2 Graphs of Trigonometric Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf2.html#notes-tf2information" class="internal"><span class="title">Graphing Trigonometric Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf2.html#tf2-3" class="internal"><span class="title">TF-2 Trigonometric Graphs</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf2.html#tf2rubric" class="internal"><span class="title">TF-2 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf2.html#tf2rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf2.html#tf2-5" class="internal"><span class="title">TF-2 Graphs of Trigonometric Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf3.html" class="internal"><span class="title">TF-3 Trigonometric Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf3.html#notes-tf3information" class="internal"><span class="title">Solving Trigonometric Equations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf3.html#tf3-3" class="internal"><span class="title">TF-3 Trigonometric Equations</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf3.html#tf3rubric" class="internal"><span class="title">TF-3 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf3.html#tf3rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf3.html#tf3-5" class="internal"><span class="title">TF-3 Trigonometric Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="tf4.html" class="internal"><span class="title">TF-4 Law of Sines and Cosines</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf4.html#notes-tf4information" class="internal"><span class="title">Law of Sines and Cosines</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf4.html#tf4-3" class="internal"><span class="title">TF-4 Law of Sines and Cosines</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf4.html#tf4rubric" class="internal"><span class="title">TF-4 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf4.html#tf4rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf4.html#tf4-5" class="internal"><span class="title">TF-4 Law of Sines and Cosines</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<div class="print-preview-header">
+<h2 class="print-preview">Print preview</h2>
+<div class="print-controls">
+<div class="print-controls-toggles">
+<form class="papersize-select" id="papersize-select">
+<span class="name">Paper size</span><label><input type="radio" name="papersize" value="a4">A4
+        </label><label><input type="radio" name="papersize" value="letter">Letter
+        </label>
+</form>
+<details class="print-options"><summary>Additional printing options</summary><div class="hide-solutions-options">
+<div class="hide-option">
+<label for="hide-hint-checkbox">Hide hints</label><input type="checkbox" id="hide-hint-checkbox">
+</div>
+<div class="hide-option">
+<label for="hide-answer-checkbox">Hide answers</label><input type="checkbox" id="hide-answer-checkbox">
+</div>
+<div class="hide-option">
+<label for="hide-solution-checkbox">Hide solutions</label><input type="checkbox" id="hide-solution-checkbox">
+</div>
+</div>
+<div class="header-footer-options">
+<div class="header-option">
+<span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
+</div>
+<div class="footer-option">
+<span class="title">Print footers</span><label>First page<input type="checkbox" id="print-first-page-footer-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-footer-checkbox" checked></label>
+</div>
+</div>
+<div class="highlight-workspace-option">
+<label for="highlight-workspace-checkbox">Highlight workspace</label><input type="checkbox" id="highlight-workspace-checkbox">
+</div></details>
+</div>
+<button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
+</div>
+</div>
+<section class="section" id="tf4"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">TF-4 Law of Sines and Cosines</span>
+</h2>
+<section class="worksheet" id="notes-tf4information" data-margins="0.75in 0.75in 0.75in 0.75in"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Law of Sines and Cosines</span><div class="print-links"><a href="?printpreview=notes-tf4information" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<section class="introduction" id="notes-tf4information-2"><div class="para logical" id="notes-tf4information-2-1">
+<div class="para">For this outcome  Specifically, for this outcome, students should be able to:</div>
+<ul class="disc" id="notes-tf4information-2-1-1">
+<li id="notes-tf4information-2-1-1-1">
+<div class="para" id="notes-tf4information-2-1-1-1-1">Set up and solve problems involving the Law of Sines and Cosines.<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf4information-2-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf4information-2-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf4information-2-1-1-2">
+<div class="para" id="notes-tf4information-2-1-1-2-1">Use the Law of Sines to find missing sides or angles in a triangle.<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf4information-2-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf4information-2-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf4information-2-1-1-3">
+<div class="para" id="notes-tf4information-2-1-1-3-1">Use the Law of Cosines to find missing sides or angles in a triangle.<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf4information-2-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf4information-2-1-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf4information-2-1-1-4">
+<div class="para" id="notes-tf4information-2-1-1-4-1">Recognize when to use the Law of Sines versus the Law of Cosines.<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf4information-2-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf4information-2-1-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf4information-2-1-1-5">
+<div class="para" id="notes-tf4information-2-1-1-5-1">Draw and label triangles appropriately for solving problems involving the Law of Sines and Cosines.<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf4information-2-1-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf4information-2-1-1-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-tf4information-2-1-1-6">
+<div class="para" id="notes-tf4information-2-1-1-6-1">Solve triangles using the Law of Sines and Cosines.<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf4information-2-1-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-tf4information-2-1-1-6" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf4information-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="onepage" id="notes-tf4information-3"><div class="para" id="notes-tf4information-3-1">
+<em class="alert">Bearings and Navigation</em><div class="autopermalink" data-description="Paragraph"><a href="#notes-tf4information-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="notes-tf4information-3-2">Bearings are a way of describing direction using angles measured clockwise from the north. For example, a bearing of 90 degrees means that the direction is due east, while a bearing of 180 degrees means that the direction is due south. Bearings are commonly used in navigation and can be applied to solve problems involving the Law of Sines and Cosines. In Navigation, we often find the direction of an angle using nautical bearings, which are measured from the north or south. For example, a bearing of <span class="process-math">\(N45^{\circ}E\)</span> means that the direction is 45 degrees east of north, while a bearing of <span class="process-math">\(S45^{\circ}W\)</span> degrees means that the direction is 45 degrees west of south. Bearings can be used to solve problems involving the Law of Sines and Cosines by converting the bearings into angles that can be used in the formulas.<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf4information-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="onepage" id="notes-tf4information-4"><div class="para" id="notes-tf4information-4-1">
+<em class="alert">Law of Sines</em><div class="autopermalink" data-description="Paragraph"><a href="#notes-tf4information-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="notes-tf4information-4-2">The Law of Sines states that in any triangle, the ratio of the length of a side to the sine of its opposite angle is constant. Mathematically, it can be expressed as <span class="process-math">\(\frac{a}{\sin(A)} = \frac{b}{\sin(B)} = \frac{c}{\sin(C)}\text{,}\)</span> where <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and <span class="process-math">\(c\)</span> are the lengths of the sides of the triangle, and <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\text{,}\)</span> and <span class="process-math">\(C\)</span> are the measures of the opposite angles. The Law of Sines is particularly useful for solving triangles when we have two angles and one side (AAS or ASA) or two sides and a non-included angle (SSA).<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf4information-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="notes-tf4information-4-3">We can also use the Law of Sines to find the area of a triangle using the formula <span class="process-math">\(A = \frac{1}{2}ab\sin(C)\text{,}\)</span> where <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> are two sides and <span class="process-math">\(C\)</span> is the included angle.<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf4information-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="onepage" id="notes-tf4information-5"><div class="para" id="notes-tf4information-5-1">
+<em class="alert">Law of Cosines</em><div class="autopermalink" data-description="Paragraph"><a href="#notes-tf4information-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="notes-tf4information-5-2">The Law of Cosines states that in any triangle, the square of the length of a side is equal to the sum of the squares of the lengths of the other two sides minus twice the product of those sides and the cosine of the included angle. Mathematically, it can be expressed as <span class="process-math">\(c^2 = a^2 + b^2 - 2ab\cos(C)\text{,}\)</span> where <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and <span class="process-math">\(c\)</span> are the lengths of the sides of the triangle, and <span class="process-math">\(C\)</span> is the measure of the included angle. The Law of Cosines is particularly useful for solving triangles when we have two sides and the included angle (SAS) or three sides (SSS).<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf4information-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="notes-tf4information-5-3">Heron’s formula is a method for finding the area of a triangle given the lengths of all three sides. It is expressed as <span class="process-math">\(A = \sqrt{s(s-a)(s-b)(s-c)}\text{,}\)</span> where <span class="process-math">\(s\)</span> is the semi-perimeter of the triangle, and <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and <span class="process-math">\(c\)</span> are the lengths of the sides.<div class="autopermalink" data-description="Paragraph"><a href="#notes-tf4information-5-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><div class="autopermalink" data-description="Worksheet: Law of Sines and Cosines"><a href="#notes-tf4information" title="Copy heading and permalink for Worksheet: Law of Sines and Cosines" aria-label="Copy heading and permalink for Worksheet: Law of Sines and Cosines">🔗</a></div></section><section class="worksheet" id="tf4-3" data-margins="0.75in 0.75in 0.75in 0.75in"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">TF-4 Law of Sines and Cosines</span><div class="print-links"><a href="?printpreview=tf4-3" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<section class="onepage" id="tf4-3-2"><div class="para" id="tf4-3-2-1">
+<em class="alert">Law of Sines</em><div class="autopermalink" data-description="Paragraph"><a href="#tf4-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://player.vimeo.com/video/1068311693?color=ffffff" id="tf4-3-2-2" frameborder="0" allow="fullscreen"></iframe></div>
+<div class="para" id="tf4-3-2-3">
+<em class="alert">Law of Cosines</em><div class="autopermalink" data-description="Paragraph"><a href="#tf4-3-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://player.vimeo.com/video/1068311556?color=ffffff" id="tf4-3-2-4" frameborder="0" allow="fullscreen"></iframe></div></section><div class="autopermalink" data-description="Worksheet: TF-4 Law of Sines and Cosines"><a href="#tf4-3" title="Copy heading and permalink for Worksheet: TF-4 Law of Sines and Cosines" aria-label="Copy heading and permalink for Worksheet: TF-4 Law of Sines and Cosines">🔗</a></div></section><section class="section" id="tf4rubric"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">TF-4 Rubric</span>
+</h3>
+<section class="worksheet" id="tf4rubric-2" data-margins="0.75in 0.75in 0.75in 0.75in"><h4 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Worksheet</span><div class="print-links"><a href="?printpreview=tf4rubric-2" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h4>
+<section class="introduction" id="tf4rubric-2-1"><div class="para" id="tf4rubric-2-1-1">Before attempting the TF-4 outcome, you should review the following rubric. This shows the criteria you will be graded on and the expectations to earn each mastery level.<div class="autopermalink" data-description="Paragraph"><a href="#tf4rubric-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><figure class="table table-like" id="tf4rubric-2-2"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">25<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>TF-4 Rubric<div class="autopermalink" data-description="Table 25: TF-4 Rubric"><a href="#tf4rubric-2-2" title="Copy heading and permalink for Table 25: TF-4 Rubric" aria-label="Copy heading and permalink for Table 25: TF-4 Rubric">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b2 r2 l2 t2 lines">Criteria</td>
+<td class="c m b2 r2 l0 t2 lines">M</td>
+<td class="c m b2 r2 l0 t2 lines">P</td>
+<td class="c m b2 r2 l0 t2 lines">R</td>
+<td class="c m b2 r2 l0 t2 lines">N</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Simplifying Algebraic Expressions</td>
+<td class="c m b2 r2 l0 t0 lines">All answers are fully simplified. Exact answers are given, not approximations. Radical and exponential expressions are used appropriately and are simplified in the correct manner.</td>
+<td class="c m b2 r2 l0 t0 lines">No algebraic errors but some expressions are not simplified.</td>
+<td class="c m b2 r2 l0 t0 lines">There are some algebraic errors and some expressions were not simplified.</td>
+<td class="c m b2 r2 l0 t0 lines">There are some algebraic errors and some expressions were not simplified.</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Problem Structure and Mathematical Communication</td>
+<td class="c m b2 r2 l0 t0 lines">Problems have a clear beginning, middle and end. Work progresses clearly from one step to the next. The work provided uses appropriate methods and provides a clear solution.</td>
+<td class="c m b2 r2 l0 t0 lines">Problems have a clear beginning, middle and end. Work progresses clearly from one step to the next. The work provided uses algebraic methods and provides a solution.</td>
+<td class="c m b2 r2 l0 t0 lines">Parts of the mathematical structure are missing or steps in the progress of the solution are missing. The work provided uses algebraic methods and provides a solution.</td>
+<td class="c m b2 r2 l0 t0 lines">There is not a clear structure to the solution and it is unclear what methods are being used.</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Set up the triangle</td>
+<td class="c m b2 r2 l0 t0 lines">Draw a labeled diagram of the triangle described; all necessary angles and sides should be correctly labeled.</td>
+<td class="c m b2 r2 l0 t0 lines">Draw a diagram of the triangle described; most of the necessary angles and sides should be correctly labeled.</td>
+<td class="c m b2 r2 l0 t0 lines">Errors in setting up the triangle described by the application.</td>
+<td class="c m b2 r2 l0 t0 lines">No evidence shown of setting up the described triangle.</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Solve the application</td>
+<td class="c m b2 r2 l0 t0 lines">Use the correct law of sines or law of cosines to solve the application. All values should be exact, simplified answers with correct units.</td>
+<td class="c m b2 r2 l0 t0 lines">Use the correct law of sines or law of cosines to solve the application. All values should be exact with correct units.</td>
+<td class="c m b2 r2 l0 t0 lines">Incorrectly used law of sines or cosines or used other approaches to solve.</td>
+<td class="c m b2 r2 l0 t0 lines">No evidence shown of understanding the trigonometric laws.</td>
+</tr>
+</table></div></figure><div class="autopermalink" data-description="Worksheet"><a href="#tf4rubric-2" title="Copy heading and permalink for Worksheet" aria-label="Copy heading and permalink for Worksheet">🔗</a></div></section><div class="autopermalink" data-description="Section: TF-4 Rubric"><a href="#tf4rubric" title="Copy heading and permalink for Section: TF-4 Rubric" aria-label="Copy heading and permalink for Section: TF-4 Rubric">🔗</a></div></section><section class="worksheet" id="tf4-5" data-margins="0.75in 0.75in 0.75in 0.75in"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">TF-4 Law of Sines and Cosines</span><div class="print-links"><a href="?printpreview=tf4-5" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<section class="introduction" id="tf4-5-2"><div class="para" id="tf4-5-2-1">This outcome covers setting up and solving problems using the Law of Sines and the Law of Cosines. You should be able to draw a diagram of the situation, label the sides and angles, and determine which law to use to solve for the unknowns. You should be able to write out complete steps to solve these types of problems by hand, without the use of a calculator.<div class="autopermalink" data-description="Paragraph"><a href="#tf4-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf4-5-2-2">For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples of the types of problems you will encounter:<div class="autopermalink" data-description="Paragraph"><a href="#tf4-5-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><article class="objectives goal-like" id="tf4-5-3"><h4 class="heading"><span class="type">Objectives</span></h4>
+<ul class="disc" id="tf4-5-3-1">
+<li id="tf4-5-3-1-1">
+<div class="para" id="tf4-5-3-1-1-1">Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.<div class="autopermalink" data-description="Paragraph"><a href="#tf4-5-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#tf4-5-3-1-1" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="tf4-5-3-1-2">
+<div class="para" id="tf4-5-3-1-2-1">Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the correct intercepts and general behavior.<div class="autopermalink" data-description="Paragraph"><a href="#tf4-5-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#tf4-5-3-1-2" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="tf4-5-3-1-3">
+<div class="para" id="tf4-5-3-1-3-1">Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.<div class="autopermalink" data-description="Paragraph"><a href="#tf4-5-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#tf4-5-3-1-3" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="tf4-5-3-1-4">
+<div class="para" id="tf4-5-3-1-4-1">Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.<div class="autopermalink" data-description="Paragraph"><a href="#tf4-5-3-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#tf4-5-3-1-4" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="tf4-5-3-1-5">
+<div class="para" id="tf4-5-3-1-5-1">Set up and solve problems using the Law of Sines and the Law of Cosines. This includes identifying which law to use based on the given information, setting up the appropriate equations, and solving for the unknown sides or angles. You should be able to apply these laws to a variety of problems, including those involving triangles in real-world contexts.<div class="autopermalink" data-description="Paragraph"><a href="#tf4-5-3-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#tf4-5-3-1-5" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Objectives"><a href="#tf4-5-3" title="Copy heading and permalink for Objectives" aria-label="Copy heading and permalink for Objectives">🔗</a></div></article><section class="onepage" id="tf4-5-4"><article class="exercise exercise-like" id="tf4-5-4-1"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="tf4-5-4-1-1"><div class="para" id="tf4-5-4-1-1-1">Two ships leave a port at the same time.  One travels 34 mph in a direction <span class="process-math">\(N35^{\circ}E\)</span> and the other travels 32 mph in a direction <span class="process-math">\(S42^{\circ}E\text{.}\)</span>  How far apart are the ships after 2 hours?<div class="autopermalink" data-description="Paragraph"><a href="#tf4-5-4-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="tf4-5-4-1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="tf4-5-4-1-2-1-1">How far apart are the ships after 2 hours?<div class="autopermalink" data-description="Paragraph"><a href="#tf4-5-4-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="tf4-5-4-1-2-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="tf4-5-4-1-2-2-1">Use the Law of Cosines to set up the equation to find the distance between the ships.<div class="autopermalink" data-description="Paragraph"><a href="#tf4-5-4-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 1.a.1"><a href="#tf4-5-4-1-2-2" title="Copy heading and permalink for Hint 1.a.1" aria-label="Copy heading and permalink for Hint 1.a.1">🔗</a></div>
+</div></details><details id="tf4-5-4-1-2-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="tf4-5-4-1-2-3-1">
+<span class="process-math">\(d=4\sqrt{545-544\cos103^{\circ}}\)</span> miles<div class="autopermalink" data-description="Paragraph"><a href="#tf4-5-4-1-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 1.a.1"><a href="#tf4-5-4-1-2-3" title="Copy heading and permalink for Answer 1.a.1" aria-label="Copy heading and permalink for Answer 1.a.1">🔗</a></div>
+</div></details><details id="tf4-5-4-1-2-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="tf4-5-4-1-2-4-1">After drawing the diagram we find that the interior angle is <span class="process-math">\(103^{\circ}\text{.}\)</span> We can use the Law of Cosines to find the distance between the ships. Let <span class="process-math">\(d\)</span> be the distance between the ships, <span class="process-math">\(a\)</span> be the distance traveled by the first ship, and <span class="process-math">\(b\)</span> be the distance traveled by the second ship. Then:<div class="autopermalink" data-description="Paragraph"><a href="#tf4-5-4-1-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf4-5-4-1-2-4-2">
+<span class="process-math">\(d^2=a^2+b^2-2ab\cos C\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf4-5-4-1-2-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf4-5-4-1-2-4-3">Where <span class="process-math">\(C\)</span> is the angle between the two paths. In this case, <span class="process-math">\(C=103^{\circ}\text{,}\)</span> <span class="process-math">\(a=68\)</span> miles (since the first ship travels 34 mph for 2 hours), and <span class="process-math">\(b=64\)</span> miles (since the second ship travels 32 mph for 2 hours). Substituting these values:<div class="autopermalink" data-description="Paragraph"><a href="#tf4-5-4-1-2-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf4-5-4-1-2-4-4">
+<span class="process-math">\(d^2=68^2+64^2-2(68)(64)\cos103^{\circ}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf4-5-4-1-2-4-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf4-5-4-1-2-4-5">
+<span class="process-math">\(d^2=4624+4096-2(68)(64)\cos103^{\circ}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf4-5-4-1-2-4-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf4-5-4-1-2-4-6">
+<span class="process-math">\(d^2=8720-544\cos103^{\circ}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf4-5-4-1-2-4-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf4-5-4-1-2-4-7">
+<span class="process-math">\(d=\sqrt{8720-544\cos103^{\circ}}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf4-5-4-1-2-4-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="tf4-5-4-1-2-4-8">
+<span class="process-math">\(d=4\sqrt{545-544\cos103^{\circ}}\)</span> miles<div class="autopermalink" data-description="Paragraph"><a href="#tf4-5-4-1-2-4-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.a.1"><a href="#tf4-5-4-1-2-4" title="Copy heading and permalink for Solution 1.a.1" aria-label="Copy heading and permalink for Solution 1.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Task 1.a"><a href="#tf4-5-4-1-2" title="Copy heading and permalink for Task 1.a" aria-label="Copy heading and permalink for Task 1.a">🔗</a></div></article><article class="task exercise-like" id="tf4-5-4-1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="tf4-5-4-1-3-1-1">Two wires tether a balloon to the ground as shown in the following picture. Let <span class="process-math">\(\alpha=65^{\circ}, \beta=78^{\circ}\)</span> and let <span class="process-math">\(x=95ft.\)</span> Use the law of sines or cosines to find the value of <span class="process-math">\(h\text{,}\)</span> the height the balloon is above the ground.  Leave your answer in a simplified exact form.<div class="autopermalink" data-description="Paragraph"><a href="#tf4-5-4-1-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="tf4-5-4-1-3-1-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/Balloon_Problem.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">26<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Balloon tethered by two wires<div class="autopermalink" data-description="Figure 26"><a href="#tf4-5-4-1-3-1-2" title="Copy heading and permalink for Figure 26" aria-label="Copy heading and permalink for Figure 26">🔗</a></div></figcaption></figure><div class="solutions">
+<details id="tf4-5-4-1-3-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="tf4-5-4-1-3-2-1">Use the law of sines to find the hypotenuse of the inner triangle. Then use right triangle trigonometry to find the height.<div class="autopermalink" data-description="Paragraph"><a href="#tf4-5-4-1-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 1.b.1"><a href="#tf4-5-4-1-3-2" title="Copy heading and permalink for Hint 1.b.1" aria-label="Copy heading and permalink for Hint 1.b.1">🔗</a></div>
+</div></details><details id="tf4-5-4-1-3-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="tf4-5-4-1-3-3-1">
+<span class="process-math">\(h=\frac{95\sin65^{\circ}\sin78^{\circ}}{\sin13^{\circ}}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#tf4-5-4-1-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 1.b.1"><a href="#tf4-5-4-1-3-3" title="Copy heading and permalink for Answer 1.b.1" aria-label="Copy heading and permalink for Answer 1.b.1">🔗</a></div>
+</div></details><details id="tf4-5-4-1-3-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="tf4-5-4-1-3-4-1">First, we use the law of sines to find the hypotenuse of the inner triangle. <span class="process-math">\(\frac{\sin65^{\circ}}{y}=\frac{\sin13^{\circ}}{95}\)</span> Solving for <span class="process-math">\(y\text{:}\)</span> <span class="process-math">\(y=\frac{95\sin65^{\circ}}{\sin13^{\circ}}\)</span> Then, we use right triangle trigonometry to find the height of the balloon. <span class="process-math">\(\sin78^{\circ}=\frac{h}{y}\)</span> <span class="process-math">\(h=y\sin78^{\circ}\)</span> <span class="process-math">\(h=\frac{95\sin65^{\circ}\sin78^{\circ}}{\sin13^{\circ}}\)</span> ft<div class="autopermalink" data-description="Paragraph"><a href="#tf4-5-4-1-3-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.b.1"><a href="#tf4-5-4-1-3-4" title="Copy heading and permalink for Solution 1.b.1" aria-label="Copy heading and permalink for Solution 1.b.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Task 1.b"><a href="#tf4-5-4-1-3" title="Copy heading and permalink for Task 1.b" aria-label="Copy heading and permalink for Task 1.b">🔗</a></div></article><div class="autopermalink" data-description="Worksheet Exercise 1"><a href="#tf4-5-4-1" title="Copy heading and permalink for Worksheet Exercise 1" aria-label="Copy heading and permalink for Worksheet Exercise 1">🔗</a></div></article></section><div class="autopermalink" data-description="Worksheet: TF-4 Law of Sines and Cosines"><a href="#tf4-5" title="Copy heading and permalink for Worksheet: TF-4 Law of Sines and Cosines" aria-label="Copy heading and permalink for Worksheet: TF-4 Law of Sines and Cosines">🔗</a></div></section><div class="autopermalink" data-description="Section: TF-4 Law of Sines and Cosines"><a href="#tf4" title="Copy heading and permalink for Section: TF-4 Law of Sines and Cosines" aria-label="Copy heading and permalink for Section: TF-4 Law of Sines and Cosines">🔗</a></div></section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="tf3.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="feedback-link" href="mailto:lnbowman@alaska.edu" target="_blank">Feedback</a><a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+<script>diagcess.Base.init()</script>
+</body>
+</html>

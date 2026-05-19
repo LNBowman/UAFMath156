@@ -1,0 +1,43 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-el1a-sample-figure" speech2="The graph of the function shows the y-intercept at (0, -\frac{39}{16})                   and the x-intercept at (\frac{\ln3}{\ln\frac{3}{4}}+2,0). The                    horizontal asymptote is shown as a dashed blue line at y=-3. The exponential                    curve approaches the asymptote from above as x goes to infinity. The exponential curve                   approaches infinity as x approaches negative infinity.">
+      <grouped>prefigure-el1a-sample-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-el1a-sample-grid-axes</active>
+      </children>
+      <components>
+        <active>prefigure-el1a-sample-grid-axes</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-el1a-sample-grid-axes" speech2="The coordinate grid and axes">
+      <grouped>prefigure-el1a-sample-grid-axes</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-el1a-sample-grid</active>
+        <active>prefigure-el1a-sample-axes</active>
+      </children>
+      <components>
+        <active>prefigure-el1a-sample-grid</active>
+        <active>prefigure-el1a-sample-axes</active>
+      </components>
+      <parents>
+        <grouped>prefigure-el1a-sample-figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefigure-el1a-sample-grid" speech2="The coordinate grid">
+      <active>prefigure-el1a-sample-grid</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-el1a-sample-grid-axes</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefigure-el1a-sample-axes" speech2="The coordinate axes">
+      <active>prefigure-el1a-sample-axes</active>
+      <position>2</position>
+      <parents>
+        <grouped>prefigure-el1a-sample-grid-axes</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>

@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>BF-2 Forms of Linear Equations</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Precalculus">
+<meta property="book:author" content="Dr. Latrice Bowman">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.0.0';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.ce7e0a2163cb330f.bundle.js"></script><script src="_static/prefix-713.de0ab26248766350.bundle.js"></script><script src="_static/prefix-runestone.f4a2ffb04bb978bb.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-713.f43ced6a6134ea74.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.87414d180ebeebd6.css">
+<script src="_static/pretext/js/diagcess/diagcess.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="root-1-2.html"><span class="title">Precalculus</span> <span class="subtitle">MATH F156X Summer 2026</span></a></h1>
+<p class="byline">Dr. Latrice Bowman</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="embed-button" class="embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><div class="embed-popup hidden" id="embed-popup">
+<p>Copy the code below to embed this page in your own website or LMS page.</p>
+<div class="embed-code-container">
+<textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div>
+</div>
+<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="bf1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="basics-of-functions.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="bf3.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand*{\ds}{\displaystyle}
+\newcommand*{\bpt}{\begin{parts}}
+\newcommand*{\ept}{\end{parts}}
+\newcommand*{\bmc}{\begin{multicols}}
+\newcommand*{\emc}{\end{multicols}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3 focused" data-preexpanded-levels="2" data-max-levels="3"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="course-syllabus.html" class="internal"><span class="title">Course Documents</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="syllabus.html" class="internal"><span class="title">Course Information</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="components.html" class="internal"><span class="title">Course Components</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="rubrics.html" class="internal"><span class="title">Rubrics, Schedules, and Grades</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="policies.html" class="internal"><span class="title">Course and University Policies</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="support.html" class="internal"><span class="title">How to Succeed in this Course</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="course-syllabus-7.html" class="internal"><span class="title">Math 156 Summer 2026 Online Schedule</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="basics-of-functions.html" class="internal"><span class="title">Basics of Functions</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf1.html" class="internal"><span class="title">BF-1 Linear and Quadratic Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf1.html#bf1-2" class="internal"><span class="title">BF-1 Quick Notes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bf1.html#bf1videos" class="internal"><span class="title">BF-1 Videos</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf1.html#bf1rubric" class="internal"><span class="title">BF-1 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf1.html#bf1rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf1.html#bf1-5" class="internal"><span class="title">BF-1 Sample Outcomes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="bf2.html" class="internal"><span class="title">BF-2 Forms of Linear Equations</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf2.html#bf2-2" class="internal"><span class="title">BF-2 Quick Notes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bf2.html#bf2videos" class="internal"><span class="title">BF-2 Videos</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf2.html#bf2rubric" class="internal"><span class="title">BF-2 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf2.html#bf2rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf2.html#bf2-5" class="internal"><span class="title">BF-2 Sample Outcomes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf3.html" class="internal"><span class="title">BF-3 Difference Quotients and Piecewise Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf3.html#notes-bf3information" class="internal"><span class="title">BF-3 Quick Notes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bf3.html#bf3videos" class="internal"><span class="title">BF-3 Videos</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf3.html#bf3rubric" class="internal"><span class="title">BF-3 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf3.html#bf3rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf3.html#bf3-5" class="internal"><span class="title">BF-3 Sample Outcomes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf4.html" class="internal"><span class="title">BF-4 Transformations and Combinations of Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf4.html#notes-bf4information" class="internal"><span class="title">BF-4 Quick Notes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bf4.html#bf4videos" class="internal"><span class="title">BF-4 Videos</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf4.html#bf4rubric" class="internal"><span class="title">BF-4 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf4.html#bf4rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf4.html#bf4-5" class="internal"><span class="title">BF-4 Sample Outcomes</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="graphs-of-functions.html" class="internal"><span class="title">Graphs of Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr1.html" class="internal"><span class="title">GR-1 Quadratic Functions and Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr1.html#notes-gr1information" class="internal"><span class="title">Graphing Quadratics and Quadratic Models</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr1.html#gr1-3" class="internal"><span class="title">GR-1 Quadratic Functions and Models</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr1.html#gr1rubric" class="internal"><span class="title">GR-1 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr1.html#gr1rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr1.html#gr1-5" class="internal"><span class="title">GR-1 Quadratic Functions and Models</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr2.html" class="internal"><span class="title">GR-2 Polynomial Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr2.html#notes-gr2information" class="internal"><span class="title">Graphing Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr2.html#gr2-3" class="internal"><span class="title">GR-2 Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr2.html#gr2rubric" class="internal"><span class="title">GR-2 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr2.html#gr2rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr2.html#gr2-5" class="internal"><span class="title">GR-2 Polynomial Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr3.html" class="internal"><span class="title">GR-3 Rational Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr3.html#notes-gr3information" class="internal"><span class="title">Graphing Rational Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr3.html#gr3-3" class="internal"><span class="title">GR-3 Rational Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr3.html#gr3rubric" class="internal"><span class="title">GR-3 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr3.html#gr3rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr3.html#gr3-5" class="internal"><span class="title">GR-3 Rational Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr4.html" class="internal"><span class="title">GR-4 Systems of Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr4.html#notes-gr4information" class="internal"><span class="title">Systems of Equations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr4.html#gr4-3" class="internal"><span class="title">GR-4 Systems of Linear Equations</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr4.html#gr4rubric" class="internal"><span class="title">GR-4 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr4.html#gr4rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr4.html#gr4-5" class="internal"><span class="title">GR-4 Systems of Linear Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr5.html" class="internal"><span class="title">GR-5 Linear Inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr5.html#notes-gr5information" class="internal"><span class="title">Linear Inequalities and Systems</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr5.html#gr5-3" class="internal"><span class="title">GR-5 Linear Inequalities</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr5.html#gr5rubric" class="internal"><span class="title">GR-5 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr5.html#gr5rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr5.html#gr5-5" class="internal"><span class="title">GR-5 Graphing Linear Inequalities</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="exponential-and-logarithmic-functions.html" class="internal"><span class="title">Exponential and Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el1.html" class="internal"><span class="title">EL-1 Exponential and Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el1.html#notes-el1information" class="internal"><span class="title">Exponential and Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el1.html#el1-3" class="internal"><span class="title">EL-1 Exponential and Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el1.html#el1rubric" class="internal"><span class="title">EL-1 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el1.html#el1rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el1.html#el1-5" class="internal"><span class="title">EL-1 Exponential and Logarithmic Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el2.html" class="internal"><span class="title">EL-2 Exponential and Logarithmic Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el2.html#notes-el2information" class="internal"><span class="title">Exponential and Logarithmic Equations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el2.html#el2-3" class="internal"><span class="title">EL-2 Exponential and Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el2.html#el2rubric" class="internal"><span class="title">EL-2 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el2.html#el2rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el2.html#el2-5" class="internal"><span class="title">EL-2 Exponential and Logarithmic Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el3.html" class="internal"><span class="title">EL-3 Growth and Decay Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el3.html#notes-el3information" class="internal"><span class="title">Exponential Models</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el3.html#el3-3" class="internal"><span class="title">EL-3 Modeling with Exponential Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el3.html#el3rubric" class="internal"><span class="title">EL-3 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el3.html#el3rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el3.html#el3-5" class="internal"><span class="title">EL-3 Modeling Exponential Functions</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="trigonometric-functions.html" class="internal"><span class="title">Trigonometric Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf1.html" class="internal"><span class="title">TF-1 Right Triangle Trigonometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf1.html#notes-tf1information" class="internal"><span class="title">Right Triangle Trigonometry</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf1.html#tf1-3" class="internal"><span class="title">TF-1 Right Triangle Trigonometry</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf1.html#tf1rubric" class="internal"><span class="title">TF-1 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf1.html#tf1rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf1.html#tf1-5" class="internal"><span class="title">TF-1 Right Triangle Trigonometry</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf2.html" class="internal"><span class="title">TF-2 Graphs of Trigonometric Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf2.html#notes-tf2information" class="internal"><span class="title">Graphing Trigonometric Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf2.html#tf2-3" class="internal"><span class="title">TF-2 Trigonometric Graphs</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf2.html#tf2rubric" class="internal"><span class="title">TF-2 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf2.html#tf2rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf2.html#tf2-5" class="internal"><span class="title">TF-2 Graphs of Trigonometric Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf3.html" class="internal"><span class="title">TF-3 Trigonometric Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf3.html#notes-tf3information" class="internal"><span class="title">Solving Trigonometric Equations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf3.html#tf3-3" class="internal"><span class="title">TF-3 Trigonometric Equations</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf3.html#tf3rubric" class="internal"><span class="title">TF-3 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf3.html#tf3rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf3.html#tf3-5" class="internal"><span class="title">TF-3 Trigonometric Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf4.html" class="internal"><span class="title">TF-4 Law of Sines and Cosines</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf4.html#notes-tf4information" class="internal"><span class="title">Law of Sines and Cosines</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf4.html#tf4-3" class="internal"><span class="title">TF-4 Law of Sines and Cosines</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf4.html#tf4rubric" class="internal"><span class="title">TF-4 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf4.html#tf4rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf4.html#tf4-5" class="internal"><span class="title">TF-4 Law of Sines and Cosines</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<div class="print-preview-header">
+<h2 class="print-preview">Print preview</h2>
+<div class="print-controls">
+<div class="print-controls-toggles">
+<form class="papersize-select" id="papersize-select">
+<span class="name">Paper size</span><label><input type="radio" name="papersize" value="a4">A4
+        </label><label><input type="radio" name="papersize" value="letter">Letter
+        </label>
+</form>
+<details class="print-options"><summary>Additional printing options</summary><div class="hide-solutions-options">
+<div class="hide-option">
+<label for="hide-hint-checkbox">Hide hints</label><input type="checkbox" id="hide-hint-checkbox">
+</div>
+<div class="hide-option">
+<label for="hide-answer-checkbox">Hide answers</label><input type="checkbox" id="hide-answer-checkbox">
+</div>
+<div class="hide-option">
+<label for="hide-solution-checkbox">Hide solutions</label><input type="checkbox" id="hide-solution-checkbox">
+</div>
+</div>
+<div class="header-footer-options">
+<div class="header-option">
+<span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
+</div>
+<div class="footer-option">
+<span class="title">Print footers</span><label>First page<input type="checkbox" id="print-first-page-footer-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-footer-checkbox" checked></label>
+</div>
+</div>
+<div class="highlight-workspace-option">
+<label for="highlight-workspace-checkbox">Highlight workspace</label><input type="checkbox" id="highlight-workspace-checkbox">
+</div></details>
+</div>
+<button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
+</div>
+</div>
+<section class="section" id="bf2"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">BF-2 Forms of Linear Equations</span>
+</h2>
+<section class="worksheet" id="bf2-2" data-margins="0.75in 0.75in 0.75in 0.75in"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">BF-2 Quick Notes</span><div class="print-links"><a href="?printpreview=bf2-2" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<section class="introduction" id="bf2-2-2"><div class="para logical" id="bf2-2-2-1">
+<div class="para">For this outcome we will be looking at relations in two variables. We will look at how to visualize points, lines, and other curves, and how to identify intercepts.  We will look at linear equations in two variables and discuss the different forms that can be used to describe them.  We will also look at slope (rate of change) and how that can be used to work with linear equations.  Specifically, for this outcome, students should be able to:</div>
+<ul class="disc" id="bf2-2-2-1-1">
+<li id="bf2-2-2-1-1-1">
+<div class="para logical" id="bf2-2-2-1-1-1-1">
+<div class="para">For any line be able to write the equation in:</div>
+<ul class="circle" id="bf2-2-2-1-1-1-1-1">
+<li id="bf2-2-2-1-1-1-1-1-1">
+<div class="para" id="bf2-2-2-1-1-1-1-1-1-1">point-slope form.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-2-1-1-1-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#bf2-2-2-1-1-1-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="bf2-2-2-1-1-1-1-1-2">
+<div class="para" id="bf2-2-2-1-1-1-1-1-2-1">slope-intercept form.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-2-1-1-1-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#bf2-2-2-1-1-1-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="bf2-2-2-1-1-1-1-1-3">
+<div class="para" id="bf2-2-2-1-1-1-1-1-3-1">standard form.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-2-1-1-1-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#bf2-2-2-1-1-1-1-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-2-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#bf2-2-2-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="bf2-2-2-1-1-2">
+<div class="para logical" id="bf2-2-2-1-1-2-1">
+<div class="para">Given a point and a slope:</div>
+<ul class="circle" id="bf2-2-2-1-1-2-1-1">
+<li id="bf2-2-2-1-1-2-1-1-1">
+<div class="para" id="bf2-2-2-1-1-2-1-1-1-1">Write the equation of the line.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-2-1-1-2-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#bf2-2-2-1-1-2-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="bf2-2-2-1-1-2-1-1-2">
+<div class="para" id="bf2-2-2-1-1-2-1-1-2-1">Graph the equation of the line.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-2-1-1-2-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#bf2-2-2-1-1-2-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="bf2-2-2-1-1-2-1-1-3">
+<div class="para" id="bf2-2-2-1-1-2-1-1-3-1">State the intercepts or other points on the line.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-2-1-1-2-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#bf2-2-2-1-1-2-1-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-2-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#bf2-2-2-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="bf2-2-2-1-1-3">
+<div class="para logical" id="bf2-2-2-1-1-3-1">
+<div class="para">Given two points:</div>
+<ul class="circle" id="bf2-2-2-1-1-3-1-1">
+<li id="bf2-2-2-1-1-3-1-1-1">
+<div class="para" id="bf2-2-2-1-1-3-1-1-1-1">Find the slope of the line between the points.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-2-1-1-3-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#bf2-2-2-1-1-3-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="bf2-2-2-1-1-3-1-1-2">
+<div class="para" id="bf2-2-2-1-1-3-1-1-2-1">Find the equation of the line between the points.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-2-1-1-3-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#bf2-2-2-1-1-3-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-2-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#bf2-2-2-1-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="bf2-2-2-1-1-4">
+<div class="para logical" id="bf2-2-2-1-1-4-1">
+<div class="para">Given a line:</div>
+<ul class="circle" id="bf2-2-2-1-1-4-1-1">
+<li id="bf2-2-2-1-1-4-1-1-1">
+<div class="para" id="bf2-2-2-1-1-4-1-1-1-1">Find the equation that is parallel to the given line.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-2-1-1-4-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#bf2-2-2-1-1-4-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="bf2-2-2-1-1-4-1-1-2">
+<div class="para" id="bf2-2-2-1-1-4-1-1-2-1">Find the equation that is perpendicular to the given line.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-2-1-1-4-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#bf2-2-2-1-1-4-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-2-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#bf2-2-2-1-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="onepage" id="bf2-2-3"><div class="para" id="bf2-2-3-1">
+<em class="alert">Slope</em><div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="bf2-2-3-2">Slope (or the steepness) of a line can be thought of as rise over run. Give, two points on the line, <span class="process-math">\((x_1, y_1)\)</span> and <span class="process-math">\((x_2, y_2)\)</span> then slope can be written as: <span class="process-math">\(m=\frac{y_2-y_1}{x_2-x_1}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="bf2-2-3-3">
+<em class="emphasis">Note:</em> No slope <span class="process-math">\(\ne\)</span> Zero slope <span class="process-math">\(\ne\)</span> Undefined slope. These all represent different things.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="bf2-2-3-4">Every line has a slope, so the term <em class="emphasis">no slope</em> does not make sense when referring to a line. <em class="emphasis">Zero slope</em> refers to horizontal lines where <span class="process-math">\(y_2=y_1\)</span> so <span class="process-math">\(m=0\text{.}\)</span> <em class="emphasis">Undefined slope</em> refers to vertical lines where <span class="process-math">\(x_2=x_1\)</span> so <span class="process-math">\(m\)</span> is undefined.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-3-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="bf2-2-3-5">Positive slope means that the line increases as <span class="process-math">\(x\)</span> increases or that the line rises to the right. Negative slope means that the line decreases as <span class="process-math">\(x\)</span> increases or that the line falls to the right<div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-3-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="bf2-2-3-6">
+<div class="para">If <span class="process-math">\(m_1\)</span> is the slope of line 1, and <span class="process-math">\(m_2\)</span> is the slope of line 2. Then:</div>
+<ul class="disc" id="bf2-2-3-6-3">
+<li id="bf2-2-3-6-3-1">
+<div class="para" id="bf2-2-3-6-3-1-1">line 1 and line 2 are parallel if <span class="process-math">\(m_1=m_2\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-3-6-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#bf2-2-3-6-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="bf2-2-3-6-3-2">
+<div class="para" id="bf2-2-3-6-3-2-1">line 1 and line 2 are perpendicular if <span class="process-math">\(m_1=-\frac{1}{m_2}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-3-6-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#bf2-2-3-6-3-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-3-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="onepage" id="bf2-2-4"><div class="para" id="bf2-2-4-1">
+<em class="alert">Forms of Linear Equations</em><div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="bf2-2-4-2">There are three main forms for the equation of a line.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="bf2-2-4-3">
+<em class="emphasis">Standard form</em> is <span class="process-math">\(Ax+BY=C\)</span> where <span class="process-math">\(A, B\text{,}\)</span> and <span class="process-math">\(C\)</span> are integers and <span class="process-math">\(A\gt 0\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="bf2-2-4-4">The point-slope form is useful when you know the slope <span class="process-math">\(m\)</span> and a point, <span class="process-math">\((x_1,y_1)\text{,}\)</span> on the line.  The point-slope form is given as <span class="process-math">\(y-y_1=m(x-x1)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-4-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="bf2-2-4-5">The slope-intercept form is most commonly used to graph a line. For this form, we need the slope <span class="process-math">\(m\)</span> and the y-intercept <span class="process-math">\((0,b)\text{.}\)</span>  The slope-intercept form is given by <span class="process-math">\(y=mx+b\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-4-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="bf2-2-4-6">There are also two special cases for lines; horizontal and vertical lines, which correspond to our specific slopes.  For a horizontal line <span class="process-math">\(m=0\)</span> so any form of the equation can be reduced to <span class="process-math">\(y=b\)</span> where <span class="process-math">\((0,b)\)</span> is the y-intercept. For a vertical line, <span class="process-math">\(m\)</span> is undefined. So any form of the equation, can be reduced to <span class="process-math">\(x=a\)</span> where <span class="process-math">\((a,0)\)</span> is the x-intercept.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-2-4-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><div class="autopermalink" data-description="Worksheet: BF-2 Quick Notes"><a href="#bf2-2" title="Copy heading and permalink for Worksheet: BF-2 Quick Notes" aria-label="Copy heading and permalink for Worksheet: BF-2 Quick Notes">🔗</a></div></section><section class="section" id="bf2videos"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">BF-2 Videos</span>
+</h3>
+<div class="para" id="bf2videos-2">
+<em class="alert">Slopes and Forms</em><div class="autopermalink" data-description="Paragraph"><a href="#bf2videos-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://player.vimeo.com/video/1173085885?color=ffffff" id="bf2videos-3" frameborder="0" allow="fullscreen"></iframe></div>
+<div class="para" id="bf2videos-4">
+<em class="alert">Point-Slope Form</em><div class="autopermalink" data-description="Paragraph"><a href="#bf2videos-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://player.vimeo.com/video/1173078625?color=ffffff" id="bf2videos-5" frameborder="0" allow="fullscreen"></iframe></div>
+<div class="para" id="bf2videos-6">
+<em class="alert">Slope-Intercept Form</em><div class="autopermalink" data-description="Paragraph"><a href="#bf2videos-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://player.vimeo.com/video/1173078530?color=ffffff" id="bf2videos-7" frameborder="0" allow="fullscreen"></iframe></div>
+<div class="para" id="bf2videos-8">
+<em class="alert">Standard Form</em><div class="autopermalink" data-description="Paragraph"><a href="#bf2videos-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://player.vimeo.com/video/1173078444?color=ffffff" id="bf2videos-9" frameborder="0" allow="fullscreen"></iframe></div>
+<div class="para" id="bf2videos-10">
+<em class="alert">Vertical and Horizontal Lines</em><div class="autopermalink" data-description="Paragraph"><a href="#bf2videos-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://player.vimeo.com/video/1173078778?color=ffffff" id="bf2videos-11" frameborder="0" allow="fullscreen"></iframe></div>
+<div class="para" id="bf2videos-12">
+<em class="alert">Parallel Lines</em><div class="autopermalink" data-description="Paragraph"><a href="#bf2videos-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://player.vimeo.com/video/1173078236?color=ffffff" id="bf2videos-13" frameborder="0" allow="fullscreen"></iframe></div>
+<div class="para" id="bf2videos-14">
+<em class="alert">Perpendicular Lines</em><div class="autopermalink" data-description="Paragraph"><a href="#bf2videos-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://player.vimeo.com/video/1173078037?color=ffffff" id="bf2videos-15" frameborder="0" allow="fullscreen"></iframe></div>
+<div class="autopermalink" data-description="Section: BF-2 Videos"><a href="#bf2videos" title="Copy heading and permalink for Section: BF-2 Videos" aria-label="Copy heading and permalink for Section: BF-2 Videos">🔗</a></div></section><section class="section" id="bf2rubric"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">BF-2 Rubric</span>
+</h3>
+<section class="worksheet" id="bf2rubric-2" data-margins="0.75in 0.75in 0.75in 0.75in"><h4 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Worksheet</span><div class="print-links"><a href="?printpreview=bf2rubric-2" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h4>
+<section class="introduction" id="bf2rubric-2-1"><div class="para" id="bf2rubric-2-1-1">Before attempting the BF-2 outcome, you should review the following rubric. This shows the criteria you will be graded on and the expectations to earn each mastery level.<div class="autopermalink" data-description="Paragraph"><a href="#bf2rubric-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><figure class="table table-like" id="bf2rubric-2-2"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>BF2 Rubric<div class="autopermalink" data-description="Table 11: BF2 Rubric"><a href="#bf2rubric-2-2" title="Copy heading and permalink for Table 11: BF2 Rubric" aria-label="Copy heading and permalink for Table 11: BF2 Rubric">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b2 r2 l2 t2 lines">Criteria</td>
+<td class="c m b2 r2 l0 t2 lines">M</td>
+<td class="c m b2 r2 l0 t2 lines">P</td>
+<td class="c m b2 r2 l0 t2 lines">R</td>
+<td class="c m b2 r2 l0 t2 lines">N</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Simplifying Algebraic Expressions</td>
+<td class="c m b2 r2 l0 t0 lines">All answers are fully simplified. Exact answers are given, not approximations. Radical and exponential expressions are used appropriately and are simplified in the correct manner</td>
+<td class="c m b2 r2 l0 t0 lines">No algebraic errors OR some expressions are not simplified.</td>
+<td class="c m b2 r2 l0 t0 lines">There are some algebraic errors and some expressions were not simplified.</td>
+<td class="c m b2 r2 l0 t0 lines">There are some algebraic errors and some expressions were not simplified.</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Basics of Graphing</td>
+<td class="c m b2 r2 l0 t0 lines">Graph is labeled with units for each axis. The graph includes all of the important features (intercepts, asymptotes, deleted points, etc).  The graph is appropriately drawn to accommodate all features.</td>
+<td class="c m b2 r2 l0 t0 lines">Graph is labeled with units for each axis and includes most of the important features or the graph has all of the important features but is not labeled.</td>
+<td class="c m b2 r2 l0 t0 lines">Graph is not labeled and has some of the important features.</td>
+<td class="c m b2 r2 l0 t0 lines">No graph was given or the given graph is not labeled and does not have the correct features of the function.</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Problem Structure and Mathematical Communication</td>
+<td class="c m b2 r2 l0 t0 lines">Problems have a clear beginning, middle, and end. Work progresses clearly from one step to the next. The work provided uses appropriate methods and notation and provides a clear solution.</td>
+<td class="c m b2 r2 l0 t0 lines">Problems have clear beginnings and ends. Work progresses from one step to the next. The work provided uses algebraic methods, correct notation, and provides a solution.</td>
+<td class="c m b2 r2 l0 t0 lines">Parts of the mathematical structure are missing, or steps in the progress of the solution are missing. There are errors in the mathematical notation. The work provided uses algebraic methods and provides a solution.</td>
+<td class="c m b2 r2 l0 t0 lines">There is not a clear structure to the solution, notation is used incorrectly, and it is unclear what methods are being used.</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Linear Equations in Two Variables</td>
+<td class="c m b2 r2 l0 t0 lines">Correctly used the given information to rewrite the line in the requested form.  The original and new slopes are both correct.</td>
+<td class="c m b2 r2 l0 t0 lines">Used the given information to rewrite the line.  Either the original slope or the new slope has errors.  The solution is mostly written in the requested form, but there are some errors.</td>
+<td class="c m b2 r2 l0 t0 lines">Used the given information to rewrite the line.  There are errors in the rewritten form, and the equation is not given in the requested form.  Both the original and the new slope have errors.</td>
+<td class="c m b2 r2 l0 t0 lines">No progress beyond rewriting the problem. Not enough evidence to show knowledge of how to find or use slope to rewrite a linear equation.</td>
+</tr>
+</table></div></figure><div class="autopermalink" data-description="Worksheet"><a href="#bf2rubric-2" title="Copy heading and permalink for Worksheet" aria-label="Copy heading and permalink for Worksheet">🔗</a></div></section><div class="autopermalink" data-description="Section: BF-2 Rubric"><a href="#bf2rubric" title="Copy heading and permalink for Section: BF-2 Rubric" aria-label="Copy heading and permalink for Section: BF-2 Rubric">🔗</a></div></section><section class="worksheet" id="bf2-5" data-margins="0.75in 0.75in 0.75in 0.75in"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">BF-2 Sample Outcomes</span><div class="print-links"><a href="?printpreview=bf2-5" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<section class="introduction" id="bf2-5-2"><div class="para" id="bf2-5-2-1">This outcome covers slope and forms of linear equations.  You will be given 2 problems in this outcome. Given information about a line, should be able to write the equation in one of the three forms: slope-intercept, point-slope, or standard form. You should be able to graph the line and find the intercepts. Given a line and a point, you should be able to find the equation of the line parallel or perpendicular to it, and write the equation in the appropriate form. You should be able to write out complete steps to solve these types of problems by hand, without the use of a calculator.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="bf2-5-2-2">For the quiz on this outcome you would be given 20 minutes to complete 2 problems. Here are samples of the types of problems you will encounter:<div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><article class="objectives goal-like" id="bf2-5-3"><h4 class="heading"><span class="type">Objectives</span></h4>
+<ul class="disc" id="bf2-5-3-1">
+<li id="bf2-5-3-1-1">
+<div class="para" id="bf2-5-3-1-1-1">Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#bf2-5-3-1-1" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="bf2-5-3-1-2">
+<div class="para" id="bf2-5-3-1-2-1">Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the correct intercepts and general behavior.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#bf2-5-3-1-2" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="bf2-5-3-1-3">
+<div class="para" id="bf2-5-3-1-3-1">Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#bf2-5-3-1-3" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="bf2-5-3-1-4">
+<div class="para" id="bf2-5-3-1-4-1">Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-3-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#bf2-5-3-1-4" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="bf2-5-3-1-5">
+<div class="para" id="bf2-5-3-1-5-1">Slope: Find the slope of a line given two points or an equation.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-3-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#bf2-5-3-1-5" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="bf2-5-3-1-6">
+<div class="para" id="bf2-5-3-1-6-1">Forms of Linear Equations: Write the equation of a line in slope-intercept, point-slope, or standard form.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-3-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#bf2-5-3-1-6" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="bf2-5-3-1-7">
+<div class="para" id="bf2-5-3-1-7-1">Parallel and Perpendicular Lines: Find the correct parallel or perpendicular slope and use it to write the equation in the appropriate form.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-3-1-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#bf2-5-3-1-7" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Objectives"><a href="#bf2-5-3" title="Copy heading and permalink for Objectives" aria-label="Copy heading and permalink for Objectives">🔗</a></div></article><section class="onepage" id="bf2-5-4"><article class="exercise exercise-like" id="bf2-5-4-1"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="bf2-5-4-1-1-1">Find the equation of the line, in slope-intercept form that passes through the point <span class="process-math">\((5, -3)\)</span> with slope <span class="process-math">\(=\frac{2}{3}\text{.}\)</span> Give a sketch of the line with labeled intercepts.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-4-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="bf2-5-4-1-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="bf2-5-4-1-2-1">Slope intercept form is <span class="process-math">\(y=mx+b\)</span><div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-4-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 1.1"><a href="#bf2-5-4-1-2" title="Copy heading and permalink for Hint 1.1" aria-label="Copy heading and permalink for Hint 1.1">🔗</a></div>
+</div></details><details id="bf2-5-4-1-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="bf2-5-4-1-3-1">
+<span class="process-math">\(y=\frac{2}{3}x-\frac{19}{3}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-4-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 1.1"><a href="#bf2-5-4-1-3" title="Copy heading and permalink for Answer 1.1" aria-label="Copy heading and permalink for Answer 1.1">🔗</a></div>
+</div></details><details id="bf2-5-4-1-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="bf2-5-4-1-4-1">Since the slope is <span class="process-math">\(m=\frac{2}{3}\)</span> and the given point is <span class="process-math">\((5, -3)\)</span> we can plug these into the point-slope equation <span class="process-math">\(y-y_1=m(x-x_1)\)</span> to get <span class="process-math">\(y+3=\frac{2}{3}(x-5)\text{.}\)</span> Simplifying this equation gives us <span class="process-math">\(y=\frac{2}{3}x-\frac{19}{3}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-4-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.1"><a href="#bf2-5-4-1-4" title="Copy heading and permalink for Solution 1.1" aria-label="Copy heading and permalink for Solution 1.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 1"><a href="#bf2-5-4-1" title="Copy heading and permalink for Worksheet Exercise 1" aria-label="Copy heading and permalink for Worksheet Exercise 1">🔗</a></div></article><article class="exercise exercise-like" id="bf2-5-4-2"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="bf2-5-4-2-1-1">Find the equation of the line, in standard form that passes through the points <span class="process-math">\((-2, 5)\)</span> and <span class="process-math">\((8, 1)\text{.}\)</span> Give a sketch of the line with labeled intercepts.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-4-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="bf2-5-4-2-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="bf2-5-4-2-2-1">Find the slope using the two points, then use point-slope form. Use the point-slope form to write the equation, then rearrange to standard form.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-4-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 2.1"><a href="#bf2-5-4-2-2" title="Copy heading and permalink for Hint 2.1" aria-label="Copy heading and permalink for Hint 2.1">🔗</a></div>
+</div></details><details id="bf2-5-4-2-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="bf2-5-4-2-3-1">
+<span class="process-math">\(2x+5y=21\)</span><div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-4-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 2.1"><a href="#bf2-5-4-2-3" title="Copy heading and permalink for Answer 2.1" aria-label="Copy heading and permalink for Answer 2.1">🔗</a></div>
+</div></details><details id="bf2-5-4-2-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="bf2-5-4-2-4-1">Using the slope formula, we find the slope to be <span class="process-math">\(m=\frac{1-5}{8-(-2)}=\frac{-4}{10}=-\frac{2}{5}\text{.}\)</span> Using the point-slope form with the point <span class="process-math">\((-2, 5)\text{,}\)</span> we get <span class="process-math">\(y-5=-\frac{2}{5}(x-(-2))\text{.}\)</span> Simplifying and rearranging to standard form gives us <span class="process-math">\(2x+5y=21\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-4-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 2.1"><a href="#bf2-5-4-2-4" title="Copy heading and permalink for Solution 2.1" aria-label="Copy heading and permalink for Solution 2.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 2"><a href="#bf2-5-4-2" title="Copy heading and permalink for Worksheet Exercise 2" aria-label="Copy heading and permalink for Worksheet Exercise 2">🔗</a></div></article><article class="exercise exercise-like" id="bf2-5-4-3"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="bf2-5-4-3-1-1">Consider the line <span class="process-math">\(4x-3y=8\text{.}\)</span> Find the equation of the line (in standard form) that is parallel to the given line that passes through the point <span class="process-math">\((-3,8)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-4-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="bf2-5-4-3-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="bf2-5-4-3-2-1">Find the slope of the given line, then the parallel line has the same slope. Use the point-slope form with the given point.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-4-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.1"><a href="#bf2-5-4-3-2" title="Copy heading and permalink for Hint 3.1" aria-label="Copy heading and permalink for Hint 3.1">🔗</a></div>
+</div></details><details id="bf2-5-4-3-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="bf2-5-4-3-3-1">
+<span class="process-math">\(4x-3y=36\)</span><div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-4-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.1"><a href="#bf2-5-4-3-3" title="Copy heading and permalink for Answer 3.1" aria-label="Copy heading and permalink for Answer 3.1">🔗</a></div>
+</div></details><details id="bf2-5-4-3-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="bf2-5-4-3-4-1">The given line <span class="process-math">\(4x-3y=8\)</span> can be rewritten in slope-intercept form as <span class="process-math">\(y=\frac{4}{3}x-\frac{8}{3}\text{.}\)</span> The slope of this line is <span class="process-math">\(m_1=\frac{4}{3}\text{.}\)</span> The slope of a line parallel to this one is <span class="process-math">\(m_2=\frac{4}{3}\text{.}\)</span> Using the point-slope form with the point <span class="process-math">\((-3, 8)\text{,}\)</span> we get <span class="process-math">\(y-8=\frac{4}{3}(x-(-3))\text{.}\)</span> Simplifying and rearranging to standard form gives us <span class="process-math">\(4x-3y=36\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-4-3-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 3.1"><a href="#bf2-5-4-3-4" title="Copy heading and permalink for Solution 3.1" aria-label="Copy heading and permalink for Solution 3.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 3"><a href="#bf2-5-4-3" title="Copy heading and permalink for Worksheet Exercise 3" aria-label="Copy heading and permalink for Worksheet Exercise 3">🔗</a></div></article><article class="exercise exercise-like" id="bf2-5-4-4"><h4 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="bf2-5-4-4-1-1">Consider the line <span class="process-math">\(8x-3y=15\text{.}\)</span> Find the equation of the line (in slope-intercept form) that is perpendicular to the given line that passes through the point <span class="process-math">\((2, 1)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-4-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="bf2-5-4-4-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="bf2-5-4-4-2-1">Find the slope of the given line, then find the negative reciprocal to get the slope of the perpendicular line. Use the point-slope form with the given point.<div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-4-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 4.1"><a href="#bf2-5-4-4-2" title="Copy heading and permalink for Hint 4.1" aria-label="Copy heading and permalink for Hint 4.1">🔗</a></div>
+</div></details><details id="bf2-5-4-4-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="bf2-5-4-4-3-1">
+<span class="process-math">\(y=-\frac{3}{8}x+\frac{7}{4}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-4-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 4.1"><a href="#bf2-5-4-4-3" title="Copy heading and permalink for Answer 4.1" aria-label="Copy heading and permalink for Answer 4.1">🔗</a></div>
+</div></details><details id="bf2-5-4-4-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="bf2-5-4-4-4-1">The given line <span class="process-math">\(8x-3y=15\)</span> can be rewritten in slope-intercept form as <span class="process-math">\(y=\frac{8}{3}x-5\text{.}\)</span> The slope of this line is <span class="process-math">\(m_1=\frac{8}{3}\text{.}\)</span> The slope of a line perpendicular to this one is <span class="process-math">\(m_2=-\frac{3}{8}\text{.}\)</span> Using the point-slope form with the point <span class="process-math">\((2, 1)\text{,}\)</span> we get <span class="process-math">\(y-1=-\frac{3}{8}(x-2)\text{.}\)</span> Simplifying and rearranging to slope-intercept form gives us <span class="process-math">\(y=-\frac{3}{8}x+\frac{7}{4}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#bf2-5-4-4-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.1"><a href="#bf2-5-4-4-4" title="Copy heading and permalink for Solution 4.1" aria-label="Copy heading and permalink for Solution 4.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4"><a href="#bf2-5-4-4" title="Copy heading and permalink for Worksheet Exercise 4" aria-label="Copy heading and permalink for Worksheet Exercise 4">🔗</a></div></article></section><div class="autopermalink" data-description="Worksheet: BF-2 Sample Outcomes"><a href="#bf2-5" title="Copy heading and permalink for Worksheet: BF-2 Sample Outcomes" aria-label="Copy heading and permalink for Worksheet: BF-2 Sample Outcomes">🔗</a></div></section><div class="autopermalink" data-description="Section: BF-2 Forms of Linear Equations"><a href="#bf2" title="Copy heading and permalink for Section: BF-2 Forms of Linear Equations" aria-label="Copy heading and permalink for Section: BF-2 Forms of Linear Equations">🔗</a></div></section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="bf1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="bf3.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="feedback-link" href="mailto:lnbowman@alaska.edu" target="_blank">Feedback</a><a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+<script>diagcess.Base.init()</script>
+</body>
+</html>

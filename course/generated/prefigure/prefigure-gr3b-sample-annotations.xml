@@ -1,0 +1,43 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-gr3b-sample-figure" speech2="The graph is a rational function separated into two branches by the vertical                        asymptote at x=1. The graph has an oblique asymptote at y=-\frac{1}{2}x+1. The graph                        passes through the origin (0,0) which is both the x-intercept and y-intercept. For x less than 1,                        the graph is below the oblique asymptote and approaches the vertical asymptote at x=1 toward                        negative infinity. For 1 greater than x, the graph is above the oblique asymptote and approaches                        the vertical asymptote at x=1 toward positive infinity. As x approaches positive or negative                        infinity, the graph approaches the oblique asymptote y=-\frac{1}{2}x+1.">
+      <grouped>prefigure-gr3b-sample-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-gr3b-sample-grid-axes</active>
+      </children>
+      <components>
+        <active>prefigure-gr3b-sample-grid-axes</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-gr3b-sample-grid-axes" speech2="The coordinate grid and axes">
+      <grouped>prefigure-gr3b-sample-grid-axes</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-gr3b-sample-grid</active>
+        <active>prefigure-gr3b-sample-axes</active>
+      </children>
+      <components>
+        <active>prefigure-gr3b-sample-grid</active>
+        <active>prefigure-gr3b-sample-axes</active>
+      </components>
+      <parents>
+        <grouped>prefigure-gr3b-sample-figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefigure-gr3b-sample-grid" speech2="The coordinate grid">
+      <active>prefigure-gr3b-sample-grid</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-gr3b-sample-grid-axes</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefigure-gr3b-sample-axes" speech2="The coordinate axes">
+      <active>prefigure-gr3b-sample-axes</active>
+      <position>2</position>
+      <parents>
+        <grouped>prefigure-gr3b-sample-grid-axes</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>

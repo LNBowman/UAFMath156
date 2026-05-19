@@ -1,0 +1,1528 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>GR-3 Rational Functions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Precalculus">
+<meta property="book:author" content="Dr. Latrice Bowman">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.0.0';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.ce7e0a2163cb330f.bundle.js"></script><script src="_static/prefix-713.de0ab26248766350.bundle.js"></script><script src="_static/prefix-runestone.f4a2ffb04bb978bb.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-713.f43ced6a6134ea74.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.87414d180ebeebd6.css">
+<script src="_static/pretext/js/diagcess/diagcess.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="root-1-2.html"><span class="title">Precalculus</span> <span class="subtitle">MATH F156X Summer 2026</span></a></h1>
+<p class="byline">Dr. Latrice Bowman</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="embed-button" class="embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><div class="embed-popup hidden" id="embed-popup">
+<p>Copy the code below to embed this page in your own website or LMS page.</p>
+<div class="embed-code-container">
+<textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div>
+</div>
+<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="gr2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="graphs-of-functions.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="gr4.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand*{\ds}{\displaystyle}
+\newcommand*{\bpt}{\begin{parts}}
+\newcommand*{\ept}{\end{parts}}
+\newcommand*{\bmc}{\begin{multicols}}
+\newcommand*{\emc}{\end{multicols}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3 focused" data-preexpanded-levels="2" data-max-levels="3"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="course-syllabus.html" class="internal"><span class="title">Course Documents</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="syllabus.html" class="internal"><span class="title">Course Information</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="components.html" class="internal"><span class="title">Course Components</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="rubrics.html" class="internal"><span class="title">Rubrics, Schedules, and Grades</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="policies.html" class="internal"><span class="title">Course and University Policies</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="support.html" class="internal"><span class="title">How to Succeed in this Course</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="course-syllabus-7.html" class="internal"><span class="title">Math 156 Summer 2026 Online Schedule</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="basics-of-functions.html" class="internal"><span class="title">Basics of Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf1.html" class="internal"><span class="title">BF-1 Linear and Quadratic Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf1.html#bf1-2" class="internal"><span class="title">BF-1 Quick Notes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bf1.html#bf1videos" class="internal"><span class="title">BF-1 Videos</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf1.html#bf1rubric" class="internal"><span class="title">BF-1 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf1.html#bf1rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf1.html#bf1-5" class="internal"><span class="title">BF-1 Sample Outcomes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf2.html" class="internal"><span class="title">BF-2 Forms of Linear Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf2.html#bf2-2" class="internal"><span class="title">BF-2 Quick Notes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bf2.html#bf2videos" class="internal"><span class="title">BF-2 Videos</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf2.html#bf2rubric" class="internal"><span class="title">BF-2 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf2.html#bf2rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf2.html#bf2-5" class="internal"><span class="title">BF-2 Sample Outcomes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf3.html" class="internal"><span class="title">BF-3 Difference Quotients and Piecewise Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf3.html#notes-bf3information" class="internal"><span class="title">BF-3 Quick Notes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bf3.html#bf3videos" class="internal"><span class="title">BF-3 Videos</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf3.html#bf3rubric" class="internal"><span class="title">BF-3 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf3.html#bf3rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf3.html#bf3-5" class="internal"><span class="title">BF-3 Sample Outcomes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf4.html" class="internal"><span class="title">BF-4 Transformations and Combinations of Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf4.html#notes-bf4information" class="internal"><span class="title">BF-4 Quick Notes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bf4.html#bf4videos" class="internal"><span class="title">BF-4 Videos</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="bf4.html#bf4rubric" class="internal"><span class="title">BF-4 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf4.html#bf4rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="bf4.html#bf4-5" class="internal"><span class="title">BF-4 Sample Outcomes</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="graphs-of-functions.html" class="internal"><span class="title">Graphs of Functions</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr1.html" class="internal"><span class="title">GR-1 Quadratic Functions and Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr1.html#notes-gr1information" class="internal"><span class="title">Graphing Quadratics and Quadratic Models</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr1.html#gr1-3" class="internal"><span class="title">GR-1 Quadratic Functions and Models</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr1.html#gr1rubric" class="internal"><span class="title">GR-1 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr1.html#gr1rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr1.html#gr1-5" class="internal"><span class="title">GR-1 Quadratic Functions and Models</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr2.html" class="internal"><span class="title">GR-2 Polynomial Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr2.html#notes-gr2information" class="internal"><span class="title">Graphing Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr2.html#gr2-3" class="internal"><span class="title">GR-2 Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr2.html#gr2rubric" class="internal"><span class="title">GR-2 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr2.html#gr2rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr2.html#gr2-5" class="internal"><span class="title">GR-2 Polynomial Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="gr3.html" class="internal"><span class="title">GR-3 Rational Functions</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr3.html#notes-gr3information" class="internal"><span class="title">Graphing Rational Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr3.html#gr3-3" class="internal"><span class="title">GR-3 Rational Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr3.html#gr3rubric" class="internal"><span class="title">GR-3 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr3.html#gr3rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr3.html#gr3-5" class="internal"><span class="title">GR-3 Rational Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr4.html" class="internal"><span class="title">GR-4 Systems of Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr4.html#notes-gr4information" class="internal"><span class="title">Systems of Equations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr4.html#gr4-3" class="internal"><span class="title">GR-4 Systems of Linear Equations</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr4.html#gr4rubric" class="internal"><span class="title">GR-4 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr4.html#gr4rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr4.html#gr4-5" class="internal"><span class="title">GR-4 Systems of Linear Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr5.html" class="internal"><span class="title">GR-5 Linear Inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr5.html#notes-gr5information" class="internal"><span class="title">Linear Inequalities and Systems</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr5.html#gr5-3" class="internal"><span class="title">GR-5 Linear Inequalities</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="gr5.html#gr5rubric" class="internal"><span class="title">GR-5 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr5.html#gr5rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="gr5.html#gr5-5" class="internal"><span class="title">GR-5 Graphing Linear Inequalities</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="exponential-and-logarithmic-functions.html" class="internal"><span class="title">Exponential and Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el1.html" class="internal"><span class="title">EL-1 Exponential and Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el1.html#notes-el1information" class="internal"><span class="title">Exponential and Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el1.html#el1-3" class="internal"><span class="title">EL-1 Exponential and Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el1.html#el1rubric" class="internal"><span class="title">EL-1 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el1.html#el1rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el1.html#el1-5" class="internal"><span class="title">EL-1 Exponential and Logarithmic Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el2.html" class="internal"><span class="title">EL-2 Exponential and Logarithmic Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el2.html#notes-el2information" class="internal"><span class="title">Exponential and Logarithmic Equations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el2.html#el2-3" class="internal"><span class="title">EL-2 Exponential and Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el2.html#el2rubric" class="internal"><span class="title">EL-2 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el2.html#el2rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el2.html#el2-5" class="internal"><span class="title">EL-2 Exponential and Logarithmic Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el3.html" class="internal"><span class="title">EL-3 Growth and Decay Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el3.html#notes-el3information" class="internal"><span class="title">Exponential Models</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el3.html#el3-3" class="internal"><span class="title">EL-3 Modeling with Exponential Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="el3.html#el3rubric" class="internal"><span class="title">EL-3 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el3.html#el3rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="el3.html#el3-5" class="internal"><span class="title">EL-3 Modeling Exponential Functions</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="trigonometric-functions.html" class="internal"><span class="title">Trigonometric Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf1.html" class="internal"><span class="title">TF-1 Right Triangle Trigonometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf1.html#notes-tf1information" class="internal"><span class="title">Right Triangle Trigonometry</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf1.html#tf1-3" class="internal"><span class="title">TF-1 Right Triangle Trigonometry</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf1.html#tf1rubric" class="internal"><span class="title">TF-1 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf1.html#tf1rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf1.html#tf1-5" class="internal"><span class="title">TF-1 Right Triangle Trigonometry</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf2.html" class="internal"><span class="title">TF-2 Graphs of Trigonometric Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf2.html#notes-tf2information" class="internal"><span class="title">Graphing Trigonometric Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf2.html#tf2-3" class="internal"><span class="title">TF-2 Trigonometric Graphs</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf2.html#tf2rubric" class="internal"><span class="title">TF-2 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf2.html#tf2rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf2.html#tf2-5" class="internal"><span class="title">TF-2 Graphs of Trigonometric Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf3.html" class="internal"><span class="title">TF-3 Trigonometric Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf3.html#notes-tf3information" class="internal"><span class="title">Solving Trigonometric Equations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf3.html#tf3-3" class="internal"><span class="title">TF-3 Trigonometric Equations</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf3.html#tf3rubric" class="internal"><span class="title">TF-3 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf3.html#tf3rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf3.html#tf3-5" class="internal"><span class="title">TF-3 Trigonometric Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf4.html" class="internal"><span class="title">TF-4 Law of Sines and Cosines</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf4.html#notes-tf4information" class="internal"><span class="title">Law of Sines and Cosines</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf4.html#tf4-3" class="internal"><span class="title">TF-4 Law of Sines and Cosines</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="tf4.html#tf4rubric" class="internal"><span class="title">TF-4 Rubric</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf4.html#tf4rubric-2" class="internal"><span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="tf4.html#tf4-5" class="internal"><span class="title">TF-4 Law of Sines and Cosines</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<div class="print-preview-header">
+<h2 class="print-preview">Print preview</h2>
+<div class="print-controls">
+<div class="print-controls-toggles">
+<form class="papersize-select" id="papersize-select">
+<span class="name">Paper size</span><label><input type="radio" name="papersize" value="a4">A4
+        </label><label><input type="radio" name="papersize" value="letter">Letter
+        </label>
+</form>
+<details class="print-options"><summary>Additional printing options</summary><div class="hide-solutions-options">
+<div class="hide-option">
+<label for="hide-hint-checkbox">Hide hints</label><input type="checkbox" id="hide-hint-checkbox">
+</div>
+<div class="hide-option">
+<label for="hide-answer-checkbox">Hide answers</label><input type="checkbox" id="hide-answer-checkbox">
+</div>
+<div class="hide-option">
+<label for="hide-solution-checkbox">Hide solutions</label><input type="checkbox" id="hide-solution-checkbox">
+</div>
+</div>
+<div class="header-footer-options">
+<div class="header-option">
+<span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
+</div>
+<div class="footer-option">
+<span class="title">Print footers</span><label>First page<input type="checkbox" id="print-first-page-footer-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-footer-checkbox" checked></label>
+</div>
+</div>
+<div class="highlight-workspace-option">
+<label for="highlight-workspace-checkbox">Highlight workspace</label><input type="checkbox" id="highlight-workspace-checkbox">
+</div></details>
+</div>
+<button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
+</div>
+</div>
+<section class="section" id="gr3"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">GR-3 Rational Functions</span>
+</h2>
+<section class="worksheet" id="notes-gr3information" data-margins="0.75in 0.75in 0.75in 0.75in"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Graphing Rational Functions</span><div class="print-links"><a href="?printpreview=notes-gr3information" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<section class="introduction" id="notes-gr3information-2"><div class="para logical" id="notes-gr3information-2-1">
+<div class="para">For this outcome  Specifically, for this outcome, students should be able to:</div>
+<ul class="disc" id="notes-gr3information-2-1-1">
+<li id="notes-gr3information-2-1-1-1">
+<div class="para" id="notes-gr3information-2-1-1-1-1">Identify the domain.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-2-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-gr3information-2-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-gr3information-2-1-1-2">
+<div class="para" id="notes-gr3information-2-1-1-2-1">Identify the vertical asymptotes.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-2-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-gr3information-2-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-gr3information-2-1-1-3">
+<div class="para" id="notes-gr3information-2-1-1-3-1">Identify the horizontal or oblique asymptotes.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-2-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-gr3information-2-1-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-gr3information-2-1-1-4">
+<div class="para" id="notes-gr3information-2-1-1-4-1">Identify the x-intercepts and y-intercept.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-2-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-gr3information-2-1-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-gr3information-2-1-1-5">
+<div class="para" id="notes-gr3information-2-1-1-5-1">Determine the behavior of the function near the asymptotes.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-2-1-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-gr3information-2-1-1-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-gr3information-2-1-1-6">
+<div class="para" id="notes-gr3information-2-1-1-6-1">Determine the end behavior of the function.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-2-1-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-gr3information-2-1-1-6" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-gr3information-2-1-1-7">
+<div class="para" id="notes-gr3information-2-1-1-7-1">Sketch the graph of a rational function.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-2-1-1-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-gr3information-2-1-1-7" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-gr3information-2-1-1-8">
+<div class="para" id="notes-gr3information-2-1-1-8-1">Identify holes (deleted points) in the graph of a rational function.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-2-1-1-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-gr3information-2-1-1-8" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="onepage" id="notes-gr3information-3"><div class="para" id="notes-gr3information-3-1">
+<em class="alert">Rational Functions</em><div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="notes-gr3information-3-2">A <dfn class="terminology">rational function</dfn> is a function of the form <span class="process-math">\(f(x) = \frac{p(x)}{q(x)}\text{,}\)</span> where <span class="process-math">\(p(x)\)</span> and <span class="process-math">\(q(x)\)</span> are polynomials and <span class="process-math">\(q(x) \ne 0\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="onepage" id="notes-gr3information-4"><div class="para" id="notes-gr3information-4-1">
+<em class="alert">Asymptotes</em><div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="notes-gr3information-4-2">For rational functions, there are three types of asymptotes: Vertical, Horizontal, and Oblique.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="notes-gr3information-4-3">
+<ul class="disc" id="notes-gr3information-4-3-1">
+<li id="notes-gr3information-4-3-1-1">
+<div class="para" id="notes-gr3information-4-3-1-1-1">
+<dfn class="terminology">Vertical asymptotes</dfn>: These occur at values of <span class="process-math">\(x\)</span> where the denominator is zero and the numerator is non-zero. The function cannot cross a vertical asymptote since this is where the function is undefined.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-4-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-gr3information-4-3-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-gr3information-4-3-1-2">
+<div class="para" id="notes-gr3information-4-3-1-2-1">
+<dfn class="terminology">Horizontal asymptotes</dfn>: These occur when the degree of the numerator is less than or equal to the degree of the denominator. A function can cross a horizontal asymptote and this tells us the end behavior of the function. Meaning that as <span class="process-math">\(x \to \pm\infty\text{,}\)</span> the function approaches the horizontal asymptote (the function value approaches <span class="process-math">\(y=\)</span> a number).<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-4-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-gr3information-4-3-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-gr3information-4-3-1-3">
+<div class="para" id="notes-gr3information-4-3-1-3-1">
+<dfn class="terminology">Oblique asymptotes</dfn>: These occur when the degree of the numerator is larger than the degree of the denominator. To find an oblique asymptote, perform polynomial long division and the quotient (excluding the remainder) is the oblique asymptote. Like horizontal asymptotes, a function can cross an oblique asymptote and this tells us the end behavior of the function (whether the function value approaches <span class="process-math">\(\pm\infty\)</span>).<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-4-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-gr3information-4-3-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="onepage" id="notes-gr3information-5"><div class="para" id="notes-gr3information-5-1">
+<em class="alert">Graphing Rational Functions</em><div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="notes-gr3information-5-2">
+<div class="para">When graphing a rational function, follow these steps:</div>
+<ol class="lower-alpha lower-alpha-level-1" id="notes-gr3information-5-2-1">
+<li id="notes-gr3information-5-2-1-1">
+<div class="para" id="notes-gr3information-5-2-1-1-1">Identify the domain of the function.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-5-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item a"><a href="#notes-gr3information-5-2-1-1" title="Copy heading and permalink for Item a" aria-label="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="notes-gr3information-5-2-1-2">
+<div class="para" id="notes-gr3information-5-2-1-2-1">Factor the numerator and denominator to identify any holes in the graph (values of <span class="process-math">\(x\)</span> where both the numerator and denominator are zero).<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-5-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item b"><a href="#notes-gr3information-5-2-1-2" title="Copy heading and permalink for Item b" aria-label="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+<li id="notes-gr3information-5-2-1-3">
+<div class="para" id="notes-gr3information-5-2-1-3-1">Find and plot any vertical asymptotes.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-5-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item c"><a href="#notes-gr3information-5-2-1-3" title="Copy heading and permalink for Item c" aria-label="Copy heading and permalink for Item c">🔗</a></div>
+</li>
+<li id="notes-gr3information-5-2-1-4">
+<div class="para" id="notes-gr3information-5-2-1-4-1">Find and plot any horizontal or oblique asymptotes.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-5-2-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item d"><a href="#notes-gr3information-5-2-1-4" title="Copy heading and permalink for Item d" aria-label="Copy heading and permalink for Item d">🔗</a></div>
+</li>
+<li id="notes-gr3information-5-2-1-5">
+<div class="para" id="notes-gr3information-5-2-1-5-1">Determine the x-intercepts (where the numerator is zero) and y-intercept (where x=0).<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-5-2-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item e"><a href="#notes-gr3information-5-2-1-5" title="Copy heading and permalink for Item e" aria-label="Copy heading and permalink for Item e">🔗</a></div>
+</li>
+<li id="notes-gr3information-5-2-1-6">
+<div class="para" id="notes-gr3information-5-2-1-6-1">Determine the behavior of the function near each vertical asymptote.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-5-2-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item f"><a href="#notes-gr3information-5-2-1-6" title="Copy heading and permalink for Item f" aria-label="Copy heading and permalink for Item f">🔗</a></div>
+</li>
+<li id="notes-gr3information-5-2-1-7">
+<div class="para" id="notes-gr3information-5-2-1-7-1">Determine the end behavior of the function (as <span class="process-math">\(x \to \pm\infty\)</span>).<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-5-2-1-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item g"><a href="#notes-gr3information-5-2-1-7" title="Copy heading and permalink for Item g" aria-label="Copy heading and permalink for Item g">🔗</a></div>
+</li>
+<li id="notes-gr3information-5-2-1-8">
+<div class="para" id="notes-gr3information-5-2-1-8-1">Sketch a smooth curve that reflects all of these features.<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-5-2-1-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item h"><a href="#notes-gr3information-5-2-1-8" title="Copy heading and permalink for Item h" aria-label="Copy heading and permalink for Item h">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#notes-gr3information-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><div class="autopermalink" data-description="Worksheet: Graphing Rational Functions"><a href="#notes-gr3information" title="Copy heading and permalink for Worksheet: Graphing Rational Functions" aria-label="Copy heading and permalink for Worksheet: Graphing Rational Functions">🔗</a></div></section><section class="worksheet" id="gr3-3" data-margins="0.75in 0.75in 0.75in 0.75in"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">GR-3 Rational Functions</span><div class="print-links"><a href="?printpreview=gr3-3" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<section class="onepage" id="gr3-3-2"><div class="para" id="gr3-3-2-1">
+<em class="alert">Asymptotes</em><div class="autopermalink" data-description="Paragraph"><a href="#gr3-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://player.vimeo.com/video/1173578093?color=ffffff" id="gr3-3-2-2" frameborder="0" allow="fullscreen"></iframe></div>
+<div class="para" id="gr3-3-2-3">
+<em class="alert">Rational Functions</em><div class="autopermalink" data-description="Paragraph"><a href="#gr3-3-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://player.vimeo.com/video/1173578299?color=ffffff" id="gr3-3-2-4" frameborder="0" allow="fullscreen"></iframe></div></section><div class="autopermalink" data-description="Worksheet: GR-3 Rational Functions"><a href="#gr3-3" title="Copy heading and permalink for Worksheet: GR-3 Rational Functions" aria-label="Copy heading and permalink for Worksheet: GR-3 Rational Functions">🔗</a></div></section><section class="section" id="gr3rubric"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">GR-3 Rubric</span>
+</h3>
+<section class="worksheet" id="gr3rubric-2" data-margins="0.75in 0.75in 0.75in 0.75in"><h4 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Worksheet</span><div class="print-links"><a href="?printpreview=gr3rubric-2" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h4>
+<section class="introduction" id="gr3rubric-2-1"><div class="para" id="gr3rubric-2-1-1">Before attempting the GR-3 outcome, you should review the following rubric. This shows the criteria you will be graded on and the expectations to earn each mastery level.<div class="autopermalink" data-description="Paragraph"><a href="#gr3rubric-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><figure class="table table-like" id="gr3rubric-2-2"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">16<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>GR3 Rubric<div class="autopermalink" data-description="Table 16: GR3 Rubric"><a href="#gr3rubric-2-2" title="Copy heading and permalink for Table 16: GR3 Rubric" aria-label="Copy heading and permalink for Table 16: GR3 Rubric">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b2 r2 l2 t2 lines">Criteria</td>
+<td class="c m b2 r2 l0 t2 lines">M</td>
+<td class="c m b2 r2 l0 t2 lines">P</td>
+<td class="c m b2 r2 l0 t2 lines">R</td>
+<td class="c m b2 r2 l0 t2 lines">N</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Simplifying Algebraic Expressions</td>
+<td class="c m b2 r2 l0 t0 lines">All answers are fully simplified. Exact answers are given, not approximations. Radical and exponential expressions are used appropriately and are simplified in the correct manner</td>
+<td class="c m b2 r2 l0 t0 lines">No algebraic errors OR some expressions are not simplified.</td>
+<td class="c m b2 r2 l0 t0 lines">There are some algebraic errors and some expressions were not simplified.</td>
+<td class="c m b2 r2 l0 t0 lines">There are some algebraic errors and some expressions were not simplified.</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Basics of Graphing</td>
+<td class="c m b2 r2 l0 t0 lines">Graph is labeled with units for each axis. The graph includes all of the important features (intercepts, asymptotes, deleted points, etc).  The graph is appropriately drawn to accommodate all features.</td>
+<td class="c m b2 r2 l0 t0 lines">Graph is labeled with units for each axis and includes most of the important features or the graph has all of the important features but is not labeled.</td>
+<td class="c m b2 r2 l0 t0 lines">Graph is not labeled and has some of the important features.</td>
+<td class="c m b2 r2 l0 t0 lines">No graph was given or the given graph is not labeled and does not have the correct features of the function.</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Problem Structure and Mathematical Communication</td>
+<td class="c m b2 r2 l0 t0 lines">Problems have a clear beginning, middle, and end. Work progresses clearly from one step to the next. The work provided uses appropriate methods and notation and provides a clear solution.</td>
+<td class="c m b2 r2 l0 t0 lines">Problems have clear beginnings and ends. Work progresses from one step to the next. The work provided uses algebraic methods, correct notation, and provides a solution.</td>
+<td class="c m b2 r2 l0 t0 lines">Parts of the mathematical structure are missing, or steps in the progress of the solution are missing. There are errors in the mathematical notation. The work provided uses algebraic methods and provides a solution.</td>
+<td class="c m b2 r2 l0 t0 lines">There is not a clear structure to the solution, notation is used incorrectly, and it is unclear what methods are being used.</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">State the domain</td>
+<td class="c m b2 r2 l0 t0 lines">Provided a correct, simplified domain using correct interval notation.</td>
+<td class="c m b2 r2 l0 t0 lines">Provided the correct domain using interval notation.</td>
+<td class="c m b2 r2 l0 t0 lines">Provided a domain.</td>
+<td class="c m b2 r2 l0 t0 lines">No evidence of finding the domain.</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Find the asymptotes</td>
+<td class="c m b2 r2 l0 t0 lines">Used appropriate factoring or division methods to find and label the vertical, horizontal and oblique asymptotes, and wrote them using correct notation.</td>
+<td class="c m b2 r2 l0 t0 lines">Used factoring or division methods to find and label the vertical and horizontal asymptotes with minor errors.</td>
+<td class="c m b2 r2 l0 t0 lines">Found some of the asymptotes.</td>
+<td class="c m b2 r2 l0 t0 lines">No evidence of finding the asymptotes</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Find x and y intercept</td>
+<td class="c m b2 r2 l0 t0 lines">The correct x and y-intercepts were given using correct notation.</td>
+<td class="c m b2 r2 l0 t0 lines">The correct x and y-intercepts were given.</td>
+<td class="c m b2 r2 l0 t0 lines">Points were given that are not the intercepts.</td>
+<td class="c m b2 r2 l0 t0 lines">No intercepts were given.</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Find deleted points</td>
+<td class="c m b2 r2 l0 t0 lines">Used appropriate factoring methods to find any holes; wrote the correct deleted point using correct notation.</td>
+<td class="c m b2 r2 l0 t0 lines">Used factoring methods to find any holes; wrote the deleted point.</td>
+<td class="c m b2 r2 l0 t0 lines">Gave an x-value of the hole.</td>
+<td class="c m b2 r2 l0 t0 lines">No evidence of finding the deleted points were given.</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Rational Graph</td>
+<td class="c m b2 r2 l0 t0 lines">Graph contains all relevant information; has correct end-behavior, asymptotes, intercepts, deleted points, behavior at intercepts, and slopes.</td>
+<td class="c m b2 r2 l0 t0 lines">Graph contains most of the relevant information; has partially correct end-behavior, slopes, asymptotes, intercepts, deleted points or behavior at intercepts.</td>
+<td class="c m b2 r2 l0 t0 lines">Relevant parts of the graph are missing. errors in the end-behavior, slopes, asymptotes, intercepts, deleted points, or behavior at intercepts.</td>
+<td class="c m b2 r2 l0 t0 lines">No attempt at graphing the function was given.</td>
+</tr>
+</table></div></figure><div class="autopermalink" data-description="Worksheet"><a href="#gr3rubric-2" title="Copy heading and permalink for Worksheet" aria-label="Copy heading and permalink for Worksheet">🔗</a></div></section><div class="autopermalink" data-description="Section: GR-3 Rubric"><a href="#gr3rubric" title="Copy heading and permalink for Section: GR-3 Rubric" aria-label="Copy heading and permalink for Section: GR-3 Rubric">🔗</a></div></section><section class="worksheet" id="gr3-5" data-margins="0.75in 0.75in 0.75in 0.75in"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">GR-3 Rational Functions</span><div class="print-links"><a href="?printpreview=gr3-5" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<section class="introduction" id="gr3-5-2"><div class="para" id="gr3-5-2-1">This outcome covers rational functions. You should be able to identify the domain and range of a rational function. Be able to determine the vertical, horizontal, and oblique asymptotes of a rational function. You should also be able to find the x-intercepts and y-intercept of a rational function. If a rational function has holes (deleted points), you should be able to identify these as well. You should also be able to determine the behavior of a rational function near the asymptotes and the end behavior of a rational function. You should also be able to graph rational functions.  You should be able to write out complete steps to solve these types of problems by hand, without the use of a calculator.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="gr3-5-2-2">For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples of the types of problems you will encounter:<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><article class="objectives goal-like" id="gr3-5-3"><h4 class="heading"><span class="type">Objectives</span></h4>
+<ul class="disc" id="gr3-5-3-1">
+<li id="gr3-5-3-1-1">
+<div class="para" id="gr3-5-3-1-1-1">Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#gr3-5-3-1-1" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="gr3-5-3-1-2">
+<div class="para" id="gr3-5-3-1-2-1">Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the correct intercepts and general behavior.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#gr3-5-3-1-2" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="gr3-5-3-1-3">
+<div class="para" id="gr3-5-3-1-3-1">Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#gr3-5-3-1-3" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="gr3-5-3-1-4">
+<div class="para" id="gr3-5-3-1-4-1">Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-3-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#gr3-5-3-1-4" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="gr3-5-3-1-5">
+<div class="para" id="gr3-5-3-1-5-1">End Behavior: Determine the end behavior of a rational function and write this using correct notation.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-3-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#gr3-5-3-1-5" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="gr3-5-3-1-6">
+<div class="para" id="gr3-5-3-1-6-1">Write the equations of the vertical, horizontal, and oblique asymptotes of a rational function.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-3-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#gr3-5-3-1-6" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="gr3-5-3-1-7">
+<div class="para" id="gr3-5-3-1-7-1">Write the x-intercepts and the y-intercept of a rational function.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-3-1-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#gr3-5-3-1-7" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="gr3-5-3-1-8">
+<div class="para" id="gr3-5-3-1-8-1">Identify any holes (deleted points) of a rational function.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-3-1-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#gr3-5-3-1-8" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="gr3-5-3-1-9">
+<div class="para" id="gr3-5-3-1-9-1">Determine the behavior of a rational function near the asymptotes.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-3-1-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#gr3-5-3-1-9" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="gr3-5-3-1-10">
+<div class="para" id="gr3-5-3-1-10-1">Graphing: Graph the function with appropriate scales and labels, showing the correct intercepts and general behavior.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-3-1-10-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#gr3-5-3-1-10" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Objectives"><a href="#gr3-5-3" title="Copy heading and permalink for Objectives" aria-label="Copy heading and permalink for Objectives">🔗</a></div></article><section class="onepage" id="gr3-5-4"><article class="exercise exercise-like" id="gr3-5-4-1"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="gr3-5-4-1-1"><div class="para" id="gr3-5-4-1-1-1">Given the function <span class="process-math">\(r(x)=\frac{4x^2}{x^2-2x-3}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="gr3-5-4-1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="gr3-5-4-1-2-1-1">State the domain.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="gr3-5-4-1-2-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="gr3-5-4-1-2-2-1">Set the denominator equal to zero and solve for x to find the values that are not in the domain.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 1.a.1"><a href="#gr3-5-4-1-2-2" title="Copy heading and permalink for Hint 1.a.1" aria-label="Copy heading and permalink for Hint 1.a.1">🔗</a></div>
+</div></details><details id="gr3-5-4-1-2-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="gr3-5-4-1-2-3-1">
+<span class="process-math">\((-\infty,-1)\cup(-1,3)\cup(3,\infty)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-1-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 1.a.1"><a href="#gr3-5-4-1-2-3" title="Copy heading and permalink for Answer 1.a.1" aria-label="Copy heading and permalink for Answer 1.a.1">🔗</a></div>
+</div></details><details id="gr3-5-4-1-2-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="gr3-5-4-1-2-4-1">To find the domain, we set the denominator equal to zero and solve for x. We have: <span class="process-math">\(x^2-2x-3=0\text{.}\)</span> Factoring, we get <span class="process-math">\((x-3)(x+1)=0\text{.}\)</span> Therefore, <span class="process-math">\(x=3\)</span> and <span class="process-math">\(x=-1\)</span> are not in the domain. The domain is <span class="process-math">\((-\infty,-1)\cup(-1,3)\cup(3,\infty)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-1-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.a.1"><a href="#gr3-5-4-1-2-4" title="Copy heading and permalink for Solution 1.a.1" aria-label="Copy heading and permalink for Solution 1.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Task 1.a"><a href="#gr3-5-4-1-2" title="Copy heading and permalink for Task 1.a" aria-label="Copy heading and permalink for Task 1.a">🔗</a></div></article><article class="task exercise-like" id="gr3-5-4-1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="gr3-5-4-1-3-1-1">State any intercepts and/or asymptotes.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-1-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="gr3-5-4-1-3-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="gr3-5-4-1-3-2-1">To find the vertical asymptotes, we look at the values that are not in the domain. To find the horizontal or oblique asymptote, we compare the degrees of the numerator and denominator.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-1-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 1.b.1"><a href="#gr3-5-4-1-3-2" title="Copy heading and permalink for Hint 1.b.1" aria-label="Copy heading and permalink for Hint 1.b.1">🔗</a></div>
+</div></details><details id="gr3-5-4-1-3-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="gr3-5-4-1-3-3-1">Vertical asymptotes: x=-1 and x=3. Horizontal asymptote: y=4. x-intercept: (0,0). y-intercept: (0,0).<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-1-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 1.b.1"><a href="#gr3-5-4-1-3-3" title="Copy heading and permalink for Answer 1.b.1" aria-label="Copy heading and permalink for Answer 1.b.1">🔗</a></div>
+</div></details><details id="gr3-5-4-1-3-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="gr3-5-4-1-3-4-1">To find the vertical asymptotes, we look at the values that are not in the domain. We have vertical asymptotes at <span class="process-math">\(x=-1\)</span> and <span class="process-math">\(x=3\text{.}\)</span> To find the horizontal or oblique asymptote, we compare the degrees of the numerator and denominator. The degree of the numerator is 2 and the degree of the denominator is 2. Since the degrees are equal, there is a horizontal asymptote at <span class="process-math">\(y=\frac{4}{1}=4\text{.}\)</span> To find the x-intercept, we set the numerator equal to zero and solve for x. We have <span class="process-math">\(4x^2=0\text{,}\)</span> which gives us an x-intercept at <span class="process-math">\((0,0)\text{.}\)</span> To find the y-intercept, we evaluate the function at x=0. We have <span class="process-math">\(r(0)=\frac{4(0)^2}{(0)^2-2(0)-3}=0\text{,}\)</span> which gives us a y-intercept at <span class="process-math">\((0,0)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-1-3-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.b.1"><a href="#gr3-5-4-1-3-4" title="Copy heading and permalink for Solution 1.b.1" aria-label="Copy heading and permalink for Solution 1.b.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Task 1.b"><a href="#gr3-5-4-1-3" title="Copy heading and permalink for Task 1.b" aria-label="Copy heading and permalink for Task 1.b">🔗</a></div></article><article class="task exercise-like" id="gr3-5-4-1-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="gr3-5-4-1-4-1-1">State any deleted points.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-1-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="gr3-5-4-1-4-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="gr3-5-4-1-4-2-1">Deleted points occur when there is a common factor in the numerator and denominator that can be canceled.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-1-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 1.c.1"><a href="#gr3-5-4-1-4-2" title="Copy heading and permalink for Hint 1.c.1" aria-label="Copy heading and permalink for Hint 1.c.1">🔗</a></div>
+</div></details><details id="gr3-5-4-1-4-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="gr3-5-4-1-4-3-1">No deleted points.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-1-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 1.c.1"><a href="#gr3-5-4-1-4-3" title="Copy heading and permalink for Answer 1.c.1" aria-label="Copy heading and permalink for Answer 1.c.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Task 1.c"><a href="#gr3-5-4-1-4" title="Copy heading and permalink for Task 1.c" aria-label="Copy heading and permalink for Task 1.c">🔗</a></div></article><article class="task exercise-like" id="gr3-5-4-1-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="gr3-5-4-1-5-1-1">Provide a sketch of the graph.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-1-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="gr3-5-4-1-5-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="gr3-5-4-1-5-2-1">Use the intercepts, asymptotes, and general shape of the graph to sketch it.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-1-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 1.d.1"><a href="#gr3-5-4-1-5-2" title="Copy heading and permalink for Hint 1.d.1" aria-label="Copy heading and permalink for Hint 1.d.1">🔗</a></div>
+</div></details><details id="gr3-5-4-1-5-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;">
+<div class="ChemAccess-element" data-src="generated/prefigure/prefigure-gr3a-sample-diagcess.svg" data-cml="generated/prefigure/prefigure-gr3a-sample-annotations.xml"></div>
+<details><summary>Diagram Exploration Keyboard Controls</summary><div class="diagcess-navigation-controls"><table>
+<thead><tr>
+<th>Key</th>
+<th>Action</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Enter, A</td>
+<td>Activate keyboard driven exploration</td>
+</tr>
+<tr>
+<td>B</td>
+<td>Activate menu driven exploration</td>
+</tr>
+<tr>
+<td>Escape</td>
+<td>Leave exploration mode</td>
+</tr>
+<tr>
+<td>Cursor down</td>
+<td>Explore next lower level</td>
+</tr>
+<tr>
+<td>Cursor up</td>
+<td>Explore next upper level</td>
+</tr>
+<tr>
+<td>Cursor right</td>
+<td>Explore next element on level</td>
+</tr>
+<tr>
+<td>Cursor left</td>
+<td>Explore previous element on level</td>
+</tr>
+<tr>
+<td>X</td>
+<td>Toggle expert mode</td>
+</tr>
+<tr>
+<td>W</td>
+<td>Extra details if available</td>
+</tr>
+<tr>
+<td>Space</td>
+<td>Repeat speech</td>
+</tr>
+<tr>
+<td>M</td>
+<td>Activate step magnification</td>
+</tr>
+<tr>
+<td>Comma</td>
+<td>Activate direct magnification</td>
+</tr>
+<tr>
+<td>N</td>
+<td>Deactivate magnification</td>
+</tr>
+<tr>
+<td>Z</td>
+<td>Toggle subtitles</td>
+</tr>
+<tr>
+<td>C</td>
+<td>Cycle contrast settings</td>
+</tr>
+<tr>
+<td>T</td>
+<td>Monochrome colours</td>
+</tr>
+<tr>
+<td>L</td>
+<td>Toggle language (if available)</td>
+</tr>
+<tr>
+<td>K</td>
+<td>Kill current sound</td>
+</tr>
+<tr>
+<td>Y</td>
+<td>Stop sound output</td>
+</tr>
+<tr>
+<td>O</td>
+<td>Start and stop sonification</td>
+</tr>
+<tr>
+<td>P</td>
+<td>Repeat sonification output</td>
+</tr>
+</tbody>
+</table></div></details>
+</div>
+<div class="autopermalink" data-description="Answer 1.d.1"><a href="#gr3-5-4-1-5-3" title="Copy heading and permalink for Answer 1.d.1" aria-label="Copy heading and permalink for Answer 1.d.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Task 1.d"><a href="#gr3-5-4-1-5" title="Copy heading and permalink for Task 1.d" aria-label="Copy heading and permalink for Task 1.d">🔗</a></div></article><div class="autopermalink" data-description="Worksheet Exercise 1"><a href="#gr3-5-4-1" title="Copy heading and permalink for Worksheet Exercise 1" aria-label="Copy heading and permalink for Worksheet Exercise 1">🔗</a></div></article><article class="exercise exercise-like" id="gr3-5-4-2"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="gr3-5-4-2-1"><div class="para" id="gr3-5-4-2-1-1">Given the function <span class="process-math">\(r(x)=\frac{3x-x^2}{2x-2}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="gr3-5-4-2-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="gr3-5-4-2-2-1-1">State the domain.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="gr3-5-4-2-2-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="gr3-5-4-2-2-2-1">Set the denominator equal to zero and solve for x to find the values that are not in the domain.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 2.a.1"><a href="#gr3-5-4-2-2-2" title="Copy heading and permalink for Hint 2.a.1" aria-label="Copy heading and permalink for Hint 2.a.1">🔗</a></div>
+</div></details><details id="gr3-5-4-2-2-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="gr3-5-4-2-2-3-1">
+<span class="process-math">\((-\infty,1)\cup(1,\infty)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-2-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 2.a.1"><a href="#gr3-5-4-2-2-3" title="Copy heading and permalink for Answer 2.a.1" aria-label="Copy heading and permalink for Answer 2.a.1">🔗</a></div>
+</div></details><details id="gr3-5-4-2-2-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="gr3-5-4-2-2-4-1">To find the domain, we set the denominator equal to zero and solve for x. We have: <span class="process-math">\(2x-2=0\text{.}\)</span> Solving for x gives us <span class="process-math">\(x=1\text{.}\)</span> Therefore, the domain is <span class="process-math">\((-\infty,1)\cup(1,\infty)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-2-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 2.a.1"><a href="#gr3-5-4-2-2-4" title="Copy heading and permalink for Solution 2.a.1" aria-label="Copy heading and permalink for Solution 2.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Task 2.a"><a href="#gr3-5-4-2-2" title="Copy heading and permalink for Task 2.a" aria-label="Copy heading and permalink for Task 2.a">🔗</a></div></article><article class="task exercise-like" id="gr3-5-4-2-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="gr3-5-4-2-3-1-1">State any intercepts and/or asymptotes.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="gr3-5-4-2-3-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="gr3-5-4-2-3-2-1">To find the vertical asymptotes, we look at the values that are not in the domain. To find the horizontal or oblique asymptote, we compare the degrees of the numerator and denominator.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-2-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 2.b.1"><a href="#gr3-5-4-2-3-2" title="Copy heading and permalink for Hint 2.b.1" aria-label="Copy heading and permalink for Hint 2.b.1">🔗</a></div>
+</div></details><details id="gr3-5-4-2-3-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="gr3-5-4-2-3-3-1">Vertical asymptote: x=1. Oblique asymptote: y=-\frac{1}{2}x+1. x-intercept: (0,0). y-intercept: (0,0).<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-2-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 2.b.1"><a href="#gr3-5-4-2-3-3" title="Copy heading and permalink for Answer 2.b.1" aria-label="Copy heading and permalink for Answer 2.b.1">🔗</a></div>
+</div></details><details id="gr3-5-4-2-3-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="gr3-5-4-2-3-4-1">We have a vertical asymptote at <span class="process-math">\(x=1\text{.}\)</span> To find the oblique asymptote, we perform polynomial long division. The result is <span class="process-math">\(y=-\frac{1}{2}x+1\text{.}\)</span> For the intercepts, we set the numerator equal to zero to find the x-intercept and evaluate the function at x=0 to find the y-intercept.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-2-3-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 2.b.1"><a href="#gr3-5-4-2-3-4" title="Copy heading and permalink for Solution 2.b.1" aria-label="Copy heading and permalink for Solution 2.b.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Task 2.b"><a href="#gr3-5-4-2-3" title="Copy heading and permalink for Task 2.b" aria-label="Copy heading and permalink for Task 2.b">🔗</a></div></article><article class="task exercise-like" id="gr3-5-4-2-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="gr3-5-4-2-4-1-1">State any deleted points.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="gr3-5-4-2-4-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="gr3-5-4-2-4-2-1">Deleted points occur when there is a common factor in the numerator and denominator that can be canceled.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-2-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 2.c.1"><a href="#gr3-5-4-2-4-2" title="Copy heading and permalink for Hint 2.c.1" aria-label="Copy heading and permalink for Hint 2.c.1">🔗</a></div>
+</div></details><details id="gr3-5-4-2-4-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="gr3-5-4-2-4-3-1">No deleted points.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-2-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 2.c.1"><a href="#gr3-5-4-2-4-3" title="Copy heading and permalink for Answer 2.c.1" aria-label="Copy heading and permalink for Answer 2.c.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Task 2.c"><a href="#gr3-5-4-2-4" title="Copy heading and permalink for Task 2.c" aria-label="Copy heading and permalink for Task 2.c">🔗</a></div></article><article class="task exercise-like" id="gr3-5-4-2-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="gr3-5-4-2-5-1-1">Provide a sketch of the graph.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="gr3-5-4-2-5-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="gr3-5-4-2-5-2-1">Use the intercepts, asymptotes, and general shape of the graph to sketch it.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-2-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 2.d.1"><a href="#gr3-5-4-2-5-2" title="Copy heading and permalink for Hint 2.d.1" aria-label="Copy heading and permalink for Hint 2.d.1">🔗</a></div>
+</div></details><details id="gr3-5-4-2-5-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;">
+<div class="ChemAccess-element" data-src="generated/prefigure/prefigure-gr3b-sample-diagcess.svg" data-cml="generated/prefigure/prefigure-gr3b-sample-annotations.xml"></div>
+<details><summary>Diagram Exploration Keyboard Controls</summary><div class="diagcess-navigation-controls"><table>
+<thead><tr>
+<th>Key</th>
+<th>Action</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Enter, A</td>
+<td>Activate keyboard driven exploration</td>
+</tr>
+<tr>
+<td>B</td>
+<td>Activate menu driven exploration</td>
+</tr>
+<tr>
+<td>Escape</td>
+<td>Leave exploration mode</td>
+</tr>
+<tr>
+<td>Cursor down</td>
+<td>Explore next lower level</td>
+</tr>
+<tr>
+<td>Cursor up</td>
+<td>Explore next upper level</td>
+</tr>
+<tr>
+<td>Cursor right</td>
+<td>Explore next element on level</td>
+</tr>
+<tr>
+<td>Cursor left</td>
+<td>Explore previous element on level</td>
+</tr>
+<tr>
+<td>X</td>
+<td>Toggle expert mode</td>
+</tr>
+<tr>
+<td>W</td>
+<td>Extra details if available</td>
+</tr>
+<tr>
+<td>Space</td>
+<td>Repeat speech</td>
+</tr>
+<tr>
+<td>M</td>
+<td>Activate step magnification</td>
+</tr>
+<tr>
+<td>Comma</td>
+<td>Activate direct magnification</td>
+</tr>
+<tr>
+<td>N</td>
+<td>Deactivate magnification</td>
+</tr>
+<tr>
+<td>Z</td>
+<td>Toggle subtitles</td>
+</tr>
+<tr>
+<td>C</td>
+<td>Cycle contrast settings</td>
+</tr>
+<tr>
+<td>T</td>
+<td>Monochrome colours</td>
+</tr>
+<tr>
+<td>L</td>
+<td>Toggle language (if available)</td>
+</tr>
+<tr>
+<td>K</td>
+<td>Kill current sound</td>
+</tr>
+<tr>
+<td>Y</td>
+<td>Stop sound output</td>
+</tr>
+<tr>
+<td>O</td>
+<td>Start and stop sonification</td>
+</tr>
+<tr>
+<td>P</td>
+<td>Repeat sonification output</td>
+</tr>
+</tbody>
+</table></div></details>
+</div>
+<div class="autopermalink" data-description="Answer 2.d.1"><a href="#gr3-5-4-2-5-3" title="Copy heading and permalink for Answer 2.d.1" aria-label="Copy heading and permalink for Answer 2.d.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Task 2.d"><a href="#gr3-5-4-2-5" title="Copy heading and permalink for Task 2.d" aria-label="Copy heading and permalink for Task 2.d">🔗</a></div></article><div class="autopermalink" data-description="Worksheet Exercise 2"><a href="#gr3-5-4-2" title="Copy heading and permalink for Worksheet Exercise 2" aria-label="Copy heading and permalink for Worksheet Exercise 2">🔗</a></div></article><article class="exercise exercise-like" id="gr3-5-4-3"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="gr3-5-4-3-1"><div class="para" id="gr3-5-4-3-1-1">Given the function <span class="process-math">\(r(x)=\frac{x-2}{-4x^2+6x-2}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="gr3-5-4-3-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="gr3-5-4-3-2-1-1">State the domain.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="gr3-5-4-3-2-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="gr3-5-4-3-2-2-1">Set the denominator equal to zero and solve for x to find the values that are not in the domain.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-3-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.a.1"><a href="#gr3-5-4-3-2-2" title="Copy heading and permalink for Hint 3.a.1" aria-label="Copy heading and permalink for Hint 3.a.1">🔗</a></div>
+</div></details><details id="gr3-5-4-3-2-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="gr3-5-4-3-2-3-1">
+<span class="process-math">\((-\infty,\frac{1}{2})\cup(\frac{1}{2},1)\cup(1,\infty)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-3-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.a.1"><a href="#gr3-5-4-3-2-3" title="Copy heading and permalink for Answer 3.a.1" aria-label="Copy heading and permalink for Answer 3.a.1">🔗</a></div>
+</div></details><details id="gr3-5-4-3-2-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="gr3-5-4-3-2-4-1">To find the domain, we set the denominator equal to zero and solve for x. We have: <span class="process-math">\(-4x^2+6x-2=0\text{.}\)</span> Factoring, we get <span class="process-math">\((-2x+1)(2x-2)=0\text{.}\)</span> Therefore, <span class="process-math">\(x=\frac{1}{2}\)</span> and <span class="process-math">\(x=1\)</span> are not in the domain. The domain is <span class="process-math">\((-\infty,\frac{1}{2})\cup(\frac{1}{2},1)\cup(1,\infty)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-3-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 3.a.1"><a href="#gr3-5-4-3-2-4" title="Copy heading and permalink for Solution 3.a.1" aria-label="Copy heading and permalink for Solution 3.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Task 3.a"><a href="#gr3-5-4-3-2" title="Copy heading and permalink for Task 3.a" aria-label="Copy heading and permalink for Task 3.a">🔗</a></div></article><article class="task exercise-like" id="gr3-5-4-3-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="gr3-5-4-3-3-1-1">State any intercepts and/or asymptotes.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="gr3-5-4-3-3-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="gr3-5-4-3-3-2-1">To find the vertical asymptotes, we look at the values that are not in the domain. To find the horizontal or oblique asymptote, we compare the degrees of the numerator and denominator.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-3-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.b.1"><a href="#gr3-5-4-3-3-2" title="Copy heading and permalink for Hint 3.b.1" aria-label="Copy heading and permalink for Hint 3.b.1">🔗</a></div>
+</div></details><details id="gr3-5-4-3-3-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="gr3-5-4-3-3-3-1">Vertical asymptotes: x=\frac{1}{2} and x=1. Horizontal asymptote: y=0. x-intercept: (2,0). y-intercept: (0,1).<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-3-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.b.1"><a href="#gr3-5-4-3-3-3" title="Copy heading and permalink for Answer 3.b.1" aria-label="Copy heading and permalink for Answer 3.b.1">🔗</a></div>
+</div></details><details id="gr3-5-4-3-3-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="gr3-5-4-3-3-4-1">We have vertical asymptotes at <span class="process-math">\(x=\frac{1}{2}\)</span> and <span class="process-math">\(x=1\text{.}\)</span> To find the horizontal asymptote, we can see that the degree of the numerator is less than the degree of the denominator. The result is <span class="process-math">\(y=0\text{.}\)</span> For the intercepts, we set the numerator equal to zero to find the x-intercept and evaluate the function at x=0 to find the y-intercept.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-3-3-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 3.b.1"><a href="#gr3-5-4-3-3-4" title="Copy heading and permalink for Solution 3.b.1" aria-label="Copy heading and permalink for Solution 3.b.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Task 3.b"><a href="#gr3-5-4-3-3" title="Copy heading and permalink for Task 3.b" aria-label="Copy heading and permalink for Task 3.b">🔗</a></div></article><article class="task exercise-like" id="gr3-5-4-3-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="gr3-5-4-3-4-1-1">State any deleted points.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-3-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="gr3-5-4-3-4-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="gr3-5-4-3-4-2-1">Deleted points occur when there is a common factor in the numerator and denominator that can be canceled.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-3-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.c.1"><a href="#gr3-5-4-3-4-2" title="Copy heading and permalink for Hint 3.c.1" aria-label="Copy heading and permalink for Hint 3.c.1">🔗</a></div>
+</div></details><details id="gr3-5-4-3-4-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="gr3-5-4-3-4-3-1">No deleted points.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-3-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.c.1"><a href="#gr3-5-4-3-4-3" title="Copy heading and permalink for Answer 3.c.1" aria-label="Copy heading and permalink for Answer 3.c.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Task 3.c"><a href="#gr3-5-4-3-4" title="Copy heading and permalink for Task 3.c" aria-label="Copy heading and permalink for Task 3.c">🔗</a></div></article><article class="task exercise-like" id="gr3-5-4-3-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="gr3-5-4-3-5-1-1">Provide a sketch of the graph.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-3-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="gr3-5-4-3-5-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="gr3-5-4-3-5-2-1">Use the intercepts, asymptotes, and general shape of the graph to sketch it.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-3-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.d.1"><a href="#gr3-5-4-3-5-2" title="Copy heading and permalink for Hint 3.d.1" aria-label="Copy heading and permalink for Hint 3.d.1">🔗</a></div>
+</div></details><details id="gr3-5-4-3-5-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;">
+<div class="ChemAccess-element" data-src="generated/prefigure/prefigure-gr3c-sample-diagcess.svg" data-cml="generated/prefigure/prefigure-gr3c-sample-annotations.xml"></div>
+<details><summary>Diagram Exploration Keyboard Controls</summary><div class="diagcess-navigation-controls"><table>
+<thead><tr>
+<th>Key</th>
+<th>Action</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Enter, A</td>
+<td>Activate keyboard driven exploration</td>
+</tr>
+<tr>
+<td>B</td>
+<td>Activate menu driven exploration</td>
+</tr>
+<tr>
+<td>Escape</td>
+<td>Leave exploration mode</td>
+</tr>
+<tr>
+<td>Cursor down</td>
+<td>Explore next lower level</td>
+</tr>
+<tr>
+<td>Cursor up</td>
+<td>Explore next upper level</td>
+</tr>
+<tr>
+<td>Cursor right</td>
+<td>Explore next element on level</td>
+</tr>
+<tr>
+<td>Cursor left</td>
+<td>Explore previous element on level</td>
+</tr>
+<tr>
+<td>X</td>
+<td>Toggle expert mode</td>
+</tr>
+<tr>
+<td>W</td>
+<td>Extra details if available</td>
+</tr>
+<tr>
+<td>Space</td>
+<td>Repeat speech</td>
+</tr>
+<tr>
+<td>M</td>
+<td>Activate step magnification</td>
+</tr>
+<tr>
+<td>Comma</td>
+<td>Activate direct magnification</td>
+</tr>
+<tr>
+<td>N</td>
+<td>Deactivate magnification</td>
+</tr>
+<tr>
+<td>Z</td>
+<td>Toggle subtitles</td>
+</tr>
+<tr>
+<td>C</td>
+<td>Cycle contrast settings</td>
+</tr>
+<tr>
+<td>T</td>
+<td>Monochrome colours</td>
+</tr>
+<tr>
+<td>L</td>
+<td>Toggle language (if available)</td>
+</tr>
+<tr>
+<td>K</td>
+<td>Kill current sound</td>
+</tr>
+<tr>
+<td>Y</td>
+<td>Stop sound output</td>
+</tr>
+<tr>
+<td>O</td>
+<td>Start and stop sonification</td>
+</tr>
+<tr>
+<td>P</td>
+<td>Repeat sonification output</td>
+</tr>
+</tbody>
+</table></div></details>
+</div>
+<div class="autopermalink" data-description="Answer 3.d.1"><a href="#gr3-5-4-3-5-3" title="Copy heading and permalink for Answer 3.d.1" aria-label="Copy heading and permalink for Answer 3.d.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Task 3.d"><a href="#gr3-5-4-3-5" title="Copy heading and permalink for Task 3.d" aria-label="Copy heading and permalink for Task 3.d">🔗</a></div></article><div class="autopermalink" data-description="Worksheet Exercise 3"><a href="#gr3-5-4-3" title="Copy heading and permalink for Worksheet Exercise 3" aria-label="Copy heading and permalink for Worksheet Exercise 3">🔗</a></div></article><article class="exercise exercise-like" id="gr3-5-4-4"><h4 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="gr3-5-4-4-1"><div class="para" id="gr3-5-4-4-1-1">Given the function <span class="process-math">\(r(x)=\frac{-3x^2-4x+1}{x+1}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="gr3-5-4-4-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="gr3-5-4-4-2-1-1">State the domain.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-4-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="gr3-5-4-4-2-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="gr3-5-4-4-2-2-1">Set the denominator equal to zero and solve for x to find the values that are not in the domain.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-4-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 4.a.1"><a href="#gr3-5-4-4-2-2" title="Copy heading and permalink for Hint 4.a.1" aria-label="Copy heading and permalink for Hint 4.a.1">🔗</a></div>
+</div></details><details id="gr3-5-4-4-2-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="gr3-5-4-4-2-3-1">
+<span class="process-math">\((-\infty,-1)\cup(-1,\infty)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-4-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 4.a.1"><a href="#gr3-5-4-4-2-3" title="Copy heading and permalink for Answer 4.a.1" aria-label="Copy heading and permalink for Answer 4.a.1">🔗</a></div>
+</div></details><details id="gr3-5-4-4-2-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="gr3-5-4-4-2-4-1">To find the domain, we set the denominator equal to zero and solve for x. We have: <span class="process-math">\(x+1=0\text{.}\)</span> Therefore, <span class="process-math">\(x=-1\)</span> is not in the domain. The domain is <span class="process-math">\((-\infty,-1)\cup(-1,\infty)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-4-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.a.1"><a href="#gr3-5-4-4-2-4" title="Copy heading and permalink for Solution 4.a.1" aria-label="Copy heading and permalink for Solution 4.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Task 4.a"><a href="#gr3-5-4-4-2" title="Copy heading and permalink for Task 4.a" aria-label="Copy heading and permalink for Task 4.a">🔗</a></div></article><article class="task exercise-like" id="gr3-5-4-4-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="gr3-5-4-4-3-1-1">State any intercepts and/or asymptotes.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-4-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="gr3-5-4-4-3-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="gr3-5-4-4-3-2-1">To find the vertical asymptotes, we look at the values that are not in the domain. To find the horizontal or oblique asymptote, we compare the degrees of the numerator and denominator.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-4-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 4.b.1"><a href="#gr3-5-4-4-3-2" title="Copy heading and permalink for Hint 4.b.1" aria-label="Copy heading and permalink for Hint 4.b.1">🔗</a></div>
+</div></details><details id="gr3-5-4-4-3-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="gr3-5-4-4-3-3-1">No vertical asymptotes. No horizontal or oblique asymptote. x-intercept: (\frac{1}{3},0). y-intercept: (0,-1).<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-4-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 4.b.1"><a href="#gr3-5-4-4-3-3" title="Copy heading and permalink for Answer 4.b.1" aria-label="Copy heading and permalink for Answer 4.b.1">🔗</a></div>
+</div></details><details id="gr3-5-4-4-3-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="gr3-5-4-4-3-4-1">There are no vertical asymptotes since the only factor in the denominator cancels out with a factor in the numerator. There are also no horizontal or oblique asymptotes because the degree of the numerator is greater than the degree of the denominator.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-4-3-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.b.1"><a href="#gr3-5-4-4-3-4" title="Copy heading and permalink for Solution 4.b.1" aria-label="Copy heading and permalink for Solution 4.b.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Task 4.b"><a href="#gr3-5-4-4-3" title="Copy heading and permalink for Task 4.b" aria-label="Copy heading and permalink for Task 4.b">🔗</a></div></article><article class="task exercise-like" id="gr3-5-4-4-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="gr3-5-4-4-4-1-1">State any deleted points.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-4-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="gr3-5-4-4-4-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="gr3-5-4-4-4-2-1">Deleted points occur when there is a common factor in the numerator and denominator that can be canceled.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-4-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 4.c.1"><a href="#gr3-5-4-4-4-2" title="Copy heading and permalink for Hint 4.c.1" aria-label="Copy heading and permalink for Hint 4.c.1">🔗</a></div>
+</div></details><details id="gr3-5-4-4-4-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="gr3-5-4-4-4-3-1">The function has a hole at x=-1, which corresponds to the deleted point (-1,2).<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-4-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 4.c.1"><a href="#gr3-5-4-4-4-3" title="Copy heading and permalink for Answer 4.c.1" aria-label="Copy heading and permalink for Answer 4.c.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Task 4.c"><a href="#gr3-5-4-4-4" title="Copy heading and permalink for Task 4.c" aria-label="Copy heading and permalink for Task 4.c">🔗</a></div></article><article class="task exercise-like" id="gr3-5-4-4-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="gr3-5-4-4-5-1-1">Provide a sketch of the graph.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-4-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="gr3-5-4-4-5-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="gr3-5-4-4-5-2-1">Use the intercepts, asymptotes, and general shape of the graph to sketch it.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-4-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 4.d.1"><a href="#gr3-5-4-4-5-2" title="Copy heading and permalink for Hint 4.d.1" aria-label="Copy heading and permalink for Hint 4.d.1">🔗</a></div>
+</div></details><details id="gr3-5-4-4-5-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;">
+<div class="ChemAccess-element" data-src="generated/prefigure/prefigure-gr3d-sample-diagcess.svg" data-cml="generated/prefigure/prefigure-gr3d-sample-annotations.xml"></div>
+<details><summary>Diagram Exploration Keyboard Controls</summary><div class="diagcess-navigation-controls"><table>
+<thead><tr>
+<th>Key</th>
+<th>Action</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Enter, A</td>
+<td>Activate keyboard driven exploration</td>
+</tr>
+<tr>
+<td>B</td>
+<td>Activate menu driven exploration</td>
+</tr>
+<tr>
+<td>Escape</td>
+<td>Leave exploration mode</td>
+</tr>
+<tr>
+<td>Cursor down</td>
+<td>Explore next lower level</td>
+</tr>
+<tr>
+<td>Cursor up</td>
+<td>Explore next upper level</td>
+</tr>
+<tr>
+<td>Cursor right</td>
+<td>Explore next element on level</td>
+</tr>
+<tr>
+<td>Cursor left</td>
+<td>Explore previous element on level</td>
+</tr>
+<tr>
+<td>X</td>
+<td>Toggle expert mode</td>
+</tr>
+<tr>
+<td>W</td>
+<td>Extra details if available</td>
+</tr>
+<tr>
+<td>Space</td>
+<td>Repeat speech</td>
+</tr>
+<tr>
+<td>M</td>
+<td>Activate step magnification</td>
+</tr>
+<tr>
+<td>Comma</td>
+<td>Activate direct magnification</td>
+</tr>
+<tr>
+<td>N</td>
+<td>Deactivate magnification</td>
+</tr>
+<tr>
+<td>Z</td>
+<td>Toggle subtitles</td>
+</tr>
+<tr>
+<td>C</td>
+<td>Cycle contrast settings</td>
+</tr>
+<tr>
+<td>T</td>
+<td>Monochrome colours</td>
+</tr>
+<tr>
+<td>L</td>
+<td>Toggle language (if available)</td>
+</tr>
+<tr>
+<td>K</td>
+<td>Kill current sound</td>
+</tr>
+<tr>
+<td>Y</td>
+<td>Stop sound output</td>
+</tr>
+<tr>
+<td>O</td>
+<td>Start and stop sonification</td>
+</tr>
+<tr>
+<td>P</td>
+<td>Repeat sonification output</td>
+</tr>
+</tbody>
+</table></div></details>
+</div>
+<div class="autopermalink" data-description="Answer 4.d.1"><a href="#gr3-5-4-4-5-3" title="Copy heading and permalink for Answer 4.d.1" aria-label="Copy heading and permalink for Answer 4.d.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Task 4.d"><a href="#gr3-5-4-4-5" title="Copy heading and permalink for Task 4.d" aria-label="Copy heading and permalink for Task 4.d">🔗</a></div></article><div class="autopermalink" data-description="Worksheet Exercise 4"><a href="#gr3-5-4-4" title="Copy heading and permalink for Worksheet Exercise 4" aria-label="Copy heading and permalink for Worksheet Exercise 4">🔗</a></div></article><article class="exercise exercise-like" id="gr3-5-4-5"><h4 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="gr3-5-4-5-1"><div class="para" id="gr3-5-4-5-1-1">Given the function <span class="process-math">\(r(x)=\frac{x^3+3x^2+6x+8}{x^2-x-6}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="gr3-5-4-5-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="gr3-5-4-5-2-1-1">State the domain.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-5-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="gr3-5-4-5-2-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="gr3-5-4-5-2-2-1">Set the denominator equal to zero and solve for x to find the values that are not in the domain.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-5-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 5.a.1"><a href="#gr3-5-4-5-2-2" title="Copy heading and permalink for Hint 5.a.1" aria-label="Copy heading and permalink for Hint 5.a.1">🔗</a></div>
+</div></details><details id="gr3-5-4-5-2-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="gr3-5-4-5-2-3-1">
+<span class="process-math">\((-\infty,-2)\cup(-2,3)\cup(3,\infty)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-5-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 5.a.1"><a href="#gr3-5-4-5-2-3" title="Copy heading and permalink for Answer 5.a.1" aria-label="Copy heading and permalink for Answer 5.a.1">🔗</a></div>
+</div></details><details id="gr3-5-4-5-2-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="gr3-5-4-5-2-4-1">To find the domain, we set the denominator equal to zero and solve for x. We have: <span class="process-math">\(x^2-x-6=0\text{.}\)</span> Factoring, we get <span class="process-math">\((x-3)(x+2)=0\text{.}\)</span> Therefore, <span class="process-math">\(x=-2\)</span> and <span class="process-math">\(x=3\)</span> are not in the domain. The domain is <span class="process-math">\((-\infty,-2)\cup(-2,3)\cup(3,\infty)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-5-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 5.a.1"><a href="#gr3-5-4-5-2-4" title="Copy heading and permalink for Solution 5.a.1" aria-label="Copy heading and permalink for Solution 5.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Task 5.a"><a href="#gr3-5-4-5-2" title="Copy heading and permalink for Task 5.a" aria-label="Copy heading and permalink for Task 5.a">🔗</a></div></article><article class="task exercise-like" id="gr3-5-4-5-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="gr3-5-4-5-3-1-1">State any intercepts and/or asymptotes.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-5-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="gr3-5-4-5-3-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="gr3-5-4-5-3-2-1">To find the vertical asymptotes, we look at the values that are not in the domain. To find the horizontal or oblique asymptote, we compare the degrees of the numerator and denominator.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-5-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 5.b.1"><a href="#gr3-5-4-5-3-2" title="Copy heading and permalink for Hint 5.b.1" aria-label="Copy heading and permalink for Hint 5.b.1">🔗</a></div>
+</div></details><details id="gr3-5-4-5-3-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="gr3-5-4-5-3-3-1">Vertical asymptote: x=3. Oblique asymptote: y=x+4. x-intercept: none. y-intercept: (0,-\frac{4}{3}).<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-5-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 5.b.1"><a href="#gr3-5-4-5-3-3" title="Copy heading and permalink for Answer 5.b.1" aria-label="Copy heading and permalink for Answer 5.b.1">🔗</a></div>
+</div></details><details id="gr3-5-4-5-3-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="gr3-5-4-5-3-4-1">We have a vertical asymptote at <span class="process-math">\(x=3\text{.}\)</span> To find the oblique asymptote, we perform polynomial long division on the factored form of the function. The result is <span class="process-math">\(y=x+4\text{.}\)</span> For the intercepts, we set the numerator equal to zero to find the x-intercept and evaluate the function at x=0 to find the y-intercept.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-5-3-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 5.b.1"><a href="#gr3-5-4-5-3-4" title="Copy heading and permalink for Solution 5.b.1" aria-label="Copy heading and permalink for Solution 5.b.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Task 5.b"><a href="#gr3-5-4-5-3" title="Copy heading and permalink for Task 5.b" aria-label="Copy heading and permalink for Task 5.b">🔗</a></div></article><article class="task exercise-like" id="gr3-5-4-5-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="gr3-5-4-5-4-1-1">State any deleted points.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-5-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="gr3-5-4-5-4-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="gr3-5-4-5-4-2-1">Deleted points occur when there is a common factor in the numerator and denominator that can be canceled.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-5-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 5.c.1"><a href="#gr3-5-4-5-4-2" title="Copy heading and permalink for Hint 5.c.1" aria-label="Copy heading and permalink for Hint 5.c.1">🔗</a></div>
+</div></details><details id="gr3-5-4-5-4-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="gr3-5-4-5-4-3-1">The function has a hole at x=-2, which corresponds to the point (-2,-\frac{6}{5}).<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-5-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 5.c.1"><a href="#gr3-5-4-5-4-3" title="Copy heading and permalink for Answer 5.c.1" aria-label="Copy heading and permalink for Answer 5.c.1">🔗</a></div>
+</div></details><details id="gr3-5-4-5-4-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="gr3-5-4-5-4-4-1">To find any deleted points, we look for common factors in the numerator and denominator. We can factor the denominator as <span class="process-math">\((x-3)(x+2)\text{.}\)</span> We can factor the numerator as <span class="process-math">\((x+2)(x^2+x+4)\text{.}\)</span> Therefore, there is a common factor of <span class="process-math">\((x+2)\)</span> that can be canceled. This means there is a hole at x=-2. To find the y-coordinate of the hole, we can evaluate the function at x=-2 after canceling the common factor. This gives us <span class="process-math">\(r(-2)=-\frac{6}{5}\text{.}\)</span> Therefore, the hole is at the point (-2,-\frac{6}{5}).<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-5-4-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 5.c.1"><a href="#gr3-5-4-5-4-4" title="Copy heading and permalink for Solution 5.c.1" aria-label="Copy heading and permalink for Solution 5.c.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Task 5.c"><a href="#gr3-5-4-5-4" title="Copy heading and permalink for Task 5.c" aria-label="Copy heading and permalink for Task 5.c">🔗</a></div></article><article class="task exercise-like" id="gr3-5-4-5-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="gr3-5-4-5-5-1-1">Provide a sketch of the graph.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-5-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="gr3-5-4-5-5-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="gr3-5-4-5-5-2-1">Use the intercepts, asymptotes, and general shape of the graph to sketch it.<div class="autopermalink" data-description="Paragraph"><a href="#gr3-5-4-5-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 5.d.1"><a href="#gr3-5-4-5-5-2" title="Copy heading and permalink for Hint 5.d.1" aria-label="Copy heading and permalink for Hint 5.d.1">🔗</a></div>
+</div></details><details id="gr3-5-4-5-5-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;">
+<div class="ChemAccess-element" data-src="generated/prefigure/prefigure-gr3e-sample-diagcess.svg" data-cml="generated/prefigure/prefigure-gr3e-sample-annotations.xml"></div>
+<details><summary>Diagram Exploration Keyboard Controls</summary><div class="diagcess-navigation-controls"><table>
+<thead><tr>
+<th>Key</th>
+<th>Action</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Enter, A</td>
+<td>Activate keyboard driven exploration</td>
+</tr>
+<tr>
+<td>B</td>
+<td>Activate menu driven exploration</td>
+</tr>
+<tr>
+<td>Escape</td>
+<td>Leave exploration mode</td>
+</tr>
+<tr>
+<td>Cursor down</td>
+<td>Explore next lower level</td>
+</tr>
+<tr>
+<td>Cursor up</td>
+<td>Explore next upper level</td>
+</tr>
+<tr>
+<td>Cursor right</td>
+<td>Explore next element on level</td>
+</tr>
+<tr>
+<td>Cursor left</td>
+<td>Explore previous element on level</td>
+</tr>
+<tr>
+<td>X</td>
+<td>Toggle expert mode</td>
+</tr>
+<tr>
+<td>W</td>
+<td>Extra details if available</td>
+</tr>
+<tr>
+<td>Space</td>
+<td>Repeat speech</td>
+</tr>
+<tr>
+<td>M</td>
+<td>Activate step magnification</td>
+</tr>
+<tr>
+<td>Comma</td>
+<td>Activate direct magnification</td>
+</tr>
+<tr>
+<td>N</td>
+<td>Deactivate magnification</td>
+</tr>
+<tr>
+<td>Z</td>
+<td>Toggle subtitles</td>
+</tr>
+<tr>
+<td>C</td>
+<td>Cycle contrast settings</td>
+</tr>
+<tr>
+<td>T</td>
+<td>Monochrome colours</td>
+</tr>
+<tr>
+<td>L</td>
+<td>Toggle language (if available)</td>
+</tr>
+<tr>
+<td>K</td>
+<td>Kill current sound</td>
+</tr>
+<tr>
+<td>Y</td>
+<td>Stop sound output</td>
+</tr>
+<tr>
+<td>O</td>
+<td>Start and stop sonification</td>
+</tr>
+<tr>
+<td>P</td>
+<td>Repeat sonification output</td>
+</tr>
+</tbody>
+</table></div></details>
+</div>
+<div class="autopermalink" data-description="Answer 5.d.1"><a href="#gr3-5-4-5-5-3" title="Copy heading and permalink for Answer 5.d.1" aria-label="Copy heading and permalink for Answer 5.d.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3cm"></div>
+<div class="autopermalink" data-description="Task 5.d"><a href="#gr3-5-4-5-5" title="Copy heading and permalink for Task 5.d" aria-label="Copy heading and permalink for Task 5.d">🔗</a></div></article><div class="autopermalink" data-description="Worksheet Exercise 5"><a href="#gr3-5-4-5" title="Copy heading and permalink for Worksheet Exercise 5" aria-label="Copy heading and permalink for Worksheet Exercise 5">🔗</a></div></article></section><div class="autopermalink" data-description="Worksheet: GR-3 Rational Functions"><a href="#gr3-5" title="Copy heading and permalink for Worksheet: GR-3 Rational Functions" aria-label="Copy heading and permalink for Worksheet: GR-3 Rational Functions">🔗</a></div></section><div class="autopermalink" data-description="Section: GR-3 Rational Functions"><a href="#gr3" title="Copy heading and permalink for Section: GR-3 Rational Functions" aria-label="Copy heading and permalink for Section: GR-3 Rational Functions">🔗</a></div></section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="gr2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="gr4.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="feedback-link" href="mailto:lnbowman@alaska.edu" target="_blank">Feedback</a><a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+<script>diagcess.Base.init()</script>
+</body>
+</html>
