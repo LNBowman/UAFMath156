@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>BF-1 Solving Quadratic Equations</title>
+  <introduction>
+    <p>Complete both problems to get M. Complete one problem with considerable progress on the other to get P.</p>
+  </introduction>
+  <page>
+    <exercise workspace="2.5in">
+      <statement>
+        <p> Solve using any method: <m>5(x-4)-2(3x+1)=4x(2x-3)+7</m></p>
+      </statement>
+    </exercise>
+    <exercise workspace="2.5in">
+      <statement>
+        <p> Solve by factoring: <m>12x+7=3x^2+8x</m></p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>
