@@ -14,8 +14,72 @@
 
 
     <chapter xml:id="course-assessments">
-      <title>Assessments</title>
-      <xi:include href="./assessments/assessment1.ptx"/>
+      <title>Assessment Outcomes</title>
+      <introduction><p>Here are the versions used for each semester:</p>
+        <p>Summer 2026:
+          <ul>
+            <li><p>Assessment 1: BF version A</p></li>
+            <li><p>Assessment 2: BF version B</p></li>
+            <li><p>Assessment 3: </p></li>
+            <li><p>Assessment 4: </p></li> 
+            <li><p>Assessment 5: </p></li>
+            <li><p>Final Assessment: BF version C </p></li>
+          </ul></p>
+          <p>Fall 2026:
+            <ul>
+              <li><p>Assessment 1: BF version C</p></li>
+              <li><p>Assessment 2: BF version D</p></li>
+              <li><p>Assessment 3: </p></li>
+              <li><p>Assessment 4: </p></li>
+              <li><p>Assessment 5: </p></li>
+              <li><p>Final Assessment: BF version E</p></li>
+            </ul>
+          </p>
+        </introduction>
+      <section xml:id="sec-bf-outcomes">
+        <title>Basics of Functions</title>
+        <introduction><p>Here are the assessment outcomes for Basics of Functions. There are multiple versions 
+            of each outcome so that there are options for multiple semesters of assessments. This section is 
+            divided into 4 outcomes:
+            <ul>
+              <li><p>Solving Quadratic Equations</p></li>
+              <li><p>Forms of Lines</p></li>
+              <li><p>The Difference Quotient and Piecewise Functions</p></li>
+              <li><p>Transformations and Combinations of Functions</p></li>
+            </ul></p></introduction>
+        <subsection xml:id="sec-bf1-outcomes">
+          <title>BF-1 Outcomes</title>
+          <xi:include href="./assessments/bf-outcomes/bf-1-a.ptx"/>
+          <xi:include href="./assessments/bf-outcomes/bf-1-b.ptx"/>
+          <xi:include href="./assessments/bf-outcomes/bf-1-c.ptx"/>
+          <xi:include href="./assessments/bf-outcomes/bf-1-d.ptx"/>
+          <xi:include href="./assessments/bf-outcomes/bf-1-e.ptx"/>  
+        </subsection>
+        <subsection xml:id="sec-bf2-outcomes">
+          <title>BF-2 Outcomes</title>
+          <xi:include href="./assessments/bf-outcomes/bf-2-a.ptx"/>
+          <xi:include href="./assessments/bf-outcomes/bf-2-b.ptx"/>
+          <xi:include href="./assessments/bf-outcomes/bf-2-c.ptx"/>
+          <xi:include href="./assessments/bf-outcomes/bf-2-d.ptx"/>
+          <xi:include href="./assessments/bf-outcomes/bf-2-e.ptx"/>  
+        </subsection>
+        <subsection xml:id="sec-bf3-outcomes">
+          <title>BF-3 Outcomes</title>
+          <xi:include href="./assessments/bf-outcomes/bf-3-a.ptx"/>
+          <xi:include href="./assessments/bf-outcomes/bf-3-b.ptx"/>
+          <xi:include href="./assessments/bf-outcomes/bf-3-c.ptx"/>
+          <xi:include href="./assessments/bf-outcomes/bf-3-d.ptx"/>
+          <xi:include href="./assessments/bf-outcomes/bf-3-e.ptx"/>
+        </subsection>
+        <subsection xml:id="sec-bf4-outcomes">
+          <title>BF-4 Outcomes</title>
+          <xi:include href="./assessments/bf-outcomes/bf-4-a.ptx"/>
+          <xi:include href="./assessments/bf-outcomes/bf-4-b.ptx"/>
+          <xi:include href="./assessments/bf-outcomes/bf-4-c.ptx"/>
+          <xi:include href="./assessments/bf-outcomes/bf-4-d.ptx"/>
+          <xi:include href="./assessments/bf-outcomes/bf-4-e.ptx"/>
+        </subsection>
+      </section>
     </chapter>
 
     <chapter xml:id="course-quizzes_retakes">
