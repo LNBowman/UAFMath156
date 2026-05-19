@@ -166,6 +166,7 @@
 				R May 21
 			</cell>
 			<cell right="medium" bottom="medium">
+				VL2
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -199,11 +200,11 @@
 				F May 22
 			</cell>
 			<cell right="medium">
-				VL2
 			</cell>
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
+				FW2
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -221,7 +222,7 @@
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-				<p>Schedule Instructor</p><p>Appointment</p>
+				Schedule Instructor Appointment
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -248,7 +249,6 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW2
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -326,7 +326,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Schedule</p><p>Assessment 1</p>
+				Schedule Assessment 1
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -356,7 +356,7 @@
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-				<p>BF-1 Revision</p><p>and Retake</p>
+				BF-1 Revision and Retake
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -424,6 +424,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				FW4
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -456,7 +457,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW4
+				FW5
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -466,7 +467,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>BF-2 Revision</p><p>and Retake</p>
+				BF-2 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -486,13 +487,7 @@
 				W Jun 3
 			</cell>
 			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				FW5
-			</cell>
-			<cell right="medium" bottom="medium">
+				VL6
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -507,7 +502,13 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Instructor</p><p>Appointment Due</p>
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				Instructor Appointment Due
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -519,11 +520,11 @@
 				R Jun 4
 			</cell>
 			<cell right="medium" bottom="medium">
-				VL6
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				FW6
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -556,7 +557,6 @@
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-				FW6
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -566,7 +566,7 @@
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-				<p>BF-3 Revision</p><p>and Retake</p>
+				BF-3 Revision and Retake
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -632,7 +632,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>BF-4 Revision</p><p>and Retake</p>
+				BF-4 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -706,7 +706,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-        Reflection 4
+        		Reflection 4
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -718,6 +718,7 @@
 				F Jun 12
 			</cell>
 			<cell right="medium">
+				VL9
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -731,7 +732,7 @@
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-        <p>GR-1 Revision</p><p>and Retake</p>
+        		GR-1 Revision and Retake
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -740,7 +741,7 @@
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-        Tutoring 2 Due
+        		Tutoring 2 Due
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -757,7 +758,7 @@
 				 Date
 			</cell>
 			<cell right="medium">
-				<p>Reading and</p><p>Video Lessons</p><p>Due</p>
+				<p>Video Lessons</p><p>Due</p>
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -795,7 +796,6 @@
 				M Jun 15
 			</cell>
 			<cell right="medium" bottom="medium">
-				Systems
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -828,17 +828,16 @@
 				T Jun 16
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Graphs of</p><p>Systems</p>
+				VL10
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW10
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-        GR-3 Quiz
+                GR-3 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -866,7 +865,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW11
+				FW10
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -894,7 +893,11 @@
 				R Jun 18
 			</cell>
 			<cell right="medium" bottom="medium">
-			Exponential Functions
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				FW11
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -907,11 +910,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-        <p>Schedule</p><p>Assessment 2</p>
+        		Schedule Assessment 2
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -927,7 +926,7 @@
 				F Jun 19
 			</cell>
 			<cell right="medium" bottom="medium">
-			<p>Log Functions</p><p>and Properties</p>
+				VL11
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -936,12 +935,12 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-        GR-4 Quiz
+        		GR-4 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-        <p>GR-2 Revision</p><p>and Retake</p>
+        		GR-2 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -995,7 +994,7 @@
         T Jun 23
 			</cell>
 			<cell right="medium" bottom="medium">
-				Exponential Equations
+				VL12
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1009,7 +1008,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>GR-3 Revision</p><p>and Retake</p>
+				GR-3 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1029,7 +1028,6 @@
         W Jun 24
 			</cell>
 			<cell right="medium" bottom="medium">
-				Logarithmic Equations
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1106,7 +1104,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>GR-4 Revision</p><p>and Retake</p>
+				GR-4 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1115,7 +1113,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-			Tutoring 3 Due
+				Tutoring 3 Due
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1170,12 +1168,11 @@
 				M Jun 29
 			</cell>
 			<cell right="medium" bottom="medium">
-				Exponential Models
+				VL13
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW14
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1207,7 +1204,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW15
+				FW14
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1217,7 +1214,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>GR-5 Revision</p><p>and Retake</p>
+				GR-5 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1237,11 +1234,11 @@
 				W Jul 1
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Angles and</p><p>Measures</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				FW15
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1269,7 +1266,7 @@
 				R Jul 2
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Right Triangle</p><p>Trigonometry</p>
+				VL14
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1320,7 +1317,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Schedule</p><p>Assessment 3</p>
+				Schedule Assessment 3
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1337,7 +1334,6 @@
 				M Jul 6
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Triangle and</p><p>Unit Circle</p><p>Definitions</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1370,7 +1366,6 @@
 				T Jul 7
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Periods, </p><p>Domains, and</p><p>Symmetry</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1385,7 +1380,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>EL-1 Revision</p><p>and Retake</p>
+				EL-1 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1481,7 +1476,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>EL-2 Revision</p><p>and Retake</p>
+				EL-2 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1545,11 +1540,12 @@
 				M Jul 13
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Graphing</p><p>Sine and</p><p>Cosine</p>
+				VL15
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				FW20
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1577,12 +1573,11 @@
 				T Jul 14
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Graphing</p><p>Secant and</p><p>Cosecant</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW20
+				FW21
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1592,7 +1587,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>EL-3 Revision </p><p>and Retake</p>
+				EL-3 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1612,11 +1607,11 @@
 				W Jul 15
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Graphing</p><p>Tangent and</p><p>Cotangent</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				FW22
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1644,12 +1639,11 @@
 				R Jul 16
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Inverse Trig</p><p>Functions</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW21
+				FW23
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1677,13 +1671,12 @@
 				F Jul 17
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Applications</p><p>of Trig and</p>
-				<p>Fundamental</p><p>Identities</p>
+				VL16
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW22
+				FW24
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1693,7 +1686,6 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>TF-1 Revision</p><p>and Retake</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1714,12 +1706,11 @@
 				M Jul 20
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Basic Trig</p><p>Equations</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW23
+				FW25
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1747,12 +1738,11 @@
 				T Jul 21
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Sum and</p><p>Difference</p><p>Formulas</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW24
+				FW26
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1761,6 +1751,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+			TF-1 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1780,16 +1771,11 @@
 				W Jul 22
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Double and</p><p>Half Angle</p><p>Formulas</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW25
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
+				FW27
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1802,7 +1788,10 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				Tutoring 5 Due
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1814,16 +1803,11 @@
 				R Jul 23
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>More Trig</p><p>Equations</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW26
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
+				FW28
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1836,6 +1820,11 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				Tutoring 5 due
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1847,12 +1836,10 @@
 				F Jul 24
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Law of</p><p>Sines and</p><p>Cosines</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW27
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1862,12 +1849,12 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>TF-2 Revision </p><p>and Retake</p>
+				TF-2 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Schedule</p><p>Assessment 4</p>
+				Schedule Assessment 4
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1926,11 +1913,12 @@
 				M Jul 27
 			</cell>
 			<cell right="medium" bottom="medium">
+				VL17
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW28
+				FW29
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1962,6 +1950,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				FW30
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -2066,6 +2055,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				TF-3 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -2102,7 +2092,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Schedule</p><p>Final</p><p>By Aug 1</p>
+				Schedule Final by Aug 1
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
