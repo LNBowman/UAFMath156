@@ -4,7 +4,7 @@
   <title>BF-3 Difference Quotient and Piecewise Functions</title>
   <introduction>
     <p>Complete both problems to earn M. Complete problem 1 and parts a and d of problem 2 to earn P</p>
-  </introduction>  
+  </introduction>
   <page>
     <exercise>
       <statement>
@@ -13,12 +13,6 @@
     </exercise>
 </page>
 <page>
-    <paragraphs>
-        <title>BF-3 Difference Quotient and Piecewise Functions</title>
-        <introduction>
-            <p>Complete both problems to earn M. Complete problem 1 and parts a and d of problem 2 to earn P</p>
-        </introduction>
-    </paragraphs>
     <exercise>
       <introduction><p>Given the piecewise function below, find:</p>
         <p><me>g(x)=\begin{cases} \frac{1}{x+3} &amp; x \leq -3 \\ x^2-4 &amp; -3 \lt x \leq 2 \\ 3x &amp; x \gt 2 \end{cases}</me></p></introduction>

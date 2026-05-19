@@ -15,10 +15,6 @@
     </exercise>
   </page>
   <page>
-    <title>BF-4 Transformations and Combinations</title>
-  <introduction>
-    <p>Complete both problems to earn M. Complete problem 1 and two parts of problem 2 to earn P</p>
-  </introduction>
     <exercise workspace="2.5in">
         <introduction><p>Given the functions <m>f(x)=3x+1</m> and <m>g(x)=2x^2-5</m>, find 
             and simplify:</p></introduction>

@@ -13,12 +13,6 @@
     </exercise>
 </page>
 <page>
-    <paragraphs>
-        <title>BF-3 Difference Quotient and Piecewise Functions</title>
-        <introduction>
-            <p>Complete both problems to earn M. Complete problem 1 and parts a and d of problem 2 to earn P</p>
-        </introduction>
-    </paragraphs>
     <exercise>
       <introduction><p>Given the piecewise function below, find:</p>
         <p><me>g(x)=\begin{cases} \sqrt{x+4} &amp; -4 \leq x \leq 0 \\ x^3+2 &amp; 0 \lt x \leq 2 \\ 6 &amp; x \gt 2 \end{cases}</me></p></introduction>
