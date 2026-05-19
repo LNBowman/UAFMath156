@@ -4,11 +4,11 @@
   <title>TF-1 Right Triangle Trigonometry</title>
   <introduction>
     <p>
-      This outcome covers 
-      You should also be 
-      able to graph quadratic functions. Here you will also be asked to setup and solve real-world problems 
-      using quadratic models. You should be able to write out complete steps to solve these 
-      types of problems by hand, without the use of a calculator.
+      This outcome covers using right triangles to solve problems involving trigonometric 
+      ratios. You should be able to use the definitions of the six trigonometric functions to 
+      find missing sides and angles in right triangles. You should also be able to apply these 
+      skills to solve trigonometric functions of any point in the coordinate plane.
+      
     </p>
     <p>For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples 
       of the types of problems you will encounter:</p>
@@ -24,70 +24,113 @@
       <li><p>Mathematical Communication: Solutions should be presented in a clear and logical manner, with 
         appropriate use of mathematical notation and terminology. Equations should have at most one equal 
         sign and expressions on both sides.</p></li>
-      
+      <li><p>Solve a right triangle: Given two sides of a right triangle, find the missing side and use the 
+        trigonometric definitions to find the values of the six trigonometric functions.</p></li>
+      <li><p>Find the trigonometric functions of a point: Given a point in the coordinate plane, draw the 
+        angle in standard position; draw and label the reference triangle. Find the values of the 
+        six trigonometric functions using the definitions of the trigonometric functions and the signs 
+        based on the quadrants in the coordinate plane.</p></li>
     </ul>
     </objectives>
 
   
   <page>
-    <exercise workspace="3cm">
+    <exercise>
       <introduction><p>
-           Given the function <m>f(x)=\frac{1}{2}x^2+5x+8</m>.
-        </p></introduction>
-        <task>
-            <statement><p>Write the function in vertex form.</p></statement>
-            <hint><p>Use the method of completing the square to rewrite the 
-              function in vertex form.</p></hint>
-            <answer><p><m>f(x)=\frac{1}{2}(x+5)^2-\frac{9}{2}</m></p></answer>
-            <solution><p>Starting with <m>f(x)=\frac{1}{2}x^2+5x+8</m>, we factor 
-              out the coefficient of <m>x^2</m> from the first two terms:</p>
-            <p><m>f(x)=\frac{1}{2}(x^2+10x)+8</m></p>
-            <p>To complete the square, we take half of the coefficient of <m>x</m> 
-              and square it: <m>\left(\frac{10}{2}\right)^2 = 5^2 = 25</m>.</p>
-            <p>We add this value inside the parentheses and subtract this value 
-              multiplied by the coefficient to the outside of the parentheses:</p>
-            <p><m>f(x)=\frac{1}{2}(x^2+10x+25)-\frac{1}{2}(25)+8</m></p>
-            <p>We can now simplify the perfect square trinomial and the constant term:</p>
-            <p><m>f(x)=\frac{1}{2}[(x+5)^2]-\frac{25}{2}+\frac{16}{2}</m></p>
-            <p>Simplifying:</p>
-            <p><m>f(x)=\frac{1}{2}(x+5)^2-\frac{9}{2}</m></p>
+           Given a right triangle RST with legs s=9 and t=12:
+      </p></introduction>
+      <task>
+          <statement><p>Find the values of the six trigonometric functions of angle T.</p></statement>
+          <hint><p>Find the value of r then use the definitions of the trigonometric functions to find the values.</p></hint>
+          <answer><p><m>sin T = \frac{12}{15}</m>, <m>\cos T = \frac{9}{15}</m>, 
+            <m>\tan T = \frac{12}{9}</m>, <m>\csc T = \frac{15}{12}</m>, 
+            <m>\sec T = \frac{15}{9}</m>, <m>\cot T = \frac{9}{12}</m></p></answer>
+          <solution><p>First, we find the value of r using the Pythagorean theorem: 
+            <m>r = \sqrt{s^2 + t^2}</m>
+            <m>r = \sqrt{9^2 + 12^2}</m>
+            <m>r= \sqrt{81 + 144} </m>
+            <m>r= \sqrt{225} = 15</m></p>
+            <p>Now we can use the definitions of the trigonometric functions:</p>
+            <p><m>\sin T = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{12}{15}</m></p>
+            <p><m>\cos T = \frac{\text{adjacent}}{\text{hypotenuse}} = \frac{9}{15}</m></p>
+            <p><m>\tan T = \frac{\text{opposite}}{\text{adjacent}} = \frac{12}{9}</m></p>
+            <p><m>\csc T = \frac{\text{hypotenuse}}{\text{opposite}} = \frac{15}{12}</m></p>
+            <p><m>\sec T = \frac{\text{hypotenuse}}{\text{adjacent}} = \frac{15}{9}</m></p>
+            <p><m>\cot T = \frac{\text{adjacent}}{\text{opposite}} = \frac{9}{12}</m></p>
         </solution>
-        </task>
-        <task>
-            <statement><p>State the intercepts.</p></statement>
-            <hint><p>To find the y-intercept, evaluate the function at <m>x=0</m>. To 
-              find the x-intercepts, set the function equal to zero and solve for <m>x</m>.</p></hint>
-            <answer><p>y-intercept: <m>(0,8)</m>, x-intercepts: <m>(-2,0)</m> and <m>(-8,0)</m></p></answer>
-            <solution><p>To find the y-intercept, we evaluate the function at <m>x=0</m>:</p>
-            <p><m>f(0)=\frac{1}{2}(0)^2+5(0)+8=8</m></p>
-            <p>Thus, the y-intercept is <m>(0,8)</m>.</p>
-            <p>To find the x-intercepts, we set the function equal to zero and solve for 
-              <m>x</m>:</p>
-            <p><m>0=\frac{1}{2}x^2+5x+8</m></p>
-            <p>Multiplying both sides by 2 to clear the fraction:</p>
-            <p><m>0=x^2+10x+16</m></p>
-            <p>We can now factor the quadratic:</p>
-            <p><m>0=(x+5)^2-25+16</m></p>
-            <p><m>0=(x+5)^2-9</m></p>
-            <p><m>(x+5)^2=9</m></p>
-            <p><m>x+5=\pm 3</m></p>
-            <p><m>x=-5\pm 3</m></p>
-            <p>Thus, the x-intercepts are <m>(-5+3,0)</m> and <m>(-5-3,0)</m>, which 
-              can be written as <m>(-2,0)</m> and <m>(-8,0)</m>.</p>
-        </solution>
-        </task>
-        <task>
-            <statement><p>State the range.</p></statement>
-            <hint><p>Look at the leading coefficient and the k-value of the vertex form.</p></hint>
-            <answer><p><m>\left[-\frac{9}{2},\infty\right)</m></p></answer>
-            <solution><p>Since the coefficient of <m>x^2</m> is positive, the parabola opens 
-              upwards. The vertex represents the minimum point of the function, so the 
-              range starts at the y-coordinate of the vertex and extends to infinity. This gives
-            us the range <m>\left[-\frac{9}{2},\infty\right)</m>.</p>
-        </solution>
-        </task>
-        
+      </task>    
     </exercise>
-   
+    <exercise>
+      <introduction><p>Given a right triangle UVW with leg u=8 and hypotenuse v=17:</p></introduction>
+      <task>
+        <statement><p>Find the values of the six trigonometric functions of angle U.</p></statement>
+        <hint><p>Find the value of w then use the definitions of the trigonometric functions to find the values.</p></hint>
+        <answer><p><m>\sin U = \frac{15}{17}</m>, <m>\cos U = \frac{8}{17}</m>, 
+          <m>\tan U = \frac{15}{8}</m>, <m>\csc U = \frac{17}{15}</m>, 
+          <m>\sec U = \frac{17}{8}</m>, <m>\cot U = \frac{8}{15}</m></p></answer>
+        <solution><p>First, we find the value of w using the Pythagorean theorem: 
+          <m>w = \sqrt{v^2 - u^2}</m>
+          <m>w = \sqrt{17^2 - 8^2}</m>
+          <m>w= \sqrt{289 - 64} </m>
+          <m>w= \sqrt{225} = 15</m></p>
+          <p>Now we can use the definitions of the trigonometric functions:</p>
+          <p><m>\sin U = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{15}{17}</m></p>
+          <p><m>\cos U = \frac{\text{adjacent}}{\text{hypotenuse}} = \frac{8}{17}</m></p>
+          <p><m>\tan U = \frac{\text{opposite}}{\text{adjacent}} = \frac{15}{8}</m></p>
+          <p><m>\csc U = \frac{\text{hypotenuse}}{\text{opposite}} = \frac{17}{15}</m></p>
+          <p><m>\sec U = \frac{\text{hypotenuse}}{\text{adjacent}} = \frac{17}{8}</m></p>
+          <p><m>\cot U = \frac{\text{adjacent}}{\text{opposite}} = \frac{8}{15}</m></p>
+      </solution>
+      </task>    
+    </exercise>
+    <exercise>
+      <introduction><p>The point (-4,6) is on the terminal side of angle θ in 
+        standard position:</p></introduction>
+      <task>
+        <statement><p>Sketch the angle θ in standard position. Sketch and label the
+          reference triangle.</p></statement>
+        <hint><p>Use the given point to form a right triangle with the origin and 
+          the x-axis. Use the Pythagorean theorem to find the hypotenuse.</p></hint>
+        <answer><p><image width="60%">
+                <prefigure xmlns="https://prefigure.org"
+                            label="prefigure-tf1a-sample">
+                  <diagram dimensions="(300,300)" margins="5">
+                    <coordinates bbox="(-10,-10,10,10)">
+                      <grid spacings="((-10,2,10),(-10,2,10))"/>
+                      <grid-axes xlabel="x" ylabel="y"/>
+                      <line endpoints="((-4,6),(0,0))" stroke="blue" label-location="0.4"><m>2\sqrt{13}</m></line>
+                      <line endpoints="((-4,0),(0,0))" stroke="blue" label-location="0.4"><m>-4</m></line>
+                      <line endpoints="((-4,0),(-4,6))" stroke="blue" label-location="0.4"><m>6</m></line>
+                      <rectangle lower-left="(-4,0)" dimensions="(0.2,0.2)" fill="blue"/>
+                    </coordinates>
+                <annotations>
+                  <annotation ref="figure"
+                    text="The graph of the function is a right triangle with vertices at the origin, (-4,0) and (-4,6). 
+                    The hypotenuse has length 2\sqrt{13}, the adjacent leg has length -4 and the opposite leg has length 6.">
+                        </annotation>
+                </annotations>
+              </diagram>
+            </prefigure></image></p></answer>
+      </task>
+      <task>
+        <statement><p>Find the values of the six trigonometric functions of angle θ.</p></statement>
+        <hint><p>Find the value of r then use the definitions of the trigonometric functions to find the values.</p></hint>
+        <answer><p><m>\sin θ = \frac{6}{10}</m>, <m>\cos θ = \frac{-4}{10}</m>, 
+          <m>\tan θ = \frac{6}{-4}</m>, <m>\csc θ = \frac{10}{6}</m>, 
+          <m>\sec θ = \frac{10}{-4}</m>, <m>\cot θ = \frac{-4}{6}</m></p></answer>
+        <solution><p>First, we find the value of r using the distance formula: 
+          <m>r = \sqrt{(-4)^2 + 6^2}</m>
+          <m>r = \sqrt{16 + 36}</m>
+          <m>r= \sqrt{52} = 2\sqrt{13}</m></p>
+          <p>Now we can use the definitions of the trigonometric functions:</p>
+          <p><m>\sin θ = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{6}{2\sqrt{13}}</m></p>
+          <p><m>\cos θ = \frac{\text{adjacent}}{\text{hypotenuse}} = \frac{-4}{2\sqrt{13}}</m></p>
+          <p><m>\tan θ = \frac{\text{opposite}}{\text{adjacent}} = \frac{6}{-4}</m></p>
+          <p><m>\csc θ = \frac{\text{hypotenuse}}{\text{opposite}} = \frac{2\sqrt{13}}{6}</m></p>
+          <p><m>\sec θ = \frac{\text{hypotenuse}}{\text{adjacent}} = \frac{2\sqrt{13}}{-4}</m></p>
+          <p><m>\cot θ = \frac{\text{adjacent}}{\text{opposite}} = \frac{-4}{6}</m></p>
+      </solution>
+      </task>    
+      </exercise>
   </page>
 </worksheet>

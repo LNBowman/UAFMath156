@@ -134,18 +134,21 @@
         <title>EL-1 Exponential and Logarithmic Functions</title>
         <xi:include href="./notes/exponential_and_logarithmic_functions/el1information.ptx"/>
         <xi:include href="./videos/el_videos/el1vid.ptx"/>
+        <xi:include href="./rubrics/el-rubrics/el1-rub.ptx"/>
         <xi:include href="./sample_outcomes/el_outcomes/el1_sample.ptx"/>
       </section>
       <section xml:id="el2">
         <title>EL-2 Exponential and Logarithmic Equations</title>
         <xi:include href="./notes/exponential_and_logarithmic_functions/el2information.ptx"/>
         <xi:include href="./videos/el_videos/el2vid.ptx"/>
+        <xi:include href="./rubrics/el-rubrics/el2-rub.ptx"/>
         <xi:include href="./sample_outcomes/el_outcomes/el2_sample.ptx"/>
       </section>
       <section xml:id="el3">
         <title>EL-3 Growth and Decay Models</title>
         <xi:include href="./notes/exponential_and_logarithmic_functions/el3information.ptx"/>
         <xi:include href="./videos/el_videos/el3vid.ptx"/>
+        <xi:include href="./rubrics/el-rubrics/el3-rub.ptx"/>
         <xi:include href="./sample_outcomes/el_outcomes/el3_sample.ptx"/>
       </section>
     </chapter>
@@ -166,24 +169,28 @@
         <title>TF-1 Right Triangle Trigonometry</title>
         <xi:include href="./notes/trigonometric_functions/tf1information.ptx"/>
         <xi:include href="./videos/tf_videos/tf1vid.ptx"/>
+        <xi:include href="./rubrics/tf-rubrics/tf1-rub.ptx"/>
         <xi:include href="./sample_outcomes/tf_outcomes/tf1_sample.ptx"/>
       </section>
       <section xml:id="tf2">
         <title>TF-2 Graphs of Trigonometric Functions</title>
         <xi:include href="./notes/trigonometric_functions/tf2information.ptx"/>
         <xi:include href="./videos/tf_videos/tf2vid.ptx"/>
+        <xi:include href="./rubrics/tf-rubrics/tf2-rub.ptx"/>
         <xi:include href="./sample_outcomes/tf_outcomes/tf2_sample.ptx"/>
       </section>
       <section xml:id="tf3">
         <title>TF-3 Trigonometric Equations</title>
         <xi:include href="./notes/trigonometric_functions/tf3information.ptx"/>
         <xi:include href="./videos/tf_videos/tf3vid.ptx"/>
+        <xi:include href="./rubrics/tf-rubrics/tf3-rub.ptx"/>
         <xi:include href="./sample_outcomes/tf_outcomes/tf3_sample.ptx"/>
       </section>
       <section xml:id="tf4">
         <title>TF-4 Law of Sines and Cosines</title>
         <xi:include href="./notes/trigonometric_functions/tf4information.ptx"/>
         <xi:include href="./videos/tf_videos/tf4vid.ptx"/>
+        <xi:include href="./rubrics/tf-rubrics/tf4-rub.ptx"/>
         <xi:include href="./sample_outcomes/tf_outcomes/tf4_sample.ptx"/>
       </section>
     </chapter>

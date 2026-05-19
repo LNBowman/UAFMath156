@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+  <title>BF-4 Transformations and Combinations</title>
+  <introduction>
+    <p>Complete both problems to earn M. Complete problem 1 and two parts of problem 2 to earn P</p>
+  </introduction>  
+  <page>
+    <exercise workspace="2.5in">
+        <introduction><p>Given the function <m>g(x)=\frac{1}{2}f(x+5)-3</m></p></introduction>
+        <task><statement><p>Describe the transformations applied to the function <m>f(x)</m> 
+            to get the function <m>g(x)</m>.</p></statement></task>
+        <task><statement><p>Determine where the point <m>(-4,8)</m> from the graph of 
+            <m>f(x)</m> would be shifted to,on the graph of <m>g(x)</m>.</p></statement></task>
+    </exercise>
+  </page>
+  <page>
+    <exercise workspace="2.5in">
+        <introduction><p>Given the functions <m>f(x)=\sqrt{2x}</m> and <m>g(x)=x^2+3</m>, find 
+            and simplify:</p></introduction>
+        <task><statement><p><m>(f+g)(8)</m></p></statement></task>
+        <task><statement><p><m>(fg)(2)</m></p></statement></task>
+        <task><statement><p><m>\left(\frac{g}{f}\right)(x)</m></p></statement></task>
+        <task><statement><p><m>(g\circ f)(x)</m></p></statement></task>
+    </exercise>
+  </page>
+  </worksheet>

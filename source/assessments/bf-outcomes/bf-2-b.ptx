@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>BF-2 Forms of Lines</title>
+  <introduction>
+    <p>Complete both problems to get M. Complete one problem with considerable 
+        progress on the other to get P.</p>
+  </introduction>
+  <page>
+    <exercise workspace="2.5in">
+      <introduction><p>Given the line <m>3x-y=14</m></p></introduction>
+      <task><statement><p>Find the equation of the line parallel 
+            to the given line passing through the point <m>(-2,5)</m>. Leave 
+            answer in slope-intercept form.</p></statement></task>
+    <task><statement><p>Find the equation of the line perpendicular 
+            to the given line passing through the point <m>(6,-1)</m>. Leave the 
+            answer in standard form.</p></statement></task>
+    </exercise>
+  </page>
+</worksheet>

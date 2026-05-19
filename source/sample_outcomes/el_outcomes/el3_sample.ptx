@@ -23,11 +23,14 @@
       <li><p>Mathematical Communication: Solutions should be presented in a clear and logical manner, with 
         appropriate use of mathematical notation and terminology. Equations should have at most one equal 
         sign and expressions on both sides.</p></li>
-      <li><p>Set up and solve compound interest problems.</p></li>
+      <li><p>Set up and solve compound interest problems. Expressions should be completely simplified.</p></li>
       <li><p>Set up and solve continuous compound interest problems.</p></li>
-      <li><p>Set up exponential growth problems and find the growth rate</p></li>
-      <li><p>Use the growth rate and the model to make predictions.</p></li>
-      <li><p>Solve exponential growth problems for specific time periods.</p></li>
+      <li><p>Set up exponential growth problems and find the growth rate. Answers should be simplified 
+        fractions, integers, or in terms of natural logarithms.</p></li>
+      <li><p>Use the growth rate and the model to make predictions. Answers should be simplified 
+        fractions, integers, or in terms of natural logarithms and have correct units.</p></li>
+      <li><p>Solve exponential growth problems for specific time periods. Leave answers as simplified fractions, 
+        integers, or in terms of natural logarithms and have correct units.</p></li>
     </ul>
     </objectives>
 
@@ -41,16 +44,22 @@
         <task>
             <statement><p>Set up the simplified expression that would represent 
               the amount of money in the account at time, <m>t</m>, years.</p></statement>
-            <hint><p></p></hint>
-            <answer><p></p></answer>
-            <solution><p></p></solution>
+            <hint><p>Use the compound interest formula.</p></hint>
+            <answer><p><m>A(t)=2000\left(\frac{203}{200}\right)^{4t}</m></p></answer>
+            <solution><p>The compound interest formula is:</p><p><m>A(t)=P\left(1+\frac{r}{n}\right)^{nt}</m></p>
+              <p>Where:</p><p><m>P=2000</m>, <m>r=0.06</m>, <m>n=4</m>, and <m>t</m> is the time in years.</p>
+              <p>Substituting these values gives:</p><p><m>A(t)=2000\left(1+\frac{0.06}{4}\right)^{4t}</m>. 
+                Simplifying the base gives:</p><p><m>A(t)=2000\left(\frac{203}{200}\right)^{4t}</m></p></solution>
         </task>
         <task>
             <statement><p>How long would it take for the account to reach $5000? (Leave 
               answer as a simplified expression in terms of natural logarithms.)</p></statement>
-            <hint><p></p></hint>
-            <answer><p></p></answer>
-            <solution><p></p></solution>
+            <hint><p>Set <m>A(t)=5000</m> and solve for <m>t</m>.</p></hint>
+            <answer><p><m>t=\frac{\ln\left(\frac{5}{2}\right)}{4\ln\left(\frac{203}{200}\right)}</m></p></answer>
+            <solution><p>Setting <m>A(t)=5000</m> gives:</p><p><m>5000=2000\left(\frac{203}{200}\right)^{4t}</m></p>
+              <p>Dividing both sides by 2000:</p><p><m>\frac{5}{2}=\left(\frac{203}{200}\right)^{4t}</m></p>
+              <p>Taking the natural logarithm of both sides:</p><p><m>\ln\left(\frac{5}{2}\right)=4t\ln\left(\frac{203}{200}\right)</m></p>
+              <p>Solving for <m>t</m>:</p><p><m>t=\frac{\ln\left(\frac{5}{2}\right)}{4\ln\left(\frac{203}{200}\right)}</m></p></solution>
         </task>
     </exercise>
     <exercise workspace="3cm">
@@ -61,23 +70,34 @@
         </p></introduction>
         <task>
             <statement><p>What is the initial population for this animal?</p></statement>
-            <hint><p></p></hint>
-            <answer><p></p></answer>
-            <solution><p></p></solution>
+            <hint><p>Substitute <m>t=0</m> into the function to get the initial population.</p></hint>
+            <answer><p><m>P(0)=1000</m> animals</p></answer>
+            <solution><p>Substituting <m>t=0</m> into the function gives:</p>
+              <p><m>P(0)=\frac{2000}{1+2^{0}}=\frac{2000}{1+1}=\frac{2000}{2}=1000</m></p></solution>
         </task>
         <task>
             <statement><p>After 10 months, what is the population? (Leave answer as a 
               simplified expression.)</p></statement>
-            <hint><p></p></hint>
-            <answer><p></p></answer>
-            <solution><p></p></solution>
+            <hint><p>Substitute <m>t=10</m> into the function.</p></hint>
+            <answer><p><m>P(10)=2000\sqrt{2}-2000</m> animals</p></answer>
+            <solution><p>Substituting <m>t=10</m> into the function gives:</p>
+              <p><md><mrow>P(10) &amp;=\frac{2000}{1+2^{-0.5}}</mrow>
+                <mrow>&amp;=\frac{2000}{1+\frac{1}{2^{0.5}}}</mrow>
+                <mrow>&amp;=\frac{2000}{1+\frac{1}{\sqrt{2}}}</mrow>
+                <mrow>&amp;=\frac{2000(\sqrt{2}-1)}{\frac{2-1}}</mrow>
+                <mrow>&amp;=2000(\sqrt{2}-1)</mrow></md> animals</p></solution>
         </task>
         <task>
             <statement><p>After how many months will the population be 600? (Leave 
               answer as a simplified expression in terms of natural logarithms.)</p></statement>
-            <hint><p></p></hint>
-            <answer><p></p></answer>
-            <solution><p></p></solution>
+            <hint><p>Set <m>P(t)=600</m> and solve for <m>t</m>.</p></hint>
+            <answer><p><m>t=\frac{-20\ln\left(\frac{7}{3}\right)}{\ln(2)}</m></p></answer>
+            <solution><p>Setting <m>P(t)=600</m> gives:</p><p><m>600=\frac{2000}{1+2^{-0.05t}}</m></p>
+              <p>Cross-multiplying:</p><p><m>600(1+2^{-0.05t})=2000</m></p>
+              <p>Dividing both sides by 600:</p><p><m>2^{-0.05t}=\frac{7}{3}</m></p>
+              <p>Taking the natural logarithm of both sides:</p><p><m>-0.05t\ln(2)=\ln\left(\frac{7}{3}\right)</m></p>
+              <p>Solving for <m>t</m>:</p><p><m>t=\frac{\ln\left(\frac{7}{3}\right)}{-\frac{1}{20}\ln(2)}</m></p>
+            <p><m>t=\frac{-20\ln\left(\frac{7}{3}\right)}{\ln(2)}</m></p></solution>
         </task>
     </exercise>
   </page>

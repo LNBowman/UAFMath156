@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="el2rubric">
+  <title>EL-2 Rubric</title>
+  <worksheet>
+    
+  <introduction>
+    <p>Before attempting the EL-2 outcome, you should review the following 
+      rubric. This shows the criteria you will be graded on and the expectations 
+      to earn each mastery level. </p>
+  </introduction>
+  <table>
+  <title>EL2 Rubric</title>
+  <tabular halign="center" left="medium" top="medium">
+    <row bottom="medium">
+      <cell right="medium">
+        Criteria
+      </cell>
+      <cell right="medium">
+        M
+      </cell>
+      <cell right="medium">
+        P
+      </cell>
+      <cell right="medium">
+        R
+      </cell>
+      <cell right="medium">
+        N
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Simplifying Algebraic Expressions
+      </cell>
+      <cell right="medium">
+        All answers are fully simplified. Exact answers are given, not approximations. Radical and exponential expressions are used appropriately and are simplified in the correct manner
+      </cell>
+      <cell right="medium">
+        No algebraic errors OR some expressions are not simplified.
+      </cell>
+      <cell right="medium">
+        There are some algebraic errors and some expressions were not simplified.
+      </cell>
+      <cell right="medium">
+        There are some algebraic errors and some expressions were not simplified.
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Problem Structure and Mathematical Communication
+      </cell>
+      <cell right="medium">
+        Problems have a clear beginning, middle, and end. Work progresses clearly from one step to the next. The work provided uses appropriate methods and notation and provides a clear solution.
+      </cell>
+      <cell right="medium">
+        Problems have clear beginnings and ends. Work progresses from one step to the next. The work provided uses algebraic methods, correct notation, and provides a solution.
+      </cell>
+      <cell right="medium">
+        Parts of the mathematical structure are missing, or steps in the progress of the solution are missing. There are errors in the mathematical notation. The work provided uses algebraic methods and provides a solution.
+      </cell>
+      <cell right="medium">
+        There is not a clear structure to the solution, notation is used incorrectly, and it is unclear what methods are being used.
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Solve exponential equations.
+      </cell>
+      <cell right="medium">
+        Correctly identified Type I versus Type II equations and solved accordingly. Either equated the bases and exponents to solve or used natural logarithms to rewrite the equation and solve for x.
+      </cell>
+      <cell right="medium">
+        Either equated the bases and exponents to solve or used natural logarithms to rewrite the equation and solve for x. Minor algebraic errors or did not use the correct method for the type of exponential equation.
+      </cell>
+      <cell right="medium">
+        Multiple errors in solving for the variable (incorrect base, algebraic errors, incorrect method for given type).
+      </cell>
+      <cell right="medium">
+        No work given towards a solution to the exponential equation.
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Solve logarithmic equations.
+      </cell>
+      <cell right="medium">
+        Correctly identified Type I versus Type II equations and solved accordingly. Either equated the logarithms or used logarithmic properties to solve for x. Used correct base and domain.
+      </cell>
+      <cell right="medium">
+        Either equated the logarithms or used logarithmic properties to solve for x. Minor algebraic errors or did not use the correct properties. Did not use the correct base or didn’t check the domain.
+      </cell>
+      <cell right="medium">
+        Multiple errors in solving for the variable (incorrect base, algebraic errors, incorrect method for given type).
+      </cell>
+      <cell right="medium">
+        No work given towards a solution to the logarithmic equation.
+      </cell>
+    </row>
+    <row bottom="medium">
+      <cell right="medium">
+        Solve other exponential and logarithmic equations
+      </cell>
+      <cell right="medium">
+        Used algebraic or logarithmic properties to rewrite and solve the equation. Used correct bases and domains.
+      </cell>
+      <cell right="medium">
+        Minor algebraic or logarithmic property errors when rewriting and solving the equation.
+      </cell>
+      <cell right="medium">
+        Multiple errors in solving for the variable (incorrect base, algebraic errors, incorrect properties for given type).
+      </cell>
+      <cell right="medium">
+        No work given towards a solution to the exponential or logarithmic equation.
+      </cell>
+    </row>
+  </tabular>
+</table>
+
+</worksheet>
+</section>

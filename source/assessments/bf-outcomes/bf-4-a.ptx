@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+  <title>BF-4 Transformations and Combinations</title>
+  <introduction>
+    <p>Complete both problems to earn M. Complete problem 1 and two parts of problem 2 to earn P</p>
+  </introduction>  
+  <page>
+    <exercise workspace="2.5in">
+        <introduction><p>Given the function <m>g(x)=-2f(x-1)-4</m></p></introduction>
+        <task><statement><p>Describe the transformations applied to the function <m>f(x)</m> 
+            to get the function <m>g(x)</m>.</p></statement></task>
+        <task><statement><p>Determine where the point <m>(3,-2)</m> from the graph of 
+            <m>f(x)</m> would be shifted to,on the graph of <m>g(x)</m>.</p></statement></task>
+    </exercise>
+  </page>
+  <page>
+    <exercise workspace="2.5in">
+        <introduction><p>Given the functions <m>f(x)=3x+1</m> and <m>g(x)=2x^2-5</m>, find 
+            and simplify:</p></introduction>
+        <task><statement><p><m>(f+g)(3)</m></p></statement></task>
+        <task><statement><p><m>(fg)(x)</m></p></statement></task>
+        <task><statement><p><m>\left(\frac{f}{g}\right)(-2)</m></p></statement></task>
+        <task><statement><p><m>(g\circ f)(x)</m></p></statement></task>
+    </exercise>
+  </page>
+  </worksheet>
