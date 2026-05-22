@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>GR-5 Modeling Systems</title>
+  <introduction>
+    <p>Complete all four problems to get M. Complete any three problems to get P.</p>
+  </introduction>
+  <page>
+      <p>A pet shelter mixes two brands of kibble, Brand <m>A</m> and Brand <m>B</m>, to create a 
+        daily feeding blend for its dogs. The blend must satisfy minimum nutritional requirements 
+        for protein and iron. Each cup of Brand <m>A</m> provides 5 grams of protein and 2 milligrams 
+        of iron. Each cup of Brand <m>B</m> provides 3 grams of protein and 6 milligrams of iron. 
+        The daily requirements demand at least 30 grams of protein and at least 24 milligrams of 
+        iron. The shelter wants to minimize the total number of cups fed to keep the dogs at a 
+        healthy caloric intake.</p>
+    <exercise workspace="1.5in"><statement><p>Set up a system of linear inequalities whose graph 
+        would represent all possible combinations of foods <m>A</m> and <m>B</m> that satisfy the 
+        constraints.</p></statement></exercise>
+    <exercise workspace="2.5in"><statement><p>Find the solution region. Be sure to give a complete graph.</p></statement></exercise>
+  </page>
+  <page>
+    <exercise workspace="1in"><statement><p>Setup the objective function.</p></statement></exercise>
+    <exercise workspace="2.5in"><statement><p>Find the minimum number of cups of each brand that 
+      the shelter can use to meet the nutritional requirements.</p></statement></exercise>
+  </page>
+</worksheet>

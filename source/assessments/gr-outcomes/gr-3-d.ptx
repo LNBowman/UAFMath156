@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>GR-3 Graphing Rational Functions</title>
+  <introduction>
+    <p>Complete all parts to get M. Complete any four parts to get P.</p>
+  </introduction>
+  <page>
+    <exercise>
+      <introduction><p>Given the rational function <m>f(x)=\frac{x^2+2x-3}{x-2}</m></p></introduction>
+      <task workspace="0.5in"><statement><p>State the domain using interval notation.</p></statement></task>
+      <task workspace="0.5in"><statement><p>State any asymptotes.</p></statement></task>
+      <task workspace="0.5in"><statement><p>State any deleted points.</p></statement></task>
+      <task workspace="1.5in"><statement><p>State the intercepts.</p></statement></task>
+      <task workspace="2.5in"><statement><p>Provide a complete graph of the function.</p></statement></task>
+    </exercise>
+  </page>
+</worksheet>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>GR-1 Quadratic Functions and Models</title>
+  <introduction>
+    <p>Complete both problems to get M. Complete three parts of both problems to get P.</p>
+  </introduction>
+  <page>
+    <exercise>
+      <introduction><p>Given the function <m>f(x)=4x^2-16x+7</m></p></introduction>
+      <task workspace="1.5in"><statement><p>Rewrite this function in vertex form.</p></statement></task>
+        <task workspace=".75in"><statement><p>State the range of the function.</p></statement></task>
+        <task workspace="1.5in"><statement><p>State the intercepts of the function.</p></statement></task>
+        <task workspace="2.5in"><statement><p>Provide a complete graph of the function.</p></statement></task>
+    </exercise>
+    <exercise>
+      <introduction><p>A model rocket is launched upward from a platform that is 20 feet 
+        high. The initial upward velocity of the rocket is 64 feet per second. Find the 
+        time it takes for the rocket to reach its maximum height.</p></introduction>
+      <task workspace="0.5in"><statement><p>Define variables for the problem.</p></statement></task>
+      <task workspace="1in"><statement><p>Set up a quadratic function in terms of the variables in part (a).</p></statement></task>
+      <task workspace="0.5in"><statement><p>Define the practical domain of the function (given as an interval).</p></statement></task>
+      <task workspace="2.5in"><statement><p>Use quadratic methods to find the time that maximizes the height.</p></statement></task>
+    </exercise>
+  </page>
+</worksheet>

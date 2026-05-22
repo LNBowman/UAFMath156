@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>GR-5 Modeling Systems</title>
+  <introduction>
+    <p>Complete all four problems to get M. Complete any three problems to get P.</p>
+  </introduction>
+  <page>
+      <p>A carpentry shop produces two types of wooden furniture: Chairs and Tables. Manufacturing 
+        requires two primary resources: labor hours and wood supply. Each Chair requires 2 hours 
+        of labor and 4 board-feet of wood. Each Table requires 3 hours of labor and 9 board-feet 
+        of wood. The shop has a maximum of 60 hours of labor and 144 board-feet of wood available 
+        each week. The shop wants to maximize the total number of furniture pieces produced.</p>
+    <exercise workspace="1.5in"><statement><p>Set up a system of linear inequalities whose graph 
+        would represent all possible combinations of Chairs and Tables that satisfy the 
+        constraints.</p></statement></exercise>
+    <exercise workspace="2.5in"><statement><p>Find the solution region. Be sure to give a complete graph.</p></statement></exercise>
+  </page>
+  <page>
+    <exercise workspace="1in"><statement><p>Setup the objective function.</p></statement></exercise>
+    <exercise workspace="2.5in"><statement><p>Find the maximum number of Chairs and Tables that 
+      the shop can produce based on the constraints.</p></statement></exercise>
+  </page>
+</worksheet>

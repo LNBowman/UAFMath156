@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>GR-5 Modeling Systems</title>
+  <introduction>
+    <p>Complete all four problems to get M. Complete any three problems to get P.</p>
+  </introduction>
+  <page>
+      <p>A tech firm plans to hire two types of event staff for an expo: Coordinators and Assistants. 
+        There are two primary constraints: daily hiring budget and total background check clearance 
+        hours. Each Coordinator costs $200 per day and takes 2 hours of admin processing time. Each 
+        Assistant costs $100 per day and takes 3 hours of admin processing time. The company has a 
+        maximum daily budget of $2,200 and at most 30 hours available for admin processing. The 
+        company seeks to maximize the total workforce headcount at the expo.</p>
+    <exercise workspace="1.5in"><statement><p>Set up a system of linear inequalities whose graph 
+        would represent all possible combinations of Coordinators and Assistants that satisfy the 
+        constraints.</p></statement></exercise>
+    <exercise workspace="2.5in"><statement><p>Find the solution region. Be sure to give a complete graph.</p></statement></exercise>
+  </page>
+  <page>
+    <exercise workspace="1in"><statement><p>Setup the objective function.</p></statement></exercise>
+    <exercise workspace="2.5in"><statement><p>Find the maximum number of Coordinators and Assistants that 
+      the company can hire based on the constraints.</p></statement></exercise>
+  </page>
+</worksheet>

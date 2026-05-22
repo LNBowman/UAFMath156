@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>GR-1 Quadratic Functions and Models</title>
+  <introduction>
+    <p>Complete both problems to get M. Complete three parts of both problems to get P.</p>
+  </introduction>
+  <page>
+    <exercise>
+      <introduction><p>Given the function <m>f(x)=3x^2-5x+4</m></p></introduction>
+      <task workspace="1.5in"><statement><p>Rewrite this function in vertex form.</p></statement></task>
+      <task workspace=".75in"><statement><p>State the range of the function.</p></statement></task>
+      <task workspace="1.5in"><statement><p>State the intercepts of the function.</p></statement></task>
+      <task workspace="2.5in"><statement><p>Provide a complete graph of the function.</p></statement></task>
+    </exercise>
+  </page>
+  <page>
+    <exercise>
+      <introduction><p>In a certain vineyard, each grape vine produces 10 pounds 
+        of grapes per season, when there area about 800 vines planted per acre. For 
+        each additional vine that is planted, the production of the vine decreases 
+        by <m>\frac{1}{2}</m> pound. Find the number of vines that should be planted 
+        per acre to maximize the total production of grapes.</p></introduction>
+      <task workspace="0.5in"><statement><p>Define variables for the problem.</p></statement></task>
+      <task workspace="1in"><statement><p>Set up a quadratic function in terms of the variables in part (a).</p></statement></task>
+      <task workspace="0.5in"><statement><p>Define the practical domain of the function (given as an interval).</p></statement></task>
+      <task workspace="2.5in"><statement><p>Use quadratic methods to find the number of vines to plant to maximize the grape production.</p></statement></task>
+    </exercise>
+  </page>
+</worksheet>

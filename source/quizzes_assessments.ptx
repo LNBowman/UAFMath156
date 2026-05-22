@@ -80,6 +80,59 @@
           <xi:include href="./assessments/bf-outcomes/bf-4-e.ptx"/>
         </subsection>
       </section>
+      <section xml:id="sec-gr-outcomes">
+        <title>Graphing Polynomials</title>
+        <introduction><p>Here are the assessment outcomes for Graphing Polynomials. There are multiple versions 
+            of each outcome so that there are options for multiple semesters of assessments. This section is 
+            divided into 5 outcomes:
+            <ul>
+              <li><p>Quadratic Functions and Models</p></li>
+              <li><p>Graphing Polynomials</p></li>
+              <li><p>Graphing Rational Functions</p></li>
+              <li><p>Systems of Equations</p></li>
+              <li><p>Modeling Systems using Inequalities</p></li>
+            </ul></p></introduction>
+        <subsection xml:id="sec-gr1-outcomes">
+          <title>GR-1 Outcomes</title>
+          <xi:include href="./assessments/gr-outcomes/gr-1-a.ptx"/>
+          <xi:include href="./assessments/gr-outcomes/gr-1-b.ptx"/>
+          <xi:include href="./assessments/gr-outcomes/gr-1-c.ptx"/>
+          <xi:include href="./assessments/gr-outcomes/gr-1-d.ptx"/>
+          <xi:include href="./assessments/gr-outcomes/gr-1-e.ptx"/>  
+        </subsection>
+        <subsection xml:id="sec-gr2-outcomes">
+          <title>GR-2 Outcomes</title>
+          <xi:include href="./assessments/gr-outcomes/gr-2-a.ptx"/>
+          <xi:include href="./assessments/gr-outcomes/gr-2-b.ptx"/>
+          <xi:include href="./assessments/gr-outcomes/gr-2-c.ptx"/>
+          <xi:include href="./assessments/gr-outcomes/gr-2-d.ptx"/>
+          <xi:include href="./assessments/gr-outcomes/gr-2-e.ptx"/>  
+        </subsection>
+        <subsection xml:id="sec-gr3-outcomes">
+          <title>GR-3 Outcomes</title>
+          <xi:include href="./assessments/gr-outcomes/gr-3-a.ptx"/>
+          <xi:include href="./assessments/gr-outcomes/gr-3-b.ptx"/>
+          <xi:include href="./assessments/gr-outcomes/gr-3-c.ptx"/>
+          <xi:include href="./assessments/gr-outcomes/gr-3-d.ptx"/>
+          <xi:include href="./assessments/gr-outcomes/gr-3-e.ptx"/>
+        </subsection>
+        <subsection xml:id="sec-gr4-outcomes">
+          <title>GR-4 Outcomes</title>
+          <xi:include href="./assessments/gr-outcomes/gr-4-a.ptx"/>
+          <xi:include href="./assessments/gr-outcomes/gr-4-b.ptx"/>
+          <xi:include href="./assessments/gr-outcomes/gr-4-c.ptx"/>
+          <xi:include href="./assessments/gr-outcomes/gr-4-d.ptx"/>
+          <xi:include href="./assessments/gr-outcomes/gr-4-e.ptx"/>
+        </subsection>
+        <subsection xml:id="sec-gr5-outcomes">
+          <title>GR-5 Outcomes</title>
+          <xi:include href="./assessments/gr-outcomes/gr-5-a.ptx"/>
+          <xi:include href="./assessments/gr-outcomes/gr-5-b.ptx"/>
+          <xi:include href="./assessments/gr-outcomes/gr-5-c.ptx"/>
+          <xi:include href="./assessments/gr-outcomes/gr-5-d.ptx"/>
+          <xi:include href="./assessments/gr-outcomes/gr-5-e.ptx"/>
+        </subsection>
+      </section>
     </chapter>
 
     <chapter xml:id="course-quizzes_retakes">

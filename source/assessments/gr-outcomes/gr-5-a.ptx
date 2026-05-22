@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>GR-5 Modeling Systems</title>
+  <introduction>
+    <p>Complete all four problems to get M. Complete any three problems to get P.</p>
+  </introduction>
+  <page>
+      <p>A privately owned lake contains two types of fish: Grayling and Trout.  The owner of 
+        the lake provides two types of food, <m>A</m> and <m>B</m>, to feed the fish.  Grayling 
+        require 3 units of food <m>A</m> and 8 units of food <m>B</m>, while Trout 
+        require 8 units of food <m>A</m> and 6 units of food <m>B</m>. The owner has a total 
+        of 1200 units of food <m>A</m> and 1800 units of food <m>B</m> available each day. How 
+        many Grayling and how many Trout are in the lake?</p>
+    <exercise workspace="1.5in"><statement><p>Set up a system of linear inequalities whose graph 
+        would represent all possible combinations of foods <m>A</m> and <m>B</m> that satisfy the 
+        constraints.</p></statement></exercise>
+    <exercise workspace="2.5in"><statement><p>Find the solution region. Be sure to give a complete graph.</p></statement></exercise>
+  </page>
+  <page>
+    <exercise workspace="1in"><statement><p>Setup the objective function.</p></statement></exercise>
+    <exercise workspace="2.5in"><statement><p>Find the maximum number of Grayling and Trout that 
+      the lake can support based on the constraints.</p></statement></exercise>
+  </page>
+</worksheet>

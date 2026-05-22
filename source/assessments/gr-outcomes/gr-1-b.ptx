@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>GR-1 Quadratic Functions and Models</title>
+  <introduction>
+    <p>Complete both problems to get M. Complete three parts of both problems to get P.</p>
+  </introduction>
+  <page>
+    <exercise>
+      <introduction><p>Given the function <m>f(x)=-2x^2+12x-10</m></p></introduction>
+        <task workspace="1.5in"><statement><p>Rewrite this function in vertex form.</p></statement></task>
+        <task workspace=".75in"><statement><p>State the range of the function.</p></statement></task>
+        <task workspace="1.5in"><statement><p>State the intercepts of the function.</p></statement></task>
+        <task workspace="2.5in"><statement><p>Provide a complete graph of the function.</p></statement></task>
+    </exercise>
+    <exercise >
+      <introduction><p>A textbook publisher sells a linear algebra book for $90 each, 
+        selling an average of 4,000 copies per year. A market survey indicates that 
+        for every $5 increase in price, the publisher will sell 100 fewer books. Find 
+        the book price that maximizes total revenue.</p></introduction>
+      <task workspace="0.5in"><statement><p>Define variables for the problem.</p></statement></task>
+      <task workspace="1in"><statement><p>Set up a quadratic function in terms of the variables in part (a).</p></statement></task>
+      <task workspace="0.5in"><statement><p>Define the practical domain of the function (given as an interval).</p></statement></task>
+      <task workspace="2.5in"><statement><p>Use quadratic methods to find the book price that maximizes total revenue.</p></statement></task>
+    </exercise>
+  </page>
+</worksheet>

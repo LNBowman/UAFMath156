@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>GR-5 Modeling Systems</title>
+  <introduction>
+    <p>Complete all four problems to get M. Complete any three problems to get P.</p>
+  </introduction>
+  <page>
+      <p>A farmer wants to plant two types of crops on a 50-acre plot of land: Crop <m>X</m> 
+        and Crop <m>Y</m>. Planting requires seed budget and fertilizer. The seed cost is $20 
+        per acre for Crop <m>X</m> and $40 per acre for Crop <m>Y</m>, with a total seed budget 
+        of $1,600. Crop <m>X</m> requires 10 gallons of liquid fertilizer per acre, while Crop 
+        <m>Y</m> requires 5 gallons per acre, with a maximum allocation of 400 gallons of fertilizer. 
+        The farmer aims to maximize the total acreage planted.</p>
+    <exercise workspace="1.5in"><statement><p>Set up a system of linear inequalities whose graph 
+        would represent all possible combinations of acres for Crops <m>X</m> and <m>Y</m> that satisfy the 
+        constraints.</p></statement></exercise>
+    <exercise workspace="2.5in"><statement><p>Find the solution region. Be sure to give a complete graph.</p></statement></exercise>
+  </page>
+  <page>
+    <exercise workspace="1in"><statement><p>Setup the objective function.</p></statement></exercise>
+    <exercise workspace="2.5in"><statement><p>Find the maximum number of acres of Crops <m>X</m> and <m>Y</m> that 
+      can be planted based on the constraints.</p></statement></exercise>
+  </page>
+</worksheet>

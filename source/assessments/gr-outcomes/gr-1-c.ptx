@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>GR-1 Quadratic Functions and Models</title>
+  <introduction>
+    <p>Complete both problems to get M. Complete three parts of both problems to get P.</p>
+  </introduction>
+  <page>
+    <exercise>
+      <introduction><p>Given the function <m>f(x)=2x^2+8x+3</m></p></introduction>
+      <task workspace="1.5in"><statement><p>Rewrite this function in vertex form.</p></statement></task>
+        <task workspace=".75in"><statement><p>State the range of the function.</p></statement></task>
+        <task workspace="1.5in"><statement><p>State the intercepts of the function.</p></statement></task>
+        <task workspace="2.5in"><statement><p>Provide a complete graph of the function.</p></statement></task>
+    </exercise>
+    <exercise>
+      <introduction><p>A farmer wants to fence off a rectangular pasture alongside a 
+        straight river. No fencing is needed along the river. The farmer has 1,200 
+        meters of fencing available. Find the dimensions of the pasture that will 
+        enclose the maximum possible area.</p></introduction>
+      <task workspace="0.5in"><statement><p>Define variables for the problem.</p></statement></task>
+      <task workspace="1in"><statement><p>Set up a quadratic function in terms of the variables in part (a).</p></statement></task>
+      <task workspace="0.5in"><statement><p>Define the practical domain of the function (given as an interval).</p></statement></task>
+      <task workspace="2.5in"><statement><p>Use quadratic methods to find the dimensions that maximize the area.</p></statement></task>
+    </exercise>
+  </page>
+</worksheet>

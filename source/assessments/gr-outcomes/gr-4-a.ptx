@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>GR-4 Systems of Equations</title>
+  <introduction>
+    <p>Complete both problems to get M. Complete one problem with progress on the other to get P.</p>
+  </introduction>
+  <page>
+    <exercise workspace="3in">
+      <statement><p>Solve the system of equations:<md>\begin{cases} 4x+3y+z=17\\2x-y+z=15\\x+y-z=0 \end{cases}</md></p></statement>
+    </exercise>
+    <exercise workspace="2in">
+      <statement><p>Solve the system of equations:<md>\begin{cases} x^2+4y^2=25\\y^2-x=1 \end{cases}</md></p></statement>
+    </exercise>
+  </page>
+</worksheet>

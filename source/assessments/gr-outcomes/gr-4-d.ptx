@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>GR-4 Systems of Equations</title>
+  <introduction>
+    <p>Complete both problems to get M. Complete one problem with progress on the other to get P.</p>
+  </introduction>
+  <page>
+    <exercise workspace="3in">
+      <statement><p>Solve the system of equations:<md>\begin{cases} 2x+y-3z=7\\x-2y+z=-4\\3x+y+z=4 \end{cases}</md></p></statement>
+    </exercise>
+    <exercise workspace="2in">
+      <statement><p>Solve the system of equations:<md>\begin{cases} y^2-x^2=3\\y-x^2=-3 \end{cases}</md></p></statement>
+    </exercise>
+  </page>
+</worksheet>
