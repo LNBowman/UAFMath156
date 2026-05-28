@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>EL-1 Exponential and Logarithmic Functions</title>
+  <introduction>
+    <p>Complete all three problems to get M. Complete two problems with progress on the third to get P.</p>
+  </introduction>
+  <page>
+    <exercise>
+      <introduction><p>Given <m>f(x)= 5^{x-1}-2</m>.</p></introduction>
+      <task workspace="1.5in"><statement><p>State the domain and range.</p></statement></task>
+      <task workspace=".75in"><statement><p>State the intercept(s).</p></statement></task>
+      <task workspace="1.5in"><statement><p>State the asymptote(s).</p></statement></task>
+      <task workspace="2.5in"><statement><p>Graph <m>f(x)</m></p></statement></task>
+    </exercise>
+    <exercise>
+      <introduction><p>Given <m>y=\log_3(x+5)+2</m>.</p></introduction>
+      <task workspace="2.5in"><statement><p>Rewrite this in exponential form <m>f(x)</m></p></statement></task>
+      <task workspace="1.5in"><statement><p>State the domain and range.</p></statement></task>
+      <task workspace=".75in"><statement><p>State the intercept(s).</p></statement></task>
+      <task workspace="1.5in"><statement><p>State the asymptote(s).</p></statement></task>
+    </exercise>
+  </page>
+  <page>
+<exercise>
+  <p>An exponential function has a horizontal asymptote at <m>y = -2</m>. 
+    The graph of the function passes through the points <m>(1, -1)</m> 
+    and <m>(2, 2)</m>. If the function has the form <m>g(x) = a^{x+b} + c</m> 
+    for real numbers <m>a, b</m>, and <m>c</m>, find <m>g(x)</m>.</p>
+</exercise>
+  </page>
+</worksheet>

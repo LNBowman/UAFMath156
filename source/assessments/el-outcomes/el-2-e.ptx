@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>EL-2 Exponential and Logarithmic Equations</title>
+  <introduction>
+    <p>Complete all three problems to get M. Complete two problems with progress on the third to get P.</p>
+  </introduction>
+  <page>
+    <exercise workspace="2.5in">
+      <p>Solve <m>3^{4x-2} = 50</m>.</p>
+    </exercise>
+    <exercise workspace="2.5in">
+      <p>Solve <m>\log(2x + 1) - \log(x - 1) = 1</m>.</p>
+    </exercise>
+  </page>
+  <page>
+<exercise>
+  <p>Solve <m>(\log_2 x)^2 - \log_2(x^5) + 6 = 0</m></p>
+</exercise>
+  </page>
+</worksheet>

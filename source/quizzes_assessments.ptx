@@ -133,6 +133,36 @@
           <xi:include href="./assessments/gr-outcomes/gr-5-e.ptx"/>
         </subsection>
       </section>
+      <section xml:id="sec-el-outcomes">
+        <title>Exponential and Logarithmic Functions</title>
+        <introduction><p>Here are the assessment outcomes for Exponential and Logarithmic Functions. There are multiple versions 
+            of each outcome so that there are options for multiple semesters of assessments. This section is 
+            divided into 3 outcomes:
+            <ul>
+              <li><p>Exponential and Logarithmic Functions</p></li>
+              <li><p>Exponential and Logarithmic Equations</p></li>
+              <li><p>Modeling with Exponential Functions</p></li>
+            </ul></p></introduction>
+        <subsection xml:id="sec-el1-outcomes">
+          <title>EL-1 Outcomes</title>
+          <xi:include href="./assessments/el-outcomes/el-1-a.ptx"/>
+          <xi:include href="./assessments/el-outcomes/el-1-b.ptx"/>
+          <xi:include href="./assessments/el-outcomes/el-1-c.ptx"/>
+          <xi:include href="./assessments/el-outcomes/el-1-d.ptx"/>
+          <xi:include href="./assessments/el-outcomes/el-1-e.ptx"/>
+        </subsection>
+        <subsection xml:id="sec-el2-outcomes">
+          <title>EL-2 Outcomes</title>
+          <xi:include href="./assessments/el-outcomes/el-2-a.ptx"/>
+          <xi:include href="./assessments/el-outcomes/el-2-b.ptx"/>
+          <xi:include href="./assessments/el-outcomes/el-2-c.ptx"/>
+          <xi:include href="./assessments/el-outcomes/el-2-d.ptx"/>
+          <xi:include href="./assessments/el-outcomes/el-2-e.ptx"/>
+        </subsection>
+        <subsection xml:id="sec-el3-outcomes">
+          <title>EL-3 Outcomes</title>
+        </subsection>
+      </section>
     </chapter>
 
     <chapter xml:id="course-quizzes_retakes">
