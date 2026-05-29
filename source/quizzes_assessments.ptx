@@ -161,8 +161,57 @@
         </subsection>
         <subsection xml:id="sec-el3-outcomes">
           <title>EL-3 Outcomes</title>
+          <xi:include href="./assessments/el-outcomes/el-3-a.ptx"/>
+          <xi:include href="./assessments/el-outcomes/el-3-b.ptx"/>
+          <xi:include href="./assessments/el-outcomes/el-3-c.ptx"/>
+          <xi:include href="./assessments/el-outcomes/el-3-d.ptx"/>
+          <xi:include href="./assessments/el-outcomes/el-3-e.ptx"/>
         </subsection>
       </section>
+      <section xml:id="sec-tf-outcomes">
+        <title>Trigonometric Functions</title>
+        <introduction><p>Here are the assessment outcomes for Trigonometric Functions. There are multiple versions 
+            of each outcome so that there are options for multiple semesters of assessments. This section is 
+            divided into 4 outcomes:
+            <ul>
+              <li><p>Right Triangle Trigonometry</p></li>
+              <li><p>Graphing Trigonometric Functions</p></li>
+              <li><p>Trigonometric Equations</p></li>
+              <li><p>Law of Sines and Cosines</p></li>
+            </ul></p></introduction>
+        <subsection xml:id="sec-tf1-outcomes">
+          <title>TF-1 Outcomes</title>
+          <xi:include href="./assessments/tf-outcomes/tf-1-a.ptx"/>
+          <xi:include href="./assessments/tf-outcomes/tf-1-b.ptx"/>
+          <xi:include href="./assessments/tf-outcomes/tf-1-c.ptx"/>
+          <xi:include href="./assessments/tf-outcomes/tf-1-d.ptx"/>
+          <xi:include href="./assessments/tf-outcomes/tf-1-e.ptx"/>
+        </subsection>
+        <subsection xml:id="sec-tf2-outcomes">
+          <title>TF-2 Outcomes</title>
+          <xi:include href="./assessments/tf-outcomes/tf-2-a.ptx"/>
+          <xi:include href="./assessments/tf-outcomes/tf-2-b.ptx"/>
+          <xi:include href="./assessments/tf-outcomes/tf-2-c.ptx"/>
+          <xi:include href="./assessments/tf-outcomes/tf-2-d.ptx"/>
+          <xi:include href="./assessments/tf-outcomes/tf-2-e.ptx"/>
+        </subsection>
+        <subsection xml:id="sec-tf3-outcomes">
+          <title>TF-3 Outcomes</title>
+          <xi:include href="./assessments/tf-outcomes/tf-3-a.ptx"/>
+          <xi:include href="./assessments/tf-outcomes/tf-3-b.ptx"/>
+          <xi:include href="./assessments/tf-outcomes/tf-3-c.ptx"/>
+          <xi:include href="./assessments/tf-outcomes/tf-3-d.ptx"/>
+          <xi:include href="./assessments/tf-outcomes/tf-3-e.ptx"/>
+        </subsection>
+        <subsection xml:id="sec-tf4-outcomes">
+          <title>TF-4 Outcomes</title>
+          <xi:include href="./assessments/tf-outcomes/tf-4-a.ptx"/>
+          <xi:include href="./assessments/tf-outcomes/tf-4-b.ptx"/>
+          <xi:include href="./assessments/tf-outcomes/tf-4-c.ptx"/>
+          <xi:include href="./assessments/tf-outcomes/tf-4-d.ptx"/>
+          <xi:include href="./assessments/tf-outcomes/tf-4-e.ptx"/>
+        </subsection>
+        </section>  
     </chapter>
 
     <chapter xml:id="course-quizzes_retakes">

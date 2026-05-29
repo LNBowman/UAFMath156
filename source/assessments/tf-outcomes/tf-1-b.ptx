@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>TF-1 Right Triangle Trigonometry</title>
+  <introduction>
+    <p>Complete both problems to get M. Complete four parts of problem 1 and give the complete diagram for problem 2 to get P.</p>
+  </introduction>
+  <page>
+    <exercise workspace="2.5in">
+      <p>Find all six trigonometric values of <m>\theta</m></p>
+      <image width="50%">
+              <prefigure xmlns="https://prefigure.org"
+                          label="prefigure-tf1-b">
+                  <coordinates bbox="(-5,-5,5,5)">
+                    <polygon points="((-3,-2),(-3,2),(2,-2))" closed="yes" stroke="blue"/>
+                    <polygon points="((-2.75,-2),(-2.75,-1.75),(-3,-1.75))" stroke="blue"/>
+                    <angle-marker points="((-3,2),(2,-2),(-3,-2))" stroke="blue">
+                      <m>\theta</m>
+                    </angle-marker>
+                    <label p="(-3,-2)" alignment="sw" ><m>X</m></label>
+                    <label p="(-3,2)" alignment="nw" ><m>Y</m></label>
+                    <label p="(2,-2)" alignment="se" ><m>Z</m></label>
+                    <label p="(-3,0)" alignment="w" ><m>5</m></label>
+                    <label p="(-0.5,-2)" alignment="s" ><m>12</m></label>
+                  </coordinates>
+              </prefigure>
+            </image>
+    </exercise>
+  </page>
+  <page>
+<exercise workspace="2.5in">
+  <p>A lifeguard sits on a tower 15 feet above the ground. She spots a swimmer in the 
+    ocean. The angle of depression from the lifeguard to the swimmer is <m>22^\circ</m>. 
+    Draw a picture to model this situation and give the simplified expression that gives 
+    the horizontal distance from the base of the tower to the swimmer.</p>
+</exercise>
+  </page>
+</worksheet>

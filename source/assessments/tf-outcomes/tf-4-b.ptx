@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>TF-4 Laws of Sines and Cosines</title>
+  <introduction>
+    <p>Complete both parts to get M. Complete part a with progress on part b to get P.</p>
+  </introduction>
+  <page>
+    <exercise workspace="2.5in">
+      <introduction><p>A pilot flies a drone 12 miles in the direction <m>\text{N } 40^\circ \text{ E}</m> 
+        from the landing pad to checkpoint Alpha. The drone then turns and travels 18 miles due east to 
+        checkpoint Beta.</p></introduction>
+        <task><statement><p>Draw a diagram to model this situation.</p></statement></task>
+        <task><statement><p>Determine the direct distance from the landing pad to checkpoint Beta 
+          and find the direct bearing from the landing pad to checkpoint Beta.</p></statement></task>
+    </exercise>
+  </page>
+</worksheet>

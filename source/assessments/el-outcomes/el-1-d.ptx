@@ -3,7 +3,7 @@
 <worksheet >
     <title>EL-1 Exponential and Logarithmic Functions</title>
   <introduction>
-    <p>Complete all three problems to get M. Complete two problems with progress on the third to get P.</p>
+    <p>Complete all both problems to get M. Complete one problem with progress on the other to get P.</p>
   </introduction>
   <page>
     <exercise>
@@ -12,13 +12,6 @@
       <task workspace=".75in"><statement><p>State the intercept(s).</p></statement></task>
       <task workspace="1.5in"><statement><p>State the asymptote(s).</p></statement></task>
       <task workspace="2.5in"><statement><p>Graph <m>f(x)</m></p></statement></task>
-    </exercise>
-    <exercise>
-      <introduction><p>Given <m>y=4^{x+2}+1</m>.</p></introduction>
-      <task workspace="2.5in"><statement><p>Rewrite this in logarithmic form <m>f(x)</m></p></statement></task>
-      <task workspace="1.5in"><statement><p>State the domain and range.</p></statement></task>
-      <task workspace=".75in"><statement><p>State the intercept(s).</p></statement></task>
-      <task workspace="1.5in"><statement><p>State the asymptote(s).</p></statement></task>
     </exercise>
   </page>
   <page>

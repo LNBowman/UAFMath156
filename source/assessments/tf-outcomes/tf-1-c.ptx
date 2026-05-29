@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>TF-1 Right Triangle Trigonometry</title>
+  <introduction>
+    <p>Complete both problems to get M. Complete four parts of problem 1 and give the complete diagram for problem 2 to get P.</p>
+  </introduction>
+  <page>
+    <exercise workspace="2.5in">
+      <p>Find all six trigonometric values of <m>\theta</m></p>
+      <image width="50%">
+              <prefigure xmlns="https://prefigure.org"
+                          label="prefigure-tf1-c">
+                  <coordinates bbox="(-5,-5,5,5)">
+                    <polygon points="((-2,-2),(3,-2),(3,1))" closed="yes" stroke="blue"/>
+                    <polygon points="((2.75,-2),(2.75,-1.75),(3,-1.75))" stroke="blue"/>
+                    <angle-marker points="((3,-2),(-2,-2),(3,1))" stroke="blue">
+                      <m>\theta</m>
+                    </angle-marker>
+                    <label p="(-2,-2)" alignment="sw" ><m>P</m></label>
+                    <label p="(3,-2)" alignment="se" ><m>Q</m></label>
+                    <label p="(3,1)" alignment="ne" ><m>R</m></label>
+                    <label p="(0.5,-2)" alignment="s" ><m>8</m></label>
+                    <label p="(0.5,-0.5)" alignment="nw" ><m>17</m></label>
+                  </coordinates>
+              </prefigure>
+            </image>
+    </exercise>
+  </page>
+  <page>
+<exercise workspace="2.5in">
+  <p>A surveyor stands 120 feet away from the base of a cell phone tower. The angle of elevation 
+    from the surveyor's ground-level transit instrument to the top of the tower is <m>38^\circ</m>. 
+    Draw a picture to model this situation and give the simplified expression that gives the height of the tower.</p>
+</exercise>
+  </page>
+</worksheet>

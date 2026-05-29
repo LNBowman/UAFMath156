@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>EL-3 Modeling with Exponential Functions</title>
+    <introduction>
+    <p>Complete both parts to get M. Complete one part with progress on the other to get P.</p>
+  </introduction>
+  <page>
+    <exercise workspace="2.5in">
+      <introduction>
+        <p>A 500 mg sample of a radioactive isotope decayed to 75% of its original mass after 12 hours.</p>
+        <p><em>Set up and solve each of the following. Leave your answers as integers, simplified fractions, or in terms of natural logarithms.</em></p>
+      </introduction>
+      <task><statement><p>What is the half-life of the isotope?</p></statement></task>
+      <task><statement><p>Find the mass remaining after 36 hours.</p></statement></task>
+    </exercise>
+  </page>
+</worksheet>

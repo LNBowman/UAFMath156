@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>EL-3 Modeling with Exponential Functions</title>
+  <introduction>
+    <p>Complete both parts to get M. Complete one part with progress on the other to get P.</p>
+  </introduction>
+  <page>
+    <exercise workspace="2.5in">
+      <introduction><p>The population of a certain species of fish in a stocked lake is modeled by the function 
+        <m>P(t) = \frac{6000}{1+4e^{-0.4t}}</m>, where <m>t</m> is the time in years.</p><p><em>Set up and solve each
+          of the following.  Leave your answers as integers, simplified fractions or in terms of natural logarithms.</em></p></introduction>
+      <task><statement><p>What was the initial population of the fish in the lake?</p></statement></task>
+      <task><statement><p>How long will it take the population to reach 2000 fish?</p></statement></task>
+    </exercise>
+    
+  </page>
+</worksheet>

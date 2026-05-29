@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>TF-3 Trigonometric Equations</title>
+  <introduction>
+    <p>Complete both problems to get M. Complete problem 1 with progress on problem 2 to get P.</p>
+  </introduction>
+  <page>
+    <exercise workspace="2.5in">
+      <p>Find all solutions to the trigonometric equation:</p>
+      <p><m>2\sin^2(x) - 3\sin(x) + 1 = 0</m></p>
+    </exercise>
+
+    <exercise workspace="2.5in">
+      <p>Solve the trigonometric equation on the interval <m>[0, 2\pi]</m>:</p>
+      <p><m>\cos(2x) + 3\sin(x) - 2 = 0</m></p>
+    </exercise>
+  </page>
+</worksheet>

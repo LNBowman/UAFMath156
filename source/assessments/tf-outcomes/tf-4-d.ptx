@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>TF-4 Laws of Sines and Cosines</title>
+  <introduction>
+    <p>Complete both parts to get M. Complete part a with progress on part b to get P.</p>
+  </introduction>
+  <page>
+    <exercise workspace="2.5in">
+      <introduction><p>Three forest fire lookout towers are positioned such that Tower B 
+        is 15 miles away from Tower A, and Tower C is 25 miles away from Tower A. Tower C 
+        is exactly 20 miles away from Tower B. Tower B is located due north of Tower A.</p></introduction>
+        <task><statement><p>Draw a diagram to model this situation.</p></statement></task>
+        <task><statement><p>Find the bearing from Tower A to Tower C. Give a simplified 
+          expression for your answer.</p></statement></task>
+    </exercise>
+  </page>
+</worksheet>

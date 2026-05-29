@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>TF-4 Laws of Sines and Cosines</title>
+  <introduction>
+    <p>Complete both parts to get M. Complete part a with progress on part b to get P.</p>
+  </introduction>
+  <page>
+    <exercise workspace="2.5in">
+      <introduction><p>A naval ship travels 20 miles in the direction <m>\text{S } 35^\circ \text{ W}</m> 
+        to avoid a shallow reef. It then changes its course to a bearing of 
+        <m>\text{S } 72^\circ \text{ W}</m> to reach a specific coordinate marker. A tracking station, 
+        located due west of the ship's starting point, notes that the marker is located due south of 
+        its tracking dishes.</p></introduction>
+        <task><statement><p>Draw a diagram to model this situation.</p></statement></task>
+        <task><statement><p>Find the total distance the ship traveled on both legs of its journey. Give 
+          a simplified expression for your answer.</p></statement></task>
+    </exercise>
+  </page>
+</worksheet>

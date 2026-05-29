@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>TF-1 Right Triangle Trigonometry</title>
+  <introduction>
+    <p>Complete both problems to get M. Complete four parts of problem 1 and give the complete diagram for problem 2 to get P.</p>
+  </introduction>
+  <page>
+    <exercise workspace="2.5in">
+      <p>Find all six trigonometric values of <m>\theta</m></p>
+      <image width="50%">
+              <prefigure xmlns="https://prefigure.org"
+                          label="prefigure-tf1-a">
+                  <coordinates bbox="(-5,-5,5,5)">
+                    <polygon points="((-3,-1),(-1,2),(4,-1))" closed="yes" stroke="blue"/>
+                    <polygon points="((-1.25,1.625),(-1,1.5),(-0.75,1.85))" stroke="blue"/>
+                    <angle-marker points="((4,-1),(-3,-1),(-1,2))" stroke="blue">
+                      <m>\theta</m>
+                    </angle-marker>
+                    <label p="(-3,-1)" alignment="w" ><m>A</m></label>
+                    <label p="(4,-1)" alignment="e" ><m>B</m></label>
+                    <label p="(-1,2)" alignment="n" ><m>C</m></label>
+                    <label p="(-1.8,1)" alignment="w" ><m>6</m></label>
+                    <label p="(0,-1)" alignment="s" ><m>18</m></label>
+                  </coordinates>
+              </prefigure>
+            </image>
+    </exercise>
+  </page>
+  <page>
+<exercise workspace="2.5in">
+  <p>A person sits on the top of a building, and a person is sitting in a park 80 feet from 
+    the building. The angle of elevation of the person in the park to the person on the building 
+    is <m>46^o</m>. Draw a picture to model this situation and give the simplified expression that 
+    gives the height of the building.</p>
+</exercise>
+  </page>
+</worksheet>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet >
+    <title>TF-4 Laws of Sines and Cosines</title>
+  <introduction>
+    <p>Complete both parts to get M. Complete part a with progress on part b to get P.</p>
+  </introduction>
+  <page>
+    <exercise workspace="2in">
+      <introduction><p>A ship leaves a harbor and travels 45 miles due east. It then changes 
+        course and travels 30 miles. From the ship's final position, a radar station back at 
+        the harbor determines that the ship's current bearing from the harbor is 
+        <m>\text{N } 55^\circ \text{ E}</m>.</p></introduction>
+        <task><statement><p>Draw a diagram to model this situation.</p></statement></task>
+        <task><statement><p>Find the possible bearing angles for the second leg of the ship's journey. Give a simplified 
+          expression for your answer.</p></statement></task>
+    </exercise>
+  </page>
+</worksheet>
